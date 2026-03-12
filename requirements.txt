@@ -1,0 +1,12 @@
+openai
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+pandas
+numpy
+spotipy
+python-dotenv
+tiktoken
+tqdm
+scikit-learn

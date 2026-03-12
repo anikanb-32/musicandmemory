@@ -1,0 +1,23 @@
+# API keys and secrets
+.env
+
+# Data (likely too large for git)
+data/raw/
+data/processed/
+data/index/
+
+# Outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
