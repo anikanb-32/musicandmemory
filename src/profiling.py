@@ -4,6 +4,7 @@ import pandas as pd
 
 client = OpenAI()
 
+# write the prompt fed to openai api to find songs based on music base 
 QUERY_GENERATION_PROMPT = """You are a music therapy specialist. Given a patient profile, generate retrieval queries to find personally meaningful songs from their life.
 
 RULES:
@@ -20,13 +21,14 @@ Respond with a JSON array of query strings only. Example:
 ["popular Motown hits in Detroit 1963-1968", "top R&B songs 1965", ...]
 """
 
-
+# function that creates the queries given a profile
 def generate_queries(profile):
-    """Generate retrieval queries from a patient profile."""
+    # defining bump period
     bump_start = profile["birth_year"] + 15
     bump_end = profile["birth_year"] + 25
     profile_with_bump = {**profile, "reminiscence_bump": f"{bump_start}-{bump_end}"}
 
+    # collect output
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=[
@@ -37,31 +39,31 @@ def generate_queries(profile):
         ],
         temperature=0.3,
     )
-
+    # clean queries
     text = response.choices[0].message.content
     text = text.strip().strip("```json").strip("```").strip()
     queries = json.loads(text)
     return queries
 
 
+# function that is the full pipeline of profile -> queries -> retrieved songs 
 def profile_to_context(profile, index, df, k_per_query=10, total_k=20):
-    """Full pipeline: profile → queries → retrieved songs."""
     from src.retrieval import retrieve
 
-    # Step 1: Generate queries
+    # generate queries
     queries = generate_queries(profile)
     print(f"Generated {len(queries)} queries:")
     for q in queries:
         print(f"  - {q}")
 
-    # Step 2: Retrieve for each query
+    # retrieve for each query
     all_results = []
     for query in queries:
         results = retrieve(query, index, df, k=k_per_query)
         results["source_query"] = query
         all_results.append(results)
 
-    # Step 3: Combine and deduplicate, keeping highest similarity
+    #combine and deduplicate and keep the highest similarity
     combined = pd.concat(all_results)
     combined = (
         combined
