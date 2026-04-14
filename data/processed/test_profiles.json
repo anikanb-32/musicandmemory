@@ -1,0 +1,1314 @@
+[
+  {
+    "name": "Helen Chen",
+    "gender": "Female",
+    "birth_year": 1960,
+    "hometown": "San Francisco, California",
+    "cultural_background": "Chinese American",
+    "life_events": [
+      {
+        "year": 1978,
+        "event": "Graduated from high school and began studying Computer Science"
+      },
+      {
+        "year": 1982,
+        "event": "Joined a tech company in Silicon Valley"
+      },
+      {
+        "year": 1985,
+        "event": "Married her college sweetheart, Luke"
+      },
+      {
+        "year": 1987,
+        "event": "Promoted to project manager at her company"
+      }
+    ],
+    "id": "P087"
+  },
+  {
+    "name": "Samuel Thompson",
+    "gender": "Male",
+    "birth_year": 1950,
+    "hometown": "Atlanta, Georgia",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1965,
+        "event": "Graduated from high school in Atlanta"
+      },
+      {
+        "year": 1972,
+        "event": "Moved to New York City for career opportunities"
+      },
+      {
+        "year": 1975,
+        "event": "Married high school sweetheart"
+      },
+      {
+        "year": 1978,
+        "event": "First child was born"
+      },
+      {
+        "year": 1983,
+        "event": "Started working at a local community center"
+      }
+    ],
+    "id": "P201"
+  },
+  {
+    "name": "Hoa Nguyen",
+    "gender": "Female",
+    "birth_year": 1960,
+    "hometown": "Houston, Texas",
+    "cultural_background": "Vietnamese American",
+    "life_events": [
+      {
+        "year": 1975,
+        "event": "Immigrated to the US after the Vietnam War ended"
+      },
+      {
+        "year": 1978,
+        "event": "Graduated from high school and started working in a local bakery"
+      },
+      {
+        "year": 1982,
+        "event": "Enrolled in community college to study business management"
+      },
+      {
+        "year": 1985,
+        "event": "Opened her own Vietnamese bakery in Houston"
+      },
+      {
+        "year": 1988,
+        "event": "Married her business partner, Thanh"
+      }
+    ],
+    "id": "P040"
+  },
+  {
+    "name": "Vincent Russo",
+    "gender": "Male",
+    "birth_year": 1939,
+    "hometown": "Philadelphia, PA",
+    "cultural_background": "Italian American",
+    "life_events": [
+      {
+        "year": 1954,
+        "event": "Traveled to Italy to meet extended family"
+      },
+      {
+        "year": 1958,
+        "event": "Graduated high school and joined family restaurant business"
+      },
+      {
+        "year": 1962,
+        "event": "Expanded family business with a new location"
+      },
+      {
+        "year": 1965,
+        "event": "Married in a large family ceremony"
+      },
+      {
+        "year": 1968,
+        "event": "Became a father to twins"
+      }
+    ],
+    "id": "P186"
+  },
+  {
+    "name": "Richard Johnson",
+    "gender": "Male",
+    "birth_year": 1948,
+    "hometown": "Jacksonville, Florida",
+    "cultural_background": "White American",
+    "life_events": [
+      {
+        "year": 1966,
+        "event": "Graduated from high school and enlisted in the Army"
+      },
+      {
+        "year": 1970,
+        "event": "Honorably discharged and returned to Jacksonville"
+      },
+      {
+        "year": 1972,
+        "event": "Began working in construction"
+      },
+      {
+        "year": 1974,
+        "event": "Married Sarah, a local teacher"
+      },
+      {
+        "year": 1976,
+        "event": "Began his own construction company"
+      }
+    ],
+    "id": "P088"
+  },
+  {
+    "name": "Claire O'Connor",
+    "gender": "Female",
+    "birth_year": 1942,
+    "hometown": "Boston, Massachusetts",
+    "cultural_background": "Irish American",
+    "life_events": [
+      {
+        "year": 1958,
+        "event": "Joined a local theater group"
+      },
+      {
+        "year": 1964,
+        "event": "Graduated from Boston College"
+      },
+      {
+        "year": 1967,
+        "event": "Moved to New York to pursue an acting career"
+      },
+      {
+        "year": 1969,
+        "event": "Married an artist"
+      },
+      {
+        "year": 1972,
+        "event": "Had her first child"
+      }
+    ],
+    "id": "P205"
+  },
+  {
+    "name": "Emily Nguyen",
+    "gender": "Female",
+    "birth_year": 1954,
+    "hometown": "Houston, TX",
+    "cultural_background": "Vietnamese American",
+    "life_events": [
+      {
+        "year": 1972,
+        "event": "Arrived in the US as a refugee"
+      },
+      {
+        "year": 1974,
+        "event": "Graduated from high school in Houston"
+      },
+      {
+        "year": 1978,
+        "event": "Completed degree in Business Administration"
+      },
+      {
+        "year": 1980,
+        "event": "Started working at a multinational corporation"
+      },
+      {
+        "year": 1983,
+        "event": "Married in Houston"
+      }
+    ],
+    "id": "P179"
+  },
+  {
+    "name": "Eleanor Johnson",
+    "gender": "Female",
+    "birth_year": 1940,
+    "hometown": "Atlanta, Georgia",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1955,
+        "event": "Graduated from Booker T. Washington High School"
+      },
+      {
+        "year": 1960,
+        "event": "Married her high school sweetheart"
+      },
+      {
+        "year": 1962,
+        "event": "Moved to Detroit to work in the automotive industry"
+      },
+      {
+        "year": 1965,
+        "event": "Joined the local chapter of the NAACP"
+      }
+    ],
+    "id": "P041"
+  },
+  {
+    "name": "Antonio Rivera",
+    "gender": "Male",
+    "birth_year": 1952,
+    "hometown": "San Antonio, Texas",
+    "cultural_background": "Latino/Mexican American",
+    "life_events": [
+      {
+        "year": 1968,
+        "event": "Participated in high school mariachi band"
+      },
+      {
+        "year": 1972,
+        "event": "Enlisted in the United States Air Force"
+      },
+      {
+        "year": 1976,
+        "event": "Married his high school sweetheart"
+      },
+      {
+        "year": 1980,
+        "event": "Completed an associate degree in mechanical engineering"
+      },
+      {
+        "year": 1983,
+        "event": "Relocated to Houston for a job at NASA"
+      }
+    ],
+    "id": "P002"
+  },
+  {
+    "name": "Roberto Martinez",
+    "gender": "Male",
+    "birth_year": 1950,
+    "hometown": "San Antonio, Texas",
+    "cultural_background": "Latino/Mexican American",
+    "life_events": [
+      {
+        "year": 1965,
+        "event": "Helped with family-owned restaurant"
+      },
+      {
+        "year": 1968,
+        "event": "Graduated from high school"
+      },
+      {
+        "year": 1970,
+        "event": "Enrolled in community college for culinary arts"
+      },
+      {
+        "year": 1972,
+        "event": "Opened his own taco stand"
+      },
+      {
+        "year": 1975,
+        "event": "Married college classmate"
+      }
+    ],
+    "id": "P072"
+  },
+  {
+    "name": "Harold Thompson",
+    "gender": "Male",
+    "birth_year": 1945,
+    "hometown": "Baltimore, Maryland",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1963,
+        "event": "Graduated from Dunbar High School"
+      },
+      {
+        "year": 1965,
+        "event": "Started working at the Bethlehem Steel mill"
+      },
+      {
+        "year": 1970,
+        "event": "Married high school sweetheart, Carol"
+      },
+      {
+        "year": 1972,
+        "event": "Moved to a new home in the West Baltimore neighborhood"
+      },
+      {
+        "year": 1975,
+        "event": "Became a father to a baby girl"
+      }
+    ],
+    "id": "P151"
+  },
+  {
+    "name": "Sarah O'Brien",
+    "gender": "Female",
+    "birth_year": 1948,
+    "hometown": "Boston, Massachusetts",
+    "cultural_background": "Irish American",
+    "life_events": [
+      {
+        "year": 1966,
+        "event": "Graduated high school and attended nursing school"
+      },
+      {
+        "year": 1970,
+        "event": "Began working at Boston General Hospital"
+      },
+      {
+        "year": 1972,
+        "event": "Married a firefighter she met through mutual friends"
+      },
+      {
+        "year": 1975,
+        "event": "Gave birth to her first child, a daughter"
+      },
+      {
+        "year": 1980,
+        "event": "Participated in Boston's St. Patrick's Day Parade as a family tradition"
+      }
+    ],
+    "id": "P115"
+  },
+  {
+    "name": "John Nguyen",
+    "gender": "Male",
+    "birth_year": 1960,
+    "hometown": "Houston, Texas",
+    "cultural_background": "Vietnamese American",
+    "life_events": [
+      {
+        "year": 1978,
+        "event": "Graduated from Lamar High School"
+      },
+      {
+        "year": 1980,
+        "event": "Started university at the University of Houston"
+      },
+      {
+        "year": 1982,
+        "event": "Became a naturalized U.S. citizen"
+      },
+      {
+        "year": 1984,
+        "event": "Married a fellow student"
+      },
+      {
+        "year": 1986,
+        "event": "Moved to Dallas for a job offer"
+      }
+    ],
+    "id": "P057"
+  },
+  {
+    "name": "Patricia Liu",
+    "gender": "Female",
+    "birth_year": 1957,
+    "hometown": "Seattle, Washington",
+    "cultural_background": "Chinese American",
+    "life_events": [
+      {
+        "year": 1973,
+        "event": "Won a regional science fair"
+      },
+      {
+        "year": 1975,
+        "event": "Graduated high school and went on to study engineering"
+      },
+      {
+        "year": 1979,
+        "event": "Worked on a special project at Boeing during college"
+      },
+      {
+        "year": 1980,
+        "event": "Graduated college and started working as an engineer"
+      },
+      {
+        "year": 1982,
+        "event": "Got married to college peer"
+      }
+    ],
+    "id": "P108"
+  },
+  {
+    "name": "Angela Chen",
+    "gender": "Female",
+    "birth_year": 1940,
+    "hometown": "Seattle, Washington",
+    "cultural_background": "Chinese American",
+    "life_events": [
+      {
+        "year": 1958,
+        "event": "Graduated from high school"
+      },
+      {
+        "year": 1962,
+        "event": "Earned a degree in education"
+      },
+      {
+        "year": 1965,
+        "event": "Began teaching at a local elementary school"
+      },
+      {
+        "year": 1967,
+        "event": "Married a local businessman"
+      },
+      {
+        "year": 1971,
+        "event": "Participated in a cultural exchange program in China"
+      }
+    ],
+    "id": "P208"
+  },
+  {
+    "name": "Frank Lynch",
+    "gender": "Male",
+    "birth_year": 1943,
+    "hometown": "Philadelphia, PA",
+    "cultural_background": "Irish American",
+    "life_events": [
+      {
+        "year": 1960,
+        "event": "Joined the US Army"
+      },
+      {
+        "year": 1965,
+        "event": "Returned to Philadelphia and started working at a local factory"
+      },
+      {
+        "year": 1968,
+        "event": "Married a local schoolteacher"
+      },
+      {
+        "year": 1972,
+        "event": "Had first child, a daughter"
+      },
+      {
+        "year": 1975,
+        "event": "Bought a family home in the suburbs"
+      }
+    ],
+    "id": "P180"
+  },
+  {
+    "name": "Helen Johnson",
+    "gender": "Female",
+    "birth_year": 1949,
+    "hometown": "Chicago, Illinois",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1965,
+        "event": "Graduated from Whitney M. Young Magnet High School"
+      },
+      {
+        "year": 1968,
+        "event": "Began studies at Howard University"
+      },
+      {
+        "year": 1971,
+        "event": "Returned to Chicago and started teaching"
+      },
+      {
+        "year": 1974,
+        "event": "Joined local theater group"
+      },
+      {
+        "year": 1975,
+        "event": "Married at local church"
+      }
+    ],
+    "id": "P167"
+  },
+  {
+    "name": "Miguel Cruz",
+    "gender": "Male",
+    "birth_year": 1948,
+    "hometown": "Phoenix, AZ",
+    "cultural_background": "Puerto Rican American",
+    "life_events": [
+      {
+        "year": 1964,
+        "event": "Won first place in high school science fair"
+      },
+      {
+        "year": 1968,
+        "event": "Joined the US Air Force"
+      },
+      {
+        "year": 1971,
+        "event": "Returned home and started working at a local tech company"
+      },
+      {
+        "year": 1973,
+        "event": "Married childhood friend"
+      },
+      {
+        "year": 1976,
+        "event": "Purchased first home in Phoenix"
+      }
+    ],
+    "id": "P184"
+  },
+  {
+    "name": "James O'Leary",
+    "gender": "Male",
+    "birth_year": 1940,
+    "hometown": "Boston, Massachusetts",
+    "cultural_background": "Irish American",
+    "life_events": [
+      {
+        "year": 1958,
+        "event": "Graduated from Boston Technical High School"
+      },
+      {
+        "year": 1962,
+        "event": "Married childhood sweetheart in Boston"
+      },
+      {
+        "year": 1965,
+        "event": "His first child was born"
+      },
+      {
+        "year": 1970,
+        "event": "Became a firefighter in Boston"
+      },
+      {
+        "year": 1975,
+        "event": "Bought a house in South Boston"
+      }
+    ],
+    "id": "P051"
+  },
+  {
+    "name": "Susan Reyes",
+    "gender": "Female",
+    "birth_year": 1958,
+    "hometown": "Fresno, California",
+    "cultural_background": "Filipino American",
+    "life_events": [
+      {
+        "year": 1975,
+        "event": "Volunteered at a local community health clinic"
+      },
+      {
+        "year": 1978,
+        "event": "Moved to San Francisco to attend nursing school"
+      },
+      {
+        "year": 1982,
+        "event": "Returned to Fresno and worked as a registered nurse"
+      },
+      {
+        "year": 1983,
+        "event": "Married a fellow nurse she met in San Francisco"
+      },
+      {
+        "year": 1985,
+        "event": "First child was born"
+      }
+    ],
+    "id": "P144"
+  },
+  {
+    "name": "Patricia O'Connor",
+    "gender": "Female",
+    "birth_year": 1958,
+    "hometown": "Boston, Massachusetts",
+    "cultural_background": "Irish American",
+    "life_events": [
+      {
+        "year": 1976,
+        "event": "Became a lead singer in a local Celtic band"
+      },
+      {
+        "year": 1978,
+        "event": "Traveled to Ireland with band for a cultural exchange program"
+      },
+      {
+        "year": 1980,
+        "event": "Graduated with a degree in History from Boston College"
+      },
+      {
+        "year": 1982,
+        "event": "Married Sean, band member"
+      },
+      {
+        "year": 1984,
+        "event": "Welcomed first child, a daughter"
+      }
+    ],
+    "id": "P218"
+  },
+  {
+    "name": "Michael O'Connor",
+    "gender": "Male",
+    "birth_year": 1940,
+    "hometown": "Boston, Massachusetts",
+    "cultural_background": "Irish American",
+    "life_events": [
+      {
+        "year": 1958,
+        "event": "Graduated from Charlestown High School"
+      },
+      {
+        "year": 1960,
+        "event": "Started apprenticing as an electrician"
+      },
+      {
+        "year": 1962,
+        "event": "Married childhood sweetheart, Kathleen"
+      },
+      {
+        "year": 1965,
+        "event": "Welcomed first child, a daughter"
+      },
+      {
+        "year": 1970,
+        "event": "Bought a family home in South Boston"
+      }
+    ],
+    "id": "P155"
+  },
+  {
+    "name": "Josephine Nguyen",
+    "gender": "Female",
+    "birth_year": 1947,
+    "hometown": "Seattle, Washington",
+    "cultural_background": "Filipino American",
+    "life_events": [
+      {
+        "year": 1965,
+        "event": "Graduated high school and started nursing school"
+      },
+      {
+        "year": 1969,
+        "event": "Moved to San Francisco for a nursing position"
+      },
+      {
+        "year": 1971,
+        "event": "Married her childhood friend"
+      },
+      {
+        "year": 1973,
+        "event": "First child was born"
+      },
+      {
+        "year": 1980,
+        "event": "Completed advanced training in pediatric nursing"
+      }
+    ],
+    "id": "P130"
+  },
+  {
+    "name": "Teresa Rivera",
+    "gender": "Female",
+    "birth_year": 1952,
+    "hometown": "Miami, Florida",
+    "cultural_background": "Puerto Rican American",
+    "life_events": [
+      {
+        "year": 1970,
+        "event": "Graduated from Miami Senior High School"
+      },
+      {
+        "year": 1972,
+        "event": "Moved to Orlando to attend college"
+      },
+      {
+        "year": 1974,
+        "event": "Earned a degree in Nursing"
+      },
+      {
+        "year": 1976,
+        "event": "Returned to Miami to work in a local hospital"
+      },
+      {
+        "year": 1979,
+        "event": "Married a fellow nurse"
+      }
+    ],
+    "id": "P060"
+  },
+  {
+    "name": "Maya Patel",
+    "gender": "Female",
+    "birth_year": 1959,
+    "hometown": "Fremont, California",
+    "cultural_background": "Indian American",
+    "life_events": [
+      {
+        "year": 1975,
+        "event": "Graduated from Mission San Jose High School"
+      },
+      {
+        "year": 1980,
+        "event": "Earned a degree in Computer Science from UC Berkeley"
+      },
+      {
+        "year": 1983,
+        "event": "Started working for a tech company in Silicon Valley"
+      },
+      {
+        "year": 1985,
+        "event": "Got married in a traditional Indian ceremony"
+      },
+      {
+        "year": 1988,
+        "event": "Gave birth to her first child"
+      }
+    ],
+    "id": "P056"
+  },
+  {
+    "name": "Patricia Santos",
+    "gender": "Female",
+    "birth_year": 1962,
+    "hometown": "Honolulu, HI",
+    "cultural_background": "Filipino American",
+    "life_events": [
+      {
+        "year": 1977,
+        "event": "Won a local competition in traditional dance"
+      },
+      {
+        "year": 1980,
+        "event": "Graduated high school and traveled to Manila to visit family"
+      },
+      {
+        "year": 1982,
+        "event": "Started career as a nurse in a local hospital"
+      },
+      {
+        "year": 1984,
+        "event": "Married a fellow nurse"
+      },
+      {
+        "year": 1989,
+        "event": "Volunteered in a medical mission in Southeast Asia"
+      }
+    ],
+    "id": "P024"
+  },
+  {
+    "name": "Kim Park",
+    "gender": "Male",
+    "birth_year": 1962,
+    "hometown": "Seattle, Washington",
+    "cultural_background": "Korean American",
+    "life_events": [
+      {
+        "year": 1980,
+        "event": "Graduated from Garfield High School"
+      },
+      {
+        "year": 1984,
+        "event": "Completed a computer science degree at University of Washington"
+      },
+      {
+        "year": 1985,
+        "event": "Started working for a major tech company in Seattle"
+      },
+      {
+        "year": 1987,
+        "event": "Married a colleague from work"
+      },
+      {
+        "year": 1990,
+        "event": "First child born"
+      }
+    ],
+    "id": "P008"
+  },
+  {
+    "name": "Anita Patel",
+    "gender": "Female",
+    "birth_year": 1955,
+    "hometown": "Chicago, Illinois",
+    "cultural_background": "Indian American",
+    "life_events": [
+      {
+        "year": 1973,
+        "event": "Graduated from Lincoln Park High School"
+      },
+      {
+        "year": 1978,
+        "event": "Earned a degree in pharmacy from University of Illinois"
+      },
+      {
+        "year": 1979,
+        "event": "Started a pharmacy business with her brother"
+      },
+      {
+        "year": 1982,
+        "event": "Married in a large family wedding"
+      },
+      {
+        "year": 1984,
+        "event": "First child born"
+      }
+    ],
+    "id": "P009"
+  },
+  {
+    "name": "Arvind Patel",
+    "gender": "Male",
+    "birth_year": 1945,
+    "hometown": "Houston, Texas",
+    "cultural_background": "Indian American",
+    "life_events": [
+      {
+        "year": 1960,
+        "event": "Moved to the U.S. from India with family"
+      },
+      {
+        "year": 1964,
+        "event": "Graduated high school and pursued a degree in medicine"
+      },
+      {
+        "year": 1969,
+        "event": "Married in a traditional Indian ceremony"
+      },
+      {
+        "year": 1971,
+        "event": "Began residency at a Houston hospital"
+      },
+      {
+        "year": 1975,
+        "event": "Opened own practice in the suburbs"
+      }
+    ],
+    "id": "P109"
+  },
+  {
+    "name": "Mariana Torres",
+    "gender": "Female",
+    "birth_year": 1960,
+    "hometown": "San Antonio, Texas",
+    "cultural_background": "Latino/Mexican American",
+    "life_events": [
+      {
+        "year": 1975,
+        "event": "Won the regional spelling bee"
+      },
+      {
+        "year": 1978,
+        "event": "Graduated from Harlandale High School"
+      },
+      {
+        "year": 1980,
+        "event": "Moved to Austin, Texas for college"
+      },
+      {
+        "year": 1982,
+        "event": "Internship at a local television station"
+      },
+      {
+        "year": 1985,
+        "event": "Married college sweetheart, Daniel"
+      }
+    ],
+    "id": "P152"
+  },
+  {
+    "name": "Henry Kim",
+    "gender": "Male",
+    "birth_year": 1958,
+    "hometown": "Los Angeles, CA",
+    "cultural_background": "Korean American",
+    "life_events": [
+      {
+        "year": 1976,
+        "event": "Graduated from high school"
+      },
+      {
+        "year": 1980,
+        "event": "Graduated with a degree in computer science"
+      },
+      {
+        "year": 1981,
+        "event": "Started a tech startup with college friends"
+      },
+      {
+        "year": 1985,
+        "event": "Married after meeting his spouse at a tech conference"
+      },
+      {
+        "year": 1987,
+        "event": "Moved to Silicon Valley for work"
+      }
+    ],
+    "id": "P023"
+  },
+  {
+    "name": "Michael Gallagher",
+    "gender": "Male",
+    "birth_year": 1942,
+    "hometown": "Philadelphia, PA",
+    "cultural_background": "White American",
+    "life_events": [
+      {
+        "year": 1958,
+        "event": "Joined a local band as a drummer during high school"
+      },
+      {
+        "year": 1963,
+        "event": "Enlisted in the U.S. Army and served overseas for two years"
+      },
+      {
+        "year": 1966,
+        "event": "Returned to Philadelphia and started a career in construction"
+      },
+      {
+        "year": 1970,
+        "event": "Married and had two children while continuing to play music locally"
+      },
+      {
+        "year": 1977,
+        "event": "Opened his own construction company specializing in residential homes"
+      }
+    ],
+    "id": "P140"
+  },
+  {
+    "name": "Michael Chen",
+    "gender": "Male",
+    "birth_year": 1952,
+    "hometown": "Seattle, Washington",
+    "cultural_background": "Chinese American",
+    "life_events": [
+      {
+        "year": 1969,
+        "event": "Started taking piano lessons"
+      },
+      {
+        "year": 1971,
+        "event": "Became the youngest member of Seattle Youth Symphony"
+      },
+      {
+        "year": 1974,
+        "event": "Moved to New York for university studies in music"
+      },
+      {
+        "year": 1977,
+        "event": "Graduated with a degree in music composition"
+      },
+      {
+        "year": 1982,
+        "event": "Awarded a fellowship for original compositions"
+      }
+    ],
+    "id": "P217"
+  },
+  {
+    "name": "Maria Hernandez",
+    "gender": "Female",
+    "birth_year": 1955,
+    "hometown": "San Antonio, TX",
+    "cultural_background": "Puerto Rican American",
+    "life_events": [
+      {
+        "year": 1970,
+        "event": "Moved to New York City for a job opportunity"
+      },
+      {
+        "year": 1972,
+        "event": "Started singing in a local band"
+      },
+      {
+        "year": 1975,
+        "event": "Married a fellow musician"
+      },
+      {
+        "year": 1980,
+        "event": "Had first child, a son"
+      },
+      {
+        "year": 1985,
+        "event": "Opened a music store in San Antonio"
+      }
+    ],
+    "id": "P174"
+  },
+  {
+    "name": "Linda Ng",
+    "gender": "Female",
+    "birth_year": 1948,
+    "hometown": "San Francisco, CA",
+    "cultural_background": "Chinese American",
+    "life_events": [
+      {
+        "year": 1965,
+        "event": "Participated in civil rights marches"
+      },
+      {
+        "year": 1969,
+        "event": "Graduated with a degree in chemistry"
+      },
+      {
+        "year": 1971,
+        "event": "Moved to Seattle for a research job"
+      },
+      {
+        "year": 1973,
+        "event": "Married her college classmate and moved back to San Francisco"
+      },
+      {
+        "year": 1977,
+        "event": "First child was born"
+      }
+    ],
+    "id": "P027"
+  },
+  {
+    "name": "Hiroshi Tanaka",
+    "gender": "Male",
+    "birth_year": 1945,
+    "hometown": "Seattle, WA",
+    "cultural_background": "Japanese American",
+    "life_events": [
+      {
+        "year": 1961,
+        "event": "Part of his high school's band group"
+      },
+      {
+        "year": 1964,
+        "event": "Moved to Tokyo to learn about family heritage"
+      },
+      {
+        "year": 1968,
+        "event": "Returned to Seattle and started working in the fishing industry"
+      },
+      {
+        "year": 1970,
+        "event": "Married a family friend from Tokyo"
+      },
+      {
+        "year": 1975,
+        "event": "Became a father to a daughter"
+      }
+    ],
+    "id": "P189"
+  },
+  {
+    "name": "James Robinson",
+    "gender": "Male",
+    "birth_year": 1956,
+    "hometown": "Detroit, Michigan",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1972,
+        "event": "Started participating in civil rights activism after high school"
+      },
+      {
+        "year": 1975,
+        "event": "Joined the auto industry as an assembly line worker"
+      },
+      {
+        "year": 1978,
+        "event": "Married his college sweetheart, Lillian"
+      },
+      {
+        "year": 1980,
+        "event": "Promoted to shift supervisor in the plant"
+      },
+      {
+        "year": 1985,
+        "event": "Moved into a leadership role in the local union"
+      }
+    ],
+    "id": "P036"
+  },
+  {
+    "name": "Rachel Wong",
+    "gender": "Female",
+    "birth_year": 1948,
+    "hometown": "San Francisco, California",
+    "cultural_background": "Chinese American",
+    "life_events": [
+      {
+        "year": 1966,
+        "event": "Graduated from Lowell High School"
+      },
+      {
+        "year": 1970,
+        "event": "Earned a degree in Biology from San Francisco State University"
+      },
+      {
+        "year": 1972,
+        "event": "Traveled to China to connect with family heritage"
+      },
+      {
+        "year": 1975,
+        "event": "Married and settled in San Francisco"
+      },
+      {
+        "year": 1978,
+        "event": "Had her first child"
+      }
+    ],
+    "id": "P058"
+  },
+  {
+    "name": "Linda Murphy",
+    "gender": "Female",
+    "birth_year": 1948,
+    "hometown": "Boston, Massachusetts",
+    "cultural_background": "Irish American",
+    "life_events": [
+      {
+        "year": 1966,
+        "event": "Graduated from Boston Latin School"
+      },
+      {
+        "year": 1970,
+        "event": "Obtained a degree in nursing from Simmons College"
+      },
+      {
+        "year": 1972,
+        "event": "Participated in a charity run to support local hospitals"
+      },
+      {
+        "year": 1975,
+        "event": "Married a fellow nurse she met during training"
+      },
+      {
+        "year": 1980,
+        "event": "Gave birth to her first child"
+      }
+    ],
+    "id": "P063"
+  },
+  {
+    "name": "Gloria Thompson",
+    "gender": "Female",
+    "birth_year": 1942,
+    "hometown": "Birmingham, Alabama",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1957,
+        "event": "Joined local church choir"
+      },
+      {
+        "year": 1960,
+        "event": "Graduated from high school as valedictorian"
+      },
+      {
+        "year": 1962,
+        "event": "Participated in Birmingham Civil Rights March"
+      },
+      {
+        "year": 1964,
+        "event": "Married high school sweetheart"
+      },
+      {
+        "year": 1970,
+        "event": "Gave birth to twin daughters"
+      }
+    ],
+    "id": "P071"
+  },
+  {
+    "name": "Vivian Santos",
+    "gender": "Female",
+    "birth_year": 1957,
+    "hometown": "Miami, FL",
+    "cultural_background": "Filipino American",
+    "life_events": [
+      {
+        "year": 1973,
+        "event": "Competed in high school debate team competitions"
+      },
+      {
+        "year": 1975,
+        "event": "Received a scholarship to University of Miami"
+      },
+      {
+        "year": 1979,
+        "event": "Graduated in Nursing"
+      },
+      {
+        "year": 1980,
+        "event": "Started job at Baptist Health Miami"
+      },
+      {
+        "year": 1982,
+        "event": "Married in a festive beach wedding"
+      }
+    ],
+    "id": "P190"
+  },
+  {
+    "name": "Maria Hernandez",
+    "gender": "Female",
+    "birth_year": 1958,
+    "hometown": "Phoenix, Arizona",
+    "cultural_background": "Puerto Rican American",
+    "life_events": [
+      {
+        "year": 1975,
+        "event": "Graduated from Central High School"
+      },
+      {
+        "year": 1978,
+        "event": "Moved to Chicago to attend college"
+      },
+      {
+        "year": 1980,
+        "event": "Received degree in education from University of Illinois"
+      },
+      {
+        "year": 1982,
+        "event": "Returned to Phoenix to start a teaching career"
+      },
+      {
+        "year": 1985,
+        "event": "Married a fellow teacher"
+      }
+    ],
+    "id": "P007"
+  },
+  {
+    "name": "David Nguyen",
+    "gender": "Male",
+    "birth_year": 1960,
+    "hometown": "Houston, TX",
+    "cultural_background": "Vietnamese American",
+    "life_events": [
+      {
+        "year": 1977,
+        "event": "Participated in high school debate team"
+      },
+      {
+        "year": 1982,
+        "event": "Graduated with a law degree"
+      },
+      {
+        "year": 1983,
+        "event": "Started a legal internship in Dallas"
+      },
+      {
+        "year": 1985,
+        "event": "Married a fellow lawyer"
+      },
+      {
+        "year": 1987,
+        "event": "Opened his own law firm"
+      }
+    ],
+    "id": "P029"
+  },
+  {
+    "name": "Frank Russo",
+    "gender": "Male",
+    "birth_year": 1940,
+    "hometown": "Brooklyn, New York",
+    "cultural_background": "Italian American",
+    "life_events": [
+      {
+        "year": 1955,
+        "event": "Started working at family pizzeria"
+      },
+      {
+        "year": 1958,
+        "event": "Graduated from Bishop Ford Central Catholic High School"
+      },
+      {
+        "year": 1961,
+        "event": "Drafted and served in the US Army"
+      },
+      {
+        "year": 1965,
+        "event": "Married childhood friend in a church ceremony"
+      },
+      {
+        "year": 1969,
+        "event": "First child born"
+      }
+    ],
+    "id": "P164"
+  }
+]
