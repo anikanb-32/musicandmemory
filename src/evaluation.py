@@ -6,7 +6,7 @@ from sklearn.metrics import cohen_kappa_score
 
 client = OpenAI()
 
-# --- Retrieval metrics ---
+# RETRIEVAL METRICS
 
 def precision_at_k(retrieved_df, ground_truth_songs):
     """Of the top-k retrieved songs, how many are in the ground truth?"""
@@ -31,6 +31,8 @@ def mrr(retrieved_df, ground_truth_songs):
         if song in gt_set:
             return 1.0 / rank
     return 0.0
+
+# GENERATION METRICS
 
 def historical_plausibility(playlist, df_kb, bump_start, bump_end, tolerance=5):
     """Fraction of playlist songs that exist in the knowledge base within the time window."""
@@ -90,6 +92,7 @@ def llm_judge(profile, playlist, ground_truth=None):
     text = text.strip().strip("```json").strip("```").strip()
     return json.loads(text)
 
+#HUMAN EVAL SHEET
 
 def create_human_eval_sheet(results_all, output_path, set_name="val"):
     with open(output_path, "w", newline="") as f:
@@ -101,7 +104,6 @@ def create_human_eval_sheet(results_all, output_path, set_name="val"):
             "Biographical Precision (1-5)", "Cultural Appropriateness (1-5)",
             "Rater"
         ])
-
         for pid, data in results_all.items():
             profile = data["profile"]
             for variant in ["variant_a", "variant_b", "variant_c"]:
@@ -113,8 +115,9 @@ def create_human_eval_sheet(results_all, output_path, set_name="val"):
                         song["year"], song["relevance"],
                         "", "", ""
                     ])
-
     print(f"Created {output_path}")
+
+#INTER-RATER AGREEMENT
 
 def compute_inter_rater(rater1_path, rater2_path):
     rater1 = pd.read_csv(rater1_path)
@@ -130,8 +133,6 @@ def compute_inter_rater(rater1_path, rater2_path):
         rater2["Cultural Appropriateness (1-5)"],
         weights="quadratic"
     )
-
     print(f"Cohen's kappa (biographical precision): {kappa_bio:.3f}")
     print(f"Cohen's kappa (cultural appropriateness): {kappa_culture:.3f}")
     return kappa_bio, kappa_culture
-
