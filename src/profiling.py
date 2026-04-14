@@ -12,7 +12,8 @@ RULES:
 2. Consider their geographic region (local radio stations played regional hits)
 3. Map life events to time periods (wedding songs, graduation year hits, etc.)
 4. Consider cultural background (what genres/artists were popular in their community)
-5. Generate 5–8 specific queries
+5. Consider gender — some songs/artists may have been especially popular among men vs women in that era
+6. Generate 5–8 specific queries
 
 PATIENT PROFILE:
 {profile}
