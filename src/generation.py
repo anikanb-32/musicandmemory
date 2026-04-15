@@ -29,7 +29,7 @@ def run_variant_b(profile, faiss_index, bm25, df, generation_prompt, method="den
     bump_start = profile["birth_year"] + 15
     bump_end = profile["birth_year"] + 25
     query = f"popular songs {bump_start}-{bump_end}"
-    retrieved = retrieve(query, faiss_index, bm25, df, method=method, k=k)
+    retrieved = retrieve(query, faiss_index, df, k=k, method=method, bm25_index=bm25)
     result = generate_playlist(profile, retrieved, generation_prompt)
     return result, retrieved
 

@@ -60,7 +60,7 @@ def profile_to_context(profile, faiss_index, bm25, df, method="dense", k_per_que
     # retrieve for each query
     all_results = []
     for query in queries:
-        results = retrieve(query, faiss_index, bm25, df, method=method, k=k_per_query)
+        results = retrieve(query, faiss_index, df, k=k_per_query, method=method, bm25_index=bm25)
         results["source_query"] = query
         all_results.append(results)
 
