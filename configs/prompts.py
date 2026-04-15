@@ -35,3 +35,33 @@ Respond in this exact JSON format:
     ]
 }}
 """
+
+BASELINE_PROMPT = """You are a music therapist creating a personalized playlist for a dementia patient.
+
+PATIENT PROFILE:
+{profile}
+
+Based on your knowledge of music history, create a ranked playlist of exactly 10 songs
+and 3 caregiver conversation cards. Focus on the patient's reminiscence bump (ages 15–25),
+their cultural background, and their geographic region.
+
+Respond in this exact JSON format:
+{{
+    "playlist": [
+        {{
+            "rank": 1,
+            "song": "Song Title",
+            "artist": "Artist Name",
+            "year": 1965,
+            "relevance": "Why this song matters for this specific patient"
+        }}
+    ],
+    "caregiver_cards": [
+        {{
+            "song": "Song Title",
+            "prompt": "A gentle question or statement linking this song to the patient's life"
+        }}
+    ]
+}}
+"""
+

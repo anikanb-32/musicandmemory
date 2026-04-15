@@ -47,8 +47,8 @@ def generate_queries(profile):
     return queries
 
 
-# function that is the full pipeline of profile -> queries -> retrieved songs 
-def profile_to_context(profile, index, df, k_per_query=10, total_k=20):
+# function that is the full pipeline of profile -> queries -> retrieved songs
+def profile_to_context(profile, faiss_index, bm25, df, method="dense", k_per_query=10, total_k=20):
     from src.retrieval import retrieve
 
     # generate queries
@@ -60,7 +60,7 @@ def profile_to_context(profile, index, df, k_per_query=10, total_k=20):
     # retrieve for each query
     all_results = []
     for query in queries:
-        results = retrieve(query, index, df, k=k_per_query)
+        results = retrieve(query, faiss_index, bm25, df, method=method, k=k_per_query)
         results["source_query"] = query
         all_results.append(results)
 
@@ -68,7 +68,7 @@ def profile_to_context(profile, index, df, k_per_query=10, total_k=20):
     combined = pd.concat(all_results)
     combined = (
         combined
-        .sort_values("similarity_score", ascending=False)
+        .sort_values("retrieval_score", ascending=False)
         .drop_duplicates(subset=["song", "artist"], keep="first")
         .head(total_k)
     )
