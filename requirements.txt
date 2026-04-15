@@ -10,3 +10,5 @@ python-dotenv
 tiktoken
 tqdm
 scikit-learn
+rank-bm25
+sentence-transformers
