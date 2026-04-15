@@ -45,23 +45,31 @@ def run_variant_c(profile, faiss_index, bm25, df, generation_prompt, method="den
     return result, retrieved, queries
 
 
-def generate_playlist(profile, retrieved_songs_df, prompt_template):
+def generate_playlist(profile, retrieved_songs_df, prompt_template, retries=3):
     songs_text = ""
     for _, row in retrieved_songs_df.iterrows():
         songs_text += f"- {row['text_chunk']}\n"
 
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are a music therapist. Respond with valid JSON only."},
-            {"role": "user", "content": prompt_template.format(
-                profile=json.dumps(profile, indent=2),
-                retrieved_songs=songs_text,
-            )},
-        ],
-        temperature=0.4,
-    )
+    messages = [
+        {"role": "system", "content": "You are a music therapist. Respond with valid JSON only."},
+        {"role": "user", "content": prompt_template.format(
+            profile=json.dumps(profile, indent=2),
+            retrieved_songs=songs_text,
+        )},
+    ]
 
-    text = response.choices[0].message.content
-    text = text.strip().strip("```json").strip("```").strip()
-    return json.loads(text)
+    for attempt in range(retries):
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=messages,
+            temperature=0.4,
+        )
+        text = response.choices[0].message.content
+        text = text.strip().strip("```json").strip("```").strip()
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            if attempt < retries - 1:
+                print(f"  JSON parse failed (attempt {attempt+1}/{retries}), retrying...")
+            else:
+                raise
