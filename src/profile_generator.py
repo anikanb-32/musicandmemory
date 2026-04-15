@@ -1,9 +1,7 @@
 from openai import OpenAI
-from dotenv import load_dotenv
 import json
 import random
 
-load_dotenv()
 client = OpenAI()
 
 PROFILE_GEN_PROMPT = """Generate {n} fictional patient profiles for a music therapy study.
@@ -39,7 +37,6 @@ REGIONS = [
     "Seattle, Washington", "Cleveland, Ohio", "Newark, New Jersey",
     "Minneapolis, Minnesota", "Denver, Colorado", "Dallas, Texas"
 ]
-
 
 def generate_profile_batch(n=10, year_min=1935, year_max=1965):
     """Generate a batch of profiles via GPT-4o."""
@@ -77,33 +74,3 @@ def generate_all_profiles(total=220, batch_size=10):
         p["id"] = f"P{i+1:03d}"
 
     return all_profiles
-
-
-if __name__ == "__main__":
-    import os
-    from collections import Counter
-
-    profiles = generate_all_profiles(total=220)
-
-    # Verify gender field exists on all
-    assert all("gender" in p for p in profiles), "Some profiles missing gender!"
-
-    # Shuffle and split 80/20
-    random.seed(42)
-    random.shuffle(profiles)
-    split_idx = int(len(profiles) * 0.8)
-    val_profiles = profiles[:split_idx]
-    test_profiles = profiles[split_idx:]
-
-    print(f"\nTotal: {len(profiles)} | Validation: {len(val_profiles)} | Test: {len(test_profiles)}")
-    print("Gender distribution:", Counter(p["gender"] for p in profiles))
-    print("Decade distribution:", Counter((p["birth_year"] // 10) * 10 for p in profiles))
-    print("Background distribution:", Counter(p["cultural_background"] for p in profiles))
-
-    os.makedirs("data/processed", exist_ok=True)
-    with open("data/processed/val_profiles.json", "w") as f:
-        json.dump(val_profiles, f, indent=2)
-    with open("data/processed/test_profiles.json", "w") as f:
-        json.dump(test_profiles, f, indent=2)
-
-    print("\nSaved val_profiles.json and test_profiles.json")

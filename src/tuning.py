@@ -29,21 +29,22 @@ def tune_variant_b(val_profiles, faiss_index, bm25, df):
                 bump_end = profile["birth_year"] + 25
                 query = f"popular songs {bump_start}-{bump_end}"
 
-                try:
-                    retrieved = retrieve(query, faiss_index, df, k=k, method=method, bm25_index=bm25)
-                    result = generate_playlist(profile, retrieved, GENERATION_PROMPT)
-                    hist_score = historical_plausibility(
-                        result["playlist"], df, bump_start, bump_end
-                    )
-                    judge = llm_judge(profile, result["playlist"])
-                    scores.append({
-                        "hist_plausibility": hist_score,
-                        "bio_precision_llm": judge["biographical_precision"],
-                        "cultural_approp_llm": judge["cultural_appropriateness"],
-                        "overall_llm": judge["overall_quality"],
-                    })
-                except Exception as e:
-                    print(f"  Skipping {profile.get('id', '?')} due to error: {e}")
+                retrieved = retrieve(query, faiss_index, bm25, df, method=method, k=k)
+                result = generate_playlist(profile, retrieved, GENERATION_PROMPT)
+
+                # Retrieval metrics (use Variant A output as pseudo ground truth,
+                # or use a curated ground truth if available)
+                hist_score = historical_plausibility(
+                    result["playlist"], df, bump_start, bump_end
+                )
+                judge = llm_judge(profile, result["playlist"])
+
+                scores.append({
+                    "hist_plausibility": hist_score,
+                    "bio_precision_llm": judge["biographical_precision"],
+                    "cultural_approp_llm": judge["cultural_appropriateness"],
+                    "overall_llm": judge["overall_quality"],
+                })
 
             avg = pd.DataFrame(scores).mean().to_dict()
             results.append({
@@ -70,24 +71,23 @@ def tune_variant_c(val_profiles, faiss_index, bm25, df):
                 bump_start = profile["birth_year"] + 15
                 bump_end = profile["birth_year"] + 25
 
-                try:
-                    retrieved, queries = profile_to_context(
-                        profile, faiss_index, bm25, df,
-                        method=method, k_per_query=max(k // 5, 5), total_k=k
-                    )
-                    result = generate_playlist(profile, retrieved, GENERATION_PROMPT)
-                    hist_score = historical_plausibility(
-                        result["playlist"], df, bump_start, bump_end
-                    )
-                    judge = llm_judge(profile, result["playlist"])
-                    scores.append({
-                        "hist_plausibility": hist_score,
-                        "bio_precision_llm": judge["biographical_precision"],
-                        "cultural_approp_llm": judge["cultural_appropriateness"],
-                        "overall_llm": judge["overall_quality"],
-                    })
-                except Exception as e:
-                    print(f"  Skipping {profile.get('id', '?')} due to error: {e}")
+                retrieved, queries = profile_to_context(
+                    profile, faiss_index, bm25, df,
+                    method=method, k_per_query=max(k // 5, 5), total_k=k
+                )
+                result = generate_playlist(profile, retrieved, GENERATION_PROMPT)
+
+                hist_score = historical_plausibility(
+                    result["playlist"], df, bump_start, bump_end
+                )
+                judge = llm_judge(profile, result["playlist"])
+
+                scores.append({
+                    "hist_plausibility": hist_score,
+                    "bio_precision_llm": judge["biographical_precision"],
+                    "cultural_approp_llm": judge["cultural_appropriateness"],
+                    "overall_llm": judge["overall_quality"],
+                })
 
             avg = pd.DataFrame(scores).mean().to_dict()
             results.append({
