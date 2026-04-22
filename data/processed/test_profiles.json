@@ -1,1314 +1,5723 @@
 [
   {
-    "name": "Helen Chen",
+    "name": "Daisy McGowan",
     "gender": "Female",
-    "birth_year": 1960,
+    "birth_year": 1940,
+    "hometown": "Charleston, West Virginia",
+    "cultural_background": "White American (Appalachian)",
+    "life_events": [
+      {
+        "year": 1955,
+        "event": "Dropped out of school to help support family"
+      },
+      {
+        "year": 1960,
+        "event": "Married a coal miner"
+      },
+      {
+        "year": 1964,
+        "event": "First moved to Kentucky for better mining opportunities"
+      },
+      {
+        "year": 1971,
+        "event": "Husband injured at work, leading to financial stress"
+      },
+      {
+        "year": 1978,
+        "event": "Started work as a laundry worker in a local hotel"
+      }
+    ],
+    "id": "P087",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Mack The Knife",
+        "artist": "Bobby Darin",
+        "year": 1960
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "House Of The Rising Sun",
+        "artist": "The Animals",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "I Want To Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964
+      },
+      {
+        "song": "My Guy",
+        "artist": "Mary Wells",
+        "year": 1964
+      },
+      {
+        "song": "Hello, Dolly!",
+        "artist": "Louis Armstrong And The All Stars",
+        "year": 1964
+      },
+      {
+        "song": "You've Got A Friend",
+        "artist": "James Taylor",
+        "year": 1971
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Big Bad John",
+        "artist": "Jimmy Dean",
+        "year": 1962
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Harper Valley P.T.A.",
+        "artist": "Jeannie C. Riley",
+        "year": 1968
+      }
+    ]
+  },
+  {
+    "name": "James Thompson",
+    "gender": "Male",
+    "birth_year": 1940,
+    "hometown": "Louisville, Kentucky",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1958,
+        "event": "Started working as a janitor at a local school"
+      },
+      {
+        "year": 1965,
+        "event": "Married high school sweetheart"
+      },
+      {
+        "year": 1972,
+        "event": "Joined a community group advocating for civil rights"
+      }
+    ],
+    "id": "P201",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "I Want To Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964
+      },
+      {
+        "song": "My Guy",
+        "artist": "Mary Wells",
+        "year": 1964
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "Hit The Road Jack",
+        "artist": "Ray Charles and his Orchestra",
+        "year": 1961
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "year": 1973
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      },
+      {
+        "song": "Aquarius/Let The Sunshine In (The Flesh Failures)",
+        "artist": "The 5th Dimension",
+        "year": 1969
+      }
+    ]
+  },
+  {
+    "name": "Linda Turner",
+    "gender": "Female",
+    "birth_year": 1953,
+    "hometown": "Birmingham, Alabama",
+    "cultural_background": "White American (Southern)",
+    "life_events": [
+      {
+        "year": 1971,
+        "event": "Started working as a waitress at a local diner"
+      },
+      {
+        "year": 1975,
+        "event": "Married a high school teacher"
+      },
+      {
+        "year": 1978,
+        "event": "Had twin daughters"
+      },
+      {
+        "year": 1982,
+        "event": "Became active in local school board activities"
+      },
+      {
+        "year": 1988,
+        "event": "Opened own catering business specializing in Southern cuisine"
+      }
+    ],
+    "id": "P040",
+    "ground_truth_playlist": [
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "Island Girl",
+        "artist": "Elton John",
+        "year": 1975
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Harper Valley P.T.A.",
+        "artist": "Jeannie C. Riley",
+        "year": 1968
+      },
+      {
+        "song": "I Write The Songs",
+        "artist": "Barry Manilow",
+        "year": 1976
+      },
+      {
+        "song": "Father Figure",
+        "artist": "George Michael",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "name": "Linda Chen",
+    "gender": "Female",
+    "birth_year": 1951,
     "hometown": "San Francisco, California",
     "cultural_background": "Chinese American",
     "life_events": [
       {
-        "year": 1978,
-        "event": "Graduated from high school and began studying Computer Science"
+        "year": 1969,
+        "event": "Graduated high school and began working as a waitress in Chinatown."
       },
       {
-        "year": 1982,
-        "event": "Joined a tech company in Silicon Valley"
+        "year": 1972,
+        "event": "Moved to Seattle to explore different job opportunities."
+      },
+      {
+        "year": 1979,
+        "event": "Became a member of a local Chinese cultural association."
       },
       {
         "year": 1985,
-        "event": "Married her college sweetheart, Luke"
+        "event": "Opened a small tea shop specializing in imported teas."
+      }
+    ],
+    "id": "P186",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Sister Golden Hair",
+        "artist": "America",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "Good Vibrations",
+        "artist": "The Beach Boys",
+        "year": 1967
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968
+      },
+      {
+        "song": "(Sittin' On) The Dock Of The Bay",
+        "artist": "Otis Redding",
+        "year": 1968
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      }
+    ]
+  },
+  {
+    "name": "Indira Patel",
+    "gender": "Female",
+    "birth_year": 1961,
+    "hometown": "Jersey City, New Jersey",
+    "cultural_background": "Indian American",
+    "life_events": [
+      {
+        "year": 1980,
+        "event": "Moved to New York for job opportunities"
+      },
+      {
+        "year": 1982,
+        "event": "Worked as a sales clerk in a large department store"
+      },
+      {
+        "year": 1985,
+        "event": "Became a mother"
+      },
+      {
+        "year": 1989,
+        "event": "Volunteered at community center for immigrant support"
+      },
+      {
+        "year": 1991,
+        "event": "Faced layoff and began part-time work as a seamstress"
+      }
+    ],
+    "id": "P088",
+    "ground_truth_playlist": [
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Flashdance...What A Feeling",
+        "artist": "Irene Cara",
+        "year": 1983
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      },
+      {
+        "song": "We Are The World",
+        "artist": "USA For Africa",
+        "year": 1985
+      },
+      {
+        "song": "Let's Do It Again",
+        "artist": "The Staple Singers",
+        "year": 1975
+      },
+      {
+        "song": "(I've Had) The Time Of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": 1988
+      },
+      {
+        "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+        "artist": "Bobby McFerrin",
+        "year": 1989
+      }
+    ]
+  },
+  {
+    "name": "Harold Kim",
+    "gender": "Male",
+    "birth_year": 1960,
+    "hometown": "Los Angeles, California",
+    "cultural_background": "Korean American",
+    "life_events": [
+      {
+        "year": 1978,
+        "event": "Started college studying engineering"
+      },
+      {
+        "year": 1983,
+        "event": "Became a mechanic at a well-known garage"
       },
       {
         "year": 1987,
-        "event": "Promoted to project manager at her company"
+        "event": "Moved back to help with family business"
       }
     ],
-    "id": "P087"
-  },
-  {
-    "name": "Samuel Thompson",
-    "gender": "Male",
-    "birth_year": 1950,
-    "hometown": "Atlanta, Georgia",
-    "cultural_background": "African American",
-    "life_events": [
+    "id": "P205",
+    "ground_truth_playlist": [
       {
-        "year": 1965,
-        "event": "Graduated from high school in Atlanta"
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
       },
       {
-        "year": 1972,
-        "event": "Moved to New York City for career opportunities"
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
       },
       {
-        "year": 1975,
-        "event": "Married high school sweetheart"
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
       },
       {
-        "year": 1978,
-        "event": "First child was born"
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
       },
       {
-        "year": 1983,
-        "event": "Started working at a local community center"
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Flashdance...What A Feeling",
+        "artist": "Irene Cara",
+        "year": 1983
+      },
+      {
+        "song": "Sweet Dreams (Are Made Of This)",
+        "artist": "Eurythmics",
+        "year": 1983
+      },
+      {
+        "song": "Let's Dance",
+        "artist": "David Bowie",
+        "year": 1983
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      },
+      {
+        "song": "Tell Her About It",
+        "artist": "Billy Joel",
+        "year": 1983
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      },
+      {
+        "song": "I'll Be There For You",
+        "artist": "Bon Jovi",
+        "year": 1989
+      },
+      {
+        "song": "Father Figure",
+        "artist": "George Michael",
+        "year": 1988
+      },
+      {
+        "song": "Hard To Say I'm Sorry",
+        "artist": "Chicago",
+        "year": 1982
+      },
+      {
+        "song": "Eye Of The Tiger",
+        "artist": "Survivor",
+        "year": 1982
+      },
+      {
+        "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+        "artist": "Bobby McFerrin",
+        "year": 1989
       }
-    ],
-    "id": "P201"
+    ]
   },
   {
-    "name": "Hoa Nguyen",
+    "name": "Isabella Vincenzo",
     "gender": "Female",
-    "birth_year": 1960,
-    "hometown": "Houston, Texas",
-    "cultural_background": "Vietnamese American",
-    "life_events": [
-      {
-        "year": 1975,
-        "event": "Immigrated to the US after the Vietnam War ended"
-      },
-      {
-        "year": 1978,
-        "event": "Graduated from high school and started working in a local bakery"
-      },
-      {
-        "year": 1982,
-        "event": "Enrolled in community college to study business management"
-      },
-      {
-        "year": 1985,
-        "event": "Opened her own Vietnamese bakery in Houston"
-      },
-      {
-        "year": 1988,
-        "event": "Married her business partner, Thanh"
-      }
-    ],
-    "id": "P040"
-  },
-  {
-    "name": "Vincent Russo",
-    "gender": "Male",
-    "birth_year": 1939,
-    "hometown": "Philadelphia, PA",
+    "birth_year": 1950,
+    "hometown": "Newark, NJ",
     "cultural_background": "Italian American",
     "life_events": [
       {
-        "year": 1954,
-        "event": "Traveled to Italy to meet extended family"
-      },
-      {
-        "year": 1958,
-        "event": "Graduated high school and joined family restaurant business"
-      },
-      {
-        "year": 1962,
-        "event": "Expanded family business with a new location"
-      },
-      {
-        "year": 1965,
-        "event": "Married in a large family ceremony"
-      },
-      {
-        "year": 1968,
-        "event": "Became a father to twins"
-      }
-    ],
-    "id": "P186"
-  },
-  {
-    "name": "Richard Johnson",
-    "gender": "Male",
-    "birth_year": 1948,
-    "hometown": "Jacksonville, Florida",
-    "cultural_background": "White American",
-    "life_events": [
-      {
-        "year": 1966,
-        "event": "Graduated from high school and enlisted in the Army"
+        "year": 1967,
+        "event": "Started working as a cashier in a family-owned deli"
       },
       {
         "year": 1970,
-        "event": "Honorably discharged and returned to Jacksonville"
-      },
-      {
-        "year": 1972,
-        "event": "Began working in construction"
-      },
-      {
-        "year": 1974,
-        "event": "Married Sarah, a local teacher"
-      },
-      {
-        "year": 1976,
-        "event": "Began his own construction company"
-      }
-    ],
-    "id": "P088"
-  },
-  {
-    "name": "Claire O'Connor",
-    "gender": "Female",
-    "birth_year": 1942,
-    "hometown": "Boston, Massachusetts",
-    "cultural_background": "Irish American",
-    "life_events": [
-      {
-        "year": 1958,
-        "event": "Joined a local theater group"
-      },
-      {
-        "year": 1964,
-        "event": "Graduated from Boston College"
-      },
-      {
-        "year": 1967,
-        "event": "Moved to New York to pursue an acting career"
-      },
-      {
-        "year": 1969,
-        "event": "Married an artist"
-      },
-      {
-        "year": 1972,
-        "event": "Had her first child"
-      }
-    ],
-    "id": "P205"
-  },
-  {
-    "name": "Emily Nguyen",
-    "gender": "Female",
-    "birth_year": 1954,
-    "hometown": "Houston, TX",
-    "cultural_background": "Vietnamese American",
-    "life_events": [
-      {
-        "year": 1972,
-        "event": "Arrived in the US as a refugee"
-      },
-      {
-        "year": 1974,
-        "event": "Graduated from high school in Houston"
+        "event": "Married a local plumber and had three children"
       },
       {
         "year": 1978,
-        "event": "Completed degree in Business Administration"
+        "event": "Became a PTA leader at her children's school"
       },
       {
-        "year": 1980,
-        "event": "Started working at a multinational corporation"
+        "year": 1984,
+        "event": "Opened her own small catering business"
       },
       {
-        "year": 1983,
-        "event": "Married in Houston"
+        "year": 1989,
+        "event": "Lost her home to a fire but rebuilt with community support"
       }
     ],
-    "id": "P179"
+    "id": "P179",
+    "ground_truth_playlist": [
+      {
+        "song": "Winchester Cathedral",
+        "artist": "The New Vaudeville Band",
+        "year": 1967
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "My Love",
+        "artist": "Paul McCartney And Wings",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Harper Valley P.T.A.",
+        "artist": "Jeannie C. Riley",
+        "year": 1968
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      }
+    ]
   },
   {
-    "name": "Eleanor Johnson",
-    "gender": "Female",
+    "name": "Robert Johnson",
+    "gender": "Male",
     "birth_year": 1940,
-    "hometown": "Atlanta, Georgia",
+    "hometown": "Birmingham, Alabama",
     "cultural_background": "African American",
     "life_events": [
       {
         "year": 1955,
-        "event": "Graduated from Booker T. Washington High School"
+        "event": "Witnessed Montgomery Bus Boycott"
       },
       {
         "year": 1960,
-        "event": "Married her high school sweetheart"
-      },
-      {
-        "year": 1962,
-        "event": "Moved to Detroit to work in the automotive industry"
+        "event": "Started working as a bus driver"
       },
       {
         "year": 1965,
-        "event": "Joined the local chapter of the NAACP"
+        "event": "Married high school sweetheart"
+      },
+      {
+        "year": 1970,
+        "event": "Lost job due to route cuts in city transit"
+      },
+      {
+        "year": 1975,
+        "event": "Joined local civil rights organization"
       }
     ],
-    "id": "P041"
+    "id": "P041",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Mack The Knife",
+        "artist": "Bobby Darin",
+        "year": 1960
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Help The Poor",
+        "artist": "The O'Jays",
+        "year": 1970
+      },
+      {
+        "song": "Let's Do It Again",
+        "artist": "The Staple Singers",
+        "year": 1975
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "(Sittin' On) The Dock Of The Bay",
+        "artist": "Otis Redding",
+        "year": 1968
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      }
+    ]
   },
   {
-    "name": "Antonio Rivera",
+    "name": "Carlos Hernandez",
     "gender": "Male",
-    "birth_year": 1952,
-    "hometown": "San Antonio, Texas",
-    "cultural_background": "Latino/Mexican American",
+    "birth_year": 1961,
+    "hometown": "El Paso, Texas",
+    "cultural_background": "Mexican American",
     "life_events": [
       {
-        "year": 1968,
-        "event": "Participated in high school mariachi band"
-      },
-      {
-        "year": 1972,
-        "event": "Enlisted in the United States Air Force"
-      },
-      {
-        "year": 1976,
-        "event": "Married his high school sweetheart"
+        "year": 1977,
+        "event": "Started working in a local grocery store to support family."
       },
       {
         "year": 1980,
-        "event": "Completed an associate degree in mechanical engineering"
+        "event": "Joined the Army and was stationed overseas."
       },
       {
-        "year": 1983,
-        "event": "Relocated to Houston for a job at NASA"
+        "year": 1985,
+        "event": "Returned home and became a truck driver."
+      },
+      {
+        "year": 1989,
+        "event": "Married a childhood friend from his neighborhood."
       }
     ],
-    "id": "P002"
-  },
-  {
-    "name": "Roberto Martinez",
-    "gender": "Male",
-    "birth_year": 1950,
-    "hometown": "San Antonio, Texas",
-    "cultural_background": "Latino/Mexican American",
-    "life_events": [
+    "id": "P002",
+    "ground_truth_playlist": [
       {
-        "year": 1965,
-        "event": "Helped with family-owned restaurant"
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
       },
       {
-        "year": 1968,
-        "event": "Graduated from high school"
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
       },
       {
-        "year": 1970,
-        "event": "Enrolled in community college for culinary arts"
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
       },
       {
-        "year": 1972,
-        "event": "Opened his own taco stand"
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
       },
       {
-        "year": 1975,
-        "event": "Married college classmate"
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Caribbean Queen (No More Love On The Run)",
+        "artist": "Billy Ocean",
+        "year": 1984
+      },
+      {
+        "song": "Total Eclipse Of The Heart",
+        "artist": "Bonnie Tyler",
+        "year": 1984
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "I Want To Know What Love Is",
+        "artist": "Foreigner",
+        "year": 1985
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Every Rose Has Its Thorn",
+        "artist": "Poison",
+        "year": 1989
+      },
+      {
+        "song": "Convoy",
+        "artist": "C.W. McCall",
+        "year": 1976
       }
-    ],
-    "id": "P072"
+    ]
   },
   {
-    "name": "Harold Thompson",
-    "gender": "Male",
-    "birth_year": 1945,
-    "hometown": "Baltimore, Maryland",
-    "cultural_background": "African American",
-    "life_events": [
-      {
-        "year": 1963,
-        "event": "Graduated from Dunbar High School"
-      },
-      {
-        "year": 1965,
-        "event": "Started working at the Bethlehem Steel mill"
-      },
-      {
-        "year": 1970,
-        "event": "Married high school sweetheart, Carol"
-      },
-      {
-        "year": 1972,
-        "event": "Moved to a new home in the West Baltimore neighborhood"
-      },
-      {
-        "year": 1975,
-        "event": "Became a father to a baby girl"
-      }
-    ],
-    "id": "P151"
-  },
-  {
-    "name": "Sarah O'Brien",
+    "name": "Maria Gonzalez",
     "gender": "Female",
-    "birth_year": 1948,
-    "hometown": "Boston, Massachusetts",
+    "birth_year": 1958,
+    "hometown": "Los Angeles, California",
+    "cultural_background": "Mexican American",
+    "life_events": [
+      {
+        "year": 1976,
+        "event": "Graduated high school and worked as a seamstress"
+      },
+      {
+        "year": 1978,
+        "event": "Married and moved to a suburb"
+      },
+      {
+        "year": 1982,
+        "event": "Opened a small tailoring business"
+      },
+      {
+        "year": 1986,
+        "event": "Gave birth to her first child"
+      },
+      {
+        "year": 1992,
+        "event": "Business expansion due to local fashion demand"
+      }
+    ],
+    "id": "P072",
+    "ground_truth_playlist": [
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Total Eclipse Of The Heart",
+        "artist": "Bonnie Tyler",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "Lady Marmalade",
+        "artist": "Labelle",
+        "year": 1975
+      },
+      {
+        "song": "I Write The Songs",
+        "artist": "Barry Manilow",
+        "year": 1976
+      },
+      {
+        "song": "Theme From Mahogany (Do You Know Where You're Going To)",
+        "artist": "Diana Ross",
+        "year": 1976
+      },
+      {
+        "song": "Flashdance...What A Feeling",
+        "artist": "Irene Cara",
+        "year": 1983
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Eternal Flame",
+        "artist": "The Bangles",
+        "year": 1989
+      },
+      {
+        "song": "Release Me",
+        "artist": "Wilson Phillips",
+        "year": 1990
+      }
+    ]
+  },
+  {
+    "name": "James O'Connor",
+    "gender": "Male",
+    "birth_year": 1942,
+    "hometown": "Pittsburgh, PA",
     "cultural_background": "Irish American",
     "life_events": [
       {
-        "year": 1966,
-        "event": "Graduated high school and attended nursing school"
+        "year": 1960,
+        "event": "Started working in a steel mill"
+      },
+      {
+        "year": 1965,
+        "event": "Married high school sweetheart"
       },
       {
         "year": 1970,
-        "event": "Began working at Boston General Hospital"
-      },
-      {
-        "year": 1972,
-        "event": "Married a firefighter she met through mutual friends"
+        "event": "Joined local union"
       },
       {
         "year": 1975,
-        "event": "Gave birth to her first child, a daughter"
+        "event": "Lost job due to mill closure"
       },
       {
         "year": 1980,
-        "event": "Participated in Boston's St. Patrick's Day Parade as a family tradition"
+        "event": "Became a construction worker"
       }
     ],
-    "id": "P115"
+    "id": "P151",
+    "ground_truth_playlist": [
+      {
+        "song": "Mack The Knife",
+        "artist": "Bobby Darin",
+        "year": 1960
+      },
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Walk Like A Man",
+        "artist": "The 4 Seasons",
+        "year": 1963
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "House Of The Rising Sun",
+        "artist": "The Animals",
+        "year": 1964
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Sister Golden Hair",
+        "artist": "America",
+        "year": 1975
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "Big Bad John",
+        "artist": "Jimmy Dean",
+        "year": 1962
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "Bad, Bad Leroy Brown",
+        "artist": "Jim Croce",
+        "year": 1973
+      },
+      {
+        "song": "Convoy",
+        "artist": "C.W. McCall",
+        "year": 1976
+      }
+    ]
   },
   {
-    "name": "John Nguyen",
+    "name": "Patricia Silva",
+    "gender": "Female",
+    "birth_year": 1950,
+    "hometown": "Fall River, Massachusetts",
+    "cultural_background": "Portuguese American",
+    "life_events": [
+      {
+        "year": 1968,
+        "event": "Started working as a nurse at local hospital"
+      },
+      {
+        "year": 1973,
+        "event": "Married and moved to a different part of town"
+      },
+      {
+        "year": 1975,
+        "event": "Gave birth to twins"
+      },
+      {
+        "year": 1980,
+        "event": "Became involved in local Portuguese cultural events"
+      }
+    ],
+    "id": "P115",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "My Love",
+        "artist": "Paul McCartney And Wings",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      }
+    ]
+  },
+  {
+    "name": "Mary Johnson",
+    "gender": "Female",
+    "birth_year": 1938,
+    "hometown": "Detroit, MI",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1955,
+        "event": "Started working as a domestic worker to support family"
+      },
+      {
+        "year": 1960,
+        "event": "Married a factory worker"
+      },
+      {
+        "year": 1967,
+        "event": "Moved to Atlanta following auto plant closure"
+      },
+      {
+        "year": 1970,
+        "event": "First daughter was born"
+      },
+      {
+        "year": 1975,
+        "event": "Became involved in civil rights activities"
+      }
+    ],
+    "id": "P057",
+    "ground_truth_playlist": [
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Midnight Train To Georgia",
+        "artist": "Gladys Knight And The Pips",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "My Guy",
+        "artist": "Mary Wells",
+        "year": 1964
+      },
+      {
+        "song": "Aquarius/Let The Sunshine In (The Flesh Failures)",
+        "artist": "The 5th Dimension",
+        "year": 1969
+      },
+      {
+        "song": "Turn! Turn! Turn! (To Everything There Is A Season)",
+        "artist": "The Byrds",
+        "year": 1966
+      },
+      {
+        "song": "You Keep Me Hangin' On",
+        "artist": "The Supremes",
+        "year": 1967
+      },
+      {
+        "song": "Delta Dawn",
+        "artist": "Helen Reddy",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "name": "Kim Lee",
+    "gender": "Female",
+    "birth_year": 1948,
+    "hometown": "Chicago, Illinois",
+    "cultural_background": "Korean American",
+    "life_events": [
+      {
+        "year": 1965,
+        "event": "Began working as a store clerk at a department store"
+      },
+      {
+        "year": 1969,
+        "event": "Married a fellow immigrant"
+      },
+      {
+        "year": 1975,
+        "event": "Moved to a small house with her first child"
+      },
+      {
+        "year": 1981,
+        "event": "Participated in cultural preservation activities"
+      },
+      {
+        "year": 1985,
+        "event": "Started a small community-based education program"
+      }
+    ],
+    "id": "P108",
+    "ground_truth_playlist": [
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "My Love",
+        "artist": "Paul McCartney And Wings",
+        "year": 1973
+      },
+      {
+        "song": "The Night The Lights Went Out In Georgia",
+        "artist": "Vicki Lawrence",
+        "year": 1973
+      },
+      {
+        "song": "Will It Go Round In Circles",
+        "artist": "Billy Preston",
+        "year": 1973
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "Good Vibrations",
+        "artist": "The Beach Boys",
+        "year": 1967
+      }
+    ]
+  },
+  {
+    "name": "Paul Doucet",
     "gender": "Male",
-    "birth_year": 1960,
-    "hometown": "Houston, Texas",
+    "birth_year": 1938,
+    "hometown": "Detroit, Michigan",
+    "cultural_background": "Haitian American",
+    "life_events": [
+      {
+        "year": 1956,
+        "event": "Graduated from high school and worked in an auto factory"
+      },
+      {
+        "year": 1962,
+        "event": "Participated in union organizing activities"
+      },
+      {
+        "year": 1970,
+        "event": "Lost his job during the auto industry crisis"
+      }
+    ],
+    "id": "P208",
+    "ground_truth_playlist": [
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "My Guy",
+        "artist": "Mary Wells",
+        "year": 1964
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "Dancing In The Street",
+        "artist": "Martha and the Vandellas",
+        "year": 1964
+      },
+      {
+        "song": "I Want To Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964
+      },
+      {
+        "song": "You Keep Me Hangin' On",
+        "artist": "The Supremes",
+        "year": 1967
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Grazing In The Grass",
+        "artist": "Hugh Masekela",
+        "year": 1968
+      },
+      {
+        "song": "Hit The Road Jack",
+        "artist": "Ray Charles and his Orchestra",
+        "year": 1961
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "name": "Jorge Martinez",
+    "gender": "Male",
+    "birth_year": 1962,
+    "hometown": "Miami, FL",
+    "cultural_background": "Cuban American",
+    "life_events": [
+      {
+        "year": 1977,
+        "event": "Started working part-time as a cook in a family restaurant"
+      },
+      {
+        "year": 1980,
+        "event": "Finished high school and began working in a construction company"
+      },
+      {
+        "year": 1985,
+        "event": "Married his college sweetheart and had two children"
+      },
+      {
+        "year": 1990,
+        "event": "Became a manager in the construction firm"
+      },
+      {
+        "year": 1995,
+        "event": "Bought a vacation house in the Florida Keys"
+      }
+    ],
+    "id": "P180",
+    "ground_truth_playlist": [
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "She Ain't Worth It",
+        "artist": "Glenn Medeiros Featuring Bobby Brown",
+        "year": 1990
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Caribbean Queen (No More Love On The Run)",
+        "artist": "Billy Ocean",
+        "year": 1984
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "I'll Be There For You",
+        "artist": "Bon Jovi",
+        "year": 1989
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "(I've Had) The Time Of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": 1988
+      },
+      {
+        "song": "I Want To Know What Love Is",
+        "artist": "Foreigner",
+        "year": 1985
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Blaze Of Glory (From \"Young Guns II\")",
+        "artist": "Jon Bon Jovi",
+        "year": 1990
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "name": "Angela Nguyen",
+    "gender": "Female",
+    "birth_year": 1963,
+    "hometown": "Houston, TX",
     "cultural_background": "Vietnamese American",
     "life_events": [
       {
         "year": 1978,
-        "event": "Graduated from Lamar High School"
+        "event": "Immigrated to the US after the Vietnam War"
       },
       {
         "year": 1980,
-        "event": "Started university at the University of Houston"
-      },
-      {
-        "year": 1982,
-        "event": "Became a naturalized U.S. citizen"
-      },
-      {
-        "year": 1984,
-        "event": "Married a fellow student"
-      },
-      {
-        "year": 1986,
-        "event": "Moved to Dallas for a job offer"
-      }
-    ],
-    "id": "P057"
-  },
-  {
-    "name": "Patricia Liu",
-    "gender": "Female",
-    "birth_year": 1957,
-    "hometown": "Seattle, Washington",
-    "cultural_background": "Chinese American",
-    "life_events": [
-      {
-        "year": 1973,
-        "event": "Won a regional science fair"
-      },
-      {
-        "year": 1975,
-        "event": "Graduated high school and went on to study engineering"
-      },
-      {
-        "year": 1979,
-        "event": "Worked on a special project at Boeing during college"
-      },
-      {
-        "year": 1980,
-        "event": "Graduated college and started working as an engineer"
-      },
-      {
-        "year": 1982,
-        "event": "Got married to college peer"
-      }
-    ],
-    "id": "P108"
-  },
-  {
-    "name": "Angela Chen",
-    "gender": "Female",
-    "birth_year": 1940,
-    "hometown": "Seattle, Washington",
-    "cultural_background": "Chinese American",
-    "life_events": [
-      {
-        "year": 1958,
-        "event": "Graduated from high school"
-      },
-      {
-        "year": 1962,
-        "event": "Earned a degree in education"
-      },
-      {
-        "year": 1965,
-        "event": "Began teaching at a local elementary school"
-      },
-      {
-        "year": 1967,
-        "event": "Married a local businessman"
-      },
-      {
-        "year": 1971,
-        "event": "Participated in a cultural exchange program in China"
-      }
-    ],
-    "id": "P208"
-  },
-  {
-    "name": "Frank Lynch",
-    "gender": "Male",
-    "birth_year": 1943,
-    "hometown": "Philadelphia, PA",
-    "cultural_background": "Irish American",
-    "life_events": [
-      {
-        "year": 1960,
-        "event": "Joined the US Army"
-      },
-      {
-        "year": 1965,
-        "event": "Returned to Philadelphia and started working at a local factory"
-      },
-      {
-        "year": 1968,
-        "event": "Married a local schoolteacher"
-      },
-      {
-        "year": 1972,
-        "event": "Had first child, a daughter"
-      },
-      {
-        "year": 1975,
-        "event": "Bought a family home in the suburbs"
-      }
-    ],
-    "id": "P180"
-  },
-  {
-    "name": "Helen Johnson",
-    "gender": "Female",
-    "birth_year": 1949,
-    "hometown": "Chicago, Illinois",
-    "cultural_background": "African American",
-    "life_events": [
-      {
-        "year": 1965,
-        "event": "Graduated from Whitney M. Young Magnet High School"
-      },
-      {
-        "year": 1968,
-        "event": "Began studies at Howard University"
-      },
-      {
-        "year": 1971,
-        "event": "Returned to Chicago and started teaching"
-      },
-      {
-        "year": 1974,
-        "event": "Joined local theater group"
-      },
-      {
-        "year": 1975,
-        "event": "Married at local church"
-      }
-    ],
-    "id": "P167"
-  },
-  {
-    "name": "Miguel Cruz",
-    "gender": "Male",
-    "birth_year": 1948,
-    "hometown": "Phoenix, AZ",
-    "cultural_background": "Puerto Rican American",
-    "life_events": [
-      {
-        "year": 1964,
-        "event": "Won first place in high school science fair"
-      },
-      {
-        "year": 1968,
-        "event": "Joined the US Air Force"
-      },
-      {
-        "year": 1971,
-        "event": "Returned home and started working at a local tech company"
-      },
-      {
-        "year": 1973,
-        "event": "Married childhood friend"
-      },
-      {
-        "year": 1976,
-        "event": "Purchased first home in Phoenix"
-      }
-    ],
-    "id": "P184"
-  },
-  {
-    "name": "James O'Leary",
-    "gender": "Male",
-    "birth_year": 1940,
-    "hometown": "Boston, Massachusetts",
-    "cultural_background": "Irish American",
-    "life_events": [
-      {
-        "year": 1958,
-        "event": "Graduated from Boston Technical High School"
-      },
-      {
-        "year": 1962,
-        "event": "Married childhood sweetheart in Boston"
-      },
-      {
-        "year": 1965,
-        "event": "His first child was born"
-      },
-      {
-        "year": 1970,
-        "event": "Became a firefighter in Boston"
-      },
-      {
-        "year": 1975,
-        "event": "Bought a house in South Boston"
-      }
-    ],
-    "id": "P051"
-  },
-  {
-    "name": "Susan Reyes",
-    "gender": "Female",
-    "birth_year": 1958,
-    "hometown": "Fresno, California",
-    "cultural_background": "Filipino American",
-    "life_events": [
-      {
-        "year": 1975,
-        "event": "Volunteered at a local community health clinic"
-      },
-      {
-        "year": 1978,
-        "event": "Moved to San Francisco to attend nursing school"
-      },
-      {
-        "year": 1982,
-        "event": "Returned to Fresno and worked as a registered nurse"
-      },
-      {
-        "year": 1983,
-        "event": "Married a fellow nurse she met in San Francisco"
+        "event": "Started working as a store clerk to support her family"
       },
       {
         "year": 1985,
-        "event": "First child was born"
-      }
-    ],
-    "id": "P144"
-  },
-  {
-    "name": "Patricia O'Connor",
-    "gender": "Female",
-    "birth_year": 1958,
-    "hometown": "Boston, Massachusetts",
-    "cultural_background": "Irish American",
-    "life_events": [
-      {
-        "year": 1976,
-        "event": "Became a lead singer in a local Celtic band"
-      },
-      {
-        "year": 1978,
-        "event": "Traveled to Ireland with band for a cultural exchange program"
-      },
-      {
-        "year": 1980,
-        "event": "Graduated with a degree in History from Boston College"
-      },
-      {
-        "year": 1982,
-        "event": "Married Sean, band member"
-      },
-      {
-        "year": 1984,
-        "event": "Welcomed first child, a daughter"
-      }
-    ],
-    "id": "P218"
-  },
-  {
-    "name": "Michael O'Connor",
-    "gender": "Male",
-    "birth_year": 1940,
-    "hometown": "Boston, Massachusetts",
-    "cultural_background": "Irish American",
-    "life_events": [
-      {
-        "year": 1958,
-        "event": "Graduated from Charlestown High School"
-      },
-      {
-        "year": 1960,
-        "event": "Started apprenticing as an electrician"
-      },
-      {
-        "year": 1962,
-        "event": "Married childhood sweetheart, Kathleen"
-      },
-      {
-        "year": 1965,
-        "event": "Welcomed first child, a daughter"
-      },
-      {
-        "year": 1970,
-        "event": "Bought a family home in South Boston"
-      }
-    ],
-    "id": "P155"
-  },
-  {
-    "name": "Josephine Nguyen",
-    "gender": "Female",
-    "birth_year": 1947,
-    "hometown": "Seattle, Washington",
-    "cultural_background": "Filipino American",
-    "life_events": [
-      {
-        "year": 1965,
-        "event": "Graduated high school and started nursing school"
-      },
-      {
-        "year": 1969,
-        "event": "Moved to San Francisco for a nursing position"
-      },
-      {
-        "year": 1971,
-        "event": "Married her childhood friend"
-      },
-      {
-        "year": 1973,
-        "event": "First child was born"
-      },
-      {
-        "year": 1980,
-        "event": "Completed advanced training in pediatric nursing"
-      }
-    ],
-    "id": "P130"
-  },
-  {
-    "name": "Teresa Rivera",
-    "gender": "Female",
-    "birth_year": 1952,
-    "hometown": "Miami, Florida",
-    "cultural_background": "Puerto Rican American",
-    "life_events": [
-      {
-        "year": 1970,
-        "event": "Graduated from Miami Senior High School"
-      },
-      {
-        "year": 1972,
-        "event": "Moved to Orlando to attend college"
-      },
-      {
-        "year": 1974,
-        "event": "Earned a degree in Nursing"
-      },
-      {
-        "year": 1976,
-        "event": "Returned to Miami to work in a local hospital"
-      },
-      {
-        "year": 1979,
-        "event": "Married a fellow nurse"
-      }
-    ],
-    "id": "P060"
-  },
-  {
-    "name": "Maya Patel",
-    "gender": "Female",
-    "birth_year": 1959,
-    "hometown": "Fremont, California",
-    "cultural_background": "Indian American",
-    "life_events": [
-      {
-        "year": 1975,
-        "event": "Graduated from Mission San Jose High School"
-      },
-      {
-        "year": 1980,
-        "event": "Earned a degree in Computer Science from UC Berkeley"
-      },
-      {
-        "year": 1983,
-        "event": "Started working for a tech company in Silicon Valley"
-      },
-      {
-        "year": 1985,
-        "event": "Got married in a traditional Indian ceremony"
-      },
-      {
-        "year": 1988,
-        "event": "Gave birth to her first child"
-      }
-    ],
-    "id": "P056"
-  },
-  {
-    "name": "Patricia Santos",
-    "gender": "Female",
-    "birth_year": 1962,
-    "hometown": "Honolulu, HI",
-    "cultural_background": "Filipino American",
-    "life_events": [
-      {
-        "year": 1977,
-        "event": "Won a local competition in traditional dance"
-      },
-      {
-        "year": 1980,
-        "event": "Graduated high school and traveled to Manila to visit family"
-      },
-      {
-        "year": 1982,
-        "event": "Started career as a nurse in a local hospital"
-      },
-      {
-        "year": 1984,
-        "event": "Married a fellow nurse"
-      },
-      {
-        "year": 1989,
-        "event": "Volunteered in a medical mission in Southeast Asia"
-      }
-    ],
-    "id": "P024"
-  },
-  {
-    "name": "Kim Park",
-    "gender": "Male",
-    "birth_year": 1962,
-    "hometown": "Seattle, Washington",
-    "cultural_background": "Korean American",
-    "life_events": [
-      {
-        "year": 1980,
-        "event": "Graduated from Garfield High School"
-      },
-      {
-        "year": 1984,
-        "event": "Completed a computer science degree at University of Washington"
-      },
-      {
-        "year": 1985,
-        "event": "Started working for a major tech company in Seattle"
+        "event": "Learned English and took evening classes"
       },
       {
         "year": 1987,
-        "event": "Married a colleague from work"
+        "event": "Married a fellow immigrant and started a family"
       },
       {
         "year": 1990,
-        "event": "First child born"
+        "event": "Became involved in local Vietnamese cultural events"
       }
     ],
-    "id": "P008"
+    "id": "P167",
+    "ground_truth_playlist": [
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Flashdance...What A Feeling",
+        "artist": "Irene Cara",
+        "year": 1983
+      },
+      {
+        "song": "Sweet Dreams (Are Made Of This)",
+        "artist": "Eurythmics",
+        "year": 1983
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      },
+      {
+        "song": "We Are The World",
+        "artist": "USA For Africa",
+        "year": 1985
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+        "artist": "Bobby McFerrin",
+        "year": 1989
+      }
+    ]
   },
   {
     "name": "Anita Patel",
     "gender": "Female",
-    "birth_year": 1955,
+    "birth_year": 1962,
     "hometown": "Chicago, Illinois",
     "cultural_background": "Indian American",
     "life_events": [
       {
-        "year": 1973,
-        "event": "Graduated from Lincoln Park High School"
-      },
-      {
-        "year": 1978,
-        "event": "Earned a degree in pharmacy from University of Illinois"
-      },
-      {
-        "year": 1979,
-        "event": "Started a pharmacy business with her brother"
-      },
-      {
-        "year": 1982,
-        "event": "Married in a large family wedding"
-      },
-      {
-        "year": 1984,
-        "event": "First child born"
-      }
-    ],
-    "id": "P009"
-  },
-  {
-    "name": "Arvind Patel",
-    "gender": "Male",
-    "birth_year": 1945,
-    "hometown": "Houston, Texas",
-    "cultural_background": "Indian American",
-    "life_events": [
-      {
-        "year": 1960,
-        "event": "Moved to the U.S. from India with family"
-      },
-      {
-        "year": 1964,
-        "event": "Graduated high school and pursued a degree in medicine"
-      },
-      {
-        "year": 1969,
-        "event": "Married in a traditional Indian ceremony"
-      },
-      {
-        "year": 1971,
-        "event": "Began residency at a Houston hospital"
-      },
-      {
-        "year": 1975,
-        "event": "Opened own practice in the suburbs"
-      }
-    ],
-    "id": "P109"
-  },
-  {
-    "name": "Mariana Torres",
-    "gender": "Female",
-    "birth_year": 1960,
-    "hometown": "San Antonio, Texas",
-    "cultural_background": "Latino/Mexican American",
-    "life_events": [
-      {
-        "year": 1975,
-        "event": "Won the regional spelling bee"
-      },
-      {
-        "year": 1978,
-        "event": "Graduated from Harlandale High School"
-      },
-      {
         "year": 1980,
-        "event": "Moved to Austin, Texas for college"
+        "event": "Graduated high school and began working as a receptionist at a medical office."
       },
       {
-        "year": 1982,
-        "event": "Internship at a local television station"
-      },
-      {
-        "year": 1985,
-        "event": "Married college sweetheart, Daniel"
-      }
-    ],
-    "id": "P152"
-  },
-  {
-    "name": "Henry Kim",
-    "gender": "Male",
-    "birth_year": 1958,
-    "hometown": "Los Angeles, CA",
-    "cultural_background": "Korean American",
-    "life_events": [
-      {
-        "year": 1976,
-        "event": "Graduated from high school"
-      },
-      {
-        "year": 1980,
-        "event": "Graduated with a degree in computer science"
-      },
-      {
-        "year": 1981,
-        "event": "Started a tech startup with college friends"
-      },
-      {
-        "year": 1985,
-        "event": "Married after meeting his spouse at a tech conference"
+        "year": 1983,
+        "event": "Got married and moved with her spouse to a nearby suburb."
       },
       {
         "year": 1987,
-        "event": "Moved to Silicon Valley for work"
+        "event": "Became involved in organizing cultural festivals for the local Indian community."
+      },
+      {
+        "year": 1990,
+        "event": "Helped open a small family-run grocery store specializing in Indian foods."
       }
     ],
-    "id": "P023"
-  },
-  {
-    "name": "Michael Gallagher",
-    "gender": "Male",
-    "birth_year": 1942,
-    "hometown": "Philadelphia, PA",
-    "cultural_background": "White American",
-    "life_events": [
+    "id": "P184",
+    "ground_truth_playlist": [
       {
-        "year": 1958,
-        "event": "Joined a local band as a drummer during high school"
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
       },
       {
-        "year": 1963,
-        "event": "Enlisted in the U.S. Army and served overseas for two years"
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
       },
       {
-        "year": 1966,
-        "event": "Returned to Philadelphia and started a career in construction"
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
       },
       {
-        "year": 1970,
-        "event": "Married and had two children while continuing to play music locally"
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
       },
       {
-        "year": 1977,
-        "event": "Opened his own construction company specializing in residential homes"
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Flashdance...What A Feeling",
+        "artist": "Irene Cara",
+        "year": 1983
+      },
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Tell Her About It",
+        "artist": "Billy Joel",
+        "year": 1983
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "She Ain't Worth It",
+        "artist": "Glenn Medeiros Featuring Bobby Brown",
+        "year": 1990
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      },
+      {
+        "song": "Nothing Compares 2 U",
+        "artist": "Sinead O'Connor",
+        "year": 1990
       }
-    ],
-    "id": "P140"
+    ]
   },
   {
-    "name": "Michael Chen",
-    "gender": "Male",
-    "birth_year": 1952,
-    "hometown": "Seattle, Washington",
-    "cultural_background": "Chinese American",
-    "life_events": [
-      {
-        "year": 1969,
-        "event": "Started taking piano lessons"
-      },
-      {
-        "year": 1971,
-        "event": "Became the youngest member of Seattle Youth Symphony"
-      },
-      {
-        "year": 1974,
-        "event": "Moved to New York for university studies in music"
-      },
-      {
-        "year": 1977,
-        "event": "Graduated with a degree in music composition"
-      },
-      {
-        "year": 1982,
-        "event": "Awarded a fellowship for original compositions"
-      }
-    ],
-    "id": "P217"
-  },
-  {
-    "name": "Maria Hernandez",
+    "name": "Helen Martinez",
     "gender": "Female",
-    "birth_year": 1955,
+    "birth_year": 1948,
     "hometown": "San Antonio, TX",
-    "cultural_background": "Puerto Rican American",
+    "cultural_background": "Mexican American",
     "life_events": [
       {
-        "year": 1970,
-        "event": "Moved to New York City for a job opportunity"
+        "year": 1965,
+        "event": "Started working as a seamstress at a local garment factory"
+      },
+      {
+        "year": 1968,
+        "event": "Married high school sweetheart"
       },
       {
         "year": 1972,
-        "event": "Started singing in a local band"
+        "event": "Moved to Chicago for better job opportunities"
       },
       {
         "year": 1975,
-        "event": "Married a fellow musician"
+        "event": "Became active in the local church community"
+      },
+      {
+        "year": 1977,
+        "event": "Had first child"
+      }
+    ],
+    "id": "P051",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "Sister Golden Hair",
+        "artist": "America",
+        "year": 1975
+      },
+      {
+        "song": "My Eyes Adored You",
+        "artist": "Frankie Valli",
+        "year": 1975
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "How Can You Mend A Broken Heart",
+        "artist": "Bee Gees",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "name": "Salvatore Ricci",
+    "gender": "Male",
+    "birth_year": 1940,
+    "hometown": "Newark, NJ",
+    "cultural_background": "Italian American",
+    "life_events": [
+      {
+        "year": 1958,
+        "event": "Started apprenticeship as a mechanic"
+      },
+      {
+        "year": 1964,
+        "event": "Opened his own auto repair shop"
+      },
+      {
+        "year": 1970,
+        "event": "Married and had three children"
       },
       {
         "year": 1980,
-        "event": "Had first child, a son"
+        "event": "Elected as president of local auto workers union"
+      }
+    ],
+    "id": "P144",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Walk Like A Man",
+        "artist": "The 4 Seasons",
+        "year": 1963
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Oh, Pretty Woman",
+        "artist": "Roy Orbison And The Candy Men",
+        "year": 1964
+      },
+      {
+        "song": "I Want To Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964
+      },
+      {
+        "song": "House Of The Rising Sun",
+        "artist": "The Animals",
+        "year": 1964
+      },
+      {
+        "song": "You Keep Me Hangin' On",
+        "artist": "The Supremes",
+        "year": 1967
+      },
+      {
+        "song": "Good Vibrations",
+        "artist": "The Beach Boys",
+        "year": 1967
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1968
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "Nel Blu Dipinto Di Blu (Volar\u00e9)",
+        "artist": "Domenico Modugno",
+        "year": 1958
+      },
+      {
+        "song": "Big Bad John",
+        "artist": "Jimmy Dean",
+        "year": 1962
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "name": "Sandra Lopez",
+    "gender": "Female",
+    "birth_year": 1957,
+    "hometown": "Phoenix, Arizona",
+    "cultural_background": "Mexican American",
+    "life_events": [
+      {
+        "year": 1975,
+        "event": "Graduated from high school and worked as a seamstress"
+      },
+      {
+        "year": 1978,
+        "event": "Helped care for her younger siblings after her parents passed"
+      },
+      {
+        "year": 1980,
+        "event": "Started her own tailoring business"
+      },
+      {
+        "year": 1984,
+        "event": "Married a local musician, Jorge"
+      },
+      {
+        "year": 1989,
+        "event": "Organized community events supporting local artists"
+      }
+    ],
+    "id": "P218",
+    "ground_truth_playlist": [
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Fallin' In Love",
+        "artist": "Hamilton, Joe Frank & Reynolds",
+        "year": 1975
+      },
+      {
+        "song": "Lady Marmalade",
+        "artist": "Labelle",
+        "year": 1975
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Eternal Flame",
+        "artist": "The Bangles",
+        "year": 1989
+      }
+    ]
+  },
+  {
+    "name": "Salvatore Russo",
+    "gender": "Male",
+    "birth_year": 1949,
+    "hometown": "Brooklyn, NY",
+    "cultural_background": "Italian American",
+    "life_events": [
+      {
+        "year": 1967,
+        "event": "Graduated high school and joined family bakery"
+      },
+      {
+        "year": 1970,
+        "event": "Married and moved to Queens"
+      },
+      {
+        "year": 1974,
+        "event": "Opened a bakery branch in Long Island"
+      },
+      {
+        "year": 1981,
+        "event": "Divorced and moved back to Brooklyn"
       },
       {
         "year": 1985,
-        "event": "Opened a music store in San Antonio"
+        "event": "Became active in local community board"
       }
     ],
-    "id": "P174"
+    "id": "P155",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "My Love",
+        "artist": "Paul McCartney And Wings",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "Walk Like A Man",
+        "artist": "The 4 Seasons",
+        "year": 1963
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "Good Vibrations",
+        "artist": "The Beach Boys",
+        "year": 1967
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Island Girl",
+        "artist": "Elton John",
+        "year": 1975
+      },
+      {
+        "song": "Mack The Knife",
+        "artist": "Bobby Darin",
+        "year": 1960
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      }
+    ]
   },
   {
-    "name": "Linda Ng",
+    "name": "Yuki Tanaka",
     "gender": "Female",
-    "birth_year": 1948,
+    "birth_year": 1962,
+    "hometown": "Los Angeles, California",
+    "cultural_background": "Japanese American",
+    "life_events": [
+      {
+        "year": 1980,
+        "event": "Completed high school and started working in a flower shop"
+      },
+      {
+        "year": 1982,
+        "event": "Moved to San Francisco to live with her aunt and help in her restaurant"
+      },
+      {
+        "year": 1985,
+        "event": "Married a college student she met in San Francisco"
+      },
+      {
+        "year": 1987,
+        "event": "Returned to Los Angeles and opened her own floral business"
+      }
+    ],
+    "id": "P130",
+    "ground_truth_playlist": [
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "Let's Go Crazy",
+        "artist": "Prince And The Revolution",
+        "year": 1984
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      },
+      {
+        "song": "My Eyes Adored You",
+        "artist": "Frankie Valli",
+        "year": 1975
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Truly",
+        "artist": "Lionel Richie",
+        "year": 1983
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "name": "Ahmed Khan",
+    "gender": "Male",
+    "birth_year": 1963,
+    "hometown": "Houston, TX",
+    "cultural_background": "Pakistani American",
+    "life_events": [
+      {
+        "year": 1980,
+        "event": "Moved to the US with family from Pakistan"
+      },
+      {
+        "year": 1982,
+        "event": "Finished high school and started working as a postal worker"
+      },
+      {
+        "year": 1985,
+        "event": "Married and had first child"
+      },
+      {
+        "year": 1988,
+        "event": "Faced challenges balancing work and family life"
+      },
+      {
+        "year": 1990,
+        "event": "Became active in local community center"
+      }
+    ],
+    "id": "P060",
+    "ground_truth_playlist": [
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Hard To Say I'm Sorry",
+        "artist": "Chicago",
+        "year": 1982
+      },
+      {
+        "song": "Father Figure",
+        "artist": "George Michael",
+        "year": 1988
+      },
+      {
+        "song": "I Want To Know What Love Is",
+        "artist": "Foreigner",
+        "year": 1985
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "name": "Fen Wang",
+    "gender": "Male",
+    "birth_year": 1960,
     "hometown": "San Francisco, CA",
     "cultural_background": "Chinese American",
     "life_events": [
       {
-        "year": 1965,
-        "event": "Participated in civil rights marches"
-      },
-      {
-        "year": 1969,
-        "event": "Graduated with a degree in chemistry"
-      },
-      {
-        "year": 1971,
-        "event": "Moved to Seattle for a research job"
-      },
-      {
-        "year": 1973,
-        "event": "Married her college classmate and moved back to San Francisco"
-      },
-      {
         "year": 1977,
-        "event": "First child was born"
-      }
-    ],
-    "id": "P027"
-  },
-  {
-    "name": "Hiroshi Tanaka",
-    "gender": "Male",
-    "birth_year": 1945,
-    "hometown": "Seattle, WA",
-    "cultural_background": "Japanese American",
-    "life_events": [
-      {
-        "year": 1961,
-        "event": "Part of his high school's band group"
-      },
-      {
-        "year": 1964,
-        "event": "Moved to Tokyo to learn about family heritage"
-      },
-      {
-        "year": 1968,
-        "event": "Returned to Seattle and started working in the fishing industry"
-      },
-      {
-        "year": 1970,
-        "event": "Married a family friend from Tokyo"
-      },
-      {
-        "year": 1975,
-        "event": "Became a father to a daughter"
-      }
-    ],
-    "id": "P189"
-  },
-  {
-    "name": "James Robinson",
-    "gender": "Male",
-    "birth_year": 1956,
-    "hometown": "Detroit, Michigan",
-    "cultural_background": "African American",
-    "life_events": [
-      {
-        "year": 1972,
-        "event": "Started participating in civil rights activism after high school"
-      },
-      {
-        "year": 1975,
-        "event": "Joined the auto industry as an assembly line worker"
-      },
-      {
-        "year": 1978,
-        "event": "Married his college sweetheart, Lillian"
+        "event": "Graduated high school and started working as a cook"
       },
       {
         "year": 1980,
-        "event": "Promoted to shift supervisor in the plant"
+        "event": "Saved up and traveled around Asia"
+      },
+      {
+        "year": 1983,
+        "event": "Opened a small caf\u00e9 in Chinatown"
       },
       {
         "year": 1985,
-        "event": "Moved into a leadership role in the local union"
+        "event": "Married and had first child"
+      },
+      {
+        "year": 1990,
+        "event": "Joined local business improvement district"
       }
     ],
-    "id": "P036"
+    "id": "P056",
+    "ground_truth_playlist": [
+      {
+        "song": "Tell Her About It",
+        "artist": "Billy Joel",
+        "year": 1983
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Flashdance...What A Feeling",
+        "artist": "Irene Cara",
+        "year": 1983
+      },
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Sweet Dreams (Are Made Of This)",
+        "artist": "Eurythmics",
+        "year": 1983
+      },
+      {
+        "song": "Let's Dance",
+        "artist": "David Bowie",
+        "year": 1983
+      },
+      {
+        "song": "Down Under",
+        "artist": "Men At Work",
+        "year": 1983
+      },
+      {
+        "song": "Come On Eileen",
+        "artist": "Dexys Midnight Runners",
+        "year": 1983
+      },
+      {
+        "song": "Maniac",
+        "artist": "Michael Sembello",
+        "year": 1983
+      },
+      {
+        "song": "Beat It",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "I Want To Know What Love Is",
+        "artist": "Foreigner",
+        "year": 1985
+      },
+      {
+        "song": "We Are The World",
+        "artist": "USA For Africa",
+        "year": 1985
+      },
+      {
+        "song": "Every Rose Has Its Thorn",
+        "artist": "Poison",
+        "year": 1989
+      },
+      {
+        "song": "(I've Had) The Time Of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": 1988
+      },
+      {
+        "song": "Father Figure",
+        "artist": "George Michael",
+        "year": 1988
+      }
+    ]
   },
   {
-    "name": "Rachel Wong",
+    "name": "Anna Nguyen",
     "gender": "Female",
-    "birth_year": 1948,
+    "birth_year": 1946,
+    "hometown": "San Jose, California",
+    "cultural_background": "Vietnamese American",
+    "life_events": [
+      {
+        "year": 1963,
+        "event": "Family immigrated to the US from Vietnam"
+      },
+      {
+        "year": 1967,
+        "event": "Worked as a waitress to support family"
+      },
+      {
+        "year": 1970,
+        "event": "Married Tan, a fellow Vietnamese immigrant"
+      },
+      {
+        "year": 1972,
+        "event": "Son born, family continues to grow"
+      },
+      {
+        "year": 1975,
+        "event": "Active in Vietnamese community organization"
+      }
+    ],
+    "id": "P024",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "You've Got A Friend",
+        "artist": "James Taylor",
+        "year": 1971
+      },
+      {
+        "song": "Aquarius/Let The Sunshine In (The Flesh Failures)",
+        "artist": "The 5th Dimension",
+        "year": 1969
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Sukiyaki",
+        "artist": "Kyu Sakamoto",
+        "year": 1963
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "Happy Together",
+        "artist": "The Turtles",
+        "year": 1967
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "How Can You Mend A Broken Heart",
+        "artist": "Bee Gees",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "name": "Santiago Garcia",
+    "gender": "Male",
+    "birth_year": 1953,
+    "hometown": "Chicago, Illinois",
+    "cultural_background": "Puerto Rican American",
+    "life_events": [
+      {
+        "year": 1970,
+        "event": "Joined a local band and started playing at clubs."
+      },
+      {
+        "year": 1975,
+        "event": "Became a music teacher at a community center."
+      },
+      {
+        "year": 1981,
+        "event": "Married and had his first son."
+      },
+      {
+        "year": 1985,
+        "event": "Organized a neighborhood music festival."
+      }
+    ],
+    "id": "P008",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Sister Golden Hair",
+        "artist": "America",
+        "year": 1975
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "Lady Marmalade",
+        "artist": "Labelle",
+        "year": 1975
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "Good Vibrations",
+        "artist": "The Beach Boys",
+        "year": 1967
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1968
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      },
+      {
+        "song": "Hello, I Love You",
+        "artist": "The Doors",
+        "year": 1968
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      }
+    ]
+  },
+  {
+    "name": "Zara Ali",
+    "gender": "Female",
+    "birth_year": 1965,
+    "hometown": "Dearborn, Michigan",
+    "cultural_background": "Arab American",
+    "life_events": [
+      {
+        "year": 1983,
+        "event": "Started working as a store clerk in a family-owned business."
+      },
+      {
+        "year": 1986,
+        "event": "Got married and moved to a nearby city."
+      },
+      {
+        "year": 1990,
+        "event": "Had her first child."
+      },
+      {
+        "year": 1991,
+        "event": "Returned to work part-time while raising two children."
+      }
+    ],
+    "id": "P009",
+    "ground_truth_playlist": [
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Tell Her About It",
+        "artist": "Billy Joel",
+        "year": 1983
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Every Rose Has Its Thorn",
+        "artist": "Poison",
+        "year": 1989
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "(I've Had) The Time Of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": 1988
+      },
+      {
+        "song": "Father Figure",
+        "artist": "George Michael",
+        "year": 1988
+      },
+      {
+        "song": "I'll Be There For You",
+        "artist": "Bon Jovi",
+        "year": 1989
+      },
+      {
+        "song": "Eternal Flame",
+        "artist": "The Bangles",
+        "year": 1989
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "name": "Maria Rodriguez",
+    "gender": "Female",
+    "birth_year": 1940,
+    "hometown": "Miami, Florida",
+    "cultural_background": "Cuban American",
+    "life_events": [
+      {
+        "year": 1957,
+        "event": "Emigrated to America with her family"
+      },
+      {
+        "year": 1960,
+        "event": "Worked as a waitress in Little Havana"
+      },
+      {
+        "year": 1965,
+        "event": "Married a childhood friend"
+      },
+      {
+        "year": 1972,
+        "event": "Helped organize cultural festivals in Miami"
+      },
+      {
+        "year": 1984,
+        "event": "Became a grandmother and primary caregiver"
+      }
+    ],
+    "id": "P109",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Mack The Knife",
+        "artist": "Bobby Darin",
+        "year": 1960
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "House Of The Rising Sun",
+        "artist": "The Animals",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "I Want To Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964
+      },
+      {
+        "song": "Love Me Do",
+        "artist": "The Beatles",
+        "year": 1964
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1968
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "Nel Blu Dipinto Di Blu (Volar\u00e9)",
+        "artist": "Domenico Modugno",
+        "year": 1958
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "name": "Maria Sanchez",
+    "gender": "Female",
+    "birth_year": 1951,
+    "hometown": "San Antonio, TX",
+    "cultural_background": "Mexican American",
+    "life_events": [
+      {
+        "year": 1966,
+        "event": "Began working as a seamstress"
+      },
+      {
+        "year": 1970,
+        "event": "Married a local mechanic"
+      },
+      {
+        "year": 1974,
+        "event": "Had first child"
+      },
+      {
+        "year": 1978,
+        "event": "Started own sewing business"
+      },
+      {
+        "year": 1983,
+        "event": "Volunteered with church community kitchen"
+      }
+    ],
+    "id": "P152",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Good Vibrations",
+        "artist": "The Beach Boys",
+        "year": 1967
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      }
+    ]
+  },
+  {
+    "name": "Thomas Zawadzki",
+    "gender": "Male",
+    "birth_year": 1960,
+    "hometown": "Chicago, Illinois",
+    "cultural_background": "Polish American",
+    "life_events": [
+      {
+        "year": 1978,
+        "event": "Graduated high school and began working as a mechanic"
+      },
+      {
+        "year": 1980,
+        "event": "Married local neighborhood girl, Anna"
+      },
+      {
+        "year": 1983,
+        "event": "Opened his own auto repair shop"
+      },
+      {
+        "year": 1985,
+        "event": "Son was born, expanding family"
+      },
+      {
+        "year": 1988,
+        "event": "Shop suffered a fire, leading to financial hardship"
+      }
+    ],
+    "id": "P023",
+    "ground_truth_playlist": [
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Sweet Dreams (Are Made Of This)",
+        "artist": "Eurythmics",
+        "year": 1983
+      },
+      {
+        "song": "Flashdance...What A Feeling",
+        "artist": "Irene Cara",
+        "year": 1983
+      },
+      {
+        "song": "Tell Her About It",
+        "artist": "Billy Joel",
+        "year": 1983
+      },
+      {
+        "song": "Beat It",
+        "artist": "Michael Jackson",
+        "year": 1983
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "I'm Sorry",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Truly",
+        "artist": "Lionel Richie",
+        "year": 1983
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "I Want To Know What Love Is",
+        "artist": "Foreigner",
+        "year": 1985
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Hard To Say I'm Sorry",
+        "artist": "Chicago",
+        "year": 1982
+      }
+    ]
+  },
+  {
+    "name": "Linda Nguyen",
+    "gender": "Female",
+    "birth_year": 1957,
+    "hometown": "Seattle, Washington",
+    "cultural_background": "Vietnamese American",
+    "life_events": [
+      {
+        "year": 1975,
+        "event": "Escaped Vietnam and resettled in the US with family"
+      },
+      {
+        "year": 1980,
+        "event": "Started working as a seamstress"
+      },
+      {
+        "year": 1982,
+        "event": "Became an active member of local church community"
+      },
+      {
+        "year": 1987,
+        "event": "Started a family with husband, had two children"
+      }
+    ],
+    "id": "P140",
+    "ground_truth_playlist": [
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Sister Golden Hair",
+        "artist": "America",
+        "year": 1975
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Sweet Dreams (Are Made Of This)",
+        "artist": "Eurythmics",
+        "year": 1983
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Family Affair",
+        "artist": "Sly & The Family Stone",
+        "year": 1971
+      },
+      {
+        "song": "(I've Had) The Time Of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": 1988
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "name": "Leon Wong",
+    "gender": "Male",
+    "birth_year": 1945,
     "hometown": "San Francisco, California",
     "cultural_background": "Chinese American",
     "life_events": [
       {
-        "year": 1966,
-        "event": "Graduated from Lowell High School"
+        "year": 1963,
+        "event": "Started working at a family-owned restaurant"
+      },
+      {
+        "year": 1967,
+        "event": "Drafted into the military and served in Vietnam"
       },
       {
         "year": 1970,
-        "event": "Earned a degree in Biology from San Francisco State University"
+        "event": "Returned and began working as a store clerk"
       },
       {
         "year": 1972,
-        "event": "Traveled to China to connect with family heritage"
+        "event": "Married his long-time girlfriend, Mei"
       },
       {
-        "year": 1975,
-        "event": "Married and settled in San Francisco"
+        "year": 1974,
+        "event": "Became active in Chinatown community events"
+      }
+    ],
+    "id": "P217",
+    "ground_truth_playlist": [
+      {
+        "song": "Walk Like A Man",
+        "artist": "The 4 Seasons",
+        "year": 1963
+      },
+      {
+        "song": "Winchester Cathedral",
+        "artist": "The New Vaudeville Band",
+        "year": 1967
+      },
+      {
+        "song": "The Ballad Of The Green Berets",
+        "artist": "SSgt Barry Sadler",
+        "year": 1966
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      },
+      {
+        "song": "Sukiyaki",
+        "artist": "Kyu Sakamoto",
+        "year": 1963
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "Grazing In The Grass",
+        "artist": "Hugh Masekela",
+        "year": 1968
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "You've Got A Friend",
+        "artist": "James Taylor",
+        "year": 1971
+      },
+      {
+        "song": "How Can You Mend A Broken Heart",
+        "artist": "Bee Gees",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "name": "Clarence Washington",
+    "gender": "Male",
+    "birth_year": 1936,
+    "hometown": "Memphis, TN",
+    "cultural_background": "African American",
+    "life_events": [
+      {
+        "year": 1951,
+        "event": "Worked as a janitor at a local school"
+      },
+      {
+        "year": 1955,
+        "event": "Participated in local civil rights marches"
+      },
+      {
+        "year": 1960,
+        "event": "Became a deacon in his church"
+      },
+      {
+        "year": 1968,
+        "event": "Opened a small neighborhood grocery store"
+      },
+      {
+        "year": 1976,
+        "event": "Lost his store due to economic downturn"
+      }
+    ],
+    "id": "P174",
+    "ground_truth_playlist": [
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Mack The Knife",
+        "artist": "Bobby Darin",
+        "year": 1960
+      },
+      {
+        "song": "Stagger Lee",
+        "artist": "Lloyd Price",
+        "year": 1959
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Grazing In The Grass",
+        "artist": "Hugh Masekela",
+        "year": 1968
+      },
+      {
+        "song": "(Sittin' On) The Dock Of The Bay",
+        "artist": "Otis Redding",
+        "year": 1968
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Hello, Dolly!",
+        "artist": "Louis Armstrong And The All Stars",
+        "year": 1964
+      },
+      {
+        "song": "The Ballad Of The Green Berets",
+        "artist": "SSgt Barry Sadler",
+        "year": 1966
+      },
+      {
+        "song": "I Can't Stop Loving You",
+        "artist": "Ray Charles",
+        "year": 1962
+      },
+      {
+        "song": "Turn! Turn! Turn! (To Everything There Is A Season)",
+        "artist": "The Byrds",
+        "year": 1966
+      },
+      {
+        "song": "You've Lost That Lovin' Feelin'",
+        "artist": "The Righteous Brothers",
+        "year": 1965
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "Honey",
+        "artist": "Bobby Goldsboro",
+        "year": 1968
+      },
+      {
+        "song": "Just My Imagination (Running Away With Me)",
+        "artist": "The Temptations",
+        "year": 1971
+      }
+    ]
+  },
+  {
+    "name": "Evelyn Rodriguez",
+    "gender": "Female",
+    "birth_year": 1944,
+    "hometown": "New York, New York",
+    "cultural_background": "Puerto Rican American",
+    "life_events": [
+      {
+        "year": 1962,
+        "event": "Started working as a cook in a local restaurant"
+      },
+      {
+        "year": 1968,
+        "event": "Married musician Manuel, moved to Bronx"
+      },
+      {
+        "year": 1971,
+        "event": "Had first daughter, Maria"
+      },
+      {
+        "year": 1974,
+        "event": "Opened a small family-run eatery"
       },
       {
         "year": 1978,
-        "event": "Had her first child"
+        "event": "Second daughter born"
       }
     ],
-    "id": "P058"
+    "id": "P027",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Grazing In The Grass",
+        "artist": "Hugh Masekela",
+        "year": 1968
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "year": 1973
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Honey",
+        "artist": "Bobby Goldsboro",
+        "year": 1968
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      },
+      {
+        "song": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": 1975
+      },
+      {
+        "song": "Lady Marmalade",
+        "artist": "Labelle",
+        "year": 1975
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "Let's Do It Again",
+        "artist": "The Staple Singers",
+        "year": 1975
+      }
+    ]
   },
   {
-    "name": "Linda Murphy",
-    "gender": "Female",
-    "birth_year": 1948,
-    "hometown": "Boston, Massachusetts",
-    "cultural_background": "Irish American",
+    "name": "James White",
+    "gender": "Male",
+    "birth_year": 1964,
+    "hometown": "Knoxville, Tennessee",
+    "cultural_background": "White American (Appalachian)",
     "life_events": [
       {
-        "year": 1966,
-        "event": "Graduated from Boston Latin School"
-      },
-      {
-        "year": 1970,
-        "event": "Obtained a degree in nursing from Simmons College"
-      },
-      {
-        "year": 1972,
-        "event": "Participated in a charity run to support local hospitals"
-      },
-      {
-        "year": 1975,
-        "event": "Married a fellow nurse she met during training"
-      },
-      {
         "year": 1980,
-        "event": "Gave birth to her first child"
+        "event": "Dropped out of high school to work in coal mines to support his family."
+      },
+      {
+        "year": 1984,
+        "event": "Married his girlfriend from the nearby town."
+      },
+      {
+        "year": 1988,
+        "event": "Left mining to become a truck driver for better pay."
+      },
+      {
+        "year": 1990,
+        "event": "Started a side business selling hand-carved furniture."
       }
     ],
-    "id": "P063"
+    "id": "P189",
+    "ground_truth_playlist": [
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "Every Rose Has Its Thorn",
+        "artist": "Poison",
+        "year": 1989
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "Father Figure",
+        "artist": "George Michael",
+        "year": 1988
+      },
+      {
+        "song": "Never Gonna Give You Up",
+        "artist": "Rick Astley",
+        "year": 1988
+      },
+      {
+        "song": "Heaven Is A Place On Earth",
+        "artist": "Belinda Carlisle",
+        "year": 1988
+      },
+      {
+        "song": "Convoy",
+        "artist": "C.W. McCall",
+        "year": 1976
+      },
+      {
+        "song": "I'm Sorry",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Blaze Of Glory (From \"Young Guns II\")",
+        "artist": "Jon Bon Jovi",
+        "year": 1990
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "Hard To Say I'm Sorry",
+        "artist": "Chicago",
+        "year": 1982
+      },
+      {
+        "song": "I'll Be There For You",
+        "artist": "Bon Jovi",
+        "year": 1989
+      },
+      {
+        "song": "Eye Of The Tiger",
+        "artist": "Survivor",
+        "year": 1982
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      },
+      {
+        "song": "(I've Had) The Time Of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": 1988
+      }
+    ]
   },
   {
-    "name": "Gloria Thompson",
-    "gender": "Female",
+    "name": "Hiroshi Sato",
+    "gender": "Male",
+    "birth_year": 1945,
+    "hometown": "Los Angeles, California",
+    "cultural_background": "Japanese American",
+    "life_events": [
+      {
+        "year": 1963,
+        "event": "Started apprenticeship as a carpenter"
+      },
+      {
+        "year": 1968,
+        "event": "Married and had first child"
+      },
+      {
+        "year": 1971,
+        "event": "Opened his own carpentry business"
+      },
+      {
+        "year": 1977,
+        "event": "Volunteered to build homes with Habitat for Humanity"
+      },
+      {
+        "year": 1985,
+        "event": "Suffered a back injury but continued working in an advisory role"
+      }
+    ],
+    "id": "P036",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Walk Like A Man",
+        "artist": "The 4 Seasons",
+        "year": 1963
+      },
+      {
+        "song": "Sukiyaki",
+        "artist": "Kyu Sakamoto",
+        "year": 1963
+      },
+      {
+        "song": "Grazing In The Grass",
+        "artist": "Hugh Masekela",
+        "year": 1968
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1968
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "Honey",
+        "artist": "Bobby Goldsboro",
+        "year": 1968
+      },
+      {
+        "song": "You've Got A Friend",
+        "artist": "James Taylor",
+        "year": 1971
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      }
+    ]
+  },
+  {
+    "name": "John Petrovski",
+    "gender": "Male",
+    "birth_year": 1952,
+    "hometown": "Pittsburgh, PA",
+    "cultural_background": "Polish American",
+    "life_events": [
+      {
+        "year": 1970,
+        "event": "Started working in the steel mills after high school"
+      },
+      {
+        "year": 1974,
+        "event": "Married a local teacher"
+      },
+      {
+        "year": 1978,
+        "event": "Experienced layoffs during the steel industry decline"
+      },
+      {
+        "year": 1981,
+        "event": "Became a volunteer firefighter"
+      },
+      {
+        "year": 1985,
+        "event": "Started a small carpentry business"
+      }
+    ],
+    "id": "P058",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Maggie May/Reason To Believe",
+        "artist": "Rod Stewart",
+        "year": 1971
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "My Love",
+        "artist": "Paul McCartney And Wings",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "I'm Sorry",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Walk Like A Man",
+        "artist": "The 4 Seasons",
+        "year": 1963
+      },
+      {
+        "song": "Big Bad John",
+        "artist": "Jimmy Dean",
+        "year": 1962
+      },
+      {
+        "song": "The Ballad Of The Green Berets",
+        "artist": "SSgt Barry Sadler",
+        "year": 1966
+      },
+      {
+        "song": "Convoy",
+        "artist": "C.W. McCall",
+        "year": 1976
+      },
+      {
+        "song": "Can't Fight This Feeling",
+        "artist": "REO Speedwagon",
+        "year": 1985
+      },
+      {
+        "song": "Eye Of The Tiger",
+        "artist": "Survivor",
+        "year": 1982
+      }
+    ]
+  },
+  {
+    "name": "Anthony Russo",
+    "gender": "Male",
+    "birth_year": 1955,
+    "hometown": "Brooklyn, New York",
+    "cultural_background": "Italian American",
+    "life_events": [
+      {
+        "year": 1973,
+        "event": "Dropped out of high school to help in family pizzeria"
+      },
+      {
+        "year": 1978,
+        "event": "Married a childhood friend"
+      },
+      {
+        "year": 1982,
+        "event": "Opened a second pizzeria in Queens"
+      },
+      {
+        "year": 1985,
+        "event": "Lost his wife to illness"
+      },
+      {
+        "year": 1990,
+        "event": "Joined a community group focused on youth mentorship"
+      }
+    ],
+    "id": "P063",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Jump",
+        "artist": "Van Halen",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "Wind Beneath My Wings",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+        "artist": "Dawn Featuring Tony Orlando",
+        "year": 1973
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Father Figure",
+        "artist": "George Michael",
+        "year": 1988
+      },
+      {
+        "song": "I Want To Know What Love Is",
+        "artist": "Foreigner",
+        "year": 1985
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      }
+    ]
+  },
+  {
+    "name": "James Wilson",
+    "gender": "Male",
     "birth_year": 1942,
     "hometown": "Birmingham, Alabama",
     "cultural_background": "African American",
     "life_events": [
       {
-        "year": 1957,
-        "event": "Joined local church choir"
-      },
-      {
-        "year": 1960,
-        "event": "Graduated from high school as valedictorian"
-      },
-      {
-        "year": 1962,
-        "event": "Participated in Birmingham Civil Rights March"
-      },
-      {
-        "year": 1964,
-        "event": "Married high school sweetheart"
-      },
-      {
-        "year": 1970,
-        "event": "Gave birth to twin daughters"
-      }
-    ],
-    "id": "P071"
-  },
-  {
-    "name": "Vivian Santos",
-    "gender": "Female",
-    "birth_year": 1957,
-    "hometown": "Miami, FL",
-    "cultural_background": "Filipino American",
-    "life_events": [
-      {
-        "year": 1973,
-        "event": "Competed in high school debate team competitions"
-      },
-      {
-        "year": 1975,
-        "event": "Received a scholarship to University of Miami"
-      },
-      {
-        "year": 1979,
-        "event": "Graduated in Nursing"
-      },
-      {
-        "year": 1980,
-        "event": "Started job at Baptist Health Miami"
-      },
-      {
-        "year": 1982,
-        "event": "Married in a festive beach wedding"
-      }
-    ],
-    "id": "P190"
-  },
-  {
-    "name": "Maria Hernandez",
-    "gender": "Female",
-    "birth_year": 1958,
-    "hometown": "Phoenix, Arizona",
-    "cultural_background": "Puerto Rican American",
-    "life_events": [
-      {
-        "year": 1975,
-        "event": "Graduated from Central High School"
-      },
-      {
-        "year": 1978,
-        "event": "Moved to Chicago to attend college"
-      },
-      {
-        "year": 1980,
-        "event": "Received degree in education from University of Illinois"
-      },
-      {
-        "year": 1982,
-        "event": "Returned to Phoenix to start a teaching career"
-      },
-      {
-        "year": 1985,
-        "event": "Married a fellow teacher"
-      }
-    ],
-    "id": "P007"
-  },
-  {
-    "name": "David Nguyen",
-    "gender": "Male",
-    "birth_year": 1960,
-    "hometown": "Houston, TX",
-    "cultural_background": "Vietnamese American",
-    "life_events": [
-      {
-        "year": 1977,
-        "event": "Participated in high school debate team"
-      },
-      {
-        "year": 1982,
-        "event": "Graduated with a law degree"
-      },
-      {
-        "year": 1983,
-        "event": "Started a legal internship in Dallas"
-      },
-      {
-        "year": 1985,
-        "event": "Married a fellow lawyer"
-      },
-      {
-        "year": 1987,
-        "event": "Opened his own law firm"
-      }
-    ],
-    "id": "P029"
-  },
-  {
-    "name": "Frank Russo",
-    "gender": "Male",
-    "birth_year": 1940,
-    "hometown": "Brooklyn, New York",
-    "cultural_background": "Italian American",
-    "life_events": [
-      {
-        "year": 1955,
-        "event": "Started working at family pizzeria"
-      },
-      {
         "year": 1958,
-        "event": "Graduated from Bishop Ford Central Catholic High School"
+        "event": "Started working at a local steel mill"
       },
       {
         "year": 1961,
-        "event": "Drafted and served in the US Army"
+        "event": "Participated in civil rights protests"
       },
       {
         "year": 1965,
-        "event": "Married childhood friend in a church ceremony"
+        "event": "Married and started a family"
       },
       {
-        "year": 1969,
-        "event": "First child born"
+        "year": 1972,
+        "event": "Became a deacon at his church"
+      },
+      {
+        "year": 1980,
+        "event": "Factory closure led to job loss"
       }
     ],
-    "id": "P164"
+    "id": "P071",
+    "ground_truth_playlist": [
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "Baby Love",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "I Heard It Through The Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "year": 1973
+      },
+      {
+        "song": "Everyday People",
+        "artist": "Sly & The Family Stone",
+        "year": 1969
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "Let's Do It Again",
+        "artist": "The Staple Singers",
+        "year": 1975
+      },
+      {
+        "song": "Give Me Love - (Give Me Peace On Earth)",
+        "artist": "George Harrison",
+        "year": 1973
+      },
+      {
+        "song": "Reach Out I'll Be There",
+        "artist": "Four Tops",
+        "year": 1966
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968
+      }
+    ]
+  },
+  {
+    "name": "Fatima Nasser",
+    "gender": "Female",
+    "birth_year": 1960,
+    "hometown": "Dearborn, Michigan",
+    "cultural_background": "Arab American",
+    "life_events": [
+      {
+        "year": 1979,
+        "event": "Began working as a store clerk at her family's grocery store."
+      },
+      {
+        "year": 1981,
+        "event": "Married a fellow Arab American and started a family."
+      },
+      {
+        "year": 1985,
+        "event": "Helped organize cultural festivals at the local community center."
+      },
+      {
+        "year": 1989,
+        "event": "Became a volunteer for a local literacy program."
+      }
+    ],
+    "id": "P190",
+    "ground_truth_playlist": [
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Total Eclipse Of The Heart",
+        "artist": "Bonnie Tyler",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Say Say Say",
+        "artist": "Paul McCartney And Michael Jackson",
+        "year": 1984
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "Eternal Flame",
+        "artist": "The Bangles",
+        "year": 1989
+      },
+      {
+        "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+        "artist": "Bobby McFerrin",
+        "year": 1989
+      },
+      {
+        "song": "We Are The World",
+        "artist": "USA For Africa",
+        "year": 1985
+      },
+      {
+        "song": "Man In The Mirror",
+        "artist": "Michael Jackson",
+        "year": 1988
+      }
+    ]
+  },
+  {
+    "name": "Yumi Tanaka",
+    "gender": "Female",
+    "birth_year": 1942,
+    "hometown": "San Francisco, California",
+    "cultural_background": "Japanese American",
+    "life_events": [
+      {
+        "year": 1959,
+        "event": "Started working as a seamstress in a local garment factory."
+      },
+      {
+        "year": 1965,
+        "event": "Married a fellow factory worker."
+      },
+      {
+        "year": 1970,
+        "event": "Opened a small tailoring shop with her husband."
+      },
+      {
+        "year": 1980,
+        "event": "Won local business award for community service."
+      }
+    ],
+    "id": "P007",
+    "ground_truth_playlist": [
+      {
+        "song": "The Happy Organ",
+        "artist": "Dave \"Baby\" Cortez",
+        "year": 1959
+      },
+      {
+        "song": "The Lion Sleeps Tonight",
+        "artist": "The Tokens",
+        "year": 1962
+      },
+      {
+        "song": "Please Mr. Postman",
+        "artist": "The Marvelettes",
+        "year": 1962
+      },
+      {
+        "song": "Walk Like A Man",
+        "artist": "The 4 Seasons",
+        "year": 1963
+      },
+      {
+        "song": "Sukiyaki",
+        "artist": "Kyu Sakamoto",
+        "year": 1963
+      },
+      {
+        "song": "Where Did Our Love Go",
+        "artist": "The Supremes",
+        "year": 1964
+      },
+      {
+        "song": "I Want To Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964
+      },
+      {
+        "song": "You've Got A Friend",
+        "artist": "James Taylor",
+        "year": 1971
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "These Boots Are Made For Walkin'",
+        "artist": "Nancy Sinatra",
+        "year": 1966
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      },
+      {
+        "song": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": 1966
+      },
+      {
+        "song": "People Got To Be Free",
+        "artist": "The Rascals",
+        "year": 1968
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972
+      },
+      {
+        "song": "My Love",
+        "artist": "Paul McCartney And Wings",
+        "year": 1973
+      },
+      {
+        "song": "Happy Together",
+        "artist": "The Turtles",
+        "year": 1967
+      },
+      {
+        "song": "Chapel Of Love",
+        "artist": "The Dixie Cups",
+        "year": 1964
+      }
+    ]
+  },
+  {
+    "name": "Alicia Martinez",
+    "gender": "Female",
+    "birth_year": 1956,
+    "hometown": "Los Angeles, California",
+    "cultural_background": "Cuban American",
+    "life_events": [
+      {
+        "year": 1974,
+        "event": "Graduated high school, worked as a store clerk"
+      },
+      {
+        "year": 1977,
+        "event": "Enrolled in community college for business courses"
+      },
+      {
+        "year": 1980,
+        "event": "Married Julio, a graphic designer"
+      },
+      {
+        "year": 1982,
+        "event": "Opened a small boutique clothing store"
+      },
+      {
+        "year": 1988,
+        "event": "First child, a son, was born"
+      }
+    ],
+    "id": "P029",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "Every Rose Has Its Thorn",
+        "artist": "Poison",
+        "year": 1989
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "When Doves Cry",
+        "artist": "Prince",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Caribbean Queen (No More Love On The Run)",
+        "artist": "Billy Ocean",
+        "year": 1984
+      },
+      {
+        "song": "Eternal Flame",
+        "artist": "The Bangles",
+        "year": 1989
+      },
+      {
+        "song": "(I've Had) The Time Of My Life",
+        "artist": "Bill Medley & Jennifer Warnes",
+        "year": 1988
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      }
+    ]
+  },
+  {
+    "name": "Lena Kim",
+    "gender": "Female",
+    "birth_year": 1956,
+    "hometown": "Los Angeles, CA",
+    "cultural_background": "Korean American",
+    "life_events": [
+      {
+        "year": 1974,
+        "event": "Graduated high school and started working as a postal worker"
+      },
+      {
+        "year": 1978,
+        "event": "Helped her parents run their dry-cleaning business"
+      },
+      {
+        "year": 1982,
+        "event": "Organized a cultural festival in her Korean community"
+      },
+      {
+        "year": 1985,
+        "event": "Became a mother of two"
+      },
+      {
+        "year": 1989,
+        "event": "Faced economic hardship during a recession"
+      }
+    ],
+    "id": "P164",
+    "ground_truth_playlist": [
+      {
+        "song": "Me And Mrs. Jones",
+        "artist": "Billy Paul",
+        "year": 1973
+      },
+      {
+        "song": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": 1973
+      },
+      {
+        "song": "Philadelphia Freedom",
+        "artist": "The Elton John Band",
+        "year": 1975
+      },
+      {
+        "song": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": 1975
+      },
+      {
+        "song": "Get Down Tonight",
+        "artist": "KC And The Sunshine Band",
+        "year": 1975
+      },
+      {
+        "song": "I Just Called To Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984
+      },
+      {
+        "song": "What's Love Got To Do With It",
+        "artist": "Tina Turner",
+        "year": 1984
+      },
+      {
+        "song": "All Night Long (All Night)",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Islands In The Stream",
+        "artist": "Kenny Rogers Duet With Dolly Parton",
+        "year": 1984
+      },
+      {
+        "song": "Wake Me Up Before You Go-Go",
+        "artist": "Wham!",
+        "year": 1984
+      },
+      {
+        "song": "I Am Woman",
+        "artist": "Helen Reddy",
+        "year": 1973
+      },
+      {
+        "song": "I Can See Clearly Now",
+        "artist": "Johnny Nash",
+        "year": 1973
+      },
+      {
+        "song": "Against All Odds (Take A Look At Me Now)",
+        "artist": "Phil Collins",
+        "year": 1984
+      },
+      {
+        "song": "Hello",
+        "artist": "Lionel Richie",
+        "year": 1984
+      },
+      {
+        "song": "Wind Beneath My Wings (From \"Beaches\")",
+        "artist": "Bette Midler",
+        "year": 1989
+      },
+      {
+        "song": "She Drives Me Crazy",
+        "artist": "Fine Young Cannibals",
+        "year": 1989
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973
+      },
+      {
+        "song": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "year": 1975
+      },
+      {
+        "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+        "artist": "Bobby McFerrin",
+        "year": 1989
+      },
+      {
+        "song": "You Are The Sunshine Of My Life",
+        "artist": "Stevie Wonder",
+        "year": 1973
+      }
+    ]
   }
 ]
