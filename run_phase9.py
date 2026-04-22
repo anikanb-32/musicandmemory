@@ -1,6 +1,7 @@
 """
 Phase 9: Final Evaluation on Test Set
 Run after Phase 8 tuning is complete and best_configs.json exists.
+Run: python3 -u run_phase9.py | tee outputs/phase9_log.txt
 """
 from dotenv import load_dotenv
 load_dotenv(dotenv_path=".env")
@@ -10,7 +11,10 @@ import pandas as pd
 from src.retrieval import load_retrieval_system, retrieve
 from src.profiling import profile_to_context
 from src.generation import run_variant_a, run_variant_b, run_variant_c
-from src.evaluation import historical_plausibility, llm_judge, create_human_eval_sheet
+from src.evaluation import (
+    historical_plausibility, llm_judge, create_human_eval_sheet,
+    precision_at_k, recall, mrr
+)
 from configs.prompts import GENERATION_PROMPT, BASELINE_PROMPT
 
 os.makedirs("outputs", exist_ok=True)
@@ -35,9 +39,12 @@ print(f"Best configs: {json.dumps(best_configs, indent=2)}\n")
 
 # --- Run all 3 variants on every test profile ---
 results_all = {}
+raw_rows = []      # flat per-profile per-variant scores for CSV
+playlist_rows = [] # song-level rows for human eval
 
 for profile in test_profiles:
     pid = profile["id"]
+    gt_songs = [s["song"] for s in profile.get("ground_truth_playlist", [])]
     print(f"\n{'='*50}")
     print(f"Processing {pid}: {profile['name']} ({profile['gender']}, b.{profile['birth_year']})")
     print(f"{'='*50}")
@@ -51,12 +58,33 @@ for profile in test_profiles:
     start = time.time()
     result_a = run_variant_a(profile, BASELINE_PROMPT)
     time_a = time.time() - start
-    hist_a = historical_plausibility(result_a["playlist"], df, bump_start, bump_end)
-    judge_a = llm_judge(profile, result_a["playlist"])
+    hist_a  = historical_plausibility(result_a["playlist"], df, bump_start, bump_end)
+    judge_a = llm_judge(profile, result_a["playlist"], ground_truth=profile.get("ground_truth_playlist"))
     results_all[pid]["variant_a"] = {
         "result": result_a, "time": round(time_a, 1),
         "historical_plausibility": hist_a, "llm_judge": judge_a,
     }
+    raw_rows.append({
+        "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
+        "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+        "variant": "A", "method": "none", "k": "none",
+        "hist_plausibility": hist_a,
+        "bio_precision_llm": judge_a["biographical_precision"],
+        "cultural_approp_llm": judge_a["cultural_appropriateness"],
+        "overall_llm": judge_a["overall_quality"],
+        "precision_at_k": None, "recall": None, "mrr": None,
+        "time_sec": round(time_a, 1),
+    })
+    for song in result_a["playlist"]:
+        playlist_rows.append({
+            "variant": "A", "method": "none", "k": "none",
+            "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
+            "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+            "hometown": profile["hometown"],
+            "rank": song["rank"], "song": song["song"], "artist": song["artist"], "year": song["year"],
+            "relevance_reason": song.get("relevance", ""),
+            "biographical_precision_1_5": "", "cultural_appropriateness_1_5": "", "notes": "",
+        })
     print(f"    hist={hist_a:.2f}, bio={judge_a['biographical_precision']}, overall={judge_a['overall_quality']}")
 
     # Variant B
@@ -67,15 +95,40 @@ for profile in test_profiles:
         profile, faiss_index, bm25, df, GENERATION_PROMPT,
         method=cfg_b["method"], k=cfg_b["k"]
     )
-    time_b = time.time() - start
-    hist_b = historical_plausibility(result_b["playlist"], df, bump_start, bump_end)
-    judge_b = llm_judge(profile, result_b["playlist"])
+    time_b  = time.time() - start
+    hist_b  = historical_plausibility(result_b["playlist"], df, bump_start, bump_end)
+    judge_b = llm_judge(profile, result_b["playlist"], ground_truth=profile.get("ground_truth_playlist"))
+    p_at_k_b = precision_at_k(retrieved_b, gt_songs)
+    rec_b    = recall(retrieved_b, gt_songs)
+    mrr_b    = mrr(retrieved_b, gt_songs)
     results_all[pid]["variant_b"] = {
         "result": result_b, "time": round(time_b, 1),
         "historical_plausibility": hist_b, "llm_judge": judge_b,
+        "precision_at_k": p_at_k_b, "recall": rec_b, "mrr": mrr_b,
         "retrieved": retrieved_b.to_dict(),
     }
-    print(f"    hist={hist_b:.2f}, bio={judge_b['biographical_precision']}, overall={judge_b['overall_quality']}")
+    raw_rows.append({
+        "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
+        "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+        "variant": "B", "method": cfg_b["method"], "k": cfg_b["k"],
+        "hist_plausibility": hist_b,
+        "bio_precision_llm": judge_b["biographical_precision"],
+        "cultural_approp_llm": judge_b["cultural_appropriateness"],
+        "overall_llm": judge_b["overall_quality"],
+        "precision_at_k": p_at_k_b, "recall": rec_b, "mrr": mrr_b,
+        "time_sec": round(time_b, 1),
+    })
+    for song in result_b["playlist"]:
+        playlist_rows.append({
+            "variant": "B", "method": cfg_b["method"], "k": cfg_b["k"],
+            "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
+            "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+            "hometown": profile["hometown"],
+            "rank": song["rank"], "song": song["song"], "artist": song["artist"], "year": song["year"],
+            "relevance_reason": song.get("relevance", ""),
+            "biographical_precision_1_5": "", "cultural_appropriateness_1_5": "", "notes": "",
+        })
+    print(f"    hist={hist_b:.2f}, bio={judge_b['biographical_precision']}, overall={judge_b['overall_quality']}, P@k={p_at_k_b:.2f}, MRR={mrr_b:.2f}")
 
     # Variant C
     cfg_c = best_configs["variant_c"]
@@ -87,21 +140,51 @@ for profile in test_profiles:
         k_per_query=max(cfg_c["k"] // 5, 5),
         total_k=cfg_c["k"]
     )
-    time_c = time.time() - start
-    hist_c = historical_plausibility(result_c["playlist"], df, bump_start, bump_end)
-    judge_c = llm_judge(profile, result_c["playlist"])
+    time_c  = time.time() - start
+    hist_c  = historical_plausibility(result_c["playlist"], df, bump_start, bump_end)
+    judge_c = llm_judge(profile, result_c["playlist"], ground_truth=profile.get("ground_truth_playlist"))
+    p_at_k_c = precision_at_k(retrieved_c, gt_songs)
+    rec_c    = recall(retrieved_c, gt_songs)
+    mrr_c    = mrr(retrieved_c, gt_songs)
     results_all[pid]["variant_c"] = {
         "result": result_c, "time": round(time_c, 1),
         "historical_plausibility": hist_c, "llm_judge": judge_c,
+        "precision_at_k": p_at_k_c, "recall": rec_c, "mrr": mrr_c,
         "retrieved": retrieved_c.to_dict(), "queries": queries_c,
     }
-    print(f"    hist={hist_c:.2f}, bio={judge_c['biographical_precision']}, overall={judge_c['overall_quality']}")
+    raw_rows.append({
+        "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
+        "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+        "variant": "C", "method": cfg_c["method"], "k": cfg_c["k"],
+        "hist_plausibility": hist_c,
+        "bio_precision_llm": judge_c["biographical_precision"],
+        "cultural_approp_llm": judge_c["cultural_appropriateness"],
+        "overall_llm": judge_c["overall_quality"],
+        "precision_at_k": p_at_k_c, "recall": rec_c, "mrr": mrr_c,
+        "time_sec": round(time_c, 1),
+    })
+    for song in result_c["playlist"]:
+        playlist_rows.append({
+            "variant": "C", "method": cfg_c["method"], "k": cfg_c["k"],
+            "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
+            "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+            "hometown": profile["hometown"],
+            "rank": song["rank"], "song": song["song"], "artist": song["artist"], "year": song["year"],
+            "relevance_reason": song.get("relevance", ""),
+            "biographical_precision_1_5": "", "cultural_appropriateness_1_5": "", "notes": "",
+        })
+    print(f"    hist={hist_c:.2f}, bio={judge_c['biographical_precision']}, overall={judge_c['overall_quality']}, P@k={p_at_k_c:.2f}, MRR={mrr_c:.2f}")
 
-    # Save progress after each profile
+    # Save progress after each profile (JSON + CSVs)
     with open("outputs/test_experiment_results.json", "w") as f:
         json.dump(results_all, f, indent=2, default=str)
+    pd.DataFrame(raw_rows).to_csv("outputs/test_results_raw.csv", index=False)
+    pd.DataFrame(playlist_rows).to_csv("outputs/test_playlists.csv", index=False)
 
-print("\nAll test profiles done. Saved outputs/test_experiment_results.json")
+print("\nAll test profiles done.")
+print("Saved outputs/test_experiment_results.json")
+print("Saved outputs/test_results_raw.csv")
+print("Saved outputs/test_playlists.csv")
 
 # --- Human eval sheet ---
 create_human_eval_sheet(results_all, "outputs/human_eval_test_set.csv", set_name="test")
@@ -134,19 +217,26 @@ ablation_results = []
 for field in ["region", "life_events", "culture", "gender"]:
     print(f"\n--- Ablation: removing {field} ---")
     for profile in test_profiles:
-        result = run_ablation(profile, field, method=cfg_c["method"], total_k=cfg_c["k"])
-        judge = llm_judge(profile, result["playlist"])
-        ablation_results.append({
-            "profile_id": profile["id"],
-            "removed_field": field,
-            **judge,
-        })
-        print(f"  {profile['id']}: overall={judge['overall_quality']}")
+        try:
+            result = run_ablation(profile, field, method=cfg_c["method"], total_k=cfg_c["k"])
+            judge  = llm_judge(profile, result["playlist"])
+            ablation_results.append({
+                "profile_id": profile["id"], "name": profile["name"],
+                "gender": profile["gender"], "birth_year": profile["birth_year"],
+                "cultural_background": profile["cultural_background"],
+                "removed_field": field,
+                "bio_precision_llm": judge["biographical_precision"],
+                "cultural_approp_llm": judge["cultural_appropriateness"],
+                "overall_llm": judge["overall_quality"],
+            })
+            print(f"  {profile['id']} {profile['name']}: overall={judge['overall_quality']}")
+        except Exception as e:
+            print(f"  {profile['id']}: SKIPPED — {e}")
 
 ablation_df = pd.DataFrame(ablation_results)
+ablation_df.to_csv("outputs/ablation_results.csv", index=False)
 print("\nAblation summary:")
 print(ablation_df.groupby("removed_field")[
-    ["biographical_precision", "cultural_appropriateness", "overall_quality"]
+    ["bio_precision_llm", "cultural_approp_llm", "overall_llm"]
 ].mean().round(3))
-ablation_df.to_csv("outputs/ablation_results.csv", index=False)
 print("\nSaved outputs/ablation_results.csv")

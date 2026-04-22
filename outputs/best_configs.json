@@ -1,0 +1,10 @@
+{
+  "variant_b": {
+    "method": "bm25",
+    "k": 30
+  },
+  "variant_c": {
+    "method": "dense",
+    "k": 30
+  }
+}

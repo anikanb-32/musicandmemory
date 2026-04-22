@@ -1,6 +1,9 @@
 """
 Phase 8: Hyperparameter Tuning on Validation Set
-Run directly in your terminal: python3 run_phase8.py
+Tunes Variant B and Variant C separately over:
+  - methods: dense, bm25
+  - k values: 10, 20, 30
+Run: python3 -u run_phase8.py
 """
 from dotenv import load_dotenv
 load_dotenv(dotenv_path=".env")
@@ -10,11 +13,11 @@ import pandas as pd
 from src.retrieval import load_retrieval_system, retrieve
 from src.profiling import profile_to_context
 from src.generation import generate_playlist
-from src.evaluation import historical_plausibility, llm_judge
+from src.evaluation import historical_plausibility, llm_judge, precision_at_k, recall, mrr
 from configs.prompts import GENERATION_PROMPT
 
-RETRIEVAL_METHODS = ["dense", "bm25", "dense+rerank", "bm25+rerank"]
-K_VALUES = [10, 20, 30, 50]
+RETRIEVAL_METHODS = ["dense", "bm25"]
+K_VALUES = [10, 20, 30]
 
 os.makedirs("outputs", exist_ok=True)
 
@@ -32,12 +35,20 @@ random.seed(42)
 sample = random.sample(val_profiles, 25)
 print(f"Sampled {len(sample)} validation profiles\n")
 
+
+def get_ground_truth_songs(profile):
+    """Return list of song titles from the profile's ground truth playlist."""
+    return [s["song"] for s in profile.get("ground_truth_playlist", [])]
+
+
 # ── VARIANT B ──────────────────────────────────────────────────────────────
 print("=" * 60)
 print("TUNING VARIANT B")
 print("=" * 60)
 
 results_b = []
+raw_b = []
+playlists_b = []  # full playlists for human eval
 for method in RETRIEVAL_METHODS:
     for k in K_VALUES:
         print(f"\n--- Variant B | method={method} | k={k} ---")
@@ -45,6 +56,7 @@ for method in RETRIEVAL_METHODS:
         for i, profile in enumerate(sample):
             bump_start = profile["birth_year"] + 15
             bump_end   = profile["birth_year"] + 25
+            gt_songs   = get_ground_truth_songs(profile)
             try:
                 retrieved = retrieve(
                     f"popular songs {bump_start}-{bump_end}",
@@ -52,26 +64,54 @@ for method in RETRIEVAL_METHODS:
                 )
                 result = generate_playlist(profile, retrieved, GENERATION_PROMPT)
                 hist   = historical_plausibility(result["playlist"], df, bump_start, bump_end)
-                judge  = llm_judge(profile, result["playlist"])
-                scores.append({
-                    "hist_plausibility":  hist,
-                    "bio_precision_llm":  judge["biographical_precision"],
+                judge  = llm_judge(profile, result["playlist"], ground_truth=profile.get("ground_truth_playlist"))
+                p_at_k = precision_at_k(retrieved, gt_songs)
+                rec    = recall(retrieved, gt_songs)
+                rr     = mrr(retrieved, gt_songs)
+                row = {
+                    "variant": "B", "method": method, "k": k,
+                    "profile_id": profile.get("id"), "name": profile["name"],
+                    "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+                    "hist_plausibility":   hist,
+                    "bio_precision_llm":   judge["biographical_precision"],
                     "cultural_approp_llm": judge["cultural_appropriateness"],
-                    "overall_llm":        judge["overall_quality"],
-                })
-                print(f"  [{i+1}/25] {profile['name']}: hist={hist:.2f}, overall={judge['overall_quality']}")
+                    "overall_llm":         judge["overall_quality"],
+                    "precision_at_k":      p_at_k,
+                    "recall":              rec,
+                    "mrr":                 rr,
+                }
+                scores.append(row)
+                raw_b.append(row)
+                # Save full playlist for human eval
+                for song in result["playlist"]:
+                    playlists_b.append({
+                        "variant": "B", "method": method, "k": k,
+                        "profile_id": profile.get("id"), "name": profile["name"],
+                        "gender": profile["gender"], "birth_year": profile["birth_year"],
+                        "cultural_background": profile["cultural_background"],
+                        "hometown": profile["hometown"],
+                        "rank": song["rank"], "song": song["song"],
+                        "artist": song["artist"], "year": song["year"],
+                        "relevance_reason": song.get("relevance", ""),
+                        "biographical_precision_1_5": "",
+                        "cultural_appropriateness_1_5": "",
+                        "notes": "",
+                    })
+                print(f"  [{i+1}/25] {profile['name']}: hist={hist:.2f}, overall={judge['overall_quality']}, P@k={p_at_k:.2f}, MRR={rr:.2f}")
             except Exception as e:
                 print(f"  [{i+1}/25] {profile['name']}: SKIPPED — {e}")
 
         if scores:
-            avg = pd.DataFrame(scores).mean().to_dict()
+            avg = pd.DataFrame(scores).mean(numeric_only=True).to_dict()
             results_b.append({"variant": "B", "method": method, "k": k,
                                **{f"avg_{k2}": v for k2, v in avg.items()}})
             print(f"  >>> Avg: {avg}")
 
 tuning_b = pd.DataFrame(results_b)
 tuning_b.to_csv("outputs/tuning_variant_b.csv", index=False)
-print("\nVariant B saved to outputs/tuning_variant_b.csv")
+pd.DataFrame(raw_b).to_csv("outputs/tuning_variant_b_raw.csv", index=False)
+pd.DataFrame(playlists_b).to_csv("outputs/tuning_variant_b_playlists.csv", index=False)
+print("\nVariant B saved to outputs/tuning_variant_b.csv, tuning_variant_b_raw.csv, tuning_variant_b_playlists.csv")
 
 # ── VARIANT C ──────────────────────────────────────────────────────────────
 print("\n" + "=" * 60)
@@ -79,6 +119,8 @@ print("TUNING VARIANT C")
 print("=" * 60)
 
 results_c = []
+raw_c = []
+playlists_c = []  # full playlists for human eval
 for method in RETRIEVAL_METHODS:
     for k in K_VALUES:
         print(f"\n--- Variant C | method={method} | total_k={k} ---")
@@ -86,6 +128,7 @@ for method in RETRIEVAL_METHODS:
         for i, profile in enumerate(sample):
             bump_start = profile["birth_year"] + 15
             bump_end   = profile["birth_year"] + 25
+            gt_songs   = get_ground_truth_songs(profile)
             try:
                 retrieved, _ = profile_to_context(
                     profile, faiss_index, bm25, df,
@@ -93,26 +136,54 @@ for method in RETRIEVAL_METHODS:
                 )
                 result = generate_playlist(profile, retrieved, GENERATION_PROMPT)
                 hist   = historical_plausibility(result["playlist"], df, bump_start, bump_end)
-                judge  = llm_judge(profile, result["playlist"])
-                scores.append({
-                    "hist_plausibility":  hist,
-                    "bio_precision_llm":  judge["biographical_precision"],
+                judge  = llm_judge(profile, result["playlist"], ground_truth=profile.get("ground_truth_playlist"))
+                p_at_k = precision_at_k(retrieved, gt_songs)
+                rec    = recall(retrieved, gt_songs)
+                rr     = mrr(retrieved, gt_songs)
+                row = {
+                    "variant": "C", "method": method, "k": k,
+                    "profile_id": profile.get("id"), "name": profile["name"],
+                    "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
+                    "hist_plausibility":   hist,
+                    "bio_precision_llm":   judge["biographical_precision"],
                     "cultural_approp_llm": judge["cultural_appropriateness"],
-                    "overall_llm":        judge["overall_quality"],
-                })
-                print(f"  [{i+1}/25] {profile['name']}: hist={hist:.2f}, overall={judge['overall_quality']}")
+                    "overall_llm":         judge["overall_quality"],
+                    "precision_at_k":      p_at_k,
+                    "recall":              rec,
+                    "mrr":                 rr,
+                }
+                scores.append(row)
+                raw_c.append(row)
+                # Save full playlist for human eval
+                for song in result["playlist"]:
+                    playlists_c.append({
+                        "variant": "C", "method": method, "k": k,
+                        "profile_id": profile.get("id"), "name": profile["name"],
+                        "gender": profile["gender"], "birth_year": profile["birth_year"],
+                        "cultural_background": profile["cultural_background"],
+                        "hometown": profile["hometown"],
+                        "rank": song["rank"], "song": song["song"],
+                        "artist": song["artist"], "year": song["year"],
+                        "relevance_reason": song.get("relevance", ""),
+                        "biographical_precision_1_5": "",
+                        "cultural_appropriateness_1_5": "",
+                        "notes": "",
+                    })
+                print(f"  [{i+1}/25] {profile['name']}: hist={hist:.2f}, overall={judge['overall_quality']}, P@k={p_at_k:.2f}, MRR={rr:.2f}")
             except Exception as e:
                 print(f"  [{i+1}/25] {profile['name']}: SKIPPED — {e}")
 
         if scores:
-            avg = pd.DataFrame(scores).mean().to_dict()
+            avg = pd.DataFrame(scores).mean(numeric_only=True).to_dict()
             results_c.append({"variant": "C", "method": method, "k": k,
                                **{f"avg_{k2}": v for k2, v in avg.items()}})
             print(f"  >>> Avg: {avg}")
 
 tuning_c = pd.DataFrame(results_c)
 tuning_c.to_csv("outputs/tuning_variant_c.csv", index=False)
-print("\nVariant C saved to outputs/tuning_variant_c.csv")
+pd.DataFrame(raw_c).to_csv("outputs/tuning_variant_c_raw.csv", index=False)
+pd.DataFrame(playlists_c).to_csv("outputs/tuning_variant_c_playlists.csv", index=False)
+print("\nVariant C saved to outputs/tuning_variant_c.csv, tuning_variant_c_raw.csv, tuning_variant_c_playlists.csv")
 
 # ── BEST CONFIGS ───────────────────────────────────────────────────────────
 best_b = tuning_b.sort_values("avg_overall_llm", ascending=False).iloc[0]
