@@ -1,0 +1,10 @@
+{
+  "variant": "A",
+  "method": "none",
+  "k": 0,
+  "n_profiles": 25,
+  "avg_hist_plausibility": 0.576,
+  "avg_bio_precision_llm": 3.64,
+  "avg_cultural_approp_llm": 3.84,
+  "avg_overall_llm": 3.68
+}

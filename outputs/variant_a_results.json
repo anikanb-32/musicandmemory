@@ -1,0 +1,5720 @@
+[
+  {
+    "profile_id": "P097",
+    "name": "Aisha Khan",
+    "profile": {
+      "name": "Aisha Khan",
+      "gender": "Female",
+      "birth_year": 1963,
+      "hometown": "St. Louis, Missouri",
+      "cultural_background": "Pakistani American",
+      "life_events": [
+        {
+          "year": 1981,
+          "event": "Enrolled in nursing school against the odds"
+        },
+        {
+          "year": 1985,
+          "event": "Married Amir, her college classmate"
+        },
+        {
+          "year": 1987,
+          "event": "Moved to Chicago for better job opportunities"
+        },
+        {
+          "year": 1989,
+          "event": "Had a daughter, her first child"
+        },
+        {
+          "year": 1992,
+          "event": "Started a support group for immigrant women"
+        }
+      ],
+      "id": "P097",
+      "ground_truth_playlist": [
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "When Doves Cry",
+          "artist": "Prince",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "Jump",
+          "artist": "Van Halen",
+          "year": 1984
+        },
+        {
+          "song": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder",
+          "year": 1984
+        },
+        {
+          "song": "Islands In The Stream",
+          "artist": "Kenny Rogers Duet With Dolly Parton",
+          "year": 1984
+        },
+        {
+          "song": "Total Eclipse Of The Heart",
+          "artist": "Bonnie Tyler",
+          "year": 1984
+        },
+        {
+          "song": "Every Breath You Take",
+          "artist": "The Police",
+          "year": 1983
+        },
+        {
+          "song": "Flashdance...What A Feeling",
+          "artist": "Irene Cara",
+          "year": 1983
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "Wind Beneath My Wings (From \"Beaches\")",
+          "artist": "Bette Midler",
+          "year": 1989
+        },
+        {
+          "song": "I'll Be There For You",
+          "artist": "Bon Jovi",
+          "year": 1989
+        },
+        {
+          "song": "Man In The Mirror",
+          "artist": "Michael Jackson",
+          "year": 1988
+        },
+        {
+          "song": "(I've Had) The Time Of My Life",
+          "artist": "Bill Medley & Jennifer Warnes",
+          "year": 1988
+        },
+        {
+          "song": "Straight Up",
+          "artist": "Paula Abdul",
+          "year": 1989
+        },
+        {
+          "song": "We Are The World",
+          "artist": "USA For Africa",
+          "year": 1985
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+          "artist": "Bobby McFerrin",
+          "year": 1989
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Sweet Dreams (Are Made of This)",
+        "artist": "Eurythmics",
+        "year": 1983,
+        "justification": "A popular song during Aisha's nursing school years, embodying dreams and perseverance.",
+        "rank": 1
+      },
+      {
+        "song": "Thriller",
+        "artist": "Michael Jackson",
+        "year": 1982,
+        "justification": "An iconic hit from Aisha's young adulthood, widely celebrated across cultures.",
+        "rank": 2
+      },
+      {
+        "song": "Like a Prayer",
+        "artist": "Madonna",
+        "year": 1989,
+        "justification": "A song from the year Aisha became a mother, capturing the transformative period in her life.",
+        "rank": 3
+      },
+      {
+        "song": "I Wanna Dance with Somebody (Who Loves Me)",
+        "artist": "Whitney Houston",
+        "year": 1987,
+        "justification": "Reflects the joy and excitement of moving to Chicago with her husband.",
+        "rank": 4
+      },
+      {
+        "song": "Don't Stop Believin'",
+        "artist": "Journey",
+        "year": 1981,
+        "justification": "An anthem of hope and resilience during her challenging nursing school years.",
+        "rank": 5
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983,
+        "justification": "A memorable song from her early adult life, often played at social gatherings.",
+        "rank": 6
+      },
+      {
+        "song": "We Are Family",
+        "artist": "Sister Sledge",
+        "year": 1979,
+        "justification": "Celebrates family and community, themes central to Aisha's cultural background.",
+        "rank": 7
+      },
+      {
+        "song": "Karma Chameleon",
+        "artist": "Culture Club",
+        "year": 1983,
+        "justification": "A lively hit that might have been part of her social and cultural experiences.",
+        "rank": 8
+      },
+      {
+        "song": "Material Girl",
+        "artist": "Madonna",
+        "year": 1984,
+        "justification": "Represents the vibrant pop culture of the mid-80s when Aisha was in college.",
+        "rank": 9
+      },
+      {
+        "song": "Chariots of Fire",
+        "artist": "Vangelis",
+        "year": 1981,
+        "justification": "An inspiring instrumental piece symbolizing her determination and achievements.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Sweet Dreams (Are Made of This)",
+        "conversation_prompt": "How did you feel when you first started nursing school? What were your dreams back then?"
+      },
+      {
+        "song": "I Wanna Dance with Somebody (Who Loves Me)",
+        "conversation_prompt": "What was it like moving to Chicago with Amir? Do you remember your first days in the city?"
+      },
+      {
+        "song": "We Are Family",
+        "conversation_prompt": "Can you share more about starting the support group for immigrant women? What inspired you?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P097",
+      "name": "Aisha Khan",
+      "hist_plausibility": 0.6,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 3,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P031",
+    "name": "Eloise Johnson",
+    "profile": {
+      "name": "Eloise Johnson",
+      "gender": "Female",
+      "birth_year": 1942,
+      "hometown": "Atlanta, Georgia",
+      "cultural_background": "African American",
+      "life_events": [
+        {
+          "year": 1959,
+          "event": "Started working as a seamstress at a local factory"
+        },
+        {
+          "year": 1965,
+          "event": "Participated in Civil Rights marches in Atlanta"
+        },
+        {
+          "year": 1970,
+          "event": "Married and started a family with two children"
+        },
+        {
+          "year": 1978,
+          "event": "Became a member of the local church choir"
+        },
+        {
+          "year": 1985,
+          "event": "Lost husband to a workplace accident"
+        }
+      ],
+      "id": "P031",
+      "ground_truth_playlist": [
+        {
+          "song": "Please Mr. Postman",
+          "artist": "The Marvelettes",
+          "year": 1962
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "Baby Love",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "I Heard It Through The Grapevine",
+          "artist": "Marvin Gaye",
+          "year": 1968
+        },
+        {
+          "song": "Let's Stay Together",
+          "artist": "Al Green",
+          "year": 1972
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "Let's Get It On",
+          "artist": "Marvin Gaye",
+          "year": 1973
+        },
+        {
+          "song": "Lady Marmalade",
+          "artist": "Labelle",
+          "year": 1975
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "You've Got A Friend",
+          "artist": "James Taylor",
+          "year": 1971
+        },
+        {
+          "song": "Reach Out I'll Be There",
+          "artist": "Four Tops",
+          "year": 1966
+        },
+        {
+          "song": "Happy Together",
+          "artist": "The Turtles",
+          "year": 1967
+        },
+        {
+          "song": "Everyday People",
+          "artist": "Sly & The Family Stone",
+          "year": 1969
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "A Change Is Gonna Come",
+        "artist": "Sam Cooke",
+        "year": 1964,
+        "justification": "This song is an anthem of the Civil Rights Movement, which Eloise participated in during the 1960s.",
+        "rank": 1
+      },
+      {
+        "song": "Respect",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "justification": "Aretha Franklin's music resonates with Eloise's cultural background and empowerment during the Civil Rights era.",
+        "rank": 2
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "This classic Motown hit would have been popular during Eloise's youth and may remind her of her early years.",
+        "rank": 3
+      },
+      {
+        "song": "Georgia on My Mind",
+        "artist": "Ray Charles",
+        "year": 1960,
+        "justification": "Being from Georgia, this song could evoke memories of home and the places Eloise grew up.",
+        "rank": 4
+      },
+      {
+        "song": "I Say a Little Prayer",
+        "artist": "Dionne Warwick",
+        "year": 1967,
+        "justification": "Eloise's involvement in the church choir might make this soulful song particularly meaningful.",
+        "rank": 5
+      },
+      {
+        "song": "Chain of Fools",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "justification": "Another Aretha Franklin classic that captures the spirit of the era and Eloise's cultural heritage.",
+        "rank": 6
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "A song about support and unity, reflecting themes that were important during the Civil Rights Movement.",
+        "rank": 7
+      },
+      {
+        "song": "Dancing in the Street",
+        "artist": "Martha and the Vandellas",
+        "year": 1964,
+        "justification": "A joyful song that was a call to action and celebration during the 1960s.",
+        "rank": 8
+      },
+      {
+        "song": "I Heard It Through the Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968,
+        "justification": "A popular Motown hit that Eloise would have heard frequently and might find nostalgic.",
+        "rank": 9
+      },
+      {
+        "song": "What a Wonderful World",
+        "artist": "Louis Armstrong",
+        "year": 1967,
+        "justification": "This song's hopeful message and soulful delivery may resonate with Eloise's positive outlook on life.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "A Change Is Gonna Come",
+        "conversation_prompt": "Do you remember any of the marches you participated in during the 1960s?"
+      },
+      {
+        "song": "Georgia on My Mind",
+        "conversation_prompt": "What are some of your favorite memories of growing up in Atlanta?"
+      },
+      {
+        "song": "I Say a Little Prayer",
+        "conversation_prompt": "Can you tell me about your time singing in the church choir?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P031",
+      "name": "Eloise Johnson",
+      "hist_plausibility": 0.7,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P102",
+    "name": "Elena Martinez",
+    "profile": {
+      "name": "Elena Martinez",
+      "gender": "Female",
+      "birth_year": 1950,
+      "hometown": "San Antonio, Texas",
+      "cultural_background": "Mexican American",
+      "life_events": [
+        {
+          "year": 1967,
+          "event": "Started working as a seamstress"
+        },
+        {
+          "year": 1969,
+          "event": "Gave birth to her first daughter"
+        },
+        {
+          "year": 1973,
+          "event": "Became active in a local women's rights group"
+        },
+        {
+          "year": 1977,
+          "event": "Divorced and raised her children as a single parent"
+        },
+        {
+          "year": 1980,
+          "event": "Opened a small tailor shop"
+        }
+      ],
+      "id": "P102",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Give Me Love - (Give Me Peace On Earth)",
+          "artist": "George Harrison",
+          "year": 1973
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "Ben",
+          "artist": "Michael Jackson",
+          "year": 1972
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "Harper Valley P.T.A.",
+          "artist": "Jeannie C. Riley",
+          "year": 1968
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "The Night The Lights Went Out In Georgia",
+          "artist": "Vicki Lawrence",
+          "year": 1973
+        },
+        {
+          "song": "Before The Next Teardrop Falls",
+          "artist": "Freddy Fender",
+          "year": 1975
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "La Bamba",
+        "artist": "Ritchie Valens",
+        "year": 1958,
+        "justification": "A popular Mexican-American rock and roll song that connects with Elena's cultural background.",
+        "rank": 1
+      },
+      {
+        "song": "The Tracks of My Tears",
+        "artist": "Smokey Robinson & The Miracles",
+        "year": 1965,
+        "justification": "A soulful hit from the 1960s that might have resonated with her during emotional times.",
+        "rank": 2
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "An enduring classic about resilience and support, echoing her role as a single mother.",
+        "rank": 3
+      },
+      {
+        "song": "Guantanamera",
+        "artist": "The Sandpipers",
+        "year": 1966,
+        "justification": "A rendition of a Cuban classic that was popular in the 60s, reflecting her cultural ties.",
+        "rank": 4
+      },
+      {
+        "song": "Respect",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "justification": "An anthem for women's rights during the time she became active in a local women's rights group.",
+        "rank": 5
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "A song that could remind her of her daughter, born in 1969.",
+        "rank": 6
+      },
+      {
+        "song": "Besame Mucho",
+        "artist": "Trio Los Panchos",
+        "year": 1961,
+        "justification": "A romantic bolero that ties back to her Mexican heritage.",
+        "rank": 7
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1967,
+        "justification": "A rock classic from her young adult years, representing the era's spirit of change.",
+        "rank": 8
+      },
+      {
+        "song": "Brown Eyed Girl",
+        "artist": "Van Morrison",
+        "year": 1967,
+        "justification": "A joyful song that might evoke happy memories from her youth.",
+        "rank": 9
+      },
+      {
+        "song": "Volver, Volver",
+        "artist": "Vicente Fernandez",
+        "year": 1972,
+        "justification": "A ranchera favorite that connects to her Mexican roots and themes of longing.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "La Bamba",
+        "conversation_prompt": "Did you ever dance to this song when you were young?"
+      },
+      {
+        "song": "Respect",
+        "conversation_prompt": "What do you remember about your involvement with the women's rights group?"
+      },
+      {
+        "song": "My Girl",
+        "conversation_prompt": "What was it like when your first daughter was born?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P102",
+      "name": "Elena Martinez",
+      "hist_plausibility": 0.3,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 4,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P099",
+    "name": "Ngo Thi Pham",
+    "profile": {
+      "name": "Ngo Thi Pham",
+      "gender": "Female",
+      "birth_year": 1945,
+      "hometown": "New Orleans, Louisiana",
+      "cultural_background": "Vietnamese American",
+      "life_events": [
+        {
+          "year": 1975,
+          "event": "Immigrated to the US after the fall of Saigon"
+        },
+        {
+          "year": 1977,
+          "event": "Worked as a seamstress to support her family"
+        },
+        {
+          "year": 1980,
+          "event": "Opened a small tailoring shop in her community"
+        },
+        {
+          "year": 1982,
+          "event": "Got married to a fellow immigrant, Quang"
+        },
+        {
+          "year": 1989,
+          "event": "Became active in organizing cultural festivals"
+        }
+      ],
+      "id": "P099",
+      "ground_truth_playlist": [
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Let's Stay Together",
+          "artist": "Al Green",
+          "year": 1972
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "Sukiyaki",
+          "artist": "Kyu Sakamoto",
+          "year": 1963
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "I Heard It Through The Grapevine",
+          "artist": "Marvin Gaye",
+          "year": 1968
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "Island Girl",
+          "artist": "Elton John",
+          "year": 1975
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "This song was a hit during her formative years and may remind her of joyful moments in New Orleans.",
+        "rank": 1
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964,
+        "justification": "The Beatles were globally popular, and this song might evoke memories of the cultural shifts during her youth.",
+        "rank": 2
+      },
+      {
+        "song": "Dancing in the Street",
+        "artist": "Martha and the Vandellas",
+        "year": 1964,
+        "justification": "A song associated with celebration and community, relevant to her involvement in cultural festivals.",
+        "rank": 3
+      },
+      {
+        "song": "The Sound of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": 1965,
+        "justification": "A reflective song that might resonate with her experiences of change and adaptation.",
+        "rank": 4
+      },
+      {
+        "song": "Unchained Melody",
+        "artist": "The Righteous Brothers",
+        "year": 1965,
+        "justification": "A romantic classic that could remind her of early days with her husband, Quang.",
+        "rank": 5
+      },
+      {
+        "song": "You Send Me",
+        "artist": "Sam Cooke",
+        "year": 1957,
+        "justification": "A soulful love song that might remind her of meaningful relationships and community ties.",
+        "rank": 6
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "A song about solidarity and support, reflecting her life journey with her family and community.",
+        "rank": 7
+      },
+      {
+        "song": "Moon River",
+        "artist": "Henry Mancini",
+        "year": 1961,
+        "justification": "A nostalgic melody that may connect with her memories of both Vietnam and New Orleans.",
+        "rank": 8
+      },
+      {
+        "song": "I Got You Babe",
+        "artist": "Sonny & Cher",
+        "year": 1965,
+        "justification": "A duet that could evoke memories of love and partnership, akin to her marriage.",
+        "rank": 9
+      },
+      {
+        "song": "What a Wonderful World",
+        "artist": "Louis Armstrong",
+        "year": 1967,
+        "justification": "A song by a New Orleans native that reflects optimism and beauty in the world, resonating with her hopeful outlook.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "My Girl",
+        "conversation_prompt": "Did you have a favorite dance spot in New Orleans where you might have heard this song?"
+      },
+      {
+        "song": "Dancing in the Street",
+        "conversation_prompt": "Do you remember any festivals or community events in New Orleans where this song played?"
+      },
+      {
+        "song": "What a Wonderful World",
+        "conversation_prompt": "What are some beautiful memories you have from your time in New Orleans?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P099",
+      "name": "Ngo Thi Pham",
+      "hist_plausibility": 0.5,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 4,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P078",
+    "name": "Fernando De la Cruz",
+    "profile": {
+      "name": "Fernando De la Cruz",
+      "gender": "Male",
+      "birth_year": 1948,
+      "hometown": "Chicago, Illinois",
+      "cultural_background": "Dominican American",
+      "life_events": [
+        {
+          "year": 1966,
+          "event": "Moved to Chicago for manufacturing job"
+        },
+        {
+          "year": 1969,
+          "event": "Married high school sweetheart"
+        },
+        {
+          "year": 1976,
+          "event": "Became involved in local church activities"
+        },
+        {
+          "year": 1984,
+          "event": "Laid off during economic downturn"
+        },
+        {
+          "year": 1987,
+          "event": "Started new job as a bus driver"
+        }
+      ],
+      "id": "P078",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "Shining Star",
+          "artist": "Earth, Wind & Fire",
+          "year": 1975
+        },
+        {
+          "song": "Bad, Bad Leroy Brown",
+          "artist": "Jim Croce",
+          "year": 1973
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        },
+        {
+          "song": "Grazing In The Grass",
+          "artist": "Hugh Masekela",
+          "year": 1968
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Before The Next Teardrop Falls",
+          "artist": "Freddy Fender",
+          "year": 1975
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "(Sittin' On) The Dock Of The Bay",
+          "artist": "Otis Redding",
+          "year": 1968
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "This song was a popular hit when Fernando was in his late teens and early twenties, and its themes of love may remind him of his early years with his wife.",
+        "rank": 1
+      },
+      {
+        "song": "A Whiter Shade of Pale",
+        "artist": "Procol Harum",
+        "year": 1967,
+        "justification": "A major hit in the late 1960s, this song's unique sound might evoke memories of Fernando's early days in Chicago.",
+        "rank": 2
+      },
+      {
+        "song": "Respect",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "justification": "This iconic song may resonate with Fernando due to its cultural significance and popularity during his young adult years.",
+        "rank": 3
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1967,
+        "justification": "A classic rock song that might have been part of Fernando's experience of the vibrant music scene in Chicago.",
+        "rank": 4
+      },
+      {
+        "song": "I Heard It Through the Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968,
+        "justification": "A timeless Motown hit that was released around the time Fernando got married, potentially holding personal significance.",
+        "rank": 5
+      },
+      {
+        "song": "Sitting on the Dock of the Bay",
+        "artist": "Otis Redding",
+        "year": 1968,
+        "justification": "This song might bring back memories of relaxation and reflection during Fernando's early married life.",
+        "rank": 6
+      },
+      {
+        "song": "People Got to Be Free",
+        "artist": "The Rascals",
+        "year": 1968,
+        "justification": "A song that reflects the social changes of the era, which may resonate with Fernando's experiences in the late 1960s.",
+        "rank": 7
+      },
+      {
+        "song": "Crimson and Clover",
+        "artist": "Tommy James and the Shondells",
+        "year": 1968,
+        "justification": "This song's distinctive style may evoke the diverse musical landscape of Fernando's young adulthood.",
+        "rank": 8
+      },
+      {
+        "song": "Sugar, Sugar",
+        "artist": "The Archies",
+        "year": 1969,
+        "justification": "A light-hearted and catchy tune that might remind Fernando of simpler, joyful times during his early marriage.",
+        "rank": 9
+      },
+      {
+        "song": "The Thrill Is Gone",
+        "artist": "B.B. King",
+        "year": 1969,
+        "justification": "Blues music, with its deep emotional expression, might resonate with Fernando's cultural background and personal experiences.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "My Girl",
+        "conversation_prompt": "Do you remember listening to this song with your wife? What are some of your favorite memories from those days?"
+      },
+      {
+        "song": "Respect",
+        "conversation_prompt": "What did this song mean to you when it first came out? Did it influence any part of your life in Chicago?"
+      },
+      {
+        "song": "Sitting on the Dock of the Bay",
+        "conversation_prompt": "Have you ever visited a place that made you feel as relaxed as this song sounds? Where was it?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P078",
+      "name": "Fernando De la Cruz",
+      "hist_plausibility": 0.7,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 3,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P171",
+    "name": "Dolores Santos",
+    "profile": {
+      "name": "Dolores Santos",
+      "gender": "Female",
+      "birth_year": 1940,
+      "hometown": "San Antonio, TX",
+      "cultural_background": "Mexican American",
+      "life_events": [
+        {
+          "year": 1955,
+          "event": "Started working as a seamstress in a local factory"
+        },
+        {
+          "year": 1961,
+          "event": "Married and moved to a small house on the West Side"
+        },
+        {
+          "year": 1966,
+          "event": "Joined the church choir and became a prominent community volunteer"
+        },
+        {
+          "year": 1972,
+          "event": "Helped organize a local 'Day of the Dead' celebration"
+        },
+        {
+          "year": 1980,
+          "event": "Lost her husband to a workplace accident"
+        }
+      ],
+      "id": "P171",
+      "ground_truth_playlist": [
+        {
+          "song": "The Lion Sleeps Tonight",
+          "artist": "The Tokens",
+          "year": 1962
+        },
+        {
+          "song": "Please Mr. Postman",
+          "artist": "The Marvelettes",
+          "year": 1962
+        },
+        {
+          "song": "Mack The Knife",
+          "artist": "Bobby Darin",
+          "year": 1960
+        },
+        {
+          "song": "Runaround Sue",
+          "artist": "Dion",
+          "year": 1961
+        },
+        {
+          "song": "Hey! Baby",
+          "artist": "Bruce Channel",
+          "year": 1962
+        },
+        {
+          "song": "Big Girls Don't Cry",
+          "artist": "The 4 Seasons",
+          "year": 1962
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "Baby Love",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "The Ballad Of The Green Berets",
+          "artist": "SSgt Barry Sadler",
+          "year": 1966
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "Before The Next Teardrop Falls",
+          "artist": "Freddy Fender",
+          "year": 1975
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "Let's Stay Together",
+          "artist": "Al Green",
+          "year": 1972
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Grazing In The Grass",
+          "artist": "Hugh Masekela",
+          "year": 1968
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "La Bamba",
+        "artist": "Ritchie Valens",
+        "year": 1958,
+        "justification": "A popular Mexican folk song that achieved mainstream success during Dolores' youth, connecting her cultural heritage and her teenage years.",
+        "rank": 1
+      },
+      {
+        "song": "Cielito Lindo",
+        "artist": "Mariachi Vargas de Tecalitl\u00e1n",
+        "year": 1955,
+        "justification": "An iconic Mexican song that Dolores likely heard in her community and at family gatherings, symbolizing joy and cultural pride.",
+        "rank": 2
+      },
+      {
+        "song": "Jailhouse Rock",
+        "artist": "Elvis Presley",
+        "year": 1957,
+        "justification": "A hit from the King of Rock 'n' Roll that would have been popular during Dolores' teenage years, representing the American music scene she grew up with.",
+        "rank": 3
+      },
+      {
+        "song": "Besame Mucho",
+        "artist": "Consuelo Vel\u00e1zquez",
+        "year": 1940,
+        "justification": "A romantic Mexican standard that would resonate with Dolores' cultural background and memories of early adulthood.",
+        "rank": 4
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964,
+        "justification": "The Beatles' invasion of America coincided with Dolores' marriage, marking a significant cultural moment during her early married life.",
+        "rank": 5
+      },
+      {
+        "song": "Guantanamera",
+        "artist": "Celia Cruz",
+        "year": 1967,
+        "justification": "A popular Latin song that Dolores may have enjoyed in her community, linking her cultural roots with broader Latin American music.",
+        "rank": 6
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "Released the year Dolores got married, this song's themes of love and support could resonate with her memories of her husband.",
+        "rank": 7
+      },
+      {
+        "song": "Sabor a M\u00ed",
+        "artist": "Los Panchos",
+        "year": 1959,
+        "justification": "A classic bolero that Dolores likely heard during family gatherings, reflecting her Mexican heritage and romantic nostalgia.",
+        "rank": 8
+      },
+      {
+        "song": "The Sound of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": 1964,
+        "justification": "A reflective song popular during her young adult years, offering a contemplative connection to her life experiences.",
+        "rank": 9
+      },
+      {
+        "song": "Amor Eterno",
+        "artist": "Juan Gabriel",
+        "year": 1974,
+        "justification": "Although released slightly outside her youthful years, this song's themes of eternal love and loss may resonate deeply after her husband's passing.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "La Bamba",
+        "conversation_prompt": "Do you remember dancing to 'La Bamba' at any parties or family gatherings when you were young?"
+      },
+      {
+        "song": "Cielito Lindo",
+        "conversation_prompt": "Did your family have a favorite version of 'Cielito Lindo' that you would sing together?"
+      },
+      {
+        "song": "Stand by Me",
+        "conversation_prompt": "What are some fond memories you have of your husband from when you first got married?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P171",
+      "name": "Dolores Santos",
+      "hist_plausibility": 0.3,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P133",
+    "name": "James Kowalski",
+    "profile": {
+      "name": "James Kowalski",
+      "gender": "Male",
+      "birth_year": 1946,
+      "hometown": "Cleveland, Ohio",
+      "cultural_background": "Polish American",
+      "life_events": [
+        {
+          "year": 1964,
+          "event": "Graduated high school and joined a local factory"
+        },
+        {
+          "year": 1966,
+          "event": "Drafted into Vietnam War"
+        },
+        {
+          "year": 1971,
+          "event": "Returned and took up woodworking"
+        },
+        {
+          "year": 1973,
+          "event": "Married childhood sweetheart"
+        }
+      ],
+      "id": "P133",
+      "ground_truth_playlist": [
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "The Ballad Of The Green Berets",
+          "artist": "SSgt Barry Sadler",
+          "year": 1966
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Bad, Bad Leroy Brown",
+          "artist": "Jim Croce",
+          "year": 1973
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Let's Get It On",
+          "artist": "Marvin Gaye",
+          "year": 1973
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "How Can You Mend A Broken Heart",
+          "artist": "Bee Gees",
+          "year": 1971
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964,
+        "justification": "This song was a major hit during James's late teenage years, a time when he was transitioning from high school to working at the local factory.",
+        "rank": 1
+      },
+      {
+        "song": "Satisfaction",
+        "artist": "The Rolling Stones",
+        "year": 1965,
+        "justification": "Popular during James's early adulthood, capturing the rebellious spirit of the 60s.",
+        "rank": 2
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "An iconic love song from the era, possibly reminding James of his relationship with his childhood sweetheart.",
+        "rank": 3
+      },
+      {
+        "song": "Yesterday",
+        "artist": "The Beatles",
+        "year": 1965,
+        "justification": "A reflective song that may resonate with James's experiences and memories from the Vietnam War.",
+        "rank": 4
+      },
+      {
+        "song": "California Dreamin'",
+        "artist": "The Mamas & the Papas",
+        "year": 1965,
+        "justification": "A classic song from the mid-60s that embodies the yearning for a better place, possibly resonating with James's time in Vietnam.",
+        "rank": 5
+      },
+      {
+        "song": "The Sound of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": 1966,
+        "justification": "A song with deep and introspective lyrics that may connect with James's experiences during the war.",
+        "rank": 6
+      },
+      {
+        "song": "Respect",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "justification": "A powerful anthem of the 60s that signifies the era's changes and challenges.",
+        "rank": 7
+      },
+      {
+        "song": "A Whiter Shade of Pale",
+        "artist": "Procol Harum",
+        "year": 1967,
+        "justification": "A hauntingly beautiful song that may evoke memories from a transformative period in James's life.",
+        "rank": 8
+      },
+      {
+        "song": "Mrs. Robinson",
+        "artist": "Simon & Garfunkel",
+        "year": 1968,
+        "justification": "A popular song from James's young adult years, capturing the cultural zeitgeist.",
+        "rank": 9
+      },
+      {
+        "song": "American Pie",
+        "artist": "Don McLean",
+        "year": 1971,
+        "justification": "A nostalgic song released the year James returned from Vietnam, possibly bringing back memories of his homecoming.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "I Want to Hold Your Hand",
+        "conversation_prompt": "Do you remember any special dances or outings with friends when this song played?"
+      },
+      {
+        "song": "My Girl",
+        "conversation_prompt": "Did this song remind you of your relationship with your childhood sweetheart?"
+      },
+      {
+        "song": "The Sound of Silence",
+        "conversation_prompt": "What were your thoughts and feelings when you first heard this song during your time in Vietnam?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P133",
+      "name": "James Kowalski",
+      "hist_plausibility": 0.7,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 3,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P116",
+    "name": "Robert Thompson",
+    "profile": {
+      "name": "Robert Thompson",
+      "gender": "Male",
+      "birth_year": 1945,
+      "hometown": "Charleston, West Virginia",
+      "cultural_background": "White American (Appalachian)",
+      "life_events": [
+        {
+          "year": 1963,
+          "event": "Worked in a coal mine after high school"
+        },
+        {
+          "year": 1968,
+          "event": "Injured and forced to leave mining job"
+        },
+        {
+          "year": 1971,
+          "event": "Trained as a truck driver"
+        },
+        {
+          "year": 1977,
+          "event": "Purchased first home"
+        }
+      ],
+      "id": "P116",
+      "ground_truth_playlist": [
+        {
+          "song": "The Lion Sleeps Tonight",
+          "artist": "The Tokens",
+          "year": 1962
+        },
+        {
+          "song": "Walk Like A Man",
+          "artist": "The 4 Seasons",
+          "year": 1963
+        },
+        {
+          "song": "Grazing In The Grass",
+          "artist": "Hugh Masekela",
+          "year": 1968
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "You've Got A Friend",
+          "artist": "James Taylor",
+          "year": 1971
+        },
+        {
+          "song": "Let's Stay Together",
+          "artist": "Al Green",
+          "year": 1972
+        },
+        {
+          "song": "Big Bad John",
+          "artist": "Jimmy Dean",
+          "year": 1962
+        },
+        {
+          "song": "Stagger Lee",
+          "artist": "Lloyd Price",
+          "year": 1959
+        },
+        {
+          "song": "Convoy",
+          "artist": "C.W. McCall",
+          "year": 1976
+        },
+        {
+          "song": "Mack The Knife",
+          "artist": "Bobby Darin",
+          "year": 1960
+        },
+        {
+          "song": "Bad, Bad Leroy Brown",
+          "artist": "Jim Croce",
+          "year": 1973
+        },
+        {
+          "song": "House Of The Rising Sun",
+          "artist": "The Animals",
+          "year": 1964
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Ring of Fire",
+        "artist": "Johnny Cash",
+        "year": 1963,
+        "justification": "Johnny Cash's music was very popular in the Appalachian region and this song would resonate with Robert's cultural background and the time he began working in the coal mine.",
+        "rank": 1
+      },
+      {
+        "song": "Take Me Home, Country Roads",
+        "artist": "John Denver",
+        "year": 1971,
+        "justification": "This song is an iconic tribute to West Virginia and would evoke memories of Robert's hometown, especially during his transition to a new career as a truck driver.",
+        "rank": 2
+      },
+      {
+        "song": "Folsom Prison Blues",
+        "artist": "Johnny Cash",
+        "year": 1955,
+        "justification": "Another classic by Johnny Cash, this song's themes of hard work and struggle may resonate with Robert's experiences working in the coal mine.",
+        "rank": 3
+      },
+      {
+        "song": "Coal Miner's Daughter",
+        "artist": "Loretta Lynn",
+        "year": 1970,
+        "justification": "This song reflects the coal mining culture and may remind Robert of his early career and community in West Virginia.",
+        "rank": 4
+      },
+      {
+        "song": "Stand By Your Man",
+        "artist": "Tammy Wynette",
+        "year": 1968,
+        "justification": "A popular country song during Robert's young adult years, it might bring back memories of cultural and social life in the 60s and 70s.",
+        "rank": 5
+      },
+      {
+        "song": "The Sound of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": 1965,
+        "justification": "A timeless classic from the 60s that would have been part of the soundtrack of Robert's youth.",
+        "rank": 6
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968,
+        "justification": "This song was a global hit during the year Robert was injured, offering comfort and nostalgia.",
+        "rank": 7
+      },
+      {
+        "song": "Green Green Grass of Home",
+        "artist": "Tom Jones",
+        "year": 1965,
+        "justification": "This song's themes of homecoming might resonate with Robert's feelings about his hometown.",
+        "rank": 8
+      },
+      {
+        "song": "Sweet Caroline",
+        "artist": "Neil Diamond",
+        "year": 1969,
+        "justification": "A feel-good song from Robert's young adult years that might evoke positive memories.",
+        "rank": 9
+      },
+      {
+        "song": "My Way",
+        "artist": "Frank Sinatra",
+        "year": 1969,
+        "justification": "A song about reflecting on life, possibly resonating with Robert's journey through various career changes.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Ring of Fire",
+        "conversation_prompt": "Do you remember hearing Johnny Cash on the radio when you started working at the coal mine?"
+      },
+      {
+        "song": "Take Me Home, Country Roads",
+        "conversation_prompt": "What are some of your favorite memories of Charleston, West Virginia?"
+      },
+      {
+        "song": "Coal Miner's Daughter",
+        "conversation_prompt": "Can you share some stories about your time working in the coal mines?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P116",
+      "name": "Robert Thompson",
+      "hist_plausibility": 0.3,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P019",
+    "name": "Pauline Deschamps",
+    "profile": {
+      "name": "Pauline Deschamps",
+      "gender": "Female",
+      "birth_year": 1939,
+      "hometown": "New York, New York",
+      "cultural_background": "Haitian American",
+      "life_events": [
+        {
+          "year": 1957,
+          "event": "Immigrated to the US and settled in New York City"
+        },
+        {
+          "year": 1960,
+          "event": "Started working as a hotel worker in Manhattan"
+        },
+        {
+          "year": 1964,
+          "event": "Met husband through local Haitian community"
+        },
+        {
+          "year": 1968,
+          "event": "Gave birth to twin daughters"
+        },
+        {
+          "year": 1975,
+          "event": "Became supervisor at the hotel"
+        }
+      ],
+      "id": "P019",
+      "ground_truth_playlist": [
+        {
+          "song": "The Lion Sleeps Tonight",
+          "artist": "The Tokens",
+          "year": 1962
+        },
+        {
+          "song": "Please Mr. Postman",
+          "artist": "The Marvelettes",
+          "year": 1962
+        },
+        {
+          "song": "Mack The Knife",
+          "artist": "Bobby Darin",
+          "year": 1960
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "House Of The Rising Sun",
+          "artist": "The Animals",
+          "year": 1964
+        },
+        {
+          "song": "Baby Love",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "I Want To Hold Your Hand",
+          "artist": "The Beatles",
+          "year": 1964
+        },
+        {
+          "song": "Hello, Dolly!",
+          "artist": "Louis Armstrong And The All Stars",
+          "year": 1964
+        },
+        {
+          "song": "My Guy",
+          "artist": "Mary Wells",
+          "year": 1964
+        },
+        {
+          "song": "Grazing In The Grass",
+          "artist": "Hugh Masekela",
+          "year": 1968
+        },
+        {
+          "song": "There! I've Said It Again",
+          "artist": "Bobby Vinton",
+          "year": 1964
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "Honey",
+          "artist": "Bobby Goldsboro",
+          "year": 1968
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "La Vie en Rose",
+        "artist": "\u00c9dith Piaf",
+        "year": 1947,
+        "justification": "This classic French song may remind Pauline of her cultural roots and the romantic era when she met her husband.",
+        "rank": 1
+      },
+      {
+        "song": "A Change Is Gonna Come",
+        "artist": "Sam Cooke",
+        "year": 1964,
+        "justification": "This song resonates with the civil rights movement, which was significant during Pauline's early years in the U.S.",
+        "rank": 2
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1963,
+        "justification": "This Beatles hit was popular during the time Pauline settled into New York and started a new life.",
+        "rank": 3
+      },
+      {
+        "song": "Papa Loves Mambo",
+        "artist": "Perry Como",
+        "year": 1954,
+        "justification": "This song captures the lively spirit of the dance scenes in New York City during Pauline's young adult years.",
+        "rank": 4
+      },
+      {
+        "song": "Stand By Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "This song's themes of support and companionship may reflect Pauline's experience with her husband and community.",
+        "rank": 5
+      },
+      {
+        "song": "La Bamba",
+        "artist": "Ritchie Valens",
+        "year": 1958,
+        "justification": "This energetic song was popular during Pauline's transition to life in the U.S. and her work in the hotel industry.",
+        "rank": 6
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "A love song that could remind Pauline of her husband and her daughters when they were young.",
+        "rank": 7
+      },
+      {
+        "song": "Dancing in the Street",
+        "artist": "Martha and the Vandellas",
+        "year": 1964,
+        "justification": "Reflects the vibrant, bustling life of New York City and the joyful moments in Pauline's early years there.",
+        "rank": 8
+      },
+      {
+        "song": "Respect",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "justification": "An empowering anthem that aligns with Pauline's rise to becoming a supervisor in 1975.",
+        "rank": 9
+      },
+      {
+        "song": "I Got You Babe",
+        "artist": "Sonny & Cher",
+        "year": 1965,
+        "justification": "A song symbolizing enduring love, resonating with Pauline's long-lasting relationship with her husband.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "La Vie en Rose",
+        "conversation_prompt": "Do you remember listening to any French songs that remind you of home?"
+      },
+      {
+        "song": "A Change Is Gonna Come",
+        "conversation_prompt": "What changes do you remember experiencing when you first moved to New York?"
+      },
+      {
+        "song": "Stand By Me",
+        "conversation_prompt": "Can you share a memory of when someone stood by you through a challenging time?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P019",
+      "name": "Pauline Deschamps",
+      "hist_plausibility": 0.6,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 3,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P220",
+    "name": "Rina Patel",
+    "profile": {
+      "name": "Rina Patel",
+      "gender": "Female",
+      "birth_year": 1963,
+      "hometown": "Queens, New York",
+      "cultural_background": "Indian American",
+      "life_events": [
+        {
+          "year": 1980,
+          "event": "Started work as a sales assistant in a department store"
+        },
+        {
+          "year": 1985,
+          "event": "Married Raj, a software developer she met through family friends"
+        },
+        {
+          "year": 1986,
+          "event": "Gave birth to her first child, Asha"
+        },
+        {
+          "year": 1990,
+          "event": "Began volunteering at a local cultural center"
+        },
+        {
+          "year": 1991,
+          "event": "Organized a series of workshops on Indian classical dance"
+        }
+      ],
+      "id": "P220",
+      "ground_truth_playlist": [
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "When Doves Cry",
+          "artist": "Prince",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder",
+          "year": 1984
+        },
+        {
+          "song": "Islands In The Stream",
+          "artist": "Kenny Rogers Duet With Dolly Parton",
+          "year": 1984
+        },
+        {
+          "song": "Total Eclipse Of The Heart",
+          "artist": "Bonnie Tyler",
+          "year": 1984
+        },
+        {
+          "song": "Wake Me Up Before You Go-Go",
+          "artist": "Wham!",
+          "year": 1984
+        },
+        {
+          "song": "Every Breath You Take",
+          "artist": "The Police",
+          "year": 1983
+        },
+        {
+          "song": "Flashdance...What A Feeling",
+          "artist": "Irene Cara",
+          "year": 1983
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Fallin' In Love",
+          "artist": "Hamilton, Joe Frank & Reynolds",
+          "year": 1975
+        },
+        {
+          "song": "Wind Beneath My Wings (From \"Beaches\")",
+          "artist": "Bette Midler",
+          "year": 1989
+        },
+        {
+          "song": "Man In The Mirror",
+          "artist": "Michael Jackson",
+          "year": 1988
+        },
+        {
+          "song": "I'll Be There For You",
+          "artist": "Bon Jovi",
+          "year": 1989
+        },
+        {
+          "song": "Eternal Flame",
+          "artist": "The Bangles",
+          "year": 1989
+        },
+        {
+          "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+          "artist": "Bobby McFerrin",
+          "year": 1989
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Billie Jean",
+        "artist": "Michael Jackson",
+        "year": 1983,
+        "justification": "Rina was in her early twenties during the height of Michael Jackson's popularity and may have fond memories of this iconic song and dance moves.",
+        "rank": 1
+      },
+      {
+        "song": "Sweet Child o' Mine",
+        "artist": "Guns N' Roses",
+        "year": 1987,
+        "justification": "This song was popular around the time Rina became a mother, which might remind her of her daughter Asha.",
+        "rank": 2
+      },
+      {
+        "song": "Like a Virgin",
+        "artist": "Madonna",
+        "year": 1984,
+        "justification": "Madonna was a major cultural icon during Rina's youth, and this song might resonate with her memories of fashion and pop culture.",
+        "rank": 3
+      },
+      {
+        "song": "Tujhse Naraz Nahin Zindagi",
+        "artist": "Lata Mangeshkar & Anup Ghoshal",
+        "year": 1983,
+        "justification": "Being of Indian heritage, Bollywood songs like this one might have a special place in Rina's heart.",
+        "rank": 4
+      },
+      {
+        "song": "Every Breath You Take",
+        "artist": "The Police",
+        "year": 1983,
+        "justification": "This was a popular song during Rina's youth and might remind her of early romantic experiences.",
+        "rank": 5
+      },
+      {
+        "song": "Beat It",
+        "artist": "Michael Jackson",
+        "year": 1983,
+        "justification": "Another hit from Michael Jackson, this energetic song might bring back memories of dance and enjoyment.",
+        "rank": 6
+      },
+      {
+        "song": "I Just Called to Say I Love You",
+        "artist": "Stevie Wonder",
+        "year": 1984,
+        "justification": "A timeless love song that might remind Rina of her early relationship with her husband, Raj.",
+        "rank": 7
+      },
+      {
+        "song": "Ek Do Teen",
+        "artist": "Alka Yagnik",
+        "year": 1988,
+        "justification": "A popular Bollywood song that might resonate with Rina's cultural background and her interest in Indian dance.",
+        "rank": 8
+      },
+      {
+        "song": "Girls Just Want to Have Fun",
+        "artist": "Cyndi Lauper",
+        "year": 1983,
+        "justification": "This upbeat anthem might remind Rina of her youthful days and the fun she had with friends.",
+        "rank": 9
+      },
+      {
+        "song": "Karma Chameleon",
+        "artist": "Culture Club",
+        "year": 1983,
+        "justification": "A catchy tune from the 80s that might evoke memories of the vibrant and diverse cultural scene in Queens.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Billie Jean",
+        "conversation_prompt": "Do you remember any special dances or parties where this song was played?"
+      },
+      {
+        "song": "Sweet Child o' Mine",
+        "conversation_prompt": "How did you feel when you first became a mother to Asha?"
+      },
+      {
+        "song": "Tujhse Naraz Nahin Zindagi",
+        "conversation_prompt": "Did you ever share Bollywood music or movies with your family?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P220",
+      "name": "Rina Patel",
+      "hist_plausibility": 0.8,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 4,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P163",
+    "name": "Giuseppe Romano",
+    "profile": {
+      "name": "Giuseppe Romano",
+      "gender": "Male",
+      "birth_year": 1939,
+      "hometown": "Providence, RI",
+      "cultural_background": "Italian American",
+      "life_events": [
+        {
+          "year": 1957,
+          "event": "Joined his family\u2019s carpentry business"
+        },
+        {
+          "year": 1961,
+          "event": "Married a local girl from his community"
+        },
+        {
+          "year": 1965,
+          "event": "Expanded the family business with his brothers"
+        },
+        {
+          "year": 1972,
+          "event": "Became active in local church activities"
+        },
+        {
+          "year": 1984,
+          "event": "Retired and focused on gardening"
+        }
+      ],
+      "id": "P163",
+      "ground_truth_playlist": [
+        {
+          "song": "Nel Blu Dipinto Di Blu (Volar\u00e9)",
+          "artist": "Domenico Modugno",
+          "year": 1958
+        },
+        {
+          "song": "Mack The Knife",
+          "artist": "Bobby Darin",
+          "year": 1960
+        },
+        {
+          "song": "Runaround Sue",
+          "artist": "Dion",
+          "year": 1961
+        },
+        {
+          "song": "The Lion Sleeps Tonight",
+          "artist": "The Tokens",
+          "year": 1962
+        },
+        {
+          "song": "Sherry",
+          "artist": "The 4 Seasons",
+          "year": 1962
+        },
+        {
+          "song": "Hey! Baby",
+          "artist": "Bruce Channel",
+          "year": 1962
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "I Want To Hold Your Hand",
+          "artist": "The Beatles",
+          "year": 1964
+        },
+        {
+          "song": "Downtown",
+          "artist": "Petula Clark",
+          "year": 1965
+        },
+        {
+          "song": "Good Vibrations",
+          "artist": "The Beach Boys",
+          "year": 1967
+        },
+        {
+          "song": "Walk Like A Man",
+          "artist": "The 4 Seasons",
+          "year": 1963
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        },
+        {
+          "song": "Grazing In The Grass",
+          "artist": "Hugh Masekela",
+          "year": 1968
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Happy Together",
+          "artist": "The Turtles",
+          "year": 1967
+        },
+        {
+          "song": "Let's Stay Together",
+          "artist": "Al Green",
+          "year": 1972
+        },
+        {
+          "song": "You've Got A Friend",
+          "artist": "James Taylor",
+          "year": 1971
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Volare (Nel Blu Dipinto Di Blu)",
+        "artist": "Domenico Modugno",
+        "year": 1958,
+        "justification": "As an Italian American, Giuseppe might have fond memories of this iconic Italian song that was popular during his early adulthood.",
+        "rank": 1
+      },
+      {
+        "song": "That's Amore",
+        "artist": "Dean Martin",
+        "year": 1953,
+        "justification": "This classic by Dean Martin would have been a staple in Giuseppe's community, celebrating his cultural heritage.",
+        "rank": 2
+      },
+      {
+        "song": "Innamorata",
+        "artist": "Dean Martin",
+        "year": 1956,
+        "justification": "Given his marriage in 1961, this romantic song could evoke memories of his courtship and early married life.",
+        "rank": 3
+      },
+      {
+        "song": "Can't Help Falling in Love",
+        "artist": "Elvis Presley",
+        "year": 1961,
+        "justification": "Released the year he got married, this timeless love song might remind him of his wedding day.",
+        "rank": 4
+      },
+      {
+        "song": "Moon River",
+        "artist": "Henry Mancini",
+        "year": 1961,
+        "justification": "A song that captures the essence of the early 1960s when Giuseppe was building his family and business.",
+        "rank": 5
+      },
+      {
+        "song": "Arrivederci Roma",
+        "artist": "Mario Lanza",
+        "year": 1955,
+        "justification": "This song connects to his Italian roots and might evoke memories of family gatherings.",
+        "rank": 6
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964,
+        "justification": "The Beatles' invasion was a defining moment in the 1960s, and this song would have been part of his environment.",
+        "rank": 7
+      },
+      {
+        "song": "Funiculi Funicula",
+        "artist": "Luciano Pavarotti",
+        "year": 1960,
+        "justification": "A traditional Italian song that might resonate with Giuseppe's cultural background and family gatherings.",
+        "rank": 8
+      },
+      {
+        "song": "Twist and Shout",
+        "artist": "The Beatles",
+        "year": 1963,
+        "justification": "A lively song that was hugely popular and might remind him of social events with friends.",
+        "rank": 9
+      },
+      {
+        "song": "Quando, Quando, Quando",
+        "artist": "Tony Renis",
+        "year": 1962,
+        "justification": "An Italian song that achieved international success during Giuseppe's young adulthood, likely resonating with his heritage.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Volare (Nel Blu Dipinto Di Blu)",
+        "conversation_prompt": "Do you remember any family gatherings where this song was played?"
+      },
+      {
+        "song": "Can't Help Falling in Love",
+        "conversation_prompt": "What do you remember about your wedding day and the music that was played?"
+      },
+      {
+        "song": "Arrivederci Roma",
+        "conversation_prompt": "Did your family ever talk about visiting Italy or share stories about the old country?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P163",
+      "name": "Giuseppe Romano",
+      "hist_plausibility": 0.4,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P034",
+    "name": "Li Wei",
+    "profile": {
+      "name": "Li Wei",
+      "gender": "Female",
+      "birth_year": 1955,
+      "hometown": "Seattle, Washington",
+      "cultural_background": "Chinese American",
+      "life_events": [
+        {
+          "year": 1971,
+          "event": "Started work as a cashier in the family grocery store"
+        },
+        {
+          "year": 1976,
+          "event": "Married and had first child"
+        },
+        {
+          "year": 1979,
+          "event": "Opened a small clothing alteration business"
+        },
+        {
+          "year": 1983,
+          "event": "Became active in local Chinese cultural association"
+        },
+        {
+          "year": 1990,
+          "event": "Expanded business to include tailoring services"
+        }
+      ],
+      "id": "P034",
+      "ground_truth_playlist": [
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "How Can You Mend A Broken Heart",
+          "artist": "Bee Gees",
+          "year": 1971
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "My Love",
+          "artist": "Paul McCartney And Wings",
+          "year": 1973
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Sister Golden Hair",
+          "artist": "America",
+          "year": 1975
+        },
+        {
+          "song": "Shining Star",
+          "artist": "Earth, Wind & Fire",
+          "year": 1975
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "Wind Beneath My Wings (From \"Beaches\")",
+          "artist": "Bette Midler",
+          "year": 1989
+        },
+        {
+          "song": "I'll Be There For You",
+          "artist": "Bon Jovi",
+          "year": 1989
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Let It Be",
+        "artist": "The Beatles",
+        "year": 1970,
+        "justification": "This song was a major hit during Li Wei's teenage years, and its themes of comfort and resilience may resonate with her life experiences.",
+        "rank": 1
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": 1970,
+        "justification": "A popular and soothing song from her youth that could remind her of family support and community.",
+        "rank": 2
+      },
+      {
+        "song": "My Sweet Lord",
+        "artist": "George Harrison",
+        "year": 1970,
+        "justification": "This spiritually uplifting song might connect with her cultural background and personal beliefs.",
+        "rank": 3
+      },
+      {
+        "song": "Imagine",
+        "artist": "John Lennon",
+        "year": 1971,
+        "justification": "A song promoting peace and unity, meaningful during a time when she began working in her family's grocery store.",
+        "rank": 4
+      },
+      {
+        "song": "American Pie",
+        "artist": "Don McLean",
+        "year": 1971,
+        "justification": "A nostalgic track that was popular during her late teens, potentially reminding her of cultural events of the time.",
+        "rank": 5
+      },
+      {
+        "song": "Lean on Me",
+        "artist": "Bill Withers",
+        "year": 1972,
+        "justification": "A song about friendship and support, relevant to her community involvement and family life.",
+        "rank": 6
+      },
+      {
+        "song": "Superstition",
+        "artist": "Stevie Wonder",
+        "year": 1972,
+        "justification": "A lively and memorable track from her early adulthood, possibly linked to social gatherings.",
+        "rank": 7
+      },
+      {
+        "song": "Top of the World",
+        "artist": "The Carpenters",
+        "year": 1973,
+        "justification": "A cheerful and popular song during a happy period in her life, shortly before her marriage.",
+        "rank": 8
+      },
+      {
+        "song": "I Will Survive",
+        "artist": "Gloria Gaynor",
+        "year": 1978,
+        "justification": "An empowering anthem that may resonate with her entrepreneurial spirit and business success.",
+        "rank": 9
+      },
+      {
+        "song": "We Are Family",
+        "artist": "Sister Sledge",
+        "year": 1979,
+        "justification": "A celebration of family and togetherness, reflecting her life as a new mother and business owner.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Let It Be",
+        "conversation_prompt": "Do you remember listening to The Beatles when you were a teenager?"
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "conversation_prompt": "Does this song remind you of any special moments with your family?"
+      },
+      {
+        "song": "Lean on Me",
+        "conversation_prompt": "Can you share a time when you leaned on your community or family for support?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P034",
+      "name": "Li Wei",
+      "hist_plausibility": 0.8,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 3,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P053",
+    "name": "Lillian Kim",
+    "profile": {
+      "name": "Lillian Kim",
+      "gender": "Female",
+      "birth_year": 1936,
+      "hometown": "Los Angeles, CA",
+      "cultural_background": "Korean American",
+      "life_events": [
+        {
+          "year": 1954,
+          "event": "Graduated high school and started working as a store clerk"
+        },
+        {
+          "year": 1956,
+          "event": "Became a secretary at a local law firm"
+        },
+        {
+          "year": 1960,
+          "event": "Married fellow first-generation Korean American"
+        },
+        {
+          "year": 1965,
+          "event": "Founded a neighborhood association"
+        },
+        {
+          "year": 1978,
+          "event": "Helped organize cultural festivals in Koreatown"
+        }
+      ],
+      "id": "P053",
+      "ground_truth_playlist": [
+        {
+          "song": "Mack The Knife",
+          "artist": "Bobby Darin",
+          "year": 1960
+        },
+        {
+          "song": "Please Mr. Postman",
+          "artist": "The Marvelettes",
+          "year": 1962
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "Downtown",
+          "artist": "Petula Clark",
+          "year": 1965
+        },
+        {
+          "song": "You've Lost That Lovin' Feelin'",
+          "artist": "The Righteous Brothers",
+          "year": 1965
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Good Vibrations",
+          "artist": "The Beach Boys",
+          "year": 1967
+        },
+        {
+          "song": "Hello, I Love You",
+          "artist": "The Doors",
+          "year": 1968
+        },
+        {
+          "song": "I Heard It Through The Grapevine",
+          "artist": "Marvin Gaye",
+          "year": 1968
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "My Guy",
+          "artist": "Mary Wells",
+          "year": 1964
+        },
+        {
+          "song": "Sukiyaki",
+          "artist": "Kyu Sakamoto",
+          "year": 1963
+        },
+        {
+          "song": "Everyday People",
+          "artist": "Sly & The Family Stone",
+          "year": 1969
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "Turn! Turn! Turn! (To Everything There Is A Season)",
+          "artist": "The Byrds",
+          "year": 1966
+        },
+        {
+          "song": "Baby Love",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "Hello, Dolly!",
+          "artist": "Louis Armstrong And The All Stars",
+          "year": 1964
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "We Can Work It Out",
+          "artist": "The Beatles",
+          "year": 1966
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Unforgettable",
+        "artist": "Nat King Cole",
+        "year": 1951,
+        "justification": "This song might remind Lillian of her early years in Los Angeles and the music that was popular during her teenage years.",
+        "rank": 1
+      },
+      {
+        "song": "Rock Around the Clock",
+        "artist": "Bill Haley & His Comets",
+        "year": 1954,
+        "justification": "This song was a significant hit during the year Lillian graduated high school, capturing the energetic spirit of the era.",
+        "rank": 2
+      },
+      {
+        "song": "Mambo Italiano",
+        "artist": "Rosemary Clooney",
+        "year": 1954,
+        "justification": "This lively song was popular during Lillian's time as a store clerk, reflecting the diverse cultural influences of Los Angeles.",
+        "rank": 3
+      },
+      {
+        "song": "You Send Me",
+        "artist": "Sam Cooke",
+        "year": 1957,
+        "justification": "As Lillian transitioned to her job as a secretary, this romantic song might remind her of the early days of her relationship with her future husband.",
+        "rank": 4
+      },
+      {
+        "song": "Beyond the Sea",
+        "artist": "Bobby Darin",
+        "year": 1959,
+        "justification": "This classic hit would have been on the airwaves around the time Lillian was preparing for her wedding.",
+        "rank": 5
+      },
+      {
+        "song": "Save the Last Dance for Me",
+        "artist": "The Drifters",
+        "year": 1960,
+        "justification": "Released the year Lillian got married, this song could evoke memories of her wedding and early marriage.",
+        "rank": 6
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "A timeless song about loyalty and support, reflecting Lillian's commitment to her community and family.",
+        "rank": 7
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1964,
+        "justification": "The Beatles' popularity during this time might have been a part of Lillian's environment as she engaged in community work.",
+        "rank": 8
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "This feel-good song was a hit during the year Lillian founded a neighborhood association.",
+        "rank": 9
+      },
+      {
+        "song": "California Dreamin'",
+        "artist": "The Mamas & The Papas",
+        "year": 1965,
+        "justification": "A song reflecting the spirit of Los Angeles and its cultural vibe during Lillian's active community years.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Rock Around the Clock",
+        "conversation_prompt": "Do you remember any school dances or parties where you might have heard this song?"
+      },
+      {
+        "song": "Save the Last Dance for Me",
+        "conversation_prompt": "What do you remember about your wedding day? Did you have a special song?"
+      },
+      {
+        "song": "California Dreamin'",
+        "conversation_prompt": "What was it like living in Los Angeles during the 1960s? Do you have any favorite memories from that time?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P053",
+      "name": "Lillian Kim",
+      "hist_plausibility": 0.5,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 3,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P136",
+    "name": "Linda Park",
+    "profile": {
+      "name": "Linda Park",
+      "gender": "Female",
+      "birth_year": 1960,
+      "hometown": "Annandale, Virginia",
+      "cultural_background": "Korean American",
+      "life_events": [
+        {
+          "year": 1978,
+          "event": "Started college with a scholarship"
+        },
+        {
+          "year": 1980,
+          "event": "Left college to care for a sick parent"
+        },
+        {
+          "year": 1983,
+          "event": "Became a librarian at a local school"
+        },
+        {
+          "year": 1989,
+          "event": "Married childhood friend"
+        }
+      ],
+      "id": "P136",
+      "ground_truth_playlist": [
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "When Doves Cry",
+          "artist": "Prince",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "Every Breath You Take",
+          "artist": "The Police",
+          "year": 1983
+        },
+        {
+          "song": "Sweet Dreams (Are Made Of This)",
+          "artist": "Eurythmics",
+          "year": 1983
+        },
+        {
+          "song": "Flashdance...What A Feeling",
+          "artist": "Irene Cara",
+          "year": 1983
+        },
+        {
+          "song": "Islands In The Stream",
+          "artist": "Kenny Rogers Duet With Dolly Parton",
+          "year": 1984
+        },
+        {
+          "song": "Wake Me Up Before You Go-Go",
+          "artist": "Wham!",
+          "year": 1984
+        },
+        {
+          "song": "Let's Dance",
+          "artist": "David Bowie",
+          "year": 1983
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder",
+          "year": 1984
+        },
+        {
+          "song": "She Drives Me Crazy",
+          "artist": "Fine Young Cannibals",
+          "year": 1989
+        },
+        {
+          "song": "Wind Beneath My Wings (From \"Beaches\")",
+          "artist": "Bette Midler",
+          "year": 1989
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Truly",
+          "artist": "Lionel Richie",
+          "year": 1983
+        },
+        {
+          "song": "I'll Be There For You",
+          "artist": "Bon Jovi",
+          "year": 1989
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Eternal Flame",
+          "artist": "The Bangles",
+          "year": 1989
+        },
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Dancing Queen",
+        "artist": "ABBA",
+        "year": 1976,
+        "justification": "This song was a huge hit during Linda's late teenage years and may remind her of her high school days and the joy of dancing.",
+        "rank": 1
+      },
+      {
+        "song": "Stayin' Alive",
+        "artist": "Bee Gees",
+        "year": 1977,
+        "justification": "This disco anthem was popular around the time Linda started college, capturing the vibrant and energetic spirit of the late 70s.",
+        "rank": 2
+      },
+      {
+        "song": "Hotel California",
+        "artist": "Eagles",
+        "year": 1977,
+        "justification": "A classic rock staple from Linda's youth, this song was likely a part of the soundtrack to her high school experience.",
+        "rank": 3
+      },
+      {
+        "song": "You Light Up My Life",
+        "artist": "Debby Boone",
+        "year": 1977,
+        "justification": "This heartfelt ballad may resonate with Linda's personal experiences during a time of transition and responsibility.",
+        "rank": 4
+      },
+      {
+        "song": "I Will Survive",
+        "artist": "Gloria Gaynor",
+        "year": 1978,
+        "justification": "Empowering and uplifting, this song could reflect Linda's resilience during challenging times, such as leaving college to care for a parent.",
+        "rank": 5
+      },
+      {
+        "song": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "year": 1975,
+        "justification": "An iconic and theatrical song that might bring back memories of the dynamic music scene of the 70s.",
+        "rank": 6
+      },
+      {
+        "song": "We Are Family",
+        "artist": "Sister Sledge",
+        "year": 1979,
+        "justification": "This song emphasizes the importance of family, which is significant given Linda's decision to care for her parent.",
+        "rank": 7
+      },
+      {
+        "song": "Imagine",
+        "artist": "John Lennon",
+        "year": 1971,
+        "justification": "A timeless classic with a message of peace and hope, reflecting Linda's cultural and personal values.",
+        "rank": 8
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": 1970,
+        "justification": "A comforting song that may have provided solace during difficult times in Linda's life.",
+        "rank": 9
+      },
+      {
+        "song": "Let It Be",
+        "artist": "The Beatles",
+        "year": 1970,
+        "justification": "A reassuring and calming song that could be meaningful during periods of uncertainty or transition.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Dancing Queen",
+        "conversation_prompt": "Do you remember any dances or parties you attended in high school?"
+      },
+      {
+        "song": "Stayin' Alive",
+        "conversation_prompt": "What was starting college like for you, and did you enjoy listening to disco music?"
+      },
+      {
+        "song": "I Will Survive",
+        "conversation_prompt": "Can you share a time when you had to be strong and resilient in your life?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P136",
+      "name": "Linda Park",
+      "hist_plausibility": 0.9,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 2,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P030",
+    "name": "Samuel Kim",
+    "profile": {
+      "name": "Samuel Kim",
+      "gender": "Male",
+      "birth_year": 1936,
+      "hometown": "Seattle, Washington",
+      "cultural_background": "Korean American",
+      "life_events": [
+        {
+          "year": 1952,
+          "event": "Started working in family grocery store"
+        },
+        {
+          "year": 1959,
+          "event": "Married childhood friend Yumi"
+        },
+        {
+          "year": 1961,
+          "event": "First son, Daniel, was born"
+        },
+        {
+          "year": 1966,
+          "event": "Opened own grocery store, became community staple"
+        },
+        {
+          "year": 1973,
+          "event": "Faced discrimination during period of financial difficulty"
+        }
+      ],
+      "id": "P030",
+      "ground_truth_playlist": [
+        {
+          "song": "The Happy Organ",
+          "artist": "Dave \"Baby\" Cortez",
+          "year": 1959
+        },
+        {
+          "song": "Mack The Knife",
+          "artist": "Bobby Darin",
+          "year": 1960
+        },
+        {
+          "song": "Stagger Lee",
+          "artist": "Lloyd Price",
+          "year": 1959
+        },
+        {
+          "song": "Runaround Sue",
+          "artist": "Dion",
+          "year": 1961
+        },
+        {
+          "song": "Hit The Road Jack",
+          "artist": "Ray Charles and his Orchestra",
+          "year": 1961
+        },
+        {
+          "song": "The Lion Sleeps Tonight",
+          "artist": "The Tokens",
+          "year": 1962
+        },
+        {
+          "song": "Please Mr. Postman",
+          "artist": "The Marvelettes",
+          "year": 1962
+        },
+        {
+          "song": "The Theme From \"A Summer Place\"",
+          "artist": "Percy Faith And His Orchestra",
+          "year": 1960
+        },
+        {
+          "song": "Sukiyaki",
+          "artist": "Kyu Sakamoto",
+          "year": 1963
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "My Girl",
+          "artist": "The Temptations",
+          "year": 1965
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "I Can't Stop Loving You",
+          "artist": "Ray Charles",
+          "year": 1962
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "Everyday People",
+          "artist": "Sly & The Family Stone",
+          "year": 1969
+        },
+        {
+          "song": "Good Vibrations",
+          "artist": "The Beach Boys",
+          "year": 1967
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        },
+        {
+          "song": "You've Got A Friend",
+          "artist": "James Taylor",
+          "year": 1971
+        },
+        {
+          "song": "Hello, Dolly!",
+          "artist": "Louis Armstrong And The All Stars",
+          "year": 1964
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Love Me Tender",
+        "artist": "Elvis Presley",
+        "year": 1956,
+        "justification": "This romantic song could remind Samuel of his courtship and marriage to Yumi.",
+        "rank": 1
+      },
+      {
+        "song": "Rock Around the Clock",
+        "artist": "Bill Haley & His Comets",
+        "year": 1954,
+        "justification": "A popular rock and roll song from Samuel's youth, likely played during social gatherings.",
+        "rank": 2
+      },
+      {
+        "song": "What'd I Say",
+        "artist": "Ray Charles",
+        "year": 1959,
+        "justification": "This iconic song might evoke memories of the year Samuel got married.",
+        "rank": 3
+      },
+      {
+        "song": "Sh-Boom",
+        "artist": "The Chords",
+        "year": 1954,
+        "justification": "As a doo-wop classic, it captures the vibrant music scene of Samuel's teenage years.",
+        "rank": 4
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "The theme of support and love might resonate with Samuel's family-oriented life.",
+        "rank": 5
+      },
+      {
+        "song": "Moon River",
+        "artist": "Henry Mancini",
+        "year": 1961,
+        "justification": "This gentle melody might remind Samuel of peaceful family moments with his newborn son, Daniel.",
+        "rank": 6
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1964,
+        "justification": "This song's release coincides with Samuel's growing business success and family life.",
+        "rank": 7
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1963,
+        "justification": "A symbol of the cultural shifts during the 60s, possibly reflecting Samuel's adaptation to change.",
+        "rank": 8
+      },
+      {
+        "song": "You Send Me",
+        "artist": "Sam Cooke",
+        "year": 1957,
+        "justification": "A soulful song that might remind Samuel of the love and connection in his marriage.",
+        "rank": 9
+      },
+      {
+        "song": "La Bamba",
+        "artist": "Ritchie Valens",
+        "year": 1958,
+        "justification": "This energetic tune might evoke the diverse cultural influences Samuel experienced in Seattle.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Love Me Tender",
+        "conversation_prompt": "Do you remember any special moments with Yumi when this song was playing?"
+      },
+      {
+        "song": "Rock Around the Clock",
+        "conversation_prompt": "Did you ever dance to this song at parties or gatherings in Seattle?"
+      },
+      {
+        "song": "Stand by Me",
+        "conversation_prompt": "How did you and your family support each other when you faced challenges?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P030",
+      "name": "Samuel Kim",
+      "hist_plausibility": 0.3,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 3,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P062",
+    "name": "Maria Gomez",
+    "profile": {
+      "name": "Maria Gomez",
+      "gender": "Female",
+      "birth_year": 1950,
+      "hometown": "San Antonio, Texas",
+      "cultural_background": "Mexican American",
+      "life_events": [
+        {
+          "year": 1966,
+          "event": "Worked part-time as a seamstress to support her family"
+        },
+        {
+          "year": 1972,
+          "event": "Married and moved to a small house outside the city"
+        },
+        {
+          "year": 1975,
+          "event": "Had her first child"
+        },
+        {
+          "year": 1982,
+          "event": "Started a small business making custom dresses"
+        },
+        {
+          "year": 1989,
+          "event": "Became involved in local church charity events"
+        }
+      ],
+      "id": "P062",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Before The Next Teardrop Falls",
+          "artist": "Freddy Fender",
+          "year": 1975
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "You Keep Me Hangin' On",
+          "artist": "The Supremes",
+          "year": 1967
+        },
+        {
+          "song": "All Night Long (All Night)",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "Islands In The Stream",
+          "artist": "Kenny Rogers Duet With Dolly Parton",
+          "year": 1984
+        },
+        {
+          "song": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "La Bamba",
+        "artist": "Ritchie Valens",
+        "year": 1958,
+        "justification": "A popular Mexican folk song that reflects Maria's cultural heritage and was a hit during her teenage years.",
+        "rank": 1
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "A classic song about loyalty and love, resonating with Maria's early family responsibilities.",
+        "rank": 2
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1963,
+        "justification": "A major hit during the 1960s that Maria might have enjoyed during her youth.",
+        "rank": 3
+      },
+      {
+        "song": "Sabor a M\u00ed",
+        "artist": "Los Panchos",
+        "year": 1964,
+        "justification": "A beloved bolero that might remind Maria of her Mexican roots and family gatherings.",
+        "rank": 4
+      },
+      {
+        "song": "Unchained Melody",
+        "artist": "The Righteous Brothers",
+        "year": 1965,
+        "justification": "A romantic ballad that could evoke memories of Maria's courtship and marriage.",
+        "rank": 5
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "A feel-good song about love and admiration, likely popular during her formative years.",
+        "rank": 6
+      },
+      {
+        "song": "The Sound of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": 1966,
+        "justification": "A reflective song that Maria might have listened to while working as a seamstress.",
+        "rank": 7
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1967,
+        "justification": "A song representing the vibrant and changing cultural landscape of the late 60s.",
+        "rank": 8
+      },
+      {
+        "song": "For Once in My Life",
+        "artist": "Stevie Wonder",
+        "year": 1968,
+        "justification": "An uplifting song about gratitude and appreciation, reflecting Maria's positivity.",
+        "rank": 9
+      },
+      {
+        "song": "Amor Eterno",
+        "artist": "Roc\u00edo D\u00farcal",
+        "year": 1984,
+        "justification": "Though slightly outside the age range, this song is a Mexican classic that may resonate with Maria's cultural background and memories of family.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "La Bamba",
+        "conversation_prompt": "Did you ever dance to 'La Bamba' at family gatherings or community events?"
+      },
+      {
+        "song": "Unchained Melody",
+        "conversation_prompt": "Did this song play at your wedding or remind you of your early days of marriage?"
+      },
+      {
+        "song": "Amor Eterno",
+        "conversation_prompt": "Does this song remind you of special family occasions or someone dear to you?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P062",
+      "name": "Maria Gomez",
+      "hist_plausibility": 0.5,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 4,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P074",
+    "name": "Carlos Medina",
+    "profile": {
+      "name": "Carlos Medina",
+      "gender": "Male",
+      "birth_year": 1950,
+      "hometown": "Miami, Florida",
+      "cultural_background": "Cuban American",
+      "life_events": [
+        {
+          "year": 1964,
+          "event": "Immigrated to the U.S. with family"
+        },
+        {
+          "year": 1970,
+          "event": "Drafted into the U.S. Army during the Vietnam War"
+        },
+        {
+          "year": 1975,
+          "event": "Became a mechanic after military service"
+        },
+        {
+          "year": 1980,
+          "event": "Married and bought a family home"
+        },
+        {
+          "year": 1986,
+          "event": "Started a small auto repair shop"
+        }
+      ],
+      "id": "P074",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "The Ballad Of The Green Berets",
+          "artist": "SSgt Barry Sadler",
+          "year": 1966
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "I Heard It Through The Grapevine",
+          "artist": "Marvin Gaye",
+          "year": 1968
+        },
+        {
+          "song": "Island Girl",
+          "artist": "Elton John",
+          "year": 1975
+        },
+        {
+          "song": "Walk Like A Man",
+          "artist": "The 4 Seasons",
+          "year": 1963
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "All Night Long (All Night)",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Guantanamera",
+        "artist": "Celia Cruz",
+        "year": 1967,
+        "justification": "This song is a classic Cuban anthem that could remind Carlos of his cultural roots and his life in Cuba before immigrating to the U.S.",
+        "rank": 1
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "This popular song from Carlos's teenage years might evoke memories of his early days in Miami and the new culture he embraced.",
+        "rank": 2
+      },
+      {
+        "song": "I Heard It Through the Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968,
+        "justification": "A hit during Carlos's early adulthood, possibly linked to his experiences in the Army and the cultural changes of the 1960s.",
+        "rank": 3
+      },
+      {
+        "song": "Black Magic Woman",
+        "artist": "Santana",
+        "year": 1970,
+        "justification": "This song likely resonated with Carlos during his time in the army, providing a connection to Latin rock music.",
+        "rank": 4
+      },
+      {
+        "song": "Imagine",
+        "artist": "John Lennon",
+        "year": 1971,
+        "justification": "A powerful song from a time of change, reflecting Carlos's hopes and dreams after returning from military service.",
+        "rank": 5
+      },
+      {
+        "song": "Hotel California",
+        "artist": "Eagles",
+        "year": 1977,
+        "justification": "This iconic song could be tied to Carlos's transition to civilian life and his early career as a mechanic.",
+        "rank": 6
+      },
+      {
+        "song": "Oye Como Va",
+        "artist": "Santana",
+        "year": 1970,
+        "justification": "A song that blends Latin and rock influences, likely reminding Carlos of his cultural heritage and the vibrant music scene of the 1970s.",
+        "rank": 7
+      },
+      {
+        "song": "What a Wonderful World",
+        "artist": "Louis Armstrong",
+        "year": 1967,
+        "justification": "This timeless classic might evoke a sense of peace and nostalgia, connecting with Carlos's positive outlook on life.",
+        "rank": 8
+      },
+      {
+        "song": "Sweet Caroline",
+        "artist": "Neil Diamond",
+        "year": 1969,
+        "justification": "This song's upbeat and familiar tune may bring back joyful memories of Carlos's young adulthood.",
+        "rank": 9
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1967,
+        "justification": "A song that could remind Carlos of the excitement and cultural shifts during his youth in the late 1960s.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Guantanamera",
+        "conversation_prompt": "Can you share what you remember about your life in Cuba before moving to the U.S.?"
+      },
+      {
+        "song": "My Girl",
+        "conversation_prompt": "Did you have a favorite place to hang out with friends in Miami during your teenage years?"
+      },
+      {
+        "song": "Black Magic Woman",
+        "conversation_prompt": "Do you remember listening to any specific music while you were in the Army?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P074",
+      "name": "Carlos Medina",
+      "hist_plausibility": 0.5,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P015",
+    "name": "Peter Kowalski",
+    "profile": {
+      "name": "Peter Kowalski",
+      "gender": "Male",
+      "birth_year": 1952,
+      "hometown": "Chicago, Illinois",
+      "cultural_background": "Polish American",
+      "life_events": [
+        {
+          "year": 1970,
+          "event": "Started apprenticeship as a carpenter"
+        },
+        {
+          "year": 1974,
+          "event": "Married and started a family"
+        },
+        {
+          "year": 1981,
+          "event": "Co-founded a small construction company"
+        },
+        {
+          "year": 1985,
+          "event": "Faced economic hardship during recession"
+        },
+        {
+          "year": 1989,
+          "event": "Moved to the suburbs for better job opportunities"
+        }
+      ],
+      "id": "P015",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "My Love",
+          "artist": "Paul McCartney And Wings",
+          "year": 1973
+        },
+        {
+          "song": "Will It Go Round In Circles",
+          "artist": "Billy Preston",
+          "year": 1973
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder",
+          "year": 1984
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "Fame",
+          "artist": "David Bowie",
+          "year": 1975
+        },
+        {
+          "song": "Eye Of The Tiger",
+          "artist": "Survivor",
+          "year": 1982
+        },
+        {
+          "song": "You Keep Me Hangin' On",
+          "artist": "The Supremes",
+          "year": 1967
+        },
+        {
+          "song": "Hard To Say I'm Sorry",
+          "artist": "Chicago",
+          "year": 1982
+        },
+        {
+          "song": "Islands In The Stream",
+          "artist": "Kenny Rogers Duet With Dolly Parton",
+          "year": 1984
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Let It Be",
+        "artist": "The Beatles",
+        "year": 1970,
+        "justification": "This song was released when Peter started his apprenticeship. Its themes of comfort and perseverance may resonate with his early career experiences.",
+        "rank": 1
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": 1970,
+        "justification": "The song's message of support and friendship aligns with Peter's values as he embarked on his career and family life.",
+        "rank": 2
+      },
+      {
+        "song": "American Pie",
+        "artist": "Don McLean",
+        "year": 1971,
+        "justification": "This iconic track was popular during Peter's formative years and reflects on cultural changes he may have experienced.",
+        "rank": 3
+      },
+      {
+        "song": "Your Song",
+        "artist": "Elton John",
+        "year": 1970,
+        "justification": "A romantic ballad that could remind Peter of his early years of marriage and starting a family.",
+        "rank": 4
+      },
+      {
+        "song": "Imagine",
+        "artist": "John Lennon",
+        "year": 1971,
+        "justification": "Its hopeful message might resonate with Peter's aspirations during his early adult years.",
+        "rank": 5
+      },
+      {
+        "song": "Stairway to Heaven",
+        "artist": "Led Zeppelin",
+        "year": 1971,
+        "justification": "A rock classic that Peter might have enjoyed during his youth, reflecting his cultural and musical landscape.",
+        "rank": 6
+      },
+      {
+        "song": "Sweet Home Chicago",
+        "artist": "Robert Johnson",
+        "year": 1936,
+        "justification": "While older, this blues classic is tied to Chicago, Peter's hometown, and his Polish American cultural roots.",
+        "rank": 7
+      },
+      {
+        "song": "Hotel California",
+        "artist": "Eagles",
+        "year": 1977,
+        "justification": "A song that could remind Peter of his transition to family life and business ventures in the late 70s.",
+        "rank": 8
+      },
+      {
+        "song": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "year": 1975,
+        "justification": "A song reflective of the mid-70s era, which may evoke memories of Peter's young adulthood.",
+        "rank": 9
+      },
+      {
+        "song": "Ain't No Sunshine",
+        "artist": "Bill Withers",
+        "year": 1971,
+        "justification": "A soulful tune that could resonate with Peter's emotional experiences throughout his life.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Let It Be",
+        "conversation_prompt": "Do you remember listening to 'Let It Be' when you started your apprenticeship?"
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "conversation_prompt": "Who in your life was a source of support like in 'Bridge Over Troubled Water'?"
+      },
+      {
+        "song": "Sweet Home Chicago",
+        "conversation_prompt": "What memories do you have of growing up in Chicago when you hear 'Sweet Home Chicago'?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P015",
+      "name": "Peter Kowalski",
+      "hist_plausibility": 0.5,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 3,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P168",
+    "name": "Samuel Williams",
+    "profile": {
+      "name": "Samuel Williams",
+      "gender": "Male",
+      "birth_year": 1955,
+      "hometown": "Chicago, IL",
+      "cultural_background": "African American",
+      "life_events": [
+        {
+          "year": 1973,
+          "event": "Joined the military after high school"
+        },
+        {
+          "year": 1977,
+          "event": "Completed service and returned to find work as a truck driver"
+        },
+        {
+          "year": 1981,
+          "event": "Faced job instability due to economic changes"
+        },
+        {
+          "year": 1985,
+          "event": "Organized community food drives during economic hardship"
+        },
+        {
+          "year": 1990,
+          "event": "Started attending night classes at a local college"
+        }
+      ],
+      "id": "P168",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "Shining Star",
+          "artist": "Earth, Wind & Fire",
+          "year": 1975
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "When Doves Cry",
+          "artist": "Prince",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "The Ballad Of The Green Berets",
+          "artist": "SSgt Barry Sadler",
+          "year": 1966
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "Man In The Mirror",
+          "artist": "Michael Jackson",
+          "year": 1988
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "I Heard It Through The Grapevine",
+          "artist": "Marvin Gaye",
+          "year": 1968
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "Let's Do It Again",
+          "artist": "The Staple Singers",
+          "year": 1975
+        },
+        {
+          "song": "I Want To Know What Love Is",
+          "artist": "Foreigner",
+          "year": 1985
+        },
+        {
+          "song": "Don't Worry, Be Happy (From \"Cocktail\")",
+          "artist": "Bobby McFerrin",
+          "year": 1989
+        },
+        {
+          "song": "Praying For Time",
+          "artist": "George Michael",
+          "year": 1990
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Superstition",
+        "artist": "Stevie Wonder",
+        "year": 1972,
+        "justification": "This song was a major hit during Samuel's high school years and Stevie Wonder is a prominent African American artist, likely resonating with Samuel's cultural background.",
+        "rank": 1
+      },
+      {
+        "song": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "year": 1973,
+        "justification": "Marvin Gaye's music was influential during the early 1970s, and this song was released when Samuel joined the military, possibly being a source of comfort.",
+        "rank": 2
+      },
+      {
+        "song": "I'll Be Around",
+        "artist": "The Spinners",
+        "year": 1972,
+        "justification": "As a classic soul track popular during Samuel's teenage years, it aligns with his cultural background and the era's music scene.",
+        "rank": 3
+      },
+      {
+        "song": "Ain't No Sunshine",
+        "artist": "Bill Withers",
+        "year": 1971,
+        "justification": "This soulful classic might resonate with Samuel, reflecting themes of longing and resilience that could connect to his time in the military.",
+        "rank": 4
+      },
+      {
+        "song": "Lean on Me",
+        "artist": "Bill Withers",
+        "year": 1972,
+        "justification": "The themes of community and support in this song may connect with Samuel's later efforts in organizing community food drives.",
+        "rank": 5
+      },
+      {
+        "song": "What's Going On",
+        "artist": "Marvin Gaye",
+        "year": 1971,
+        "justification": "This song addresses social issues of the time, resonating with Samuel's community involvement and awareness.",
+        "rank": 6
+      },
+      {
+        "song": "Love Train",
+        "artist": "The O'Jays",
+        "year": 1973,
+        "justification": "The uplifting message of unity and hope aligns with Samuel's later community-focused activities.",
+        "rank": 7
+      },
+      {
+        "song": "Dance to the Music",
+        "artist": "Sly and the Family Stone",
+        "year": 1968,
+        "justification": "This high-energy track reflects the vibrant music scene of Samuel\u2019s teenage years and his cultural background.",
+        "rank": 8
+      },
+      {
+        "song": "Papa Was a Rollin' Stone",
+        "artist": "The Temptations",
+        "year": 1972,
+        "justification": "A song that captures the complexities of family dynamics, possibly resonating with Samuel's own life experiences.",
+        "rank": 9
+      },
+      {
+        "song": "The Tears of a Clown",
+        "artist": "Smokey Robinson and the Miracles",
+        "year": 1970,
+        "justification": "A classic Motown hit that might evoke memories of Samuel's youth in Chicago.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Superstition",
+        "conversation_prompt": "Do you remember hearing this song when you were in high school? What memories does it bring back?"
+      },
+      {
+        "song": "Lean on Me",
+        "conversation_prompt": "This song talks about being there for others. How did you feel when you organized the community food drives?"
+      },
+      {
+        "song": "What's Going On",
+        "conversation_prompt": "This song addresses important social issues. Were there any events in the 70s that particularly affected you?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P168",
+      "name": "Samuel Williams",
+      "hist_plausibility": 0.9,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P098",
+    "name": "Samuel Lee",
+    "profile": {
+      "name": "Samuel Lee",
+      "gender": "Male",
+      "birth_year": 1950,
+      "hometown": "Los Angeles, California",
+      "cultural_background": "Korean American",
+      "life_events": [
+        {
+          "year": 1968,
+          "event": "Entered the family dry cleaning business"
+        },
+        {
+          "year": 1970,
+          "event": "Drafted into the Army and served in Vietnam"
+        },
+        {
+          "year": 1973,
+          "event": "Returned home and married his high school sweetheart, Janet"
+        },
+        {
+          "year": 1978,
+          "event": "Opened his own grocery store"
+        },
+        {
+          "year": 1985,
+          "event": "Became a leader in the local business community"
+        }
+      ],
+      "id": "P098",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "I Heard It Through The Grapevine",
+          "artist": "Marvin Gaye",
+          "year": 1968
+        },
+        {
+          "song": "Light My Fire",
+          "artist": "The Doors",
+          "year": 1968
+        },
+        {
+          "song": "Grazing In The Grass",
+          "artist": "Hugh Masekela",
+          "year": 1968
+        },
+        {
+          "song": "The Ballad Of The Green Berets",
+          "artist": "SSgt Barry Sadler",
+          "year": 1966
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "Islands In The Stream",
+          "artist": "Kenny Rogers Duet With Dolly Parton",
+          "year": 1984
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "California Dreamin'",
+        "artist": "The Mamas & The Papas",
+        "year": 1965,
+        "justification": "This song is an iconic anthem from Los Angeles in the 1960s, capturing the cultural vibe during Samuel's youth.",
+        "rank": 1
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1963,
+        "justification": "The Beatles were extremely popular during Samuel's teenage years and this song would have been a hit when he was in high school.",
+        "rank": 2
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1964,
+        "justification": "A romantic classic, this song might remind Samuel of his early relationship with his high school sweetheart, Janet.",
+        "rank": 3
+      },
+      {
+        "song": "Sitting on the Dock of the Bay",
+        "artist": "Otis Redding",
+        "year": 1968,
+        "justification": "Reflective of the feelings of longing and contemplation Samuel might have experienced during his time in Vietnam.",
+        "rank": 4
+      },
+      {
+        "song": "Ain't No Mountain High Enough",
+        "artist": "Marvin Gaye & Tammi Terrell",
+        "year": 1967,
+        "justification": "This uplifting song may resonate with Samuel's determination in opening his own grocery store.",
+        "rank": 5
+      },
+      {
+        "song": "Respect",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "justification": "A powerful anthem from the era, reflecting the social changes happening during Samuel's formative years.",
+        "rank": 6
+      },
+      {
+        "song": "Light My Fire",
+        "artist": "The Doors",
+        "year": 1967,
+        "justification": "The Doors were a significant band from Los Angeles, and this song might bring back memories of his hometown.",
+        "rank": 7
+      },
+      {
+        "song": "Fortunate Son",
+        "artist": "Creedence Clearwater Revival",
+        "year": 1969,
+        "justification": "A song related to the Vietnam War era, relevant to Samuel's military service experience.",
+        "rank": 8
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": 1970,
+        "justification": "This song's themes of support and reassurance could relate to Samuel's return home and marriage.",
+        "rank": 9
+      },
+      {
+        "song": "Let's Stay Together",
+        "artist": "Al Green",
+        "year": 1972,
+        "justification": "A soulful and romantic song that may remind Samuel of his early married life with Janet.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "California Dreamin'",
+        "conversation_prompt": "Did this song remind you of any places you visited in Los Angeles during your youth?"
+      },
+      {
+        "song": "My Girl",
+        "conversation_prompt": "Do you remember any special moments with Janet when this song was playing?"
+      },
+      {
+        "song": "Fortunate Son",
+        "conversation_prompt": "How did you feel about the music that played during your time in the Army?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P098",
+      "name": "Samuel Lee",
+      "hist_plausibility": 0.8,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 4,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P095",
+    "name": "Patricia O'Brien",
+    "profile": {
+      "name": "Patricia O'Brien",
+      "gender": "Female",
+      "birth_year": 1938,
+      "hometown": "Boston, Massachusetts",
+      "cultural_background": "Irish American",
+      "life_events": [
+        {
+          "year": 1956,
+          "event": "Graduated from high school and became a nurse"
+        },
+        {
+          "year": 1963,
+          "event": "Married John, a Boston firefighter"
+        },
+        {
+          "year": 1966,
+          "event": "Moved to the suburbs after having her second child"
+        },
+        {
+          "year": 1978,
+          "event": "Lost her husband in a fire accident"
+        },
+        {
+          "year": 1982,
+          "event": "Became a head nurse at a local hospital"
+        }
+      ],
+      "id": "P095",
+      "ground_truth_playlist": [
+        {
+          "song": "The Lion Sleeps Tonight",
+          "artist": "The Tokens",
+          "year": 1962
+        },
+        {
+          "song": "Please Mr. Postman",
+          "artist": "The Marvelettes",
+          "year": 1962
+        },
+        {
+          "song": "Walk Like A Man",
+          "artist": "The 4 Seasons",
+          "year": 1963
+        },
+        {
+          "song": "Where Did Our Love Go",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "House Of The Rising Sun",
+          "artist": "The Animals",
+          "year": 1964
+        },
+        {
+          "song": "Baby Love",
+          "artist": "The Supremes",
+          "year": 1964
+        },
+        {
+          "song": "I Want To Hold Your Hand",
+          "artist": "The Beatles",
+          "year": 1964
+        },
+        {
+          "song": "Downtown",
+          "artist": "Petula Clark",
+          "year": 1965
+        },
+        {
+          "song": "Good Vibrations",
+          "artist": "The Beach Boys",
+          "year": 1967
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Chapel Of Love",
+          "artist": "The Dixie Cups",
+          "year": 1964
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "The Ballad Of The Green Berets",
+          "artist": "SSgt Barry Sadler",
+          "year": 1966
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Harper Valley P.T.A.",
+          "artist": "Jeannie C. Riley",
+          "year": 1968
+        },
+        {
+          "song": "You've Got A Friend",
+          "artist": "James Taylor",
+          "year": 1971
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "When Irish Eyes Are Smiling",
+        "artist": "Bing Crosby",
+        "year": 1947,
+        "justification": "This song connects with Patricia's Irish American heritage and was likely played in her home growing up.",
+        "rank": 1
+      },
+      {
+        "song": "Rock Around the Clock",
+        "artist": "Bill Haley & His Comets",
+        "year": 1954,
+        "justification": "A popular song during Patricia's teenage years, possibly played at her high school dances.",
+        "rank": 2
+      },
+      {
+        "song": "Love Me Tender",
+        "artist": "Elvis Presley",
+        "year": 1956,
+        "justification": "Released the year Patricia graduated high school, this song may remind her of young love and new beginnings.",
+        "rank": 3
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "artist": "The Beatles",
+        "year": 1963,
+        "justification": "This song was a hit around the time Patricia got married, capturing the excitement and optimism of that era.",
+        "rank": 4
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "A classic love song that may remind Patricia of her early years of marriage.",
+        "rank": 5
+      },
+      {
+        "song": "Strangers in the Night",
+        "artist": "Frank Sinatra",
+        "year": 1966,
+        "justification": "Released the year Patricia moved to the suburbs, this song could symbolize change and new experiences.",
+        "rank": 6
+      },
+      {
+        "song": "The Sound of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": 1966,
+        "justification": "A reflective song that Patricia might have appreciated during her early years as a mother.",
+        "rank": 7
+      },
+      {
+        "song": "Mrs. Robinson",
+        "artist": "Simon & Garfunkel",
+        "year": 1968,
+        "justification": "A song that would have been popular during Patricia's early family life in the suburbs.",
+        "rank": 8
+      },
+      {
+        "song": "What a Wonderful World",
+        "artist": "Louis Armstrong",
+        "year": 1967,
+        "justification": "An optimistic song that might resonate with Patricia's experiences of family and life.",
+        "rank": 9
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968,
+        "justification": "A song that reflects hope and resilience, qualities Patricia might relate to having experienced personal loss.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "When Irish Eyes Are Smiling",
+        "conversation_prompt": "Did your family play this song at home or during special occasions?"
+      },
+      {
+        "song": "Love Me Tender",
+        "conversation_prompt": "Do you remember this song being played at your high school graduation or other important events?"
+      },
+      {
+        "song": "I Want to Hold Your Hand",
+        "conversation_prompt": "What were some of your favorite memories from the time you got married?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P095",
+      "name": "Patricia O'Brien",
+      "hist_plausibility": 0.6,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 4,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P175",
+    "name": "Eleanor Kowalski",
+    "profile": {
+      "name": "Eleanor Kowalski",
+      "gender": "Female",
+      "birth_year": 1951,
+      "hometown": "Milwaukee, WI",
+      "cultural_background": "Polish American",
+      "life_events": [
+        {
+          "year": 1968,
+          "event": "Won a local youth baking competition"
+        },
+        {
+          "year": 1972,
+          "event": "Married a factory worker and moved into a modest home"
+        },
+        {
+          "year": 1975,
+          "event": "Gave birth to her first child"
+        },
+        {
+          "year": 1983,
+          "event": "Started a small baking business from home"
+        },
+        {
+          "year": 1989,
+          "event": "Divorced and became a single parent"
+        }
+      ],
+      "id": "P175",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder",
+          "year": 1984
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "Shining Star",
+          "artist": "Earth, Wind & Fire",
+          "year": 1975
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        },
+        {
+          "song": "Good Vibrations",
+          "artist": "The Beach Boys",
+          "year": 1967
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Mrs. Robinson",
+        "artist": "Simon & Garfunkel",
+        "year": 1968,
+        "justification": "Released in the year Eleanor won the baking competition, this song might have been a hit she frequently heard during that time.",
+        "rank": 1
+      },
+      {
+        "song": "Hey Jude",
+        "artist": "The Beatles",
+        "year": 1968,
+        "justification": "A timeless classic from her youth, likely associated with many memories from her teenage years.",
+        "rank": 2
+      },
+      {
+        "song": "Moon River",
+        "artist": "Andy Williams",
+        "year": 1962,
+        "justification": "A popular romantic song during Eleanor's formative years, possibly played at dances or social events she attended.",
+        "rank": 3
+      },
+      {
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "justification": "A feel-good song that could remind her of happy times and loved ones from her past.",
+        "rank": 4
+      },
+      {
+        "song": "Sweet Caroline",
+        "artist": "Neil Diamond",
+        "year": 1969,
+        "justification": "A popular sing-along song that might evoke memories of gatherings and celebrations.",
+        "rank": 5
+      },
+      {
+        "song": "Unchained Melody",
+        "artist": "The Righteous Brothers",
+        "year": 1965,
+        "justification": "A romantic ballad that might have resonated with her during her courtship years.",
+        "rank": 6
+      },
+      {
+        "song": "Raindrops Keep Fallin' on My Head",
+        "artist": "B.J. Thomas",
+        "year": 1969,
+        "justification": "A cheerful tune from the time Eleanor was transitioning into adulthood.",
+        "rank": 7
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": 1970,
+        "justification": "An inspirational song that could provide comfort and hope.",
+        "rank": 8
+      },
+      {
+        "song": "Can't Help Falling in Love",
+        "artist": "Elvis Presley",
+        "year": 1961,
+        "justification": "A classic love song that might remind her of her marriage and early family life.",
+        "rank": 9
+      },
+      {
+        "song": "Dancing Queen",
+        "artist": "ABBA",
+        "year": 1976,
+        "justification": "Although slightly after her key years, this song is a joyful anthem likely enjoyed during her young adulthood.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Mrs. Robinson",
+        "conversation_prompt": "Do you remember the year you won the baking competition? What was it like?"
+      },
+      {
+        "song": "Hey Jude",
+        "conversation_prompt": "Did you have a favorite Beatles song or memory?"
+      },
+      {
+        "song": "My Girl",
+        "conversation_prompt": "Who were some of your closest friends during your teenage years?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P175",
+      "name": "Eleanor Kowalski",
+      "hist_plausibility": 0.7,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 3,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P012",
+    "name": "Dolores Rivera",
+    "profile": {
+      "name": "Dolores Rivera",
+      "gender": "Female",
+      "birth_year": 1955,
+      "hometown": "San Antonio, Texas",
+      "cultural_background": "Mexican American",
+      "life_events": [
+        {
+          "year": 1972,
+          "event": "Graduated high school and started working as a seamstress"
+        },
+        {
+          "year": 1976,
+          "event": "Married and had first child"
+        },
+        {
+          "year": 1980,
+          "event": "Became involved in local church group activities"
+        },
+        {
+          "year": 1985,
+          "event": "Helped organize community support during economic downturn"
+        },
+        {
+          "year": 1988,
+          "event": "Supported family through husband\u2019s prolonged illness"
+        }
+      ],
+      "id": "P012",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "Before The Next Teardrop Falls",
+          "artist": "Freddy Fender",
+          "year": 1975
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "Wind Beneath My Wings (From \"Beaches\")",
+          "artist": "Bette Midler",
+          "year": 1989
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Shining Star",
+          "artist": "Earth, Wind & Fire",
+          "year": 1975
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "Let's Do It Again",
+          "artist": "The Staple Singers",
+          "year": 1975
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "I Want To Know What Love Is",
+          "artist": "Foreigner",
+          "year": 1985
+        },
+        {
+          "song": "Islands In The Stream",
+          "artist": "Kenny Rogers Duet With Dolly Parton",
+          "year": 1984
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "La Bamba",
+        "artist": "Ritchie Valens",
+        "year": 1958,
+        "justification": "This song is a Mexican folk tune that became a rock and roll classic, symbolizing Dolores's Mexican American heritage and cultural pride.",
+        "rank": 1
+      },
+      {
+        "song": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+        "artist": "Four Tops",
+        "year": 1965,
+        "justification": "A popular Motown hit during Dolores's teenage years, likely resonating with her experiences of young love and social gatherings.",
+        "rank": 2
+      },
+      {
+        "song": "Besame Mucho",
+        "artist": "Consuelo Vel\u00e1zquez",
+        "year": 1940,
+        "justification": "A classic romantic Latin song that Dolores may have heard growing up in a Mexican American household.",
+        "rank": 3
+      },
+      {
+        "song": "Brown Eyed Girl",
+        "artist": "Van Morrison",
+        "year": 1967,
+        "justification": "This upbeat, nostalgic song might remind Dolores of her youth and early adulthood.",
+        "rank": 4
+      },
+      {
+        "song": "Amor Eterno",
+        "artist": "Roc\u00edo D\u00farcal",
+        "year": 1984,
+        "justification": "A deeply emotional song often played at family gatherings, connecting with Dolores's strong family ties and support during difficult times.",
+        "rank": 5
+      },
+      {
+        "song": "Stand by Me",
+        "artist": "Ben E. King",
+        "year": 1961,
+        "justification": "A timeless song about loyalty and support, reflecting Dolores's commitment to her family and community.",
+        "rank": 6
+      },
+      {
+        "song": "Cielito Lindo",
+        "artist": "Mariachi Vargas de Tecalitl\u00e1n",
+        "year": 1973,
+        "justification": "A traditional Mexican song that Dolores likely heard at family events and community gatherings.",
+        "rank": 7
+      },
+      {
+        "song": "Sweet Caroline",
+        "artist": "Neil Diamond",
+        "year": 1969,
+        "justification": "A classic feel-good song from Dolores's young adult years, often played at social events.",
+        "rank": 8
+      },
+      {
+        "song": "Como La Flor",
+        "artist": "Selena",
+        "year": 1992,
+        "justification": "Although released later, Selena's music holds a special place in the Mexican American community and resonates with Dolores's cultural background.",
+        "rank": 9
+      },
+      {
+        "song": "Lean on Me",
+        "artist": "Bill Withers",
+        "year": 1972,
+        "justification": "A song about friendship and support, echoing Dolores's community involvement and strength during her husband's illness.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "La Bamba",
+        "conversation_prompt": "Did you ever dance to this song at family gatherings or parties?"
+      },
+      {
+        "song": "Brown Eyed Girl",
+        "conversation_prompt": "Does this song remind you of any specific memories from your youth?"
+      },
+      {
+        "song": "Amor Eterno",
+        "conversation_prompt": "Can you share a memory about a family gathering where this song was played?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P012",
+      "name": "Dolores Rivera",
+      "hist_plausibility": 0.2,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  },
+  {
+    "profile_id": "P156",
+    "name": "Dorothy Nguyen",
+    "profile": {
+      "name": "Dorothy Nguyen",
+      "gender": "Female",
+      "birth_year": 1953,
+      "hometown": "Seattle, WA",
+      "cultural_background": "Vietnamese American",
+      "life_events": [
+        {
+          "year": 1972,
+          "event": "Immigrated to the US with family"
+        },
+        {
+          "year": 1975,
+          "event": "Started working as a store clerk"
+        },
+        {
+          "year": 1977,
+          "event": "Attended community college for business management"
+        },
+        {
+          "year": 1980,
+          "event": "Opened small grocery store"
+        },
+        {
+          "year": 1988,
+          "event": "Won community award for small business excellence"
+        }
+      ],
+      "id": "P156",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "Sister Golden Hair",
+          "artist": "America",
+          "year": 1975
+        },
+        {
+          "song": "Fame",
+          "artist": "David Bowie",
+          "year": 1975
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Ben",
+          "artist": "Michael Jackson",
+          "year": 1972
+        },
+        {
+          "song": "I Am Woman",
+          "artist": "Helen Reddy",
+          "year": 1973
+        },
+        {
+          "song": "Man In The Mirror",
+          "artist": "Michael Jackson",
+          "year": 1988
+        },
+        {
+          "song": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder",
+          "year": 1984
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "Tell Her About It",
+          "artist": "Billy Joel",
+          "year": 1983
+        },
+        {
+          "song": "People Got To Be Free",
+          "artist": "The Rascals",
+          "year": 1968
+        },
+        {
+          "song": "What's Love Got To Do With It",
+          "artist": "Tina Turner",
+          "year": 1984
+        },
+        {
+          "song": "These Boots Are Made For Walkin'",
+          "artist": "Nancy Sinatra",
+          "year": 1966
+        },
+        {
+          "song": "We Are The World",
+          "artist": "USA For Africa",
+          "year": 1985
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Ain't No Mountain High Enough",
+        "artist": "Marvin Gaye & Tammi Terrell",
+        "year": 1967,
+        "justification": "This song was a major hit during Dorothy's teenage years and may remind her of the optimism and resilience needed when her family immigrated to the US.",
+        "rank": 1
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": 1970,
+        "justification": "The comforting message of support and friendship in this song might resonate with Dorothy's transition to a new country and her early days in the US.",
+        "rank": 2
+      },
+      {
+        "song": "Let It Be",
+        "artist": "The Beatles",
+        "year": 1970,
+        "justification": "This classic song could provide solace and encouragement during her challenging times adapting to a new culture.",
+        "rank": 3
+      },
+      {
+        "song": "Imagine",
+        "artist": "John Lennon",
+        "year": 1971,
+        "justification": "The themes of hope and peace in this song might reflect Dorothy's aspirations and dreams during her young adult years.",
+        "rank": 4
+      },
+      {
+        "song": "American Pie",
+        "artist": "Don McLean",
+        "year": 1971,
+        "justification": "As a song that captures a sense of nostalgia, it could evoke memories of cultural changes during Dorothy's early years in the US.",
+        "rank": 5
+      },
+      {
+        "song": "What's Going On",
+        "artist": "Marvin Gaye",
+        "year": 1971,
+        "justification": "This song's social consciousness might connect with Dorothy's experience of the world changing around her during her formative years.",
+        "rank": 6
+      },
+      {
+        "song": "Killing Me Softly with His Song",
+        "artist": "Roberta Flack",
+        "year": 1973,
+        "justification": "The emotional depth and storytelling of this song might resonate with Dorothy's personal journey and emotions.",
+        "rank": 7
+      },
+      {
+        "song": "Superstition",
+        "artist": "Stevie Wonder",
+        "year": 1972,
+        "justification": "This upbeat and popular song from Dorothy's youth may bring back memories of her early days working in the US.",
+        "rank": 8
+      },
+      {
+        "song": "Stairway to Heaven",
+        "artist": "Led Zeppelin",
+        "year": 1971,
+        "justification": "A classic rock staple that could evoke memories of the era's music scene and its impact on Dorothy's cultural experience.",
+        "rank": 9
+      },
+      {
+        "song": "Close to You",
+        "artist": "The Carpenters",
+        "year": 1970,
+        "justification": "This romantic and mellow song might remind Dorothy of the simple joys and relationships during her young adult life.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Ain't No Mountain High Enough",
+        "conversation_prompt": "Do you remember any challenges you overcame when you first came to the US?"
+      },
+      {
+        "song": "Bridge Over Troubled Water",
+        "conversation_prompt": "Who were some of the people that supported you during your early years in America?"
+      },
+      {
+        "song": "Imagine",
+        "conversation_prompt": "What were some of your dreams and hopes when you were starting your new life in the US?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P156",
+      "name": "Dorothy Nguyen",
+      "hist_plausibility": 0.7,
+      "bio_precision_llm": 3,
+      "cultural_approp_llm": 3,
+      "overall_llm": 3
+    }
+  },
+  {
+    "profile_id": "P162",
+    "name": "William Tucker",
+    "profile": {
+      "name": "William Tucker",
+      "gender": "Male",
+      "birth_year": 1952,
+      "hometown": "Charleston, WV",
+      "cultural_background": "White American (Appalachian)",
+      "life_events": [
+        {
+          "year": 1968,
+          "event": "Dropped out of high school to work in a coal mine"
+        },
+        {
+          "year": 1970,
+          "event": "Married his high school sweetheart"
+        },
+        {
+          "year": 1973,
+          "event": "Participated in a strike to improve working conditions"
+        },
+        {
+          "year": 1980,
+          "event": "Lost his job due to mine closure"
+        },
+        {
+          "year": 1985,
+          "event": "Started a small carpentry business"
+        }
+      ],
+      "id": "P162",
+      "ground_truth_playlist": [
+        {
+          "song": "Me And Mrs. Jones",
+          "artist": "Billy Paul",
+          "year": 1973
+        },
+        {
+          "song": "You're So Vain",
+          "artist": "Carly Simon",
+          "year": 1973
+        },
+        {
+          "song": "I Can See Clearly Now",
+          "artist": "Johnny Nash",
+          "year": 1973
+        },
+        {
+          "song": "Love Train",
+          "artist": "The O'Jays",
+          "year": 1973
+        },
+        {
+          "song": "Thank God I'm A Country Boy",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Get Down Tonight",
+          "artist": "KC And The Sunshine Band",
+          "year": 1975
+        },
+        {
+          "song": "Philadelphia Freedom",
+          "artist": "The Elton John Band",
+          "year": 1975
+        },
+        {
+          "song": "American Pie (Parts I & II)",
+          "artist": "Don McLean",
+          "year": 1972
+        },
+        {
+          "song": "Maggie May/Reason To Believe",
+          "artist": "Rod Stewart",
+          "year": 1971
+        },
+        {
+          "song": "Hey Jude",
+          "artist": "The Beatles",
+          "year": 1968
+        },
+        {
+          "song": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins",
+          "year": 1984
+        },
+        {
+          "song": "When A Man Loves A Woman",
+          "artist": "Percy Sledge",
+          "year": 1966
+        },
+        {
+          "song": "I'm Sorry",
+          "artist": "John Denver",
+          "year": 1975
+        },
+        {
+          "song": "Walk Like A Man",
+          "artist": "The 4 Seasons",
+          "year": 1963
+        },
+        {
+          "song": "Big Bad John",
+          "artist": "Jimmy Dean",
+          "year": 1962
+        },
+        {
+          "song": "Tie A Yellow Ribbon Round The Ole Oak Tree",
+          "artist": "Dawn Featuring Tony Orlando",
+          "year": 1973
+        },
+        {
+          "song": "You Are The Sunshine Of My Life",
+          "artist": "Stevie Wonder",
+          "year": 1973
+        },
+        {
+          "song": "How Can You Mend A Broken Heart",
+          "artist": "Bee Gees",
+          "year": 1971
+        },
+        {
+          "song": "Hello",
+          "artist": "Lionel Richie",
+          "year": 1984
+        },
+        {
+          "song": "Groovin'",
+          "artist": "The Young Rascals",
+          "year": 1967
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "song": "Take Me Home, Country Roads",
+        "artist": "John Denver",
+        "year": 1971,
+        "justification": "This song mentions West Virginia, connecting deeply with William's roots and his life in Charleston.",
+        "rank": 1
+      },
+      {
+        "song": "Coal Miner's Daughter",
+        "artist": "Loretta Lynn",
+        "year": 1970,
+        "justification": "Reflects William's early life working in the coal mines and the Appalachian culture.",
+        "rank": 2
+      },
+      {
+        "song": "Ain't No Mountain High Enough",
+        "artist": "Marvin Gaye & Tammi Terrell",
+        "year": 1967,
+        "justification": "A popular love song around the time William married his high school sweetheart.",
+        "rank": 3
+      },
+      {
+        "song": "For What It's Worth",
+        "artist": "Buffalo Springfield",
+        "year": 1966,
+        "justification": "This song connects to William's participation in the 1973 strike for better working conditions.",
+        "rank": 4
+      },
+      {
+        "song": "The Sound of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": 1964,
+        "justification": "A reflective song that might resonate during times of transition, like the mine closure.",
+        "rank": 5
+      },
+      {
+        "song": "Raindrops Keep Fallin' on My Head",
+        "artist": "B.J. Thomas",
+        "year": 1969,
+        "justification": "A comforting song from his young adulthood, offering a positive outlook during tough times.",
+        "rank": 6
+      },
+      {
+        "song": "Sweet Baby James",
+        "artist": "James Taylor",
+        "year": 1970,
+        "justification": "James Taylor's soothing voice and storytelling might appeal to William's Appalachian sensibilities.",
+        "rank": 7
+      },
+      {
+        "song": "Proud Mary",
+        "artist": "Creedence Clearwater Revival",
+        "year": 1969,
+        "justification": "A popular rock song of the era, potentially played at social gatherings during his youth.",
+        "rank": 8
+      },
+      {
+        "song": "American Pie",
+        "artist": "Don McLean",
+        "year": 1971,
+        "justification": "A quintessential American song from the early '70s, likely part of William's cultural backdrop.",
+        "rank": 9
+      },
+      {
+        "song": "Lean on Me",
+        "artist": "Bill Withers",
+        "year": 1972,
+        "justification": "A timeless message of support and community, aligning with William's values and experiences.",
+        "rank": 10
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Take Me Home, Country Roads",
+        "conversation_prompt": "What memories do you have of living in West Virginia?"
+      },
+      {
+        "song": "Coal Miner's Daughter",
+        "conversation_prompt": "Can you share some stories about your time working in the coal mines?"
+      },
+      {
+        "song": "Ain't No Mountain High Enough",
+        "conversation_prompt": "How did you and your wife meet and what were those early days like?"
+      }
+    ],
+    "scores": {
+      "profile_id": "P162",
+      "name": "William Tucker",
+      "hist_plausibility": 0.6,
+      "bio_precision_llm": 4,
+      "cultural_approp_llm": 5,
+      "overall_llm": 4
+    }
+  }
+]
