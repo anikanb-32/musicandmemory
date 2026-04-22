@@ -1,0 +1,57 @@
+Loading retrieval system...
+Loaded 2381 vectors, 2381 songs
+Sampled 25 validation profiles
+
+============================================================
+TUNING VARIANT B
+============================================================
+
+--- Variant B | method=dense | k=10 ---
+  [1/25] Aisha Khan: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=1.00, overall=2, P@k=0.00, MRR=0.00
+  [3/25] Elena Martinez: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=1.00, overall=3, P@k=0.10, MRR=0.17
+  [5/25] Fernando De la Cruz: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [6/25] Dolores Santos: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=1.00, overall=3, P@k=0.10, MRR=0.25
+  [8/25] Robert Thompson: hist=1.00, overall=3, P@k=0.10, MRR=0.17
+  [9/25] Pauline Deschamps: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [10/25] Rina Patel: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: hist=0.80, overall=3, P@k=0.10, MRR=1.00
+  [13/25] Lillian Kim: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [14/25] Linda Park: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [16/25] Maria Gomez: hist=0.70, overall=2, P@k=0.00, MRR=0.00
+  [17/25] Carlos Medina: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=0.80, overall=3, P@k=0.10, MRR=1.00
+  [19/25] Samuel Williams: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [20/25] Samuel Lee: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [21/25] Patricia O'Brien: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [22/25] Eleanor Kowalski: hist=0.80, overall=3, P@k=0.10, MRR=0.17
+  [23/25] Dolores Rivera: hist=0.80, overall=3, P@k=0.10, MRR=1.00
+  [24/25] Dorothy Nguyen: hist=0.90, overall=3, P@k=0.11, MRR=0.14
+  [25/25] William Tucker: hist=0.80, overall=3, P@k=0.10, MRR=1.00
+  >>> Avg: {'k': 10.0, 'birth_year': 1948.52, 'hist_plausibility': 0.872, 'bio_precision_llm': 2.96, 'cultural_approp_llm': 2.52, 'overall_llm': 2.96, 'precision_at_k': 0.036444444444444446, 'recall': 0.01810526315789474, 'mrr': 0.19571428571428573}
+
+--- Variant B | method=dense | k=20 ---
+  [1/25] Aisha Khan: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=1.00, overall=3, P@k=0.05, MRR=0.08
+  [3/25] Elena Martinez: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=1.00, overall=3, P@k=0.05, MRR=0.17
+  [5/25] Fernando De la Cruz: hist=1.00, overall=4, P@k=0.05, MRR=0.06
+  [6/25] Dolores Santos: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=1.00, overall=4, P@k=0.05, MRR=0.25
+  [8/25] Robert Thompson: hist=1.00, overall=3, P@k=0.05, MRR=0.17
+  [9/25] Pauline Deschamps: hist=1.00, overall=4, P@k=0.05, MRR=0.07
+  [10/25] Rina Patel: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: SKIPPED — Expecting value: line 34 column 23 (char 1588)
+  [13/25] Lillian Kim: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [14/25] Linda Park: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.90, overall=4, P@k=0.05, MRR=0.07
+  [16/25] Maria Gomez: hist=1.00, overall=4, P@k=0.05, MRR=0.05
+  [17/25] Carlos Medina: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=1.00, overall=3, P@k=0.05, MRR=1.00
+  [19/25] Samuel Williams: hist=1.00, overall=3, P@k=0.05, MRR=0.09
+  [20/25] Samuel Lee: hist=1.00, overall=4, P@k=0.05, MRR=0.05

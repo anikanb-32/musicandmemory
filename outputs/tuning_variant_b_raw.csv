@@ -1,0 +1,151 @@
+variant,method,k,profile_id,name,birth_year,cultural_background,hist_plausibility,bio_precision_llm,cultural_approp_llm,overall_llm,precision_at_k,recall,mrr
+B,dense,10,P097,Aisha Khan,1963,Pakistani American,0.8,3,3,3,0.0,0.0,0.0
+B,dense,10,P031,Eloise Johnson,1942,African American,1.0,2,2,2,0.0,0.0,0.0
+B,dense,10,P102,Elena Martinez,1950,Mexican American,0.8,3,3,3,0.0,0.0,0.0
+B,dense,10,P099,Ngo Thi Pham,1945,Vietnamese American,1.0,3,3,3,0.1,0.05,0.16666666666666666
+B,dense,10,P078,Fernando De la Cruz,1948,Dominican American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,10,P171,Dolores Santos,1940,Mexican American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,10,P133,James Kowalski,1946,Polish American,1.0,3,3,3,0.1,0.05263157894736842,0.25
+B,dense,10,P116,Robert Thompson,1945,White American (Appalachian),1.0,3,4,3,0.1,0.05,0.16666666666666666
+B,dense,10,P019,Pauline Deschamps,1939,Haitian American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,10,P220,Rina Patel,1963,Indian American,0.8,3,2,3,0.0,0.0,0.0
+B,dense,10,P163,Giuseppe Romano,1939,Italian American,1.0,3,3,3,0.0,0.0,0.0
+B,dense,10,P034,Li Wei,1955,Chinese American,0.8,4,3,4,0.1,0.05,1.0
+B,dense,10,P053,Lillian Kim,1936,Korean American,0.9,3,3,3,0.0,0.0,0.0
+B,dense,10,P136,Linda Park,1960,Korean American,0.9,3,2,3,0.0,0.0,0.0
+B,dense,10,P030,Samuel Kim,1936,Korean American,0.9,4,3,4,0.0,0.0,0.0
+B,dense,10,P062,Maria Gomez,1950,Mexican American,0.7,3,2,3,0.0,0.0,0.0
+B,dense,10,P074,Carlos Medina,1950,Cuban American,0.7,3,3,3,0.0,0.0,0.0
+B,dense,10,P015,Peter Kowalski,1952,Polish American,0.8,3,3,3,0.1,0.05,1.0
+B,dense,10,P168,Samuel Williams,1955,African American,0.8,3,3,3,0.0,0.0,0.0
+B,dense,10,P098,Samuel Lee,1950,Korean American,0.7,3,3,3,0.0,0.0,0.0
+B,dense,10,P095,Patricia O'Brien,1938,Irish American,1.0,3,3,3,0.0,0.0,0.0
+B,dense,10,P175,Eleanor Kowalski,1951,Polish American,0.8,3,3,3,0.1,0.05,0.16666666666666666
+B,dense,10,P012,Dolores Rivera,1955,Mexican American,0.8,3,2,3,0.1,0.05,1.0
+B,dense,10,P156,Dorothy Nguyen,1953,Vietnamese American,0.9,3,2,3,0.1111111111111111,0.05,0.14285714285714285
+B,dense,10,P162,William Tucker,1952,White American (Appalachian),0.8,3,3,3,0.1,0.05,1.0
+B,dense,20,P097,Aisha Khan,1963,Pakistani American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,20,P031,Eloise Johnson,1942,African American,1.0,3,2,3,0.05,0.05,0.07692307692307693
+B,dense,20,P102,Elena Martinez,1950,Mexican American,1.0,3,3,3,0.0,0.0,0.0
+B,dense,20,P099,Ngo Thi Pham,1945,Vietnamese American,1.0,3,3,3,0.05,0.05,0.16666666666666666
+B,dense,20,P078,Fernando De la Cruz,1948,Dominican American,1.0,4,3,4,0.05,0.05,0.05555555555555555
+B,dense,20,P171,Dolores Santos,1940,Mexican American,1.0,4,3,4,0.0,0.0,0.0
+B,dense,20,P133,James Kowalski,1946,Polish American,1.0,3,3,3,0.05,0.05263157894736842,0.25
+B,dense,20,P116,Robert Thompson,1945,White American (Appalachian),1.0,3,3,3,0.05,0.05,0.16666666666666666
+B,dense,20,P019,Pauline Deschamps,1939,Haitian American,1.0,4,3,4,0.05,0.05,0.07142857142857142
+B,dense,20,P220,Rina Patel,1963,Indian American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,20,P163,Giuseppe Romano,1939,Italian American,1.0,4,3,4,0.0,0.0,0.0
+B,dense,20,P034,Li Wei,1955,Chinese American,1.0,4,3,4,0.05,0.05,1.0
+B,dense,20,P053,Lillian Kim,1936,Korean American,0.9,4,3,4,0.0,0.0,0.0
+B,dense,20,P136,Linda Park,1960,Korean American,1.0,3,3,3,0.0,0.0,0.0
+B,dense,20,P030,Samuel Kim,1936,Korean American,0.9,4,3,4,0.05,0.05,0.06666666666666667
+B,dense,20,P062,Maria Gomez,1950,Mexican American,1.0,3,2,3,0.05,0.05263157894736842,0.05
+B,dense,20,P074,Carlos Medina,1950,Cuban American,1.0,3,3,3,0.0,0.0,0.0
+B,dense,20,P015,Peter Kowalski,1952,Polish American,1.0,3,3,3,0.05263157894736842,0.05,1.0
+B,dense,20,P168,Samuel Williams,1955,African American,1.0,3,4,3,0.05,0.05,0.09090909090909091
+B,dense,20,P098,Samuel Lee,1950,Korean American,1.0,4,3,4,0.05,0.05263157894736842,0.05
+B,dense,20,P095,Patricia O'Brien,1938,Irish American,1.0,3,4,3,0.0,0.0,0.0
+B,dense,20,P175,Eleanor Kowalski,1951,Polish American,1.0,3,3,3,0.05,0.05,0.16666666666666666
+B,dense,20,P012,Dolores Rivera,1955,Mexican American,1.0,4,3,4,0.1,0.1,1.0
+B,dense,20,P156,Dorothy Nguyen,1953,Vietnamese American,1.0,3,2,3,0.05263157894736842,0.05,0.14285714285714285
+B,dense,20,P162,William Tucker,1952,White American (Appalachian),1.0,3,3,3,0.05263157894736842,0.05,1.0
+B,dense,30,P097,Aisha Khan,1963,Pakistani American,1.0,4,3,4,0.0,0.0,0.0
+B,dense,30,P031,Eloise Johnson,1942,African American,1.0,3,2,3,0.03333333333333333,0.05,0.07692307692307693
+B,dense,30,P102,Elena Martinez,1950,Mexican American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,30,P099,Ngo Thi Pham,1945,Vietnamese American,1.0,3,2,3,0.03333333333333333,0.05,0.16666666666666666
+B,dense,30,P078,Fernando De la Cruz,1948,Dominican American,1.0,4,3,4,0.03333333333333333,0.05,0.05555555555555555
+B,dense,30,P171,Dolores Santos,1940,Mexican American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,30,P133,James Kowalski,1946,Polish American,0.9,4,3,4,0.03333333333333333,0.05263157894736842,0.25
+B,dense,30,P116,Robert Thompson,1945,White American (Appalachian),1.0,3,4,3,0.03333333333333333,0.05,0.16666666666666666
+B,dense,30,P019,Pauline Deschamps,1939,Haitian American,1.0,4,3,4,0.06666666666666667,0.1,0.07142857142857142
+B,dense,30,P220,Rina Patel,1963,Indian American,1.0,4,3,4,0.0,0.0,0.0
+B,dense,30,P163,Giuseppe Romano,1939,Italian American,1.0,4,4,4,0.0,0.0,0.0
+B,dense,30,P034,Li Wei,1955,Chinese American,1.0,4,3,4,0.06896551724137931,0.1,1.0
+B,dense,30,P053,Lillian Kim,1936,Korean American,0.9,4,3,4,0.03333333333333333,0.05,0.047619047619047616
+B,dense,30,P136,Linda Park,1960,Korean American,1.0,3,2,3,0.0,0.0,0.0
+B,dense,30,P030,Samuel Kim,1936,Korean American,0.9,4,3,4,0.06666666666666667,0.1,0.06666666666666667
+B,dense,30,P062,Maria Gomez,1950,Mexican American,1.0,3,3,3,0.03333333333333333,0.05263157894736842,0.05
+B,dense,30,P074,Carlos Medina,1950,Cuban American,1.0,3,3,3,0.0,0.0,0.0
+B,dense,30,P015,Peter Kowalski,1952,Polish American,1.0,3,3,3,0.034482758620689655,0.05,1.0
+B,dense,30,P168,Samuel Williams,1955,African American,1.0,3,4,3,0.06896551724137931,0.1,0.09090909090909091
+B,dense,30,P098,Samuel Lee,1950,Korean American,1.0,4,3,4,0.03333333333333333,0.05263157894736842,0.05
+B,dense,30,P095,Patricia O'Brien,1938,Irish American,0.9,4,4,4,0.0,0.0,0.0
+B,dense,30,P175,Eleanor Kowalski,1951,Polish American,1.0,3,4,3,0.03333333333333333,0.05,0.16666666666666666
+B,dense,30,P012,Dolores Rivera,1955,Mexican American,1.0,4,3,4,0.10344827586206896,0.15,1.0
+B,dense,30,P156,Dorothy Nguyen,1953,Vietnamese American,1.0,4,3,4,0.034482758620689655,0.05,0.14285714285714285
+B,dense,30,P162,William Tucker,1952,White American (Appalachian),1.0,4,3,4,0.034482758620689655,0.05,1.0
+B,bm25,10,P097,Aisha Khan,1963,Pakistani American,0.7,3,2,3,0.0,0.0,0.0
+B,bm25,10,P031,Eloise Johnson,1942,African American,0.4,3,3,3,0.0,0.0,0.0
+B,bm25,10,P102,Elena Martinez,1950,Mexican American,0.6,3,2,3,0.0,0.0,0.0
+B,bm25,10,P099,Ngo Thi Pham,1945,Vietnamese American,0.4,3,2,3,0.0,0.0,0.0
+B,bm25,10,P078,Fernando De la Cruz,1948,Dominican American,0.4,3,2,3,0.0,0.0,0.0
+B,bm25,10,P171,Dolores Santos,1940,Mexican American,0.3,3,2,3,0.0,0.0,0.0
+B,bm25,10,P133,James Kowalski,1946,Polish American,0.4,2,3,2,0.0,0.0,0.0
+B,bm25,10,P116,Robert Thompson,1945,White American (Appalachian),0.4,3,3,3,0.0,0.0,0.0
+B,bm25,10,P019,Pauline Deschamps,1939,Haitian American,0.2,3,2,3,0.0,0.0,0.0
+B,bm25,10,P220,Rina Patel,1963,Indian American,0.7,3,2,3,0.0,0.0,0.0
+B,bm25,10,P163,Giuseppe Romano,1939,Italian American,0.2,3,2,3,0.0,0.0,0.0
+B,bm25,10,P034,Li Wei,1955,Chinese American,0.5,3,3,3,0.0,0.0,0.0
+B,bm25,10,P053,Lillian Kim,1936,Korean American,0.2,3,3,3,0.0,0.0,0.0
+B,bm25,10,P136,Linda Park,1960,Korean American,0.9,3,2,3,0.0,0.0,0.0
+B,bm25,10,P030,Samuel Kim,1936,Korean American,0.2,3,2,3,0.0,0.0,0.0
+B,bm25,10,P062,Maria Gomez,1950,Mexican American,0.6,3,2,3,0.0,0.0,0.0
+B,bm25,10,P074,Carlos Medina,1950,Cuban American,0.6,3,3,3,0.0,0.0,0.0
+B,bm25,10,P015,Peter Kowalski,1952,Polish American,0.6,3,3,3,0.0,0.0,0.0
+B,bm25,10,P168,Samuel Williams,1955,African American,0.5,3,3,3,0.0,0.0,0.0
+B,bm25,10,P098,Samuel Lee,1950,Korean American,0.6,3,3,3,0.0,0.0,0.0
+B,bm25,10,P095,Patricia O'Brien,1938,Irish American,0.2,3,3,3,0.0,0.0,0.0
+B,bm25,10,P175,Eleanor Kowalski,1951,Polish American,0.6,3,3,3,0.0,0.0,0.0
+B,bm25,10,P012,Dolores Rivera,1955,Mexican American,0.5,3,2,3,0.0,0.0,0.0
+B,bm25,10,P156,Dorothy Nguyen,1953,Vietnamese American,0.6,3,2,3,0.0,0.0,0.0
+B,bm25,10,P162,William Tucker,1952,White American (Appalachian),0.6,3,3,3,0.0,0.0,0.0
+B,bm25,20,P097,Aisha Khan,1963,Pakistani American,1.0,3,2,3,0.0,0.0,0.0
+B,bm25,20,P031,Eloise Johnson,1942,African American,0.6,3,3,3,0.0,0.0,0.0
+B,bm25,20,P102,Elena Martinez,1950,Mexican American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,20,P099,Ngo Thi Pham,1945,Vietnamese American,0.6,4,3,4,0.0,0.0,0.0
+B,bm25,20,P078,Fernando De la Cruz,1948,Dominican American,0.9,3,3,3,0.0,0.0,0.0
+B,bm25,20,P171,Dolores Santos,1940,Mexican American,0.3,3,2,3,0.0,0.0,0.0
+B,bm25,20,P133,James Kowalski,1946,Polish American,0.9,3,3,3,0.0,0.0,0.0
+B,bm25,20,P116,Robert Thompson,1945,White American (Appalachian),0.9,3,3,3,0.0,0.0,0.0
+B,bm25,20,P019,Pauline Deschamps,1939,Haitian American,0.3,3,2,3,0.0,0.0,0.0
+B,bm25,20,P220,Rina Patel,1963,Indian American,0.9,4,3,4,0.0,0.0,0.0
+B,bm25,20,P163,Giuseppe Romano,1939,Italian American,0.3,3,2,3,0.0,0.0,0.0
+B,bm25,20,P034,Li Wei,1955,Chinese American,0.9,3,2,3,0.0,0.0,0.0
+B,bm25,20,P053,Lillian Kim,1936,Korean American,0.4,3,2,3,0.0,0.0,0.0
+B,bm25,20,P136,Linda Park,1960,Korean American,1.0,3,2,3,0.0,0.0,0.0
+B,bm25,20,P030,Samuel Kim,1936,Korean American,0.4,3,2,3,0.0,0.0,0.0
+B,bm25,20,P062,Maria Gomez,1950,Mexican American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,20,P074,Carlos Medina,1950,Cuban American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,20,P015,Peter Kowalski,1952,Polish American,0.9,3,3,3,0.0,0.0,0.0
+B,bm25,20,P168,Samuel Williams,1955,African American,0.6,3,4,3,0.0,0.0,0.0
+B,bm25,20,P098,Samuel Lee,1950,Korean American,1.0,3,3,3,0.0,0.0,0.0
+B,bm25,20,P095,Patricia O'Brien,1938,Irish American,0.3,3,3,3,0.0,0.0,0.0
+B,bm25,20,P175,Eleanor Kowalski,1951,Polish American,1.0,3,3,3,0.0,0.0,0.0
+B,bm25,20,P012,Dolores Rivera,1955,Mexican American,0.8,4,3,4,0.0,0.0,0.0
+B,bm25,20,P156,Dorothy Nguyen,1953,Vietnamese American,0.9,4,3,4,0.0,0.0,0.0
+B,bm25,20,P162,William Tucker,1952,White American (Appalachian),0.9,4,3,4,0.0,0.0,0.0
+B,bm25,30,P097,Aisha Khan,1963,Pakistani American,0.8,3,2,3,0.0,0.0,0.0
+B,bm25,30,P031,Eloise Johnson,1942,African American,0.9,3,4,3,0.0,0.0,0.0
+B,bm25,30,P102,Elena Martinez,1950,Mexican American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,30,P099,Ngo Thi Pham,1945,Vietnamese American,0.9,4,3,4,0.0,0.0,0.0
+B,bm25,30,P078,Fernando De la Cruz,1948,Dominican American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,30,P171,Dolores Santos,1940,Mexican American,0.6,3,3,3,0.0,0.0,0.0
+B,bm25,30,P133,James Kowalski,1946,Polish American,1.0,3,3,3,0.0,0.0,0.0
+B,bm25,30,P116,Robert Thompson,1945,White American (Appalachian),1.0,3,4,3,0.0,0.0,0.0
+B,bm25,30,P019,Pauline Deschamps,1939,Haitian American,0.8,4,3,4,0.0,0.0,0.0
+B,bm25,30,P220,Rina Patel,1963,Indian American,1.0,3,2,3,0.0,0.0,0.0
+B,bm25,30,P163,Giuseppe Romano,1939,Italian American,0.7,3,4,3,0.0,0.0,0.0
+B,bm25,30,P034,Li Wei,1955,Chinese American,0.8,3,3,3,0.0,0.0,0.0
+B,bm25,30,P053,Lillian Kim,1936,Korean American,0.4,4,3,4,0.0,0.0,0.0
+B,bm25,30,P136,Linda Park,1960,Korean American,1.0,3,2,3,0.0,0.0,0.0
+B,bm25,30,P030,Samuel Kim,1936,Korean American,0.3,4,3,4,0.0,0.0,0.0
+B,bm25,30,P062,Maria Gomez,1950,Mexican American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,30,P074,Carlos Medina,1950,Cuban American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,30,P015,Peter Kowalski,1952,Polish American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,30,P168,Samuel Williams,1955,African American,0.8,3,4,3,0.0,0.0,0.0
+B,bm25,30,P098,Samuel Lee,1950,Korean American,1.0,4,3,4,0.0,0.0,0.0
+B,bm25,30,P095,Patricia O'Brien,1938,Irish American,0.5,4,3,4,0.0,0.0,0.0
+B,bm25,30,P175,Eleanor Kowalski,1951,Polish American,1.0,4,4,4,0.0,0.0,0.0
+B,bm25,30,P012,Dolores Rivera,1955,Mexican American,0.9,4,3,4,0.0,0.0,0.0
+B,bm25,30,P156,Dorothy Nguyen,1953,Vietnamese American,0.9,4,3,4,0.0,0.0,0.0
+B,bm25,30,P162,William Tucker,1952,White American (Appalachian),1.0,4,4,4,0.0,0.0,0.0

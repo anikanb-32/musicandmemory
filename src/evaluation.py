@@ -2,7 +2,7 @@ import json
 import pandas as pd
 from openai import OpenAI
 
-client = OpenAI()
+client = OpenAI(timeout=60.0)
 
 # --- Retrieval metrics ---
 

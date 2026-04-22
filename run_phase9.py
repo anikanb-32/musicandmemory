@@ -75,12 +75,16 @@ for profile in test_profiles:
         "precision_at_k": None, "recall": None, "mrr": None,
         "time_sec": round(time_a, 1),
     })
+    life_events_str = " | ".join(
+        f"{e['year']}: {e['event']}" for e in profile.get("life_events", [])
+    )
     for song in result_a["playlist"]:
         playlist_rows.append({
+            "condition": "A_none_knone",
             "variant": "A", "method": "none", "k": "none",
             "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
             "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
-            "hometown": profile["hometown"],
+            "hometown": profile["hometown"], "life_events": life_events_str,
             "rank": song["rank"], "song": song["song"], "artist": song["artist"], "year": song["year"],
             "relevance_reason": song.get("relevance", ""),
             "biographical_precision_1_5": "", "cultural_appropriateness_1_5": "", "notes": "",
@@ -120,10 +124,11 @@ for profile in test_profiles:
     })
     for song in result_b["playlist"]:
         playlist_rows.append({
+            "condition": f"B_{cfg_b['method']}_k{cfg_b['k']}",
             "variant": "B", "method": cfg_b["method"], "k": cfg_b["k"],
             "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
             "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
-            "hometown": profile["hometown"],
+            "hometown": profile["hometown"], "life_events": life_events_str,
             "rank": song["rank"], "song": song["song"], "artist": song["artist"], "year": song["year"],
             "relevance_reason": song.get("relevance", ""),
             "biographical_precision_1_5": "", "cultural_appropriateness_1_5": "", "notes": "",
@@ -165,10 +170,11 @@ for profile in test_profiles:
     })
     for song in result_c["playlist"]:
         playlist_rows.append({
+            "condition": f"C_{cfg_c['method']}_k{cfg_c['k']}",
             "variant": "C", "method": cfg_c["method"], "k": cfg_c["k"],
             "profile_id": pid, "name": profile["name"], "gender": profile["gender"],
             "birth_year": profile["birth_year"], "cultural_background": profile["cultural_background"],
-            "hometown": profile["hometown"],
+            "hometown": profile["hometown"], "life_events": life_events_str,
             "rank": song["rank"], "song": song["song"], "artist": song["artist"], "year": song["year"],
             "relevance_reason": song.get("relevance", ""),
             "biographical_precision_1_5": "", "cultural_appropriateness_1_5": "", "notes": "",

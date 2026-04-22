@@ -1,0 +1,1721 @@
+Loading retrieval system...
+Loaded 2381 vectors, 2381 songs
+Sampled 25 validation profiles
+
+============================================================
+TUNING VARIANT B
+============================================================
+
+--- Variant B | method=dense | k=10 ---
+  [1/25] Aisha Khan: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=1.00, overall=2, P@k=0.00, MRR=0.00
+  [3/25] Elena Martinez: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=1.00, overall=3, P@k=0.10, MRR=0.17
+  [5/25] Fernando De la Cruz: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [6/25] Dolores Santos: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=1.00, overall=3, P@k=0.10, MRR=0.25
+  [8/25] Robert Thompson: hist=1.00, overall=3, P@k=0.10, MRR=0.17
+  [9/25] Pauline Deschamps: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [10/25] Rina Patel: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: hist=0.80, overall=4, P@k=0.10, MRR=1.00
+  [13/25] Lillian Kim: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [14/25] Linda Park: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [16/25] Maria Gomez: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [17/25] Carlos Medina: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=0.80, overall=3, P@k=0.10, MRR=1.00
+  [19/25] Samuel Williams: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [20/25] Samuel Lee: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [21/25] Patricia O'Brien: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [22/25] Eleanor Kowalski: hist=0.80, overall=3, P@k=0.10, MRR=0.17
+  [23/25] Dolores Rivera: hist=0.80, overall=3, P@k=0.10, MRR=1.00
+  [24/25] Dorothy Nguyen: hist=0.90, overall=3, P@k=0.11, MRR=0.14
+  [25/25] William Tucker: hist=0.80, overall=3, P@k=0.10, MRR=1.00
+  >>> Avg: {'k': 10.0, 'birth_year': 1948.52, 'hist_plausibility': 0.8760000000000001, 'bio_precision_llm': 3.04, 'cultural_approp_llm': 2.68, 'overall_llm': 3.04, 'precision_at_k': 0.036444444444444446, 'recall': 0.01810526315789474, 'mrr': 0.19571428571428573}
+
+--- Variant B | method=dense | k=20 ---
+  [1/25] Aisha Khan: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=1.00, overall=3, P@k=0.05, MRR=0.08
+  [3/25] Elena Martinez: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=1.00, overall=3, P@k=0.05, MRR=0.17
+  [5/25] Fernando De la Cruz: hist=1.00, overall=4, P@k=0.05, MRR=0.06
+  [6/25] Dolores Santos: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=1.00, overall=3, P@k=0.05, MRR=0.25
+  [8/25] Robert Thompson: hist=1.00, overall=3, P@k=0.05, MRR=0.17
+  [9/25] Pauline Deschamps: hist=1.00, overall=4, P@k=0.05, MRR=0.07
+  [10/25] Rina Patel: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: hist=1.00, overall=4, P@k=0.05, MRR=1.00
+  [13/25] Lillian Kim: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [14/25] Linda Park: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.90, overall=4, P@k=0.05, MRR=0.07
+  [16/25] Maria Gomez: hist=1.00, overall=3, P@k=0.05, MRR=0.05
+  [17/25] Carlos Medina: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=1.00, overall=3, P@k=0.05, MRR=1.00
+  [19/25] Samuel Williams: hist=1.00, overall=3, P@k=0.05, MRR=0.09
+  [20/25] Samuel Lee: hist=1.00, overall=4, P@k=0.05, MRR=0.05
+  [21/25] Patricia O'Brien: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [22/25] Eleanor Kowalski: hist=1.00, overall=3, P@k=0.05, MRR=0.17
+  [23/25] Dolores Rivera: hist=1.00, overall=4, P@k=0.10, MRR=1.00
+  [24/25] Dorothy Nguyen: hist=1.00, overall=3, P@k=0.05, MRR=0.14
+  [25/25] William Tucker: hist=1.00, overall=3, P@k=0.05, MRR=1.00
+  >>> Avg: {'k': 20.0, 'birth_year': 1948.52, 'hist_plausibility': 0.992, 'bio_precision_llm': 3.36, 'cultural_approp_llm': 2.88, 'overall_llm': 3.36, 'precision_at_k': 0.03431578947368421, 'recall': 0.03431578947368421, 'mrr': 0.21417360417360418}
+
+--- Variant B | method=dense | k=30 ---
+  [1/25] Aisha Khan: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=1.00, overall=3, P@k=0.03, MRR=0.08
+  [3/25] Elena Martinez: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=1.00, overall=3, P@k=0.03, MRR=0.17
+  [5/25] Fernando De la Cruz: hist=1.00, overall=4, P@k=0.03, MRR=0.06
+  [6/25] Dolores Santos: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=0.90, overall=4, P@k=0.03, MRR=0.25
+  [8/25] Robert Thompson: hist=1.00, overall=3, P@k=0.03, MRR=0.17
+  [9/25] Pauline Deschamps: hist=1.00, overall=4, P@k=0.07, MRR=0.07
+  [10/25] Rina Patel: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: hist=1.00, overall=4, P@k=0.07, MRR=1.00
+  [13/25] Lillian Kim: hist=0.90, overall=4, P@k=0.03, MRR=0.05
+  [14/25] Linda Park: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.90, overall=4, P@k=0.07, MRR=0.07
+  [16/25] Maria Gomez: hist=1.00, overall=3, P@k=0.03, MRR=0.05
+  [17/25] Carlos Medina: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=1.00, overall=3, P@k=0.03, MRR=1.00
+  [19/25] Samuel Williams: hist=1.00, overall=3, P@k=0.07, MRR=0.09
+  [20/25] Samuel Lee: hist=1.00, overall=4, P@k=0.03, MRR=0.05
+  [21/25] Patricia O'Brien: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [22/25] Eleanor Kowalski: hist=1.00, overall=3, P@k=0.03, MRR=0.17
+  [23/25] Dolores Rivera: hist=1.00, overall=4, P@k=0.10, MRR=1.00
+  [24/25] Dorothy Nguyen: hist=1.00, overall=4, P@k=0.03, MRR=0.14
+  [25/25] William Tucker: hist=1.00, overall=4, P@k=0.03, MRR=1.00
+  >>> Avg: {'k': 30.0, 'birth_year': 1948.52, 'hist_plausibility': 0.9840000000000001, 'bio_precision_llm': 3.56, 'cultural_approp_llm': 3.0, 'overall_llm': 3.56, 'precision_at_k': 0.03112643678160919, 'recall': 0.04631578947368422, 'mrr': 0.21607836607836606}
+
+--- Variant B | method=bm25 | k=10 ---
+  [1/25] Aisha Khan: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+  [3/25] Elena Martinez: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+  [5/25] Fernando De la Cruz: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+  [6/25] Dolores Santos: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=0.40, overall=2, P@k=0.00, MRR=0.00
+  [8/25] Robert Thompson: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+  [9/25] Pauline Deschamps: hist=0.20, overall=3, P@k=0.00, MRR=0.00
+  [10/25] Rina Patel: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=0.20, overall=3, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+  [13/25] Lillian Kim: hist=0.20, overall=3, P@k=0.00, MRR=0.00
+  [14/25] Linda Park: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.20, overall=3, P@k=0.00, MRR=0.00
+  [16/25] Maria Gomez: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [17/25] Carlos Medina: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [19/25] Samuel Williams: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+  [20/25] Samuel Lee: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [21/25] Patricia O'Brien: hist=0.20, overall=3, P@k=0.00, MRR=0.00
+  [22/25] Eleanor Kowalski: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [23/25] Dolores Rivera: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+  [24/25] Dorothy Nguyen: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [25/25] William Tucker: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  >>> Avg: {'k': 10.0, 'birth_year': 1948.52, 'hist_plausibility': 0.47600000000000003, 'bio_precision_llm': 2.96, 'cultural_approp_llm': 2.48, 'overall_llm': 2.96, 'precision_at_k': 0.0, 'recall': 0.0, 'mrr': 0.0}
+
+--- Variant B | method=bm25 | k=20 ---
+  [1/25] Aisha Khan: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [3/25] Elena Martinez: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=0.60, overall=4, P@k=0.00, MRR=0.00
+  [5/25] Fernando De la Cruz: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [6/25] Dolores Santos: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [8/25] Robert Thompson: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [9/25] Pauline Deschamps: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+  [10/25] Rina Patel: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [13/25] Lillian Kim: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+  [14/25] Linda Park: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+  [16/25] Maria Gomez: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [17/25] Carlos Medina: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [19/25] Samuel Williams: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [20/25] Samuel Lee: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [21/25] Patricia O'Brien: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+  [22/25] Eleanor Kowalski: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [23/25] Dolores Rivera: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+  [24/25] Dorothy Nguyen: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [25/25] William Tucker: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  >>> Avg: {'k': 20.0, 'birth_year': 1948.52, 'hist_plausibility': 0.7519999999999999, 'bio_precision_llm': 3.32, 'cultural_approp_llm': 2.72, 'overall_llm': 3.32, 'precision_at_k': 0.0, 'recall': 0.0, 'mrr': 0.0}
+
+--- Variant B | method=bm25 | k=30 ---
+  [1/25] Aisha Khan: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [2/25] Eloise Johnson: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+  [3/25] Elena Martinez: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [4/25] Ngo Thi Pham: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [5/25] Fernando De la Cruz: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [6/25] Dolores Santos: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  [7/25] James Kowalski: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [8/25] Robert Thompson: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [9/25] Pauline Deschamps: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+  [10/25] Rina Patel: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [11/25] Giuseppe Romano: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  [12/25] Li Wei: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [13/25] Lillian Kim: hist=0.40, overall=4, P@k=0.00, MRR=0.00
+  [14/25] Linda Park: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+  [15/25] Samuel Kim: hist=0.30, overall=4, P@k=0.00, MRR=0.00
+  [16/25] Maria Gomez: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [17/25] Carlos Medina: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [18/25] Peter Kowalski: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [19/25] Samuel Williams: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+  [20/25] Samuel Lee: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [21/25] Patricia O'Brien: hist=0.50, overall=4, P@k=0.00, MRR=0.00
+  [22/25] Eleanor Kowalski: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  [23/25] Dolores Rivera: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [24/25] Dorothy Nguyen: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+  [25/25] William Tucker: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+  >>> Avg: {'k': 30.0, 'birth_year': 1948.52, 'hist_plausibility': 0.8519999999999999, 'bio_precision_llm': 3.6, 'cultural_approp_llm': 3.12, 'overall_llm': 3.6, 'precision_at_k': 0.0, 'recall': 0.0, 'mrr': 0.0}
+
+Variant B saved to outputs/tuning_variant_b.csv, tuning_variant_b_raw.csv, tuning_variant_b_playlists.csv
+
+============================================================
+TUNING VARIANT C
+============================================================
+
+--- Variant C | method=dense | total_k=10 ---
+Generated 8 queries:
+  - top pop and rock hits in St. Louis 1978-1988
+  - popular songs by Pakistani artists 1978-1988
+  - wedding songs popular in 1985 St. Louis
+  - hits from female artists in St. Louis 1980-1985
+  - songs about overcoming odds 1981
+  - top songs in Chicago 1987
+  - songs popular among Pakistani American communities 1980s
+  - graduation year hits 1981 St. Louis
+  [1/25] Aisha Khan: hist=0.70, overall=3, P@k=0.10, MRR=0.12
+Generated 8 queries:
+  - popular Motown hits in Atlanta 1957-1967
+  - top R&B songs by African American artists 1960-1965
+  - Civil Rights movement songs 1965
+  - wedding songs popular in 1970
+  - Atlanta radio hits 1962-1965
+  - female vocalists popular in the 1960s
+  - gospel and soul music in Atlanta 1970s
+  - songs about love and loss 1985
+  [2/25] Eloise Johnson: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1965-1975
+  - top female empowerment songs 1973
+  - hits on San Antonio radio stations 1965-1975
+  - popular wedding songs in Texas 1969
+  - top Chicano music artists 1965-1975
+  - songs about single parenthood 1977
+  - popular songs among women in the 1970s
+  - hits from female artists 1965-1975
+  [3/25] Elena Martinez: hist=0.60, overall=3, P@k=0.10, MRR=1.00
+Generated 8 queries:
+  - popular songs in New Orleans 1960-1970
+  - Vietnamese American music influences 1960s
+  - top female artists in the US 1965-1970
+  - wedding songs popular in 1982
+  - hits on New Orleans radio stations 1965-1970
+  - songs about immigration and new beginnings 1975
+  - popular songs among Vietnamese American communities 1970s
+  - top songs in New Orleans during cultural festivals 1980s
+  [4/25] Ngo Thi Pham: hist=1.00, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1963-1973
+  - top Dominican American artists 1963-1973
+  - wedding songs popular in 1969 Chicago
+  - top Latin music hits in the US 1963-1973
+  - popular male artists in Chicago 1963-1973
+  - top songs played on Chicago radio stations 1966
+  - hits from Dominican artists in the US 1963-1973
+  - songs popular in Chicago church communities 1976
+    generate_playlist attempt 1 failed: Expecting value: line 27 column 23 (char 1202), retrying...
+    generate_playlist attempt 2 failed: Expecting value: line 27 column 23 (char 1216), retrying...
+  [5/25] Fernando De la Cruz: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1955-1965
+  - top hits on San Antonio radio stations 1955-1965
+  - wedding songs popular in Texas 1961
+  - female artists popular in the 1960s among Mexican Americans
+  - songs played at church events in San Antonio 1966
+  - regional hits in Texas during the 1950s and 1960s
+  - songs associated with Day of the Dead celebrations 1972
+  - popular songs among women in the early 1960s
+  [6/25] Dolores Santos: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll hits in Cleveland 1961-1971
+  - top Polish American artists 1961-1971
+  - Vietnam War era songs popular among men 1966
+  - wedding songs popular in Cleveland 1973
+  - top hits on Cleveland radio stations 1964
+  - songs about returning home from war 1971
+  - popular songs at high school graduations 1964
+  - songs by Polish American artists 1961-1971
+  [7/25] James Kowalski: hist=0.90, overall=3, P@k=0.10, MRR=0.17
+Generated 8 queries:
+  - popular rock and roll hits in West Virginia 1960-1970
+  - top country songs in Appalachian region 1965
+  - Charleston West Virginia radio hits 1963
+  - songs about coal mining from the 1960s
+  - popular male artists in the US 1968
+  - top songs played at weddings in 1971
+  - truck driving songs from the 1970s
+  - popular Appalachian folk music 1960-1970
+  [8/25] Robert Thompson: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in New York 1954-1964
+  - Haitian American music influences in New York 1957-1964
+  - top female artists 1954-1964
+  - wedding songs popular in New York 1964
+  - hits on New York radio stations 1960
+  - songs popular among Haitian communities in New York 1960-1964
+  - top songs for women in the US 1960-1964
+  - songs about immigration and new beginnings 1957
+  [9/25] Pauline Deschamps: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Queens, New York 1978-1988
+  - popular Indian American music in Queens 1980s
+  - wedding songs popular in New York 1985
+  - top female artists in the US 1980s
+  - hits played on New York radio stations 1980-1985
+  - songs popular among Indian American communities 1980s
+  - graduation year hits 1981
+  - songs about motherhood popular in 1986
+  [10/25] Rina Patel: hist=0.20, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Italian American songs in Providence 1954-1964
+  - top hits on Rhode Island radio stations 1957
+  - wedding songs popular in Italian American communities 1961
+  - Billboard top 100 songs 1961
+  - songs played at Italian American weddings in the 1960s
+  - Providence local radio hits 1965
+  - popular male artists in the early 1960s
+  - songs that were hits in the Italian American community during the 1950s and 1960s
+  [11/25] Giuseppe Romano: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Seattle 1970-1980
+  - top Chinese American artists 1970-1980
+  - wedding songs popular in 1976 Seattle
+  - hits from Seattle radio stations 1971
+  - songs popular among women in the 1970s
+  - top songs from Chinese cultural events 1983 Seattle
+  - graduation year hits 1973 Seattle
+  - popular songs in Seattle during 1979 business opening
+  [12/25] Li Wei: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Los Angeles 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs 1960 Los Angeles
+  - graduation hits 1954 Los Angeles
+  - female popular artists 1950s Los Angeles
+  - top hits on Los Angeles radio 1956
+  - songs popular among Korean American community 1960s
+  - hits from cultural festivals in Koreatown 1970s
+  [13/25] Lillian Kim: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Virginia 1975-1985
+  - popular songs by Korean American artists 1975-1985
+  - hit songs on Virginia radio stations 1978
+  - songs popular among college students in Virginia 1978
+  - top love songs 1989
+  - popular wedding songs 1989
+  - top female artists 1980-1985
+  - popular songs during high school graduation 1978
+  [14/25] Linda Park: hist=0.50, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1951-1961
+  - top hits on Seattle radio stations 1955-1960
+  - Korean American popular music 1950s
+  - wedding songs 1959
+  - popular male artists in 1950s Seattle
+  - top Billboard hits 1959
+  - songs about fatherhood 1961
+  - songs about overcoming adversity 1973
+  [15/25] Samuel Kim: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American artists in San Antonio 1965-1975
+  - top wedding songs in Texas 1972
+  - hits from San Antonio radio stations 1965-1975
+  - popular female artists in the 1970s among Mexican Americans
+  - top country songs in Texas 1975
+  - Mexican American cultural hits 1965-1975
+  - songs about family and support 1966
+  - popular songs during church charity events in Texas 1989
+  [16/25] Maria Gomez: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top Cuban American hits in Miami 1965-1975
+  - popular songs for Cuban immigrants in the U.S. 1964
+  - Vietnam War era songs popular among U.S. soldiers 1970
+  - Miami radio hits 1970-1975
+  - wedding songs popular in Miami 1980
+  - top male artists in the U.S. 1965-1975
+  - popular Latin music in Miami 1965-1975
+  - songs about starting a business 1986
+  [17/25] Carlos Medina: hist=0.30, overall=4, P@k=0.10, MRR=0.17
+Generated 8 queries:
+  - popular rock songs in Chicago 1967-1977
+  - top Polish American folk music 1967-1977
+  - wedding songs popular in Chicago 1974
+  - hits from Chicago radio stations 1970-1975
+  - popular male artists in the 1970s Chicago
+  - songs about economic hardship 1985
+  - top hits during the Chicago construction boom 1981
+  - Polish American community music in Chicago 1967-1977
+  [18/25] Peter Kowalski: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular R&B and soul hits in Chicago 1970-1980
+  - top African American artists 1973 military enlistment
+  - Chicago radio hits 1977 truck driving
+  - soul and funk songs popular among African American men 1975
+  - songs about economic hardship and resilience 1981
+  - community and unity themed songs 1985
+  - hits from Chicago radio stations 1985
+  - inspirational songs for adult education 1990
+  [19/25] Samuel Williams: hist=0.70, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Los Angeles 1965-1975
+  - top Motown hits 1968
+  - Vietnam War era songs popular among soldiers 1970
+  - wedding songs 1973 Los Angeles
+  - Korean American popular music 1965-1975
+  - Los Angeles radio hits 1973
+  - songs popular among men in the 1970s
+  - top Billboard hits 1973
+  [20/25] Samuel Lee: hist=0.60, overall=3, P@k=0.10, MRR=0.11
+Generated 8 queries:
+  - popular songs in Boston 1953-1963
+  - Irish American folk music hits 1950s
+  - wedding songs popular in 1963
+  - top female artists in the 1950s and 1960s
+  - Boston radio hits 1956
+  - songs about firefighters or bravery 1960s
+  - songs popular among women in the 1960s
+  - songs played at high school graduations 1956
+  [21/25] Patricia O'Brien: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Milwaukee 1966-1976
+  - top Polish American artists 1966-1976
+  - wedding songs popular in 1972
+  - hits on Milwaukee radio stations 1968
+  - female artists popular in the early 1970s
+  - songs about motherhood popular in 1975
+  - songs about starting a business in the 1980s
+  - popular breakup songs in 1989
+  [22/25] Eleanor Kowalski: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs San Antonio 1970-1975
+  - top hits on San Antonio radio 1972
+  - wedding songs popular in Texas 1976
+  - Mexican American female artists 1970-1980
+  - songs about family and support 1985
+  - top country songs in Texas 1975
+  - songs popular in church groups 1980
+  - popular songs during economic downturn 1985
+  [23/25] Dolores Rivera: hist=0.30, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1968-1978
+  - Vietnamese American popular music 1970s
+  - top hits in Seattle radio 1972
+  - songs about immigration 1970s
+  - female artists popular in 1975
+  - songs popular in community colleges 1977
+  - Seattle local radio hits 1975
+  - Vietnamese American community favorite songs 1970s
+  [24/25] Dorothy Nguyen: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top rock songs in Charleston WV 1967-1977
+  - popular country hits in Appalachia 1970
+  - wedding songs popular in 1970 Charleston WV
+  - songs about working in coal mines 1968
+  - protest and strike songs 1973
+  - popular male artists in Charleston WV 1973
+  - Appalachian folk music hits 1967-1977
+  - songs about job loss and resilience 1980
+  [25/25] William Tucker: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+  >>> Avg: {'k': 10.0, 'birth_year': 1948.52, 'hist_plausibility': 0.64, 'bio_precision_llm': 3.04, 'cultural_approp_llm': 2.88, 'overall_llm': 3.04, 'precision_at_k': 0.02, 'recall': 0.010315789473684212, 'mrr': 0.06277777777777778}
+
+--- Variant C | method=dense | total_k=20 ---
+Generated 8 queries:
+  - top pop hits in St. Louis 1978-1988
+  - popular Pakistani American artists 1980s
+  - wedding songs popular in 1985
+  - hits from female artists in St. Louis 1980-1985
+  - songs about overcoming odds 1981
+  - songs popular in Chicago 1987
+  - songs about motherhood 1989
+  - songs for immigrant empowerment 1992
+  [1/25] Aisha Khan: hist=0.90, overall=4, P@k=0.05, MRR=0.08
+Generated 8 queries:
+  - popular Motown hits in Atlanta 1957-1967
+  - top R&B songs by African American artists 1960-1965
+  - songs played during Civil Rights marches in Atlanta 1965
+  - wedding songs popular in Georgia 1970
+  - female artists popular in the 1960s in the African American community
+  - soul and gospel music popular in Atlanta 1978
+  - top hits on Atlanta radio stations 1962-1965
+  - songs about love and family from the 1970s
+  [2/25] Eloise Johnson: hist=0.70, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in San Antonio 1965-1975
+  - top Mexican American artists 1965-1975
+  - hits from 1969 related to motherhood
+  - songs about women's empowerment 1973
+  - popular female artists 1965-1975
+  - regional hits in Texas 1965-1975
+  - songs about independence and single parenting 1977
+  - top wedding songs 1965-1975
+  [3/25] Elena Martinez: hist=0.90, overall=4, P@k=0.05, MRR=0.33
+Generated 8 queries:
+  - popular songs in New Orleans 1960-1970
+  - Vietnamese American music influences 1960s
+  - top female artists 1965-1970
+  - wedding songs popular in 1982
+  - Vietnamese music in the US 1975
+  - New Orleans radio hits 1965-1970
+  - songs about immigration and new beginnings 1975
+  - popular cultural festival music 1989
+  [4/25] Ngo Thi Pham: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1963-1973
+  - top Latin music hits in the US 1963-1973
+  - wedding songs popular in 1969
+  - Dominican American favorite songs 1963-1973
+  - Chicago radio hits 1966
+  - songs about new beginnings 1966
+  - popular male artists in the US 1963-1973
+  - top Billboard hits 1969
+  [5/25] Fernando De la Cruz: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American hits in San Antonio 1955-1965
+  - top female artists in the 1960s San Antonio
+  - wedding songs popular in 1961 Texas
+  - Mexican American community songs 1960s San Antonio
+  - top songs on San Antonio radio stations 1955-1965
+  - popular church choir songs 1966
+  - Day of the Dead celebration music 1972
+  - female empowerment songs 1970s
+  [6/25] Dolores Santos: hist=0.90, overall=4, P@k=0.10, MRR=0.33
+Generated 8 queries:
+  - popular rock and roll songs in Cleveland 1961-1971
+  - top Polish American artists 1960s
+  - Vietnam War era songs popular among men 1966
+  - wedding songs popular in 1973 Cleveland
+  - local Cleveland radio hits 1964
+  - top songs by male artists 1965-1970
+  - popular factory work songs 1964
+  - songs about returning home from war 1971
+  [7/25] James Kowalski: hist=0.90, overall=3, P@k=0.05, MRR=0.17
+Generated 8 queries:
+  - popular rock and roll hits in Charleston, West Virginia 1960-1970
+  - top country songs in Appalachia 1963
+  - songs about coal mining from the 1960s
+  - popular truck driving songs 1971
+  - top rock songs 1968 Charleston radio
+  - popular male artists in West Virginia 1960-1970
+  - Appalachian folk songs popular in the 1960s
+  - wedding songs from the 1970s in West Virginia
+  [8/25] Robert Thompson: hist=0.90, overall=4, P@k=0.05, MRR=0.17
+Generated 8 queries:
+  - top hits in New York 1954-1964
+  - popular Haitian American music in New York 1954-1964
+  - female artists popular in New York 1954-1964
+  - wedding songs popular in New York 1964
+  - songs about immigration and new beginnings 1957
+  - songs popular among hotel workers in Manhattan 1960
+  - songs celebrating motherhood 1968
+  - songs by The Supremes 1964
+  [9/25] Pauline Deschamps: hist=0.90, overall=4, P@k=0.05, MRR=0.20
+Generated 8 queries:
+  - top pop hits in New York 1978-1988
+  - popular Indian music in Queens 1980s
+  - wedding songs popular in 1985 New York
+  - female pop artists popular in the 1980s
+  - top Billboard hits 1983
+  - songs played on New York radio stations 1984
+  - Indian American cultural music 1980s
+  - songs about motherhood popular in 1986
+  [10/25] Rina Patel: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Italian American songs in Providence 1954-1964
+  - top hits on Providence radio stations 1957
+  - wedding songs popular in Italian American communities 1961
+  - top male artists in the US 1959
+  - songs popular among Italian American men 1960
+  - hits from The 4 Seasons 1962
+  - songs played at Italian American weddings 1961
+  - Providence local radio hits 1965
+  [11/25] Giuseppe Romano: hist=1.00, overall=3, P@k=0.10, MRR=0.25
+Generated 8 queries:
+  - top pop hits in Seattle 1970-1980
+  - popular songs by Chinese American artists 1970-1980
+  - wedding songs popular in 1976
+  - Seattle radio hits 1971
+  - songs about motherhood 1976
+  - popular female artists 1970-1980
+  - songs played at Chinese cultural events 1983
+  - top hits during Seattle's cultural festivals 1970-1980
+  [12/25] Li Wei: hist=0.90, overall=3, P@k=0.05, MRR=0.06
+Generated 8 queries:
+  - popular songs in Los Angeles 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs popular in 1960
+  - hits from Los Angeles radio stations 1954
+  - female vocalists popular in the 1950s
+  - songs played at cultural festivals in Koreatown 1970s
+  - popular songs among Korean American communities 1950s
+  - top hits during high school graduation year 1954
+  [13/25] Lillian Kim: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top Billboard hits in Virginia 1975-1985
+  - popular Korean American artists 1975-1985
+  - hit songs from 1978 college radio Virginia
+  - songs about family and care 1980
+  - popular wedding songs 1989
+  - female artists popular in Virginia 1975-1985
+  - songs played on Virginia radio stations 1983
+  - Korean American cultural music influences 1975-1985
+  [14/25] Linda Park: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs 1959 Seattle
+  - Seattle radio hits 1952
+  - popular male artists 1955-1960
+  - songs about family and community 1966
+  - songs addressing discrimination 1973
+  - Korean pop songs 1950s
+  [15/25] Samuel Kim: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American hits in San Antonio 1965-1975
+  - top female artists in Texas 1965-1975
+  - wedding songs popular in 1972 San Antonio
+  - regional radio hits in San Antonio 1965-1975
+  - Mexican American cultural music 1965-1975
+  - top country songs in Texas 1975
+  - songs about family and motherhood 1975
+  - popular church and charity event songs 1980s
+  [16/25] Maria Gomez: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Cuban American music in Miami 1965-1975
+  - top rock and roll hits in the U.S. 1965-1975
+  - Vietnam War era songs popular among soldiers 1970
+  - Miami radio station top hits 1965-1975
+  - popular wedding songs in the U.S. 1980
+  - top male artists in the U.S. 1965-1975
+  - popular disco songs in Miami 1975
+  - Cuban music influences in Miami 1965-1975
+  [17/25] Carlos Medina: hist=0.80, overall=4, P@k=0.05, MRR=0.07
+Generated 8 queries:
+  - popular rock songs in Chicago 1967-1977
+  - top Polish American artists 1967-1977
+  - wedding songs popular in Chicago 1974
+  - hits on Chicago radio stations 1970-1975
+  - popular male artists in the US 1967-1977
+  - songs about economic hardship 1985
+  - top hits during the Chicago recession 1985
+  - songs about starting a business 1981
+  [18/25] Peter Kowalski: hist=0.80, overall=4, P@k=0.05, MRR=0.09
+Generated 8 queries:
+  - top R&B and soul hits in Chicago 1970-1980
+  - popular African American artists in Chicago 1973
+  - songs popular among African American men 1975
+  - hits played on Chicago radio stations 1973
+  - songs about military life or returning home 1977
+  - R&B songs about overcoming challenges 1981
+  - community and unity themed songs 1985
+  - hits from African American artists attending college 1990
+  [19/25] Samuel Williams: hist=0.70, overall=4, P@k=0.05, MRR=0.17
+Generated 8 queries:
+  - popular rock songs in Los Angeles 1965-1975
+  - top Korean American artists 1965-1975
+  - Vietnam War era songs popular among soldiers 1970
+  - wedding songs in Los Angeles 1973
+  - Los Angeles radio hits 1968
+  - soul and R&B hits 1973
+  - top male artists in Los Angeles 1965-1975
+  - songs about returning home from war 1973
+  [20/25] Samuel Lee: hist=1.00, overall=4, P@k=0.05, MRR=0.11
+Generated 8 queries:
+  - popular songs in Boston 1953-1963
+  - top Irish American artists 1950s
+  - wedding songs popular in 1963
+  - Boston radio hits 1956
+  - female artists popular in the 1960s
+  - songs about firefighters 1960s
+  - graduation songs 1956
+  - Irish American music influences 1950s
+  [21/25] Patricia O'Brien: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Milwaukee 1966-1976
+  - top Polish American artists 1966-1976
+  - wedding songs popular in 1972
+  - hits from Milwaukee radio stations 1968
+  - songs popular among women in the early 1970s
+  - top songs when Eleanor Kowalski won a baking competition 1968
+  - songs about new beginnings 1975
+  - popular songs during Eleanor's divorce 1989
+  [22/25] Eleanor Kowalski: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American artists in San Antonio 1970-1980
+  - top love songs for weddings in 1976
+  - popular female artists in the 1970s
+  - regional hits in Texas 1970-1980
+  - songs played at high school graduations in 1972
+  - popular church group songs in the 1980s
+  - Mexican American community anthems 1970-1980
+  - top country songs in Texas 1975
+  [23/25] Dolores Rivera: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1968-1978
+  - top Vietnamese American artists 1970s
+  - Seattle radio hits 1972
+  - songs about immigration 1972
+  - top female artists 1975
+  - hit songs from community college years 1977
+  - popular songs in Seattle grocery stores 1980
+  - Vietnamese American community music 1970s
+  [24/25] Dorothy Nguyen: hist=1.00, overall=3, P@k=0.05, MRR=0.06
+Generated 8 queries:
+  - popular rock and roll songs in Charleston WV 1967-1977
+  - top country hits in Appalachia 1970
+  - wedding songs popular in 1970 Charleston WV
+  - protest and strike songs 1973
+  - Appalachian folk music hits 1968-1977
+  - male favorite rock songs 1975
+  - Charleston WV radio hits 1973
+  - songs about coal mining 1968-1977
+  [25/25] William Tucker: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+  >>> Avg: {'k': 20.0, 'birth_year': 1948.52, 'hist_plausibility': 0.8440000000000001, 'bio_precision_llm': 3.56, 'cultural_approp_llm': 3.52, 'overall_llm': 3.56, 'precision_at_k': 0.03, 'recall': 0.030315789473684213, 'mrr': 0.08379089211442152}
+
+--- Variant C | method=dense | total_k=30 ---
+Generated 8 queries:
+  - top pop hits in St. Louis 1978-1988
+  - popular Pakistani American music 1980s
+  - wedding songs 1985 St. Louis
+  - graduation year hits 1981 St. Louis
+  - female artists popular in St. Louis 1980s
+  - songs about new beginnings 1987
+  - songs popular among Pakistani American women 1980s
+  - hits from local St. Louis radio stations 1980s
+  [1/25] Aisha Khan: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Motown hits in Atlanta 1957-1967
+  - top R&B songs by African American artists 1960-1965
+  - songs associated with Civil Rights Movement 1965
+  - wedding songs popular in Georgia 1970
+  - female vocalists in soul music 1960-1970
+  - gospel and choir music popular in African American churches 1978
+  - top soul and R&B hits in Atlanta radio 1963-1968
+  - songs about love and family from the 1970s
+  [2/25] Eloise Johnson: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American hits in San Antonio 1965-1975
+  - top female empowerment songs 1973
+  - regional Tejano music hits in Texas 1965-1975
+  - songs about motherhood 1969
+  - popular songs on San Antonio radio 1965-1975
+  - top wedding songs in Texas 1965
+  - hits by female artists 1973
+  - songs about independence and strength 1977
+  [3/25] Elena Martinez: hist=1.00, overall=4, P@k=0.03, MRR=0.50
+Generated 8 queries:
+  - popular songs in New Orleans 1960-1970
+  - Vietnamese American music influences 1960s
+  - top female artists 1965-1970
+  - wedding songs popular in 1982
+  - hits on New Orleans radio stations 1965
+  - songs about immigration and new beginnings 1975
+  - songs popular among Vietnamese communities in the US 1970s
+  - top soul and R&B hits 1968
+  [4/25] Ngo Thi Pham: hist=0.80, overall=3, P@k=0.03, MRR=0.03
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1963-1973
+  - top Dominican American artists 1963-1973
+  - wedding songs popular in 1969 Chicago
+  - top hits on Chicago radio stations 1966
+  - popular male artists in Chicago 1963-1973
+  - songs associated with moving to a new city 1966
+  - popular church music in Chicago 1976
+  - songs about starting a new job 1987
+  [5/25] Fernando De la Cruz: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1955-1965
+  - top female artists in the US 1960-1965
+  - popular wedding songs in Texas 1961
+  - hits played on San Antonio radio stations 1955-1965
+  - top Latin music hits 1960-1965
+  - songs popular among women in the US 1960-1965
+  - Mexican American cultural hits 1960-1965
+  - songs associated with community events in San Antonio 1966
+  [6/25] Dolores Santos: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll hits in Cleveland 1961-1971
+  - top Polish American artists 1960s
+  - Vietnam War era songs 1966
+  - wedding songs popular in 1973 Cleveland
+  - hits from Cleveland radio stations 1964
+  - songs popular among men in Ohio 1965-1970
+  - top Motown hits 1961-1971
+  - songs about returning home from war 1971
+  [7/25] James Kowalski: hist=1.00, overall=4, P@k=0.10, MRR=0.14
+Generated 8 queries:
+  - popular rock and roll songs in Charleston, West Virginia 1960-1970
+  - top country hits in Appalachia 1965
+  - songs about coal mining popular in 1963
+  - hit songs during truck driving training 1971
+  - popular male artists in West Virginia 1960-1970
+  - wedding and love songs popular in 1977
+  - classic Appalachian folk songs 1960-1970
+  - top Billboard hits 1968
+  [8/25] Robert Thompson: hist=0.90, overall=4, P@k=0.07, MRR=0.09
+Generated 8 queries:
+  - top hits in New York 1954-1964
+  - popular Haitian American music in New York 1954-1964
+  - top female artists in the US 1954-1964
+  - popular wedding songs in New York 1964
+  - top songs on New York radio 1957
+  - popular songs among Haitian communities in New York 1960
+  - top hits in the US 1964
+  - popular songs for working women in New York 1960
+  [9/25] Pauline Deschamps: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Queens, New York 1978-1988
+  - popular Indian American music in New York 1980s
+  - wedding songs popular in 1985 Queens
+  - top female artists in the 1980s
+  - hits from 1986 related to motherhood
+  - songs related to cultural events in Queens 1990
+  - popular songs in Queens radio stations 1980-1990
+  - Indian classical dance music popular in 1991
+  [10/25] Rina Patel: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Italian American songs in Providence 1954-1964
+  - top rock and roll hits in the US 1957
+  - wedding songs popular in 1961 Providence
+  - Italian American artists popular in the US 1960-1965
+  - male favorite songs in Providence 1959-1964
+  - hits played on Providence radio stations 1961
+  - songs about family and business success 1965
+  - church music popular in Italian American communities 1972
+  [11/25] Giuseppe Romano: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop songs in Seattle 1970-1980
+  - popular Chinese American music in the 1970s
+  - wedding songs popular in 1976
+  - Seattle radio hits 1971
+  - female empowerment songs 1973
+  - songs popular among women in the 1970s
+  - graduation year hits 1973
+  - songs played in Seattle Chinese cultural events 1980s
+  [12/25] Li Wei: hist=1.00, overall=4, P@k=0.10, MRR=0.50
+Generated 8 queries:
+  - popular songs in Los Angeles 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs popular in 1960 Los Angeles
+  - hits from Los Angeles radio stations 1954
+  - female vocalists popular in the 1950s
+  - songs popular among Korean American communities 1950s
+  - top Billboard hits 1956
+  - songs played at cultural festivals in Los Angeles 1965
+  [13/25] Lillian Kim: hist=0.70, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top Billboard hits in Virginia 1975-1985
+  - popular Korean American music artists 1975-1985
+  - college radio hits 1978 Virginia
+  - songs about family and caregiving 1980
+  - popular wedding songs 1989
+  - female pop artists popular in the 1980s
+  - songs played on Washington D.C. radio stations 1975-1985
+  - popular songs in Korean American communities 1975-1985
+  [14/25] Linda Park: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1951-1961
+  - top Korean American music influences 1950s
+  - wedding songs popular in 1959 Seattle
+  - hits on Seattle radio stations 1952
+  - popular male artists in the 1950s Seattle
+  - Korean American cultural music influences 1950s
+  - songs about starting a business 1966
+  - songs addressing discrimination 1973
+  [15/25] Samuel Kim: hist=0.70, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1965-1975
+  - top female artists in the US 1965-1975
+  - wedding songs popular in Texas 1972
+  - hits from local San Antonio radio stations 1965-1975
+  - Mexican American cultural music influences in Texas 1965-1975
+  - top country songs in the US 1975
+  - songs about motherhood popular in the 1970s
+  - popular songs at church events in Texas 1980s
+  [16/25] Maria Gomez: hist=1.00, overall=4, P@k=0.03, MRR=0.20
+Generated 8 queries:
+  - popular Cuban American songs in Miami 1965-1975
+  - top rock and roll hits in the US 1965-1975
+  - Vietnam War era songs popular among soldiers 1970
+  - Miami radio station hits 1965-1975
+  - wedding songs popular in the US 1980
+  - top Latin music hits in the US 1965-1975
+  - popular songs for Cuban American men 1965-1975
+  - songs played on Miami radio during the 1964 Cuban immigration wave
+  [17/25] Carlos Medina: hist=0.50, overall=3, P@k=0.03, MRR=0.07
+Generated 8 queries:
+  - top rock songs in Chicago 1967-1977
+  - popular Polish American music in Chicago 1967-1977
+  - wedding songs popular in 1974 Chicago
+  - hits on Chicago radio stations 1970
+  - popular male artists in the 1970s Chicago
+  - top hits during economic recession 1985
+  - songs about new beginnings 1989
+  - popular songs for carpenters 1970
+  [18/25] Peter Kowalski: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular R&B and soul hits in Chicago 1970-1980
+  - top African American artists 1973
+  - songs popular among African American men in the 1970s
+  - hits played on Chicago radio stations 1973
+  - songs related to military service 1973
+  - disco and funk hits 1975
+  - songs about economic hardship 1981
+  - inspirational songs for community organizing 1985
+  [19/25] Samuel Williams: hist=1.00, overall=4, P@k=0.03, MRR=0.25
+Generated 8 queries:
+  - popular rock songs in Los Angeles 1965-1975
+  - top soul and R&B hits in California 1968
+  - Vietnam War era songs popular among soldiers 1970
+  - wedding songs in Los Angeles 1973
+  - Korean American popular music in Los Angeles 1965-1975
+  - Billboard Hot 100 hits 1973
+  - songs popular in Los Angeles local radio 1970
+  - top male artist songs 1965-1975
+  [20/25] Samuel Lee: hist=1.00, overall=4, P@k=0.03, MRR=0.07
+Generated 8 queries:
+  - popular songs in Boston 1953-1963
+  - top Irish American artists 1953-1963
+  - wedding songs popular in 1963
+  - hits from Boston radio stations 1956
+  - female artists popular in the 1950s and 1960s
+  - songs about nurses or healthcare 1950s
+  - Irish American cultural music 1950s
+  - songs popular among women in the 1960s
+  [21/25] Patricia O'Brien: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Milwaukee 1966-1976
+  - popular Polish American music in Milwaukee 1966-1976
+  - wedding songs popular in 1972
+  - songs about motherhood from 1975
+  - Milwaukee radio hits 1968
+  - female artists popular in the early 1970s
+  - songs about starting a business in the 1980s
+  - divorce-themed songs from the late 1980s
+  [22/25] Eleanor Kowalski: hist=0.80, overall=4, P@k=0.03, MRR=0.03
+Generated 8 queries:
+  - popular Mexican American hits in San Antonio 1970-1980
+  - top female artists in the 1970s San Antonio
+  - wedding songs popular in 1976 Texas
+  - Mexican American community hits 1972 San Antonio
+  - songs about motherhood 1976
+  - church group music popular in 1980 Texas
+  - songs about resilience during economic downturn 1985
+  - songs supporting family during illness 1988
+  [23/25] Dolores Rivera: hist=0.80, overall=4, P@k=0.03, MRR=0.07
+Generated 8 queries:
+  - popular songs in Seattle 1968-1978
+  - Vietnamese American music influences 1970s Seattle
+  - top female artists 1973
+  - hits from Seattle radio stations 1975
+  - songs about immigration and new beginnings 1972
+  - popular community college songs 1977
+  - songs celebrating small business success 1980
+  - female empowerment songs 1973
+  [24/25] Dorothy Nguyen: hist=0.90, overall=4, P@k=0.07, MRR=1.00
+Generated 8 queries:
+  - popular rock and roll songs Charleston WV 1967-1977
+  - top country hits Appalachian region 1967-1977
+  - wedding songs Charleston WV 1970
+  - songs about coal mining 1968
+  - protest and strike songs 1973
+  - popular male artists Charleston WV 1967-1977
+  - top Billboard hits 1973
+  - songs about job loss and resilience 1980
+  [25/25] William Tucker: hist=0.90, overall=4, P@k=0.07, MRR=0.20
+  >>> Avg: {'k': 30.0, 'birth_year': 1948.52, 'hist_plausibility': 0.8719999999999999, 'bio_precision_llm': 3.88, 'cultural_approp_llm': 3.6, 'overall_llm': 3.88, 'precision_at_k': 0.02689655172413793, 'recall': 0.04063157894736842, 'mrr': 0.12644424540976268}
+
+--- Variant C | method=bm25 | total_k=10 ---
+Generated 8 queries:
+  - top pop hits in St. Louis 1978-1988
+  - popular songs by Pakistani American artists 1980s
+  - wedding songs popular in 1985
+  - top female artists in the 1980s
+  - hits on St. Louis radio stations 1981
+  - songs about moving or new beginnings 1987
+  - songs celebrating motherhood 1989
+  - popular songs for immigrant communities in Chicago 1992
+  [1/25] Aisha Khan: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Motown hits in Atlanta 1957-1967
+  - top African American R&B songs 1960-1965
+  - Civil Rights movement anthems 1965
+  - wedding songs popular in 1970 Atlanta
+  - female soul artists 1960s
+  - gospel and choir music popular in Atlanta 1978
+  - hits by African American artists 1965-1970
+  - songs about loss and healing 1985
+    generate_playlist attempt 1 failed: Expecting value: line 20 column 23 (char 894), retrying...
+  [2/25] Eloise Johnson: hist=0.30, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1965-1975
+  - top female artists in the US 1965-1975
+  - popular songs about women's empowerment 1973
+  - regional hits in Texas 1969
+  - songs played on San Antonio radio stations 1967
+  - top wedding songs in the US 1969
+  - popular songs among Mexican American women 1970
+  - hits from female artists in the US 1973
+  [3/25] Elena Martinez: hist=0.20, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in New Orleans 1960-1970
+  - Vietnamese American music influences 1960-1970
+  - top female artists 1960-1970
+  - wedding songs popular in 1982
+  - New Orleans radio hits 1965
+  - songs about immigration and new beginnings 1975
+  - cultural festival music popular in the 1980s
+  - top songs by female artists 1968
+  [4/25] Ngo Thi Pham: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1963-1973
+  - top Dominican American artists 1963-1973
+  - wedding songs popular in Chicago 1969
+  - top Billboard hits 1966 when Fernando moved to Chicago
+  - popular songs on Chicago radio stations 1963-1973
+  - songs popular in Dominican American communities 1963-1973
+  - top male artists in Chicago 1963-1973
+  - hits played in Chicago churches 1976
+  [5/25] Fernando De la Cruz: hist=0.20, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1955-1965
+  - top female artists in the US 1955-1965
+  - hits played on San Antonio radio stations 1955-1965
+  - wedding songs popular in Texas 1961
+  - Mexican American community hits 1960s
+  - songs about seamstresses or factory work 1955
+  - church choir popular songs 1966
+  - Day of the Dead celebration music 1972
+  [6/25] Dolores Santos: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll hits in Cleveland 1961-1971
+  - top Polish American folk songs 1961-1971
+  - Vietnam War era songs popular among men 1966
+  - wedding songs popular in Cleveland 1973
+  - top Billboard hits in Cleveland 1964
+  - songs about returning home from war 1971
+  - popular factory worker anthems in Ohio 1964
+  - Cleveland radio hits 1961-1971
+  [7/25] James Kowalski: hist=0.60, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll hits in Charleston, West Virginia 1960-1970
+  - top country songs in Appalachia 1965-1970
+  - 1963 hits played on West Virginia radio stations
+  - songs about coal mining popular in the 1960s
+  - 1968 chart-topping songs in the US
+  - popular male artists in the 1960s Appalachia
+  - 1971 hits related to truck driving
+  - top wedding songs in the 1970s
+  [8/25] Robert Thompson: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in New York City 1954-1964
+  - top Haitian American artists 1954-1964
+  - hit songs from New York radio stations 1960
+  - wedding songs popular in Haitian communities 1964
+  - female artists popular in the US 1954-1964
+  - songs about immigration and new beginnings 1957
+  - top songs played in Manhattan hotels 1960
+  - songs celebrating motherhood 1968
+  [9/25] Pauline Deschamps: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Queens, New York 1978-1988
+  - popular Indian American music 1978-1988
+  - wedding songs popular in 1985 Queens, New York
+  - top female artists in the 1980s
+  - hit songs from 1986 when Rina became a mother
+  - popular songs on New York radio stations 1980
+  - Indian classical music influences in 1991
+  - songs popular among Indian American communities in the 1980s
+  [10/25] Rina Patel: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Italian American songs in Providence 1954-1964
+  - top hits on Providence radio stations 1957
+  - wedding songs popular in Italian American communities 1961
+  - Billboard top 100 songs 1961
+  - songs about family and business from the 1960s
+  - popular male artists in the US 1960-1965
+  - songs played at Italian American weddings in the 1960s
+  - hits from The 4 Seasons in the early 1960s
+  [11/25] Giuseppe Romano: hist=0.60, overall=3, P@k=0.20, MRR=0.25
+Generated 8 queries:
+  - top hits in Seattle 1970-1980
+  - popular songs by Chinese American artists 1970-1980
+  - wedding songs popular in 1976
+  - Seattle radio hits 1971
+  - popular female artists 1970-1980
+  - songs popular in Chinese American communities 1970-1980
+  - graduation year hits 1973
+  - top rock and pop songs 1970-1980
+  [12/25] Li Wei: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Los Angeles 1951-1961
+  - top Korean American music influences 1950s
+  - wedding songs popular in Los Angeles 1960
+  - female artists popular in the 1950s Los Angeles
+  - top hits on Los Angeles radio 1954
+  - songs popular among Korean American communities 1950s
+  - graduation year hits 1954 Los Angeles
+  - popular songs for secretaries in Los Angeles 1956
+  [13/25] Lillian Kim: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Virginia 1975-1985
+  - popular Korean American artists 1975-1985
+  - songs popular among women in the US 1975-1985
+  - hits from 1978 college radio stations in Virginia
+  - top songs from 1980 related to family and care
+  - popular wedding songs in 1989
+  - songs from 1983 about new beginnings
+  - top Billboard hits 1975-1985
+  [14/25] Linda Park: hist=0.50, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs popular in 1959 Seattle
+  - Seattle radio hits 1952
+  - popular male artists in Seattle 1955
+  - Korean American community music 1950s
+  - hits during Seattle's 1960s grocery store openings
+  - songs about overcoming discrimination 1973
+  [15/25] Samuel Kim: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1965-1975
+  - top female artists in Texas 1965-1975
+  - wedding songs popular in 1972 San Antonio
+  - hits from San Antonio radio stations 1965-1975
+  - popular country music songs in Texas 1975
+  - Mexican American cultural hits 1965-1975
+  - songs about motherhood popular in the 1970s
+  - top songs played at church events in San Antonio 1980s
+  [16/25] Maria Gomez: hist=0.20, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Cuban American music in Miami 1965-1975
+  - top rock and roll hits in the U.S. 1965-1975
+  - Vietnam War era songs popular among soldiers 1970
+  - Miami radio station hits 1965-1975
+  - popular wedding songs in the U.S. 1980
+  - top male artists in the U.S. 1965-1975
+  - popular Latin music in Miami during the 1970s
+  - songs about immigration and new beginnings 1964
+    generate_playlist attempt 1 failed: Expecting value: line 27 column 23 (char 1166), retrying...
+  [17/25] Carlos Medina: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Chicago 1967-1977
+  - top Polish American artists 1967-1977
+  - wedding songs popular in Chicago 1974
+  - hits on Chicago radio stations 1970-1975
+  - popular male artists in Chicago 1967-1977
+  - songs about economic hardship 1985
+  - top songs for carpenters 1970
+  - popular songs during Chicago recession 1985
+  [18/25] Peter Kowalski: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1970-1980
+  - top African American artists 1973 military songs
+  - Chicago radio hits 1977 truck driving songs
+  - popular disco and funk songs 1975
+  - top soul and funk hits during economic hardship 1981
+  - community empowerment songs 1985
+  - popular night class study songs 1990
+  - top male African American artists 1970-1980
+  [19/25] Samuel Williams: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top rock songs in Los Angeles 1965-1975
+  - popular Korean American music in Los Angeles 1965-1975
+  - Vietnam War era songs popular among soldiers 1970
+  - wedding songs popular in 1973 Los Angeles
+  - top soul and R&B hits 1968 Los Angeles
+  - popular songs on Los Angeles radio stations 1973
+  - songs popular among Korean American community 1970s
+  - hits from Los Angeles bands 1965-1975
+  [20/25] Samuel Lee: hist=0.30, overall=2, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Boston 1953-1963
+  - Irish American music hits 1950s
+  - top female artists 1956
+  - wedding songs 1963 Boston
+  - graduation year hits 1956
+  - songs popular among women 1950s
+  - Boston radio hits 1960
+  - Irish American community favorite songs 1960s
+  [21/25] Patricia O'Brien: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Milwaukee 1966-1976
+  - top Polish American artists 1966-1976
+  - wedding songs popular in 1972
+  - hits from Milwaukee radio stations 1968
+  - popular female artists 1970s
+  - songs about motherhood 1975
+  - top rock and pop songs 1973
+  - songs popular among Polish American communities in the 1970s
+  [22/25] Eleanor Kowalski: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1970-1980
+  - top hits on San Antonio radio stations 1972
+  - wedding songs popular in Texas 1976
+  - Mexican American artists popular in the 1970s
+  - female empowerment songs 1970-1980
+  - songs played at high school graduations in Texas 1972
+  - popular church group songs in San Antonio 1980
+  - community support anthems during economic downturns 1985
+  [23/25] Dolores Rivera: hist=0.10, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Seattle 1968-1978
+  - popular Vietnamese American music 1970s
+  - Seattle radio hits 1972
+  - songs about immigration and new beginnings 1972
+  - top female artists 1975
+  - disco hits in Seattle 1975
+  - community college anthems 1977
+  - popular songs for small business owners 1980
+  [24/25] Dorothy Nguyen: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top rock and roll hits in Charleston WV 1967-1977
+  - popular country music in Appalachia 1970
+  - wedding songs popular in 1970 Charleston WV
+  - songs about working in coal mines 1968
+  - strike protest songs 1973
+  - popular male artists in Charleston WV 1973
+  - top Billboard hits 1973
+  - Appalachian folk music popular in 1975
+  [25/25] William Tucker: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+  >>> Avg: {'k': 10.0, 'birth_year': 1948.52, 'hist_plausibility': 0.41600000000000004, 'bio_precision_llm': 2.72, 'cultural_approp_llm': 2.56, 'overall_llm': 2.72, 'precision_at_k': 0.008, 'recall': 0.004, 'mrr': 0.01}
+
+--- Variant C | method=bm25 | total_k=20 ---
+Generated 8 queries:
+  - top pop hits in St. Louis 1978-1988
+  - popular Pakistani American music 1978-1988
+  - wedding songs popular in 1985
+  - hits played on St. Louis radio stations 1981
+  - female artists popular in the 1980s
+  - songs about overcoming odds 1981
+  - songs popular in Chicago 1987
+  - top hits from Pakistani American artists 1980s
+  [1/25] Aisha Khan: hist=0.70, overall=3, P@k=0.05, MRR=0.09
+Generated 8 queries:
+  - popular Motown hits in Atlanta 1957-1967
+  - top African American artists in Georgia 1960-1965
+  - civil rights movement songs 1965
+  - wedding songs popular in 1970 Georgia
+  - top female R&B artists 1960-1967
+  - Atlanta radio hits 1962
+  - gospel and soul music popular in African American communities 1978
+  - songs about love and loss 1985
+  [2/25] Eloise Johnson: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in San Antonio 1965-1975
+  - top Mexican American artists 1965-1975
+  - hits from San Antonio radio stations 1965-1975
+  - popular female artists 1965-1975
+  - top songs during 1969 in Texas
+  - songs about women's empowerment 1973
+  - Mexican American cultural hits 1970s
+  - songs popular among women in 1973
+  [3/25] Elena Martinez: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in New Orleans 1960-1970
+  - Vietnamese American music influences 1960s
+  - top female artists 1965-1970
+  - wedding songs popular in 1982
+  - songs about immigration and new beginnings 1975
+  - hits on New Orleans radio stations 1965-1970
+  - songs celebrating cultural heritage 1980s
+  - top soul and R&B hits 1968
+  [4/25] Ngo Thi Pham: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1963-1973
+  - top Dominican American artists 1963-1973
+  - wedding songs popular in 1969 Chicago
+  - hits on Chicago radio stations 1966
+  - popular male artists in Chicago 1963-1973
+  - Latin music influences in Chicago 1963-1973
+  - songs associated with moving to a new city 1966
+  - songs reflecting economic challenges in the 1980s
+  [5/25] Fernando De la Cruz: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1955-1965
+  - top hits on San Antonio radio stations 1955-1965
+  - wedding songs popular in Texas 1961
+  - Mexican American artists popular in the 1960s
+  - female artists popular in the early 1960s
+  - songs about love and marriage from 1961
+  - top church choir songs in the 1960s
+  - songs related to Day of the Dead celebrations in the 1970s
+  [6/25] Dolores Santos: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll songs in Cleveland 1961-1971
+  - top Polish American artists 1961-1971
+  - Vietnam War era songs 1966
+  - wedding songs popular in Cleveland 1973
+  - hits from Cleveland radio stations 1964
+  - songs popular among young men in the 1960s
+  - top Billboard hits 1964-1971
+  - classic rock songs from the 1960s
+  [7/25] James Kowalski: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll hits in Charleston, West Virginia 1960-1970
+  - top country songs in Appalachia 1965
+  - songs about coal mining from the 1960s
+  - hits from 1968 when Robert was injured in mining
+  - popular truck driving songs from the early 1970s
+  - top male artists in Appalachia 1960-1970
+  - wedding and love songs from the early 1970s
+  - songs about buying a home in the late 1970s
+  [8/25] Robert Thompson: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in New York City 1954-1964
+  - Haitian American music influences in New York 1950s-1960s
+  - top female artists in the US 1954-1964
+  - wedding songs popular in New York 1964
+  - hits on New York radio stations 1957-1964
+  - songs popular among Haitian communities in New York 1960s
+  - top songs when Pauline Deschamps immigrated to the US 1957
+  - songs about motherhood popular in 1968
+  [9/25] Pauline Deschamps: hist=0.60, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Queens, New York 1978-1988
+  - popular Indian American music in New York 1980s
+  - wedding songs popular in 1985 Queens, New York
+  - hits played on New York radio stations 1980-1985
+  - female pop artists popular in the 1980s
+  - songs about motherhood 1986
+  - songs related to Indian classical dance 1991
+  - top songs from 1985 for Indian American weddings
+  [10/25] Rina Patel: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Italian American songs in Providence 1954-1964
+  - top rock and roll hits in the USA 1957
+  - wedding songs popular in 1961 Providence
+  - Italian American artists popular in the 1960s
+  - male favorite songs in Providence 1959-1964
+  - top hits on Providence radio stations 1961
+  - songs associated with carpentry or work in the 1950s
+  - songs played at local church events in Providence 1972
+  [11/25] Giuseppe Romano: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Seattle 1970-1980
+  - popular Chinese American songs 1970-1980
+  - wedding songs popular in 1976
+  - Seattle radio hits 1971
+  - female empowerment songs 1970-1980
+  - songs about starting a business 1979
+  - Chinese cultural association music 1983
+  - top female artists in the 1970s
+  [12/25] Li Wei: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Los Angeles 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs popular in 1960
+  - hits played on Los Angeles radio stations 1954
+  - popular female artists in Los Angeles 1950s
+  - songs popular among Korean American communities 1950s
+  - graduation year hits 1954 Los Angeles
+  - top pop songs 1956 Los Angeles
+  [13/25] Lillian Kim: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop and rock hits in Virginia 1975-1985
+  - popular Korean American music artists 1975-1985
+  - songs played at weddings in Virginia 1989
+  - hits from female artists in the US 1975-1985
+  - songs popular on Virginia radio stations 1978
+  - music associated with college life in the late 1970s
+  - songs about family and caregiving 1980
+  - top songs by female artists 1983
+  [14/25] Linda Park: hist=0.70, overall=3, P@k=0.05, MRR=0.20
+Generated 8 queries:
+  - popular songs in Seattle 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs popular in 1959
+  - Seattle radio hits 1955-1960
+  - songs about starting a business 1966
+  - popular male artists in the 1950s
+  - songs addressing discrimination 1973
+  - Korean American music influences 1950s
+  [15/25] Samuel Kim: hist=0.40, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American artists in San Antonio 1965-1975
+  - top pop and rock songs for women 1968
+  - wedding songs popular in Texas 1972
+  - regional radio hits in San Antonio 1965-1975
+  - Mexican American cultural hits 1970
+  - songs about family and motherhood 1975
+  - top country songs in Texas 1975
+  - popular songs at church events 1980s
+  [16/25] Maria Gomez: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Cuban American music in Miami 1965-1975
+  - top rock and roll hits in the U.S. 1965-1975
+  - Vietnam War era songs popular among soldiers 1970
+  - Miami radio station hits 1965-1975
+  - wedding songs popular in the U.S. 1980
+  - top Latin music hits in Florida 1965-1975
+  - popular male artists in the U.S. 1965-1975
+  - songs about immigration and new beginnings 1964
+  [17/25] Carlos Medina: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Chicago 1967-1977
+  - top Polish American artists 1967-1977
+  - wedding songs popular in 1974 Chicago
+  - hits from Chicago radio stations 1967-1977
+  - songs about carpentry or construction 1970
+  - popular male artists in Chicago 1967-1977
+  - songs about economic hardship 1985
+  - top pop hits during 1974 in Chicago
+  [18/25] Peter Kowalski: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top soul and R&B hits in Chicago 1970-1980
+  - popular African American artists in Chicago 1973
+  - songs popular among African American men in the military 1973
+  - top disco and funk songs in Chicago 1975
+  - songs about returning home and starting anew 1977
+  - hits from Chicago radio stations 1981
+  - songs about economic hardship and community support 1985
+  - popular songs for African American college students 1990
+  [19/25] Samuel Williams: hist=0.60, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Los Angeles 1965-1975
+  - top Motown hits 1968
+  - Vietnam War era songs 1970
+  - wedding songs popular in 1973 Los Angeles
+  - Korean American popular music 1965-1975
+  - top Billboard hits 1973
+  - songs popular among men in the 1970s Los Angeles
+  - Los Angeles radio hits 1968
+  [20/25] Samuel Lee: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Boston 1953-1963
+  - top Irish American artists 1953-1963
+  - wedding songs popular in 1963
+  - hits from Boston radio stations 1956
+  - female artists popular in the 1960s
+  - songs about firefighters or heroes 1978
+  - nursing career songs 1956
+  - Irish American cultural hits 1953-1963
+  [21/25] Patricia O'Brien: hist=0.20, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Milwaukee 1966-1976
+  - top Polish American artists 1966-1976
+  - wedding songs popular in 1972
+  - hits played on Milwaukee radio stations 1968
+  - songs popular among women in the early 1970s
+  - 1975 top hits when first child was born
+  - popular songs during 1983 for small business owners
+  - songs about independence and resilience 1989
+  [22/25] Eleanor Kowalski: hist=0.50, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1970-1980
+  - top hits on San Antonio radio stations 1972
+  - wedding songs popular in Texas 1976
+  - Mexican American female artists 1970-1980
+  - top country and folk songs in Texas 1975
+  - songs about community support and resilience 1985
+  - popular church group songs in San Antonio 1980
+  - songs about family support during illness 1988
+  [23/25] Dolores Rivera: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1968-1978
+  - top hits on Seattle radio 1972
+  - Vietnamese American popular music 1970s
+  - songs about immigration 1972
+  - top female artists 1973
+  - graduation year hits 1977 Seattle
+  - popular songs for small business owners 1980
+  - community award celebration songs 1988
+  [24/25] Dorothy Nguyen: hist=0.40, overall=3, P@k=0.05, MRR=0.08
+Generated 8 queries:
+  - top rock songs in Charleston WV 1967-1977
+  - popular country hits in Appalachia 1970
+  - wedding songs popular in 1970 Charleston WV
+  - songs about working in coal mines 1968
+  - protest and strike songs 1973
+  - Appalachian folk music hits 1970s
+  - male favorite rock songs 1973
+  - classic rock hits 1968-1977
+  [25/25] William Tucker: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+  >>> Avg: {'k': 20.0, 'birth_year': 1948.52, 'hist_plausibility': 0.652, 'bio_precision_llm': 3.16, 'cultural_approp_llm': 2.68, 'overall_llm': 3.16, 'precision_at_k': 0.006000000000000001, 'recall': 0.006000000000000001, 'mrr': 0.014969696969696971}
+
+--- Variant C | method=bm25 | total_k=30 ---
+Generated 8 queries:
+  - top pop hits in St. Louis 1978-1988
+  - popular Pakistani American music 1980s
+  - wedding songs popular in 1985
+  - hits on St. Louis radio stations 1981
+  - female artists popular in 1980s
+  - graduation year songs 1981
+  - songs about moving to a new city 1987
+  - songs about motherhood 1989
+  [1/25] Aisha Khan: hist=1.00, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Motown hits in Atlanta 1957-1967
+  - top R&B songs by African American artists 1960-1965
+  - civil rights movement songs 1965
+  - wedding songs popular in 1970 Georgia
+  - gospel and choir music popular in Atlanta 1978
+  - female African American artists 1960s
+  - soul and R&B hits in Atlanta 1965
+  - songs about love and family 1970s
+  [2/25] Eloise Johnson: hist=0.80, overall=3, P@k=0.03, MRR=0.05
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1965-1975
+  - top female empowerment songs 1973
+  - regional hits in Texas 1969
+  - popular songs for working women 1967
+  - top wedding songs in San Antonio 1969
+  - popular radio hits in San Antonio 1973
+  - Mexican American artists popular in Texas 1970
+  - songs about single parenting 1977
+  [3/25] Elena Martinez: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in New Orleans 1960-1970
+  - Vietnamese American music influences 1960s
+  - top female artists in the US 1965-1970
+  - wedding songs popular in 1982 New Orleans
+  - songs about immigration and new beginnings 1975
+  - hits on New Orleans radio stations 1965-1970
+  - songs celebrating cultural heritage 1980s
+  - top pop songs in the US 1965-1970
+  [4/25] Ngo Thi Pham: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1963-1973
+  - top Dominican American artists 1963-1973
+  - wedding songs popular in Chicago 1969
+  - hits from Chicago radio stations 1966
+  - popular male artists in Chicago 1963-1973
+  - songs played at Dominican American community events 1963-1973
+  - top songs during economic downturn 1984
+  - popular church choir songs 1976
+  [5/25] Fernando De la Cruz: hist=0.90, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Mexican American hits in San Antonio 1955-1965
+  - top female artists in the US 1960-1965
+  - wedding songs popular in 1961 San Antonio
+  - Mexican American community songs San Antonio 1960s
+  - top hits on San Antonio radio stations 1955-1965
+  - songs popular among women in the US 1960-1965
+  - songs related to seamstress work 1955
+  - church choir popular songs 1966
+  [6/25] Dolores Santos: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll hits in Cleveland 1961-1971
+  - top Polish American folk songs 1960s
+  - Vietnam War era songs popular among men 1966
+  - wedding songs popular in Cleveland 1973
+  - top Billboard hits 1964 Cleveland
+  - songs played on Cleveland radio stations 1966
+  - popular male artists in Cleveland 1961-1971
+  - songs about returning home from war 1971
+  [7/25] James Kowalski: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock and roll songs in West Virginia 1960-1970
+  - top country hits in Appalachia 1965
+  - songs about coal mining from the 1960s
+  - 1968 hits on Charleston radio stations
+  - popular truck driving songs 1971
+  - wedding songs popular in 1977
+  - top male artists in the 1960s Appalachia
+  - songs about home ownership from the 1970s
+  [8/25] Robert Thompson: hist=1.00, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in New York 1954-1964
+  - Haitian American music influences in New York 1954-1964
+  - top female artists in the US 1954-1964
+  - hits played on New York radio stations 1954-1964
+  - wedding songs popular in New York 1964
+  - songs popular among Haitian communities in New York 1954-1964
+  - top songs from female artists 1960
+  - popular songs in New York during hotel work era 1960-1975
+  [9/25] Pauline Deschamps: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top pop hits in Queens, New York 1978-1988
+  - popular Indian American music in New York 1980s
+  - wedding songs popular in 1985 Queens, New York
+  - hits by female artists 1980-1985
+  - songs popular on New York radio stations 1983
+  - Indian classical music influences in 1980s New York
+  - songs about motherhood popular in 1986
+  - songs played at cultural events in Queens 1990
+  [10/25] Rina Patel: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - Italian American popular songs in Providence 1954-1964
+  - top hits on Providence radio stations 1957
+  - wedding songs popular in Italian American communities 1961
+  - popular male artists in Providence 1960-1965
+  - Italian American community hits 1965
+  - songs played at local church events in Providence 1972
+  - popular songs for Italian American weddings 1961
+  - Providence local radio hits 1964
+  [11/25] Giuseppe Romano: hist=0.50, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top rock songs in Seattle 1970-1975
+  - popular Chinese American music in Seattle 1970s
+  - wedding songs popular in 1976
+  - hits from female artists 1973
+  - songs played on Seattle radio stations 1971
+  - popular songs during 1979 for small business owners
+  - Chinese cultural association music in Seattle 1983
+  - top hits in Seattle 1975
+  [12/25] Li Wei: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Los Angeles 1951-1961
+  - top Korean American music influences 1950s
+  - wedding songs popular in 1960 Los Angeles
+  - graduation year hits 1954 Los Angeles
+  - female artists popular in Los Angeles 1950s
+  - top hits on Los Angeles radio 1956
+  - songs popular among Korean American community 1960s
+  - Los Angeles cultural festival music 1970s
+  [13/25] Lillian Kim: hist=0.40, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - top Billboard hits in Annandale, Virginia 1975-1985
+  - popular Korean American artists 1975-1985
+  - popular songs for college students in 1978
+  - hits from 1980 when caring for family
+  - songs popular among women in the early 1980s
+  - wedding songs popular in 1989
+  - songs played on Virginia radio stations 1975-1985
+  - popular pop and rock songs 1983
+  [14/25] Linda Park: hist=0.90, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Seattle 1951-1961
+  - top Korean American artists 1950s
+  - wedding songs popular in 1959
+  - hits from Seattle radio stations 1951-1961
+  - popular male artists 1950s Seattle
+  - songs about overcoming adversity 1973
+  - top Billboard hits 1959
+  - songs popular in Korean American communities 1950s
+  [15/25] Samuel Kim: hist=0.60, overall=4, P@k=0.03, MRR=0.06
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1965-1975
+  - top hits on San Antonio radio stations 1965-1975
+  - wedding songs popular in Texas 1972
+  - Mexican American female artists 1965-1975
+  - top country songs in Texas 1975
+  - popular soul and R&B songs 1973
+  - songs about motherhood 1975
+  - hits from Mexican American artists 1982
+  [16/25] Maria Gomez: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Cuban American music in Miami 1965-1975
+  - top rock and roll hits in the U.S. 1965-1975
+  - Vietnam War era songs popular among U.S. soldiers 1970
+  - top Latin music hits in Miami 1965-1975
+  - popular songs in Miami during 1980 wedding ceremonies
+  - songs popular on Miami radio stations 1965-1975
+  - top male artists in the U.S. 1965-1975
+  - popular disco songs in Miami 1975
+    generate_playlist attempt 1 failed: Expecting value: line 27 column 23 (char 1153), retrying...
+  [17/25] Carlos Medina: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Chicago 1967-1977
+  - top Polish American artists 1967-1977
+  - wedding songs popular in 1974 Chicago
+  - hits from Chicago radio stations 1970-1975
+  - popular male artists in Chicago 1967-1977
+  - songs about economic hardship 1985
+  - top hits during the 1981 construction boom
+  - Polish American community music Chicago 1970s
+  [18/25] Peter Kowalski: hist=0.70, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1970-1980
+  - top African American artists 1973
+  - songs popular among African American men 1975
+  - hits played on Chicago radio stations 1977
+  - songs about military service 1973
+  - top disco and funk songs 1975
+  - songs about economic hardship 1981
+  - popular songs in Chicago during community events 1985
+  [19/25] Samuel Williams: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Los Angeles 1965-1975
+  - top Korean American artists 1965-1975
+  - Vietnam War era songs popular among soldiers 1970
+  - wedding songs popular in Los Angeles 1973
+  - soul and R&B hits in Los Angeles 1968
+  - songs played on Los Angeles radio stations 1970
+  - popular male artists in Los Angeles 1965-1975
+  - hits from Los Angeles bands 1965-1975
+  [20/25] Samuel Lee: hist=0.70, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Boston 1953-1963
+  - top Irish American folk songs 1950s
+  - wedding songs popular in 1963
+  - hits from Boston radio stations 1956
+  - female artists popular in the 1960s
+  - songs about firefighters or bravery 1960s
+  - top songs played at high school graduations 1956
+  - Irish American cultural music 1950s
+  [21/25] Patricia O'Brien: hist=0.30, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular songs in Milwaukee 1966-1976
+  - top Polish American artists 1966-1976
+  - wedding songs popular in 1972 Milwaukee
+  - hits from Milwaukee radio stations 1968
+  - popular female artists 1966-1976
+  - top pop songs 1975 Milwaukee
+  - songs popular among Polish American communities 1966-1976
+  - graduation year hits 1969 Milwaukee
+  [22/25] Eleanor Kowalski: hist=0.80, overall=3, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular Tejano music in San Antonio 1970-1980
+  - top Mexican American artists in Texas 1970-1980
+  - hit songs from San Antonio radio stations 1972
+  - wedding songs popular in Texas 1976
+  - popular female artists in the US 1975
+  - songs played at high school graduations 1972
+  - popular church group songs in the 1980s
+  - community support anthems during economic downturns 1985
+  [23/25] Dolores Rivera: hist=0.80, overall=4, P@k=0.00, MRR=0.00
+Generated 8 queries:
+  - popular rock songs in Seattle 1968-1978
+  - top pop hits in the US 1972
+  - Vietnamese American music influences 1970s
+  - Seattle radio hits 1975
+  - female artists popular in the 1970s
+  - songs about immigration experiences 1970s
+  - hits from 1977 community college events
+  - songs associated with small business success 1980
+  [24/25] Dorothy Nguyen: hist=0.50, overall=4, P@k=0.03, MRR=0.04
+Generated 8 queries:
+  - top rock and roll songs Charleston WV 1967-1977
+  - popular country hits Appalachia 1967-1977
+  - wedding songs Charleston WV 1970
+  - protest songs and labor anthems 1973
+  - songs about coal mining and working class 1968-1975
+  - male favorite rock bands 1967-1977
+  - hits played on Charleston WV radio stations 1970
+  - classic rock hits 1973
+  [25/25] William Tucker: hist=1.00, overall=4, P@k=0.03, MRR=0.04
+  >>> Avg: {'k': 30.0, 'birth_year': 1948.52, 'hist_plausibility': 0.7439999999999999, 'bio_precision_llm': 3.48, 'cultural_approp_llm': 3.16, 'overall_llm': 3.48, 'precision_at_k': 0.005333333333333333, 'recall': 0.008, 'mrr': 0.007667701863354037}
+
+Variant C saved to outputs/tuning_variant_c.csv, tuning_variant_c_raw.csv, tuning_variant_c_playlists.csv
+
+Best Variant B: method=bm25, k=30, avg_overall=3.600
+Best Variant C: method=dense, k=30, avg_overall=3.880
+
+Saved outputs/best_configs.json
+{
+  "variant_b": {
+    "method": "bm25",
+    "k": 30
+  },
+  "variant_c": {
+    "method": "dense",
+    "k": 30
+  }
+}

@@ -41,19 +41,43 @@ def get_ground_truth_songs(profile):
     return [s["song"] for s in profile.get("ground_truth_playlist", [])]
 
 
+def load_checkpoint(path):
+    """Load existing raw results as a set of completed (variant, method, k, profile_id) keys."""
+    if not os.path.exists(path):
+        return pd.DataFrame(), set()
+    existing = pd.read_csv(path)
+    done = set(zip(existing["variant"], existing["method"], existing["k"], existing["profile_id"]))
+    print(f"  Resuming: found {len(done)} already-completed profiles in {path}")
+    return existing, done
+
+
 # ── VARIANT B ──────────────────────────────────────────────────────────────
 print("=" * 60)
 print("TUNING VARIANT B")
 print("=" * 60)
 
+existing_b, done_b = load_checkpoint("outputs/tuning_variant_b_raw.csv")
+existing_playlists_b, _ = load_checkpoint("outputs/tuning_variant_b_playlists.csv")
+raw_b = existing_b.to_dict("records") if not existing_b.empty else []
+playlists_b = existing_playlists_b.to_dict("records") if not existing_playlists_b.empty else []
 results_b = []
-raw_b = []
-playlists_b = []  # full playlists for human eval
+
 for method in RETRIEVAL_METHODS:
     for k in K_VALUES:
         print(f"\n--- Variant B | method={method} | k={k} ---")
         scores = []
         for i, profile in enumerate(sample):
+            pid = profile.get("id")
+            if ("B", method, k, pid) in done_b:
+                print(f"  [{i+1}/25] {profile['name']}: SKIPPED (already done)")
+                existing_row = existing_b[
+                    (existing_b["method"] == method) &
+                    (existing_b["k"] == k) &
+                    (existing_b["profile_id"] == pid)
+                ]
+                if not existing_row.empty:
+                    scores.append(existing_row.iloc[0].to_dict())
+                continue
             bump_start = profile["birth_year"] + 15
             bump_end   = profile["birth_year"] + 25
             gt_songs   = get_ground_truth_songs(profile)
@@ -83,13 +107,18 @@ for method in RETRIEVAL_METHODS:
                 scores.append(row)
                 raw_b.append(row)
                 # Save full playlist for human eval
+                life_events_str = " | ".join(
+                    f"{e['year']}: {e['event']}" for e in profile.get("life_events", [])
+                )
                 for song in result["playlist"]:
                     playlists_b.append({
+                        "condition": f"B_{method}_k{k}",
                         "variant": "B", "method": method, "k": k,
                         "profile_id": profile.get("id"), "name": profile["name"],
                         "gender": profile["gender"], "birth_year": profile["birth_year"],
                         "cultural_background": profile["cultural_background"],
                         "hometown": profile["hometown"],
+                        "life_events": life_events_str,
                         "rank": song["rank"], "song": song["song"],
                         "artist": song["artist"], "year": song["year"],
                         "relevance_reason": song.get("relevance", ""),
@@ -97,6 +126,9 @@ for method in RETRIEVAL_METHODS:
                         "cultural_appropriateness_1_5": "",
                         "notes": "",
                     })
+                # Save checkpoint after every profile
+                pd.DataFrame(raw_b).to_csv("outputs/tuning_variant_b_raw.csv", index=False)
+                pd.DataFrame(playlists_b).to_csv("outputs/tuning_variant_b_playlists.csv", index=False)
                 print(f"  [{i+1}/25] {profile['name']}: hist={hist:.2f}, overall={judge['overall_quality']}, P@k={p_at_k:.2f}, MRR={rr:.2f}")
             except Exception as e:
                 print(f"  [{i+1}/25] {profile['name']}: SKIPPED — {e}")
@@ -118,14 +150,28 @@ print("\n" + "=" * 60)
 print("TUNING VARIANT C")
 print("=" * 60)
 
+existing_c, done_c = load_checkpoint("outputs/tuning_variant_c_raw.csv")
+existing_playlists_c, _ = load_checkpoint("outputs/tuning_variant_c_playlists.csv")
+raw_c = existing_c.to_dict("records") if not existing_c.empty else []
+playlists_c = existing_playlists_c.to_dict("records") if not existing_playlists_c.empty else []
 results_c = []
-raw_c = []
-playlists_c = []  # full playlists for human eval
+
 for method in RETRIEVAL_METHODS:
     for k in K_VALUES:
         print(f"\n--- Variant C | method={method} | total_k={k} ---")
         scores = []
         for i, profile in enumerate(sample):
+            pid = profile.get("id")
+            if ("C", method, k, pid) in done_c:
+                print(f"  [{i+1}/25] {profile['name']}: SKIPPED (already done)")
+                existing_row = existing_c[
+                    (existing_c["method"] == method) &
+                    (existing_c["k"] == k) &
+                    (existing_c["profile_id"] == pid)
+                ]
+                if not existing_row.empty:
+                    scores.append(existing_row.iloc[0].to_dict())
+                continue
             bump_start = profile["birth_year"] + 15
             bump_end   = profile["birth_year"] + 25
             gt_songs   = get_ground_truth_songs(profile)
@@ -155,13 +201,18 @@ for method in RETRIEVAL_METHODS:
                 scores.append(row)
                 raw_c.append(row)
                 # Save full playlist for human eval
+                life_events_str = " | ".join(
+                    f"{e['year']}: {e['event']}" for e in profile.get("life_events", [])
+                )
                 for song in result["playlist"]:
                     playlists_c.append({
+                        "condition": f"C_{method}_k{k}",
                         "variant": "C", "method": method, "k": k,
                         "profile_id": profile.get("id"), "name": profile["name"],
                         "gender": profile["gender"], "birth_year": profile["birth_year"],
                         "cultural_background": profile["cultural_background"],
                         "hometown": profile["hometown"],
+                        "life_events": life_events_str,
                         "rank": song["rank"], "song": song["song"],
                         "artist": song["artist"], "year": song["year"],
                         "relevance_reason": song.get("relevance", ""),
@@ -169,6 +220,9 @@ for method in RETRIEVAL_METHODS:
                         "cultural_appropriateness_1_5": "",
                         "notes": "",
                     })
+                # Save checkpoint after every profile
+                pd.DataFrame(raw_c).to_csv("outputs/tuning_variant_c_raw.csv", index=False)
+                pd.DataFrame(playlists_c).to_csv("outputs/tuning_variant_c_playlists.csv", index=False)
                 print(f"  [{i+1}/25] {profile['name']}: hist={hist:.2f}, overall={judge['overall_quality']}, P@k={p_at_k:.2f}, MRR={rr:.2f}")
             except Exception as e:
                 print(f"  [{i+1}/25] {profile['name']}: SKIPPED — {e}")
