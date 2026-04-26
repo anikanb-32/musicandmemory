@@ -1,0 +1,133 @@
+profile_id,name,gender,birth_year,cultural_background,variant,method,k,hist_plausibility,bio_precision_llm,cultural_approp_llm,overall_llm,precision_at_k,recall,mrr,time_sec
+P087,Daisy McGowan,Female,1940,White American (Appalachian),A,none,none,0.0,4,5,4,,,,8.9
+P087,Daisy McGowan,Female,1940,White American (Appalachian),B,bm25,30,0.8,4,4,4,0.0,0.0,0.0,7.3
+P087,Daisy McGowan,Female,1940,White American (Appalachian),C,dense,30,1.0,3,4,3,0.03333333333333333,0.05,0.034482758620689655,22.8
+P201,James Thompson,Male,1940,African American,A,none,none,0.5,4,5,4,,,,9.5
+P201,James Thompson,Male,1940,African American,B,bm25,30,0.7,3,4,3,0.0,0.0,0.0,7.9
+P201,James Thompson,Male,1940,African American,C,dense,30,0.9,4,5,4,0.06896551724137931,0.1,0.05,14.4
+P040,Linda Turner,Female,1953,White American (Southern),A,none,none,0.8,4,5,4,,,,6.4
+P040,Linda Turner,Female,1953,White American (Southern),B,bm25,30,0.8,3,4,3,0.0,0.0,0.0,7.6
+P040,Linda Turner,Female,1953,White American (Southern),C,dense,30,0.9,4,4,4,0.03333333333333333,0.05,0.07692307692307693,16.6
+P186,Linda Chen,Female,1951,Chinese American,A,none,none,0.8,3,3,3,,,,8.7
+P186,Linda Chen,Female,1951,Chinese American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,9.6
+P186,Linda Chen,Female,1951,Chinese American,C,dense,30,1.0,4,3,4,0.06896551724137931,0.1,0.06666666666666667,11.5
+P088,Indira Patel,Female,1961,Indian American,A,none,none,0.4,3,4,3,,,,7.7
+P088,Indira Patel,Female,1961,Indian American,B,bm25,30,0.9,3,2,3,0.0,0.0,0.0,9.3
+P088,Indira Patel,Female,1961,Indian American,C,dense,30,1.0,4,3,4,0.0,0.0,0.0,11.5
+P205,Harold Kim,Male,1960,Korean American,A,none,none,1.0,4,3,4,,,,6.2
+P205,Harold Kim,Male,1960,Korean American,B,bm25,30,0.8,3,3,3,0.0,0.0,0.0,9.6
+P205,Harold Kim,Male,1960,Korean American,C,dense,30,1.0,3,3,3,0.03571428571428571,0.05263157894736842,0.125,14.6
+P179,Isabella Vincenzo,Female,1950,Italian American,A,none,none,1.0,4,4,4,,,,6.0
+P179,Isabella Vincenzo,Female,1950,Italian American,B,bm25,30,1.0,4,4,4,0.0,0.0,0.0,7.7
+P179,Isabella Vincenzo,Female,1950,Italian American,C,dense,30,0.8,4,4,4,0.034482758620689655,0.05,0.07142857142857142,14.1
+P041,Robert Johnson,Male,1940,African American,A,none,none,0.5,4,5,4,,,,8.9
+P041,Robert Johnson,Male,1940,African American,B,bm25,30,0.7,4,5,4,0.0,0.0,0.0,8.2
+P041,Robert Johnson,Male,1940,African American,C,dense,30,0.7,4,5,4,0.03333333333333333,0.05,0.058823529411764705,25.3
+P002,Carlos Hernandez,Male,1961,Mexican American,A,none,none,0.4,3,5,4,,,,6.4
+P002,Carlos Hernandez,Male,1961,Mexican American,B,bm25,30,0.9,4,3,4,0.0,0.0,0.0,7.2
+P002,Carlos Hernandez,Male,1961,Mexican American,C,dense,30,0.7,4,4,4,0.0,0.0,0.0,12.5
+P072,Maria Gonzalez,Female,1958,Mexican American,A,none,none,0.7,3,5,4,,,,6.7
+P072,Maria Gonzalez,Female,1958,Mexican American,B,bm25,30,0.8,3,3,3,0.0,0.0,0.0,8.3
+P072,Maria Gonzalez,Female,1958,Mexican American,C,dense,30,0.6,3,4,3,0.0,0.0,0.0,10.7
+P151,James O'Connor,Male,1942,Irish American,A,none,none,0.4,3,4,3,,,,6.7
+P151,James O'Connor,Male,1942,Irish American,B,bm25,30,0.9,4,4,4,0.0,0.0,0.0,7.0
+P151,James O'Connor,Male,1942,Irish American,C,dense,30,1.0,3,4,3,0.0,0.0,0.0,12.0
+P115,Patricia Silva,Female,1950,Portuguese American,A,none,none,1.0,4,3,4,,,,5.7
+P115,Patricia Silva,Female,1950,Portuguese American,B,bm25,30,1.0,3,3,3,0.0,0.0,0.0,6.5
+P115,Patricia Silva,Female,1950,Portuguese American,C,dense,30,1.0,3,2,3,0.0,0.0,0.0,10.4
+P057,Mary Johnson,Female,1938,African American,A,none,none,0.9,4,5,4,,,,7.2
+P057,Mary Johnson,Female,1938,African American,B,bm25,30,0.3,4,5,4,0.0,0.0,0.0,7.8
+P057,Mary Johnson,Female,1938,African American,C,dense,30,0.4,4,5,4,0.06666666666666667,0.1,0.16666666666666666,11.3
+P108,Kim Lee,Female,1948,Korean American,A,none,none,1.0,4,3,4,,,,7.1
+P108,Kim Lee,Female,1948,Korean American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,8.8
+P108,Kim Lee,Female,1948,Korean American,C,dense,30,0.7,4,3,4,0.03333333333333333,0.05,0.05,11.3
+P208,Paul Doucet,Male,1938,Haitian American,A,none,none,0.7,4,5,4,,,,7.9
+P208,Paul Doucet,Male,1938,Haitian American,B,bm25,30,0.5,4,4,4,0.0,0.0,0.0,13.0
+P208,Paul Doucet,Male,1938,Haitian American,C,dense,30,0.5,4,5,4,0.03333333333333333,0.05,0.1111111111111111,13.3
+P180,Jorge Martinez,Male,1962,Cuban American,A,none,none,0.4,3,5,4,,,,5.6
+P180,Jorge Martinez,Male,1962,Cuban American,B,bm25,30,0.9,4,3,4,0.0,0.0,0.0,7.8
+P180,Jorge Martinez,Male,1962,Cuban American,C,dense,30,1.0,4,5,4,0.0,0.0,0.0,12.0
+P167,Angela Nguyen,Female,1963,Vietnamese American,A,none,none,1.0,4,3,4,,,,6.0
+P167,Angela Nguyen,Female,1963,Vietnamese American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,5.9
+P167,Angela Nguyen,Female,1963,Vietnamese American,C,dense,30,0.9,4,3,4,0.0,0.0,0.0,10.6
+P184,Anita Patel,Female,1962,Indian American,A,none,none,1.0,4,3,4,,,,5.4
+P184,Anita Patel,Female,1962,Indian American,B,bm25,30,0.9,4,3,4,0.0,0.0,0.0,10.0
+P184,Anita Patel,Female,1962,Indian American,C,dense,30,1.0,4,3,4,0.0,0.0,0.0,11.1
+P051,Helen Martinez,Female,1948,Mexican American,A,none,none,0.4,3,4,3,,,,6.8
+P051,Helen Martinez,Female,1948,Mexican American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,10.2
+P051,Helen Martinez,Female,1948,Mexican American,C,dense,30,1.0,4,3,4,0.03333333333333333,0.05,0.05555555555555555,10.7
+P144,Salvatore Ricci,Male,1940,Italian American,A,none,none,0.9,4,5,4,,,,7.2
+P144,Salvatore Ricci,Male,1940,Italian American,B,bm25,30,0.6,4,4,4,0.0,0.0,0.0,10.8
+P144,Salvatore Ricci,Male,1940,Italian American,C,dense,30,0.8,4,5,4,0.03333333333333333,0.05,0.16666666666666666,10.9
+P218,Sandra Lopez,Female,1957,Mexican American,A,none,none,0.5,3,5,4,,,,6.5
+P218,Sandra Lopez,Female,1957,Mexican American,B,bm25,30,0.9,3,2,3,0.0,0.0,0.0,7.0
+P218,Sandra Lopez,Female,1957,Mexican American,C,dense,30,0.8,3,4,3,0.03333333333333333,0.05,0.25,11.1
+P155,Salvatore Russo,Male,1949,Italian American,A,none,none,0.4,4,5,4,,,,6.8
+P155,Salvatore Russo,Male,1949,Italian American,B,bm25,30,1.0,4,4,4,0.0,0.0,0.0,8.2
+P155,Salvatore Russo,Male,1949,Italian American,C,dense,30,1.0,4,4,4,0.03333333333333333,0.05,0.07142857142857142,13.1
+P130,Yuki Tanaka,Female,1962,Japanese American,A,none,none,0.6,4,4,4,,,,6.6
+P130,Yuki Tanaka,Female,1962,Japanese American,B,bm25,30,0.9,3,2,3,0.0,0.0,0.0,7.7
+P130,Yuki Tanaka,Female,1962,Japanese American,C,dense,30,0.6,4,3,4,0.0,0.0,0.0,13.1
+P060,Ahmed Khan,Male,1963,Pakistani American,A,none,none,1.0,4,3,4,,,,5.4
+P060,Ahmed Khan,Male,1963,Pakistani American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,7.6
+P060,Ahmed Khan,Male,1963,Pakistani American,C,dense,30,0.9,4,3,4,0.03333333333333333,0.05,0.04,12.8
+P056,Fen Wang,Male,1960,Chinese American,A,none,none,1.0,5,3,4,,,,7.7
+P056,Fen Wang,Male,1960,Chinese American,B,bm25,30,1.0,3,2,3,0.0,0.0,0.0,8.0
+P056,Fen Wang,Male,1960,Chinese American,C,dense,30,0.5,3,3,3,0.0,0.0,0.0,19.4
+P024,Anna Nguyen,Female,1946,Vietnamese American,A,none,none,1.0,4,4,4,,,,6.0
+P024,Anna Nguyen,Female,1946,Vietnamese American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,7.5
+P024,Anna Nguyen,Female,1946,Vietnamese American,C,dense,30,1.0,4,3,4,0.0,0.0,0.0,12.6
+P008,Santiago Garcia,Male,1953,Puerto Rican American,A,none,none,0.4,3,4,3,,,,8.0
+P008,Santiago Garcia,Male,1953,Puerto Rican American,B,bm25,30,1.0,3,3,3,0.0,0.0,0.0,8.3
+P008,Santiago Garcia,Male,1953,Puerto Rican American,C,dense,30,0.7,3,3,3,0.0,0.0,0.0,13.9
+P009,Zara Ali,Female,1965,Arab American,A,none,none,1.0,4,4,4,,,,6.8
+P009,Zara Ali,Female,1965,Arab American,B,bm25,30,0.8,4,3,4,0.0,0.0,0.0,13.5
+P009,Zara Ali,Female,1965,Arab American,C,dense,30,1.0,4,3,4,0.0,0.0,0.0,17.5
+P109,Maria Rodriguez,Female,1940,Cuban American,A,none,none,0.5,4,5,4,,,,7.5
+P109,Maria Rodriguez,Female,1940,Cuban American,B,bm25,30,0.7,4,3,4,0.0,0.0,0.0,7.7
+P109,Maria Rodriguez,Female,1940,Cuban American,C,dense,30,0.8,3,4,3,0.0,0.0,0.0,13.3
+P152,Maria Sanchez,Female,1951,Mexican American,A,none,none,0.1,3,5,4,,,,6.3
+P152,Maria Sanchez,Female,1951,Mexican American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,7.6
+P152,Maria Sanchez,Female,1951,Mexican American,C,dense,30,0.8,4,4,4,0.0,0.0,0.0,11.1
+P023,Thomas Zawadzki,Male,1960,Polish American,A,none,none,0.4,4,3,4,,,,6.1
+P023,Thomas Zawadzki,Male,1960,Polish American,B,bm25,30,0.9,3,3,3,0.0,0.0,0.0,6.7
+P023,Thomas Zawadzki,Male,1960,Polish American,C,dense,30,1.0,3,4,3,0.0,0.0,0.0,19.4
+P140,Linda Nguyen,Female,1957,Vietnamese American,A,none,none,1.0,4,3,4,,,,6.5
+P140,Linda Nguyen,Female,1957,Vietnamese American,B,bm25,30,0.8,4,3,4,0.0,0.0,0.0,8.4
+P140,Linda Nguyen,Female,1957,Vietnamese American,C,dense,30,0.9,3,2,3,0.0,0.0,0.0,13.6
+P217,Leon Wong,Male,1945,Chinese American,A,none,none,1.0,4,4,4,,,,5.8
+P217,Leon Wong,Male,1945,Chinese American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,7.4
+P217,Leon Wong,Male,1945,Chinese American,C,dense,30,1.0,4,3,4,0.03333333333333333,0.05,0.3333333333333333,13.3
+P174,Clarence Washington,Male,1936,African American,A,none,none,0.4,4,5,4,,,,7.1
+P174,Clarence Washington,Male,1936,African American,B,bm25,30,0.1,4,5,4,0.0,0.0,0.0,8.4
+P174,Clarence Washington,Male,1936,African American,C,dense,30,0.5,4,5,4,0.0,0.0,0.0,12.0
+P027,Evelyn Rodriguez,Female,1944,Puerto Rican American,A,none,none,0.8,3,4,3,,,,6.8
+P027,Evelyn Rodriguez,Female,1944,Puerto Rican American,B,bm25,30,0.9,4,3,4,0.0,0.0,0.0,6.9
+P027,Evelyn Rodriguez,Female,1944,Puerto Rican American,C,dense,30,1.0,4,4,4,0.0,0.0,0.0,10.8
+P189,James White,Male,1964,White American (Appalachian),A,none,none,1.0,4,5,4,,,,6.4
+P189,James White,Male,1964,White American (Appalachian),B,bm25,30,1.0,3,3,3,0.0,0.0,0.0,8.2
+P189,James White,Male,1964,White American (Appalachian),C,dense,30,0.9,4,3,4,0.0,0.0,0.0,13.9
+P036,Hiroshi Sato,Male,1945,Japanese American,A,none,none,1.0,4,4,4,,,,7.7
+P036,Hiroshi Sato,Male,1945,Japanese American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,8.8
+P036,Hiroshi Sato,Male,1945,Japanese American,C,dense,30,1.0,4,4,4,0.03571428571428571,0.05,0.047619047619047616,11.1
+P058,John Petrovski,Male,1952,Polish American,A,none,none,1.0,4,4,4,,,,6.7
+P058,John Petrovski,Male,1952,Polish American,B,bm25,30,1.0,4,4,4,0.0,0.0,0.0,6.7
+P058,John Petrovski,Male,1952,Polish American,C,dense,30,1.0,4,3,4,0.06666666666666667,0.1,0.16666666666666666,12.6
+P063,Anthony Russo,Male,1955,Italian American,A,none,none,1.0,4,4,4,,,,6.0
+P063,Anthony Russo,Male,1955,Italian American,B,bm25,30,0.4,3,3,3,0.0,0.0,0.0,7.1
+P063,Anthony Russo,Male,1955,Italian American,C,dense,30,0.9,3,4,3,0.03333333333333333,0.05,0.0625,10.2
+P071,James Wilson,Male,1942,African American,A,none,none,0.6,4,5,4,,,,6.6
+P071,James Wilson,Male,1942,African American,B,bm25,30,0.8,4,4,4,0.0,0.0,0.0,7.0
+P071,James Wilson,Male,1942,African American,C,dense,30,1.0,4,5,4,0.0,0.0,0.0,16.1
+P190,Fatima Nasser,Female,1960,Arab American,A,none,none,1.0,4,3,4,,,,9.1
+P190,Fatima Nasser,Female,1960,Arab American,B,bm25,30,1.0,3,2,3,0.0,0.0,0.0,6.2
+P190,Fatima Nasser,Female,1960,Arab American,C,dense,30,1.0,3,3,3,0.0,0.0,0.0,12.1
+P007,Yumi Tanaka,Female,1942,Japanese American,A,none,none,1.0,4,5,4,,,,5.5
+P007,Yumi Tanaka,Female,1942,Japanese American,B,bm25,30,1.0,4,3,4,0.0,0.0,0.0,6.1
+P007,Yumi Tanaka,Female,1942,Japanese American,C,dense,30,1.0,4,4,4,0.03571428571428571,0.05,0.06666666666666667,10.6
+P029,Alicia Martinez,Female,1956,Cuban American,A,none,none,0.6,3,4,3,,,,7.3
+P029,Alicia Martinez,Female,1956,Cuban American,B,bm25,30,0.8,4,3,4,0.0,0.0,0.0,6.4
+P029,Alicia Martinez,Female,1956,Cuban American,C,dense,30,0.9,3,4,3,0.037037037037037035,0.05,0.03571428571428571,14.4
+P164,Lena Kim,Female,1956,Korean American,A,none,none,0.9,4,3,4,,,,5.4
+P164,Lena Kim,Female,1956,Korean American,B,bm25,30,0.7,4,3,4,0.0,0.0,0.0,5.8
+P164,Lena Kim,Female,1956,Korean American,C,dense,30,0.9,3,3,3,0.0,0.0,0.0,10.1

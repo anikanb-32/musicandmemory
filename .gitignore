@@ -6,7 +6,6 @@ data/raw/
 data/processed/
 
 # Outputs
-outputs/
 
 # Python
 __pycache__/

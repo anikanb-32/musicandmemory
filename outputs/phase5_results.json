@@ -1,0 +1,266 @@
+{
+  "variant_a": {
+    "playlist": [
+      {
+        "rank": 1,
+        "song": "My Girl",
+        "artist": "The Temptations",
+        "year": 1965,
+        "relevance": "This Motown classic from Detroit is likely familiar to James and connects to his cultural background and hometown."
+      },
+      {
+        "rank": 2,
+        "song": "Ain't No Mountain High Enough",
+        "artist": "Marvin Gaye & Tammi Terrell",
+        "year": 1967,
+        "relevance": "A powerful duet from Motown, reflecting both the era and Detroit's rich musical heritage."
+      },
+      {
+        "rank": 3,
+        "song": "I Heard It Through the Grapevine",
+        "artist": "Marvin Gaye",
+        "year": 1968,
+        "relevance": "Released during a pivotal year for James, this song is another Detroit hit that might evoke memories."
+      },
+      {
+        "rank": 4,
+        "song": "Respect",
+        "artist": "Aretha Franklin",
+        "year": 1967,
+        "relevance": "An anthem of empowerment and pride, resonating with James' cultural background."
+      },
+      {
+        "rank": 5,
+        "song": "What's Going On",
+        "artist": "Marvin Gaye",
+        "year": 1971,
+        "relevance": "Released the same year James got married, this song addresses social issues of the time."
+      },
+      {
+        "rank": 6,
+        "song": "Dancing in the Street",
+        "artist": "Martha and the Vandellas",
+        "year": 1964,
+        "relevance": "A song that captures the spirit of Detroit and the civil rights movement."
+      },
+      {
+        "rank": 7,
+        "song": "Papa Was a Rollin' Stone",
+        "artist": "The Temptations",
+        "year": 1972,
+        "relevance": "A reflective song from a Detroit group that might resonate with James' experiences."
+      },
+      {
+        "rank": 8,
+        "song": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "year": 1973,
+        "relevance": "A soulful classic from the early 70s, likely part of James' adult life soundtrack."
+      },
+      {
+        "rank": 9,
+        "song": "I Want You Back",
+        "artist": "The Jackson 5",
+        "year": 1969,
+        "relevance": "A joyful song from a young Michael Jackson that might evoke positive memories."
+      },
+      {
+        "rank": 10,
+        "song": "Superstition",
+        "artist": "Stevie Wonder",
+        "year": 1972,
+        "relevance": "A funk classic from another Detroit-born artist, connecting to James' roots."
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "My Girl",
+        "prompt": "Do you remember dancing to this song at any special events in Detroit?"
+      },
+      {
+        "song": "What's Going On",
+        "prompt": "This song came out the year you got married. What do you remember about that time?"
+      },
+      {
+        "song": "Respect",
+        "prompt": "How did this song make you feel when you first heard it?"
+      }
+    ]
+  },
+  "variant_b": {
+    "playlist": [
+      {
+        "rank": 1,
+        "song": "Hot Fun In The Summertime",
+        "artist": "Sly & The Family Stone",
+        "year": 1969,
+        "relevance": "This song was released during James's reminiscence bump and is by an influential African American band from the 60s, aligning with his cultural background. It evokes the carefree, joyful feelings of summer, potentially reminding him of his youth in Detroit."
+      },
+      {
+        "rank": 2,
+        "song": "The Long And Winding Road/For You Blue",
+        "artist": "The Beatles",
+        "year": 1970,
+        "relevance": "Released around the time James married Dorothy, this song may evoke memories of that significant life event. The Beatles were globally popular, making their music a likely part of James's young adulthood."
+      },
+      {
+        "rank": 3,
+        "song": "American Pie (Parts I & II)",
+        "artist": "Don McLean",
+        "year": 1972,
+        "relevance": "This iconic song was a major hit during James's early adulthood, possibly resonating with his experiences post-Vietnam War and as a new husband, reflecting on the cultural shifts of the era."
+      },
+      {
+        "rank": 4,
+        "song": "Sing",
+        "artist": "Carpenters",
+        "year": 1973,
+        "relevance": "This song's uplifting and simple message may provide comfort and joy, connecting to James's life as a new father during this period."
+      },
+      {
+        "rank": 5,
+        "song": "December, 1963 (Oh, What a Night)",
+        "artist": "The 4 Seasons",
+        "year": 1976,
+        "relevance": "Though slightly outside the reminiscence bump, this nostalgic song about a memorable night may resonate with James's own youthful memories."
+      },
+      {
+        "rank": 6,
+        "song": "Touch Me",
+        "artist": "The Doors",
+        "year": 1969,
+        "relevance": "This song captures the vibrant and rebellious spirit of the late 60s, a time when James was experiencing significant life changes, such as returning from Vietnam."
+      },
+      {
+        "rank": 7,
+        "song": "No No Song/snookeroo",
+        "artist": "Ringo Starr",
+        "year": 1975,
+        "relevance": "Released the same year as the birth of his first child, this song might connect to James's experiences of becoming a parent."
+      },
+      {
+        "rank": 8,
+        "song": "Ruby Baby",
+        "artist": "Dion",
+        "year": 1963,
+        "relevance": "This early 60s hit could remind James of his teenage years in Detroit, a period of discovery and growth."
+      },
+      {
+        "rank": 9,
+        "song": "I Know A Place",
+        "artist": "Petula Clark",
+        "year": 1965,
+        "relevance": "This upbeat song might evoke memories of James's high school years and the vibrant music scene of the mid-60s."
+      },
+      {
+        "rank": 10,
+        "song": "I Get Around",
+        "artist": "The Beach Boys",
+        "year": 1964,
+        "relevance": "This energetic song reflects the carefree spirit of the 60s, likely resonating with James's youthful adventures before being drafted."
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Hot Fun In The Summertime",
+        "prompt": "Do you remember any special summers in Detroit? What did you enjoy doing during those times?"
+      },
+      {
+        "song": "The Long And Winding Road/For You Blue",
+        "prompt": "This song came out around the time you got married. What do you remember about your wedding day with Dorothy?"
+      },
+      {
+        "song": "American Pie (Parts I & II)",
+        "prompt": "This song was very popular in the early 70s. What do you recall about the music and culture back then?"
+      }
+    ]
+  },
+  "variant_c": {
+    "playlist": [
+      {
+        "rank": 1,
+        "song": "Soul Man",
+        "artist": "Sam & Dave",
+        "year": 1967,
+        "relevance": "This song was released during James's late teenage years and is a classic soul hit that resonates with his cultural background and the vibrant music scene of Detroit."
+      },
+      {
+        "rank": 2,
+        "song": "Papa Was A Rollin' Stone",
+        "artist": "The Temptations",
+        "year": 1973,
+        "relevance": "The Temptations are a legendary Motown group from Detroit, and this song's release coincides with James's early years as a father, making it culturally and personally significant."
+      },
+      {
+        "rank": 3,
+        "song": "Sweet Soul Music",
+        "artist": "Arthur Conley",
+        "year": 1967,
+        "relevance": "This song celebrates soul music and was popular during James's formative years, reflecting his cultural heritage and the music that would have been prevalent in Detroit."
+      },
+      {
+        "rank": 4,
+        "song": "Stoned Soul Picnic",
+        "artist": "The 5th Dimension",
+        "year": 1968,
+        "relevance": "Released the same year James was drafted into the Vietnam War, this song can evoke memories of that significant life transition."
+      },
+      {
+        "rank": 5,
+        "song": "Groovin'",
+        "artist": "The Young Rascals",
+        "year": 1967,
+        "relevance": "This song captures the easygoing vibe of the late 60s, a time when James was transitioning from high school to adulthood."
+      },
+      {
+        "rank": 6,
+        "song": "Wedding Bell Blues",
+        "artist": "The 5th Dimension",
+        "year": 1969,
+        "relevance": "This song relates to James's marriage to Dorothy in 1971, capturing the romantic sentiments of that era."
+      },
+      {
+        "rank": 7,
+        "song": "Soulful Strut",
+        "artist": "Young-Holt Unlimited",
+        "year": 1969,
+        "relevance": "An instrumental hit from the late 60s, this song reflects the soulful sounds prevalent during James's young adulthood."
+      },
+      {
+        "rank": 8,
+        "song": "Little Bit O' Soul",
+        "artist": "The Music Explosion",
+        "year": 1967,
+        "relevance": "This upbeat track was popular during James's youth and aligns with the soul music influence in his life."
+      },
+      {
+        "rank": 9,
+        "song": "Hit The Road Jack",
+        "artist": "Ray Charles and his Orchestra",
+        "year": 1961,
+        "relevance": "A classic hit that James would likely remember from his teenage years, resonating with the rhythm and blues roots of Detroit."
+      },
+      {
+        "rank": 10,
+        "song": "Daddy's Home",
+        "artist": "Shep And The Limelites",
+        "year": 1961,
+        "relevance": "This song's themes of returning home may evoke memories of family and homecoming, relevant to James's life as a father."
+      }
+    ],
+    "caregiver_cards": [
+      {
+        "song": "Soul Man",
+        "prompt": "Do you remember dancing to this song? What was the music scene like in Detroit when you were young?"
+      },
+      {
+        "song": "Papa Was A Rollin' Stone",
+        "prompt": "This song is by The Temptations from Detroit. Did you ever see them perform live?"
+      },
+      {
+        "song": "Wedding Bell Blues",
+        "prompt": "Does this song remind you of your wedding day with Dorothy? What do you remember most about that day?"
+      }
+    ]
+  }
+}

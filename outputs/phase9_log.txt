@@ -1,0 +1,2650 @@
+Loading retrieval system...
+Loaded 2381 vectors, 2381 songs
+
+Test profiles: 44
+Best configs: {
+  "variant_b": {
+    "method": "bm25",
+    "k": 30
+  },
+  "variant_c": {
+    "method": "dense",
+    "k": 30
+  }
+}
+
+
+==================================================
+Processing P087: Daisy McGowan (Female, b.1940)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Appalachian folk songs 1955-1965
+  - top country hits in West Virginia 1960
+  - wedding songs popular in 1960
+  - Charleston West Virginia radio hits 1955-1965
+  - female favorite pop songs 1964
+  - popular songs during coal mining strikes 1971
+  - top Motown hits 1964
+  - songs about financial struggles 1971
+    hist=1.00, bio=3, overall=3, P@k=0.03, MRR=0.03
+
+==================================================
+Processing P201: James Thompson (Male, b.1940)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.50, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.70, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular R&B and soul hits in Louisville 1955-1965
+  - top Motown songs 1964-1965
+  - wedding songs popular in 1965 for African American couples
+  - civil rights movement anthems 1972
+  - hits by African American artists in Louisville 1960-1965
+  - top male-favorite songs in Louisville 1958
+  - soul and R&B chart-toppers 1965
+  - songs played on Louisville radio stations 1960-1965
+    hist=0.90, bio=4, overall=4, P@k=0.07, MRR=0.05
+
+==================================================
+Processing P040: Linda Turner (Female, b.1953)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.80, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top Southern rock songs Birmingham 1968-1978
+  - popular country hits in Alabama 1971
+  - wedding songs popular in the South 1975
+  - hits by female artists 1973
+  - songs about motherhood 1978
+  - popular songs on Birmingham radio 1975
+  - top pop hits in the US 1973
+  - songs about starting a business 1988
+    hist=0.90, bio=4, overall=4, P@k=0.03, MRR=0.08
+
+==================================================
+Processing P186: Linda Chen (Female, b.1951)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.80, bio=3, overall=3
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular songs in San Francisco 1966-1976
+  - top Chinese American artists 1966-1976
+  - hits from San Francisco radio stations 1969
+  - songs popular among women in California 1972
+  - top songs in Seattle 1972
+  - songs played at Chinese cultural events 1979
+  - popular songs in Chinatown San Francisco 1969
+  - hits from female artists 1966-1976
+    hist=1.00, bio=4, overall=4, P@k=0.07, MRR=0.07
+
+==================================================
+Processing P088: Indira Patel (Female, b.1961)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=3, overall=3
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop hits in New Jersey 1976-1986
+  - popular Indian American music in New York 1980s
+  - female pop artists popular in the US 1980-1985
+  - songs played on New York radio stations 1982
+  - hits from the year Indira became a mother 1985
+  - songs about new beginnings popular in 1980
+  - top songs from department store playlists 1982
+  - Indian American cultural music influences in New Jersey 1976-1986
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P205: Harold Kim (Male, b.1960)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular rock songs in Los Angeles 1975-1985
+  - top pop hits in Los Angeles 1978
+  - Korean American popular songs 1975-1985
+  - top Billboard hits 1983
+  - popular songs for male college students 1978
+  - Los Angeles radio hits 1983
+  - songs popular among Korean American communities 1980
+  - graduation year hits 1978 Los Angeles
+    hist=1.00, bio=3, overall=3, P@k=0.04, MRR=0.12
+
+==================================================
+Processing P179: Isabella Vincenzo (Female, b.1950)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular songs in Newark NJ 1965-1975
+  - Italian American favorite songs 1965-1975
+  - wedding songs popular in 1970 Newark NJ
+  - top female artists 1965-1975
+  - hits from Newark NJ radio stations 1965-1975
+  - songs about community support 1989
+  - songs played at Italian American events 1965-1975
+  - popular PTA event songs late 1970s
+    hist=0.80, bio=4, overall=4, P@k=0.03, MRR=0.07
+
+==================================================
+Processing P041: Robert Johnson (Male, b.1940)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.50, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.70, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular R&B and soul songs Birmingham 1955-1965
+  - top African American artists 1955-1965
+  - songs about civil rights movement 1960s
+  - wedding songs popular in Alabama 1965
+  - hits from African American radio stations Birmingham 1955-1965
+  - songs played during Montgomery Bus Boycott 1955
+  - Motown hits popular among men 1960-1965
+  - songs about working class struggles 1970
+    hist=0.70, bio=4, overall=4, P@k=0.03, MRR=0.06
+
+==================================================
+Processing P002: Carlos Hernandez (Male, b.1961)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=3, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Mexican American hits in El Paso 1976-1986
+  - top rock songs in Texas 1976-1986
+  - popular songs in El Paso during 1980 Army enlistment
+  - wedding songs popular in El Paso 1989
+  - top male artists in El Paso 1976-1986
+  - hits from local El Paso radio stations 1976-1986
+  - popular country songs in Texas 1985
+  - Mexican American artists popular in El Paso 1976-1986
+    hist=0.70, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P072: Maria Gonzalez (Female, b.1958)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.70, bio=3, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Mexican American songs in Los Angeles 1973-1983
+  - top pop hits in Los Angeles 1976
+  - wedding songs popular in California 1978
+  - Mexican American artists popular in 1978
+  - top radio hits in Los Angeles 1982
+  - popular songs for new mothers 1986
+  - songs about business success 1992
+  - female pop artists popular in Los Angeles 1973-1983
+    hist=0.60, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P151: James O'Connor (Male, b.1942)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=3, overall=3
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular rock and roll hits in Pittsburgh 1957-1967
+  - top Irish American folk songs 1960
+  - wedding songs popular in Pittsburgh 1965
+  - top male artists in Pittsburgh 1960-1965
+  - popular songs played on Pittsburgh radio 1960
+  - hits from steel mill workers' playlists 1960
+  - songs about union and labor movements 1970
+  - popular songs during Pittsburgh steel mill closures 1975
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P115: Patricia Silva (Female, b.1950)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular songs on Fall River radio stations 1965-1975
+  - top Portuguese American hits 1965-1975
+  - wedding songs popular in Massachusetts 1973
+  - hits by female artists 1965-1975
+  - songs popular among nurses in the late 1960s
+  - Portuguese cultural songs in Massachusetts 1980
+  - top pop hits 1968 when Patricia started working
+  - songs about motherhood popular in 1975
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P057: Mary Johnson (Female, b.1938)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.90, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.30, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs by African American artists 1955
+  - wedding songs popular in Detroit 1960
+  - hits from Detroit radio stations 1960
+  - songs about working life in the 1950s
+  - top female artists in Detroit 1958
+  - civil rights movement songs 1970s
+  - songs about moving and new beginnings 1967
+    hist=0.40, bio=4, overall=4, P@k=0.07, MRR=0.17
+
+==================================================
+Processing P108: Kim Lee (Female, b.1948)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular songs in Chicago 1963-1973
+  - top Korean American artists 1963-1973
+  - wedding songs popular in Chicago 1969
+  - hits played on Chicago radio stations 1965
+  - female artists popular in the 1960s and 1970s
+  - top soul and R&B songs in Chicago 1963-1973
+  - songs about cultural pride and identity 1981
+  - popular songs for young women in the 1960s
+    hist=0.70, bio=4, overall=4, P@k=0.03, MRR=0.05
+
+==================================================
+Processing P208: Paul Doucet (Male, b.1938)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.70, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.50, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs in Detroit 1956
+  - Haitian American music influences in Detroit 1950s
+  - songs about union organizing 1962
+  - top male artists in Detroit 1958
+  - songs played on Detroit radio stations 1953-1963
+  - graduation year hits 1956 Detroit
+  - songs about the auto industry crisis 1970
+    hist=0.50, bio=4, overall=4, P@k=0.03, MRR=0.11
+
+==================================================
+Processing P180: Jorge Martinez (Male, b.1962)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=3, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top Latin hits in Miami 1977-1987
+  - popular Cuban American songs 1980
+  - wedding songs popular in 1985
+  - top rock songs in Miami 1980-1985
+  - popular male artists in Miami 1977-1987
+  - Miami radio hits 1980
+  - popular construction work anthems 1980
+  - Cuban American music influences in Miami 1980
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P167: Angela Nguyen (Female, b.1963)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop songs in Houston 1978-1988
+  - popular Vietnamese American music 1980s
+  - hit songs on Houston radio 1983
+  - wedding songs popular in 1987
+  - songs about immigration and new beginnings 1980s
+  - female pop artists popular in the 1980s
+  - Vietnamese cultural music events in Houston 1990
+  - top Billboard hits 1985
+    hist=0.90, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P184: Anita Patel (Female, b.1962)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop hits in Chicago 1977-1987
+  - popular Indian music in Chicago 1980s
+  - wedding songs popular in 1983 Chicago
+  - songs popular among Indian American women 1980s
+  - hits from Chicago radio stations 1980
+  - songs played at Indian cultural festivals 1987
+  - Billboard Hot 100 hits 1983
+  - songs about starting a new job 1980
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P051: Helen Martinez (Female, b.1948)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=3, overall=3
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1963-1973
+  - top wedding songs in the US 1968
+  - regional hits in San Antonio 1965
+  - popular female artists 1963-1973
+  - top soul and R&B hits in Texas 1965-1973
+  - Mexican American cultural songs 1963-1973
+  - songs about moving and new beginnings 1972
+  - popular church and gospel songs 1975
+    hist=1.00, bio=4, overall=4, P@k=0.03, MRR=0.06
+
+==================================================
+Processing P144: Salvatore Ricci (Male, b.1940)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.90, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.60, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular rock and roll hits in Newark 1955-1965
+  - top Italian American songs 1958
+  - Newark radio hits 1964
+  - popular male artists in Newark 1960-1965
+  - wedding songs popular in 1970
+  - top songs played in auto repair shops 1964
+  - hits by Italian American artists 1955-1965
+  - songs popular among auto workers 1980
+    hist=0.80, bio=4, overall=4, P@k=0.03, MRR=0.17
+
+==================================================
+Processing P218: Sandra Lopez (Female, b.1957)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.50, bio=3, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Mexican American artists in Phoenix 1972-1982
+  - top songs on Phoenix radio stations 1975
+  - hits from 1984 weddings in Arizona
+  - Mexican American community favorite songs 1978
+  - top female artists in the U.S. 1975
+  - songs popular among seamstresses in the 1970s
+  - Phoenix local music scene 1980
+  - songs played at community events in Phoenix 1989
+    hist=0.80, bio=3, overall=3, P@k=0.03, MRR=0.25
+
+==================================================
+Processing P155: Salvatore Russo (Male, b.1949)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular rock and roll songs in Brooklyn 1964-1974
+  - top Italian American artists in New York 1964-1974
+  - hit wedding songs in New York 1970
+  - popular songs on New York radio stations 1967
+  - top male artists in Brooklyn 1964-1974
+  - classic love songs in New York 1970
+  - popular songs in Italian American communities 1964-1974
+  - hit songs during high school graduation 1967
+    hist=1.00, bio=4, overall=4, P@k=0.03, MRR=0.07
+
+==================================================
+Processing P130: Yuki Tanaka (Female, b.1962)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.60, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop hits in Los Angeles 1977-1987
+  - popular Japanese American artists in California 1977-1987
+  - wedding songs popular in San Francisco 1985
+  - top rock songs in Los Angeles 1980
+  - hits from Los Angeles radio stations 1982
+  - popular female artists in California 1980-1987
+  - songs about new beginnings 1987
+  - songs popular in flower shops 1980
+    hist=0.60, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P060: Ahmed Khan (Male, b.1963)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop hits in Houston 1978-1988
+  - popular rock songs in the US 1982
+  - Pakistani American music influences in the 1980s
+  - wedding songs popular in 1985
+  - Houston radio hits 1980-1985
+  - songs about family life challenges 1988
+  - community center music events in Houston 1990
+  - popular male artists in the US 1983-1985
+    hist=0.90, bio=4, overall=4, P@k=0.03, MRR=0.04
+
+==================================================
+Processing P056: Fen Wang (Male, b.1960)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=5, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top rock songs in San Francisco 1975-1985
+  - popular Chinese American music 1975-1985
+  - hits from San Francisco radio stations 1977
+  - songs popular among Chinese American men 1980
+  - wedding songs 1985
+  - songs about travel and adventure 1980
+  - popular songs in San Francisco Chinatown 1983
+  - graduation year hits 1977
+    generate_playlist attempt 1 failed: Expecting value: line 41 column 23 (char 1706), retrying...
+    hist=0.50, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P024: Anna Nguyen (Female, b.1946)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular songs in San Jose 1961-1971
+  - top Vietnamese American music influences 1960s
+  - wedding songs popular in California 1970
+  - hits on San Jose radio stations 1963-1971
+  - songs popular among Vietnamese American women 1960s
+  - top Billboard hits 1967 when Anna worked as a waitress
+  - songs about immigration and new beginnings 1963
+  - Vietnamese community music events in California 1975
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P008: Santiago Garcia (Male, b.1953)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=3, overall=3
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Puerto Rican American artists in Chicago 1968-1978
+  - top Latin music hits in Chicago 1970
+  - popular songs played in Chicago clubs 1970
+  - hits from Chicago radio stations 1975
+  - wedding songs popular in 1981 Chicago
+  - top male artists in the 1970s Chicago
+  - songs from neighborhood music festivals in Chicago 1985
+  - popular rock and soul hits in Chicago 1973
+    hist=0.70, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P009: Zara Ali (Female, b.1965)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop hits in Dearborn Michigan 1980-1990
+  - popular Arab American music 1980s
+  - wedding songs popular in Michigan 1986
+  - top female artists in the 1980s
+  - graduation year hits 1983
+  - popular radio hits in Michigan 1983-1990
+  - top pop songs for women in the 1980s
+  - hits from Arab American artists in the 1980s
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P109: Maria Rodriguez (Female, b.1940)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.50, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.70, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Cuban American songs in Miami 1955-1965
+  - top hits in Miami 1960
+  - wedding songs popular in 1965
+  - songs played on Miami radio stations 1957
+  - female artists popular in the early 1960s
+  - Cuban music hits in the US 1955-1965
+  - songs popular among Cuban American communities in the 1960s
+  - top Latin music hits 1960-1965
+    hist=0.80, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P152: Maria Sanchez (Female, b.1951)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.10, bio=3, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular songs in San Antonio 1966-1976
+  - top Mexican American artists 1966-1976
+  - wedding songs popular in Texas 1970
+  - hits from San Antonio radio stations 1966-1976
+  - female artists popular among Mexican Americans 1966-1976
+  - popular songs for seamstresses in the 1960s
+  - Mexican American community hits 1966-1976
+  - songs popular among women in Texas 1966-1976
+    hist=0.80, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P023: Thomas Zawadzki (Male, b.1960)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular rock songs in Chicago 1975-1985
+  - top Polish American artists 1975-1985
+  - wedding songs popular in Chicago 1980
+  - hit songs on Chicago radio stations 1978
+  - songs about overcoming hardship 1988
+  - popular male artists in Chicago 1975-1985
+  - songs about family and fatherhood 1985
+  - graduation year hits in Chicago 1978
+    generate_playlist attempt 1 failed: Expecting value: line 34 column 23 (char 1426), retrying...
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P140: Linda Nguyen (Female, b.1957)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop hits in Seattle 1972-1982
+  - popular Vietnamese American songs 1975
+  - Seattle radio hits 1975
+  - popular female artists 1972-1982
+  - top church choir songs 1982
+  - wedding songs popular in 1987
+  - Vietnamese American cultural music 1975
+  - Seattle local music scene 1975-1980
+    hist=0.90, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P217: Leon Wong (Male, b.1945)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular songs in San Francisco 1960-1970
+  - top Chinese American artists 1960-1970
+  - Vietnam War era songs popular among soldiers 1967
+  - wedding songs popular in 1972 San Francisco
+  - hits from San Francisco radio stations 1963
+  - songs popular in Chinatown community events 1974
+  - top male artists 1965-1970
+  - songs about returning home from war 1970
+    hist=1.00, bio=4, overall=4, P@k=0.03, MRR=0.33
+
+==================================================
+Processing P174: Clarence Washington (Male, b.1936)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.40, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.10, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular R&B hits in Memphis 1951-1961
+  - top African American artists in Memphis 1955
+  - civil rights movement songs 1955
+  - gospel music popular in Memphis 1960
+  - wedding songs popular in the African American community 1960
+  - top male vocalists in Memphis 1955-1965
+  - soul music hits in Memphis 1960
+  - regional radio hits in Memphis 1951-1961
+    hist=0.50, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P027: Evelyn Rodriguez (Female, b.1944)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.80, bio=3, overall=3
+  Running Variant B (method=bm25, k=30)...
+    hist=0.90, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Latin music in New York 1959-1969
+  - top Puerto Rican artists in New York 1960s
+  - wedding songs popular in 1968 New York
+  - hit songs on New York radio stations 1962
+  - female artists popular in New York 1965-1970
+  - songs about family and motherhood 1971
+  - top soul and R&B hits 1965-1975
+  - songs played in New York restaurants 1962
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P189: James White (Male, b.1964)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top country hits in Knoxville 1979-1989
+  - popular rock songs in Tennessee 1984
+  - wedding songs popular in 1984
+  - Appalachian folk music hits 1980s
+  - popular male artists in Knoxville 1980-1990
+  - songs about truck driving popular in the 1980s
+  - hits from local Knoxville radio stations 1980-1990
+  - songs about working in coal mines 1980s
+    hist=0.90, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P036: Hiroshi Sato (Male, b.1945)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Japanese American songs in Los Angeles 1960-1970
+  - top rock and roll hits in Los Angeles 1963
+  - wedding songs popular in 1968 Los Angeles
+  - top hits from Los Angeles radio stations 1968
+  - popular male artists in Los Angeles 1965-1970
+  - songs about carpentry or building from 1960-1970
+  - Japanese American community favorite songs 1960-1970
+  - top pop songs in Los Angeles during 1971
+    hist=1.00, bio=4, overall=4, P@k=0.04, MRR=0.05
+
+==================================================
+Processing P058: John Petrovski (Male, b.1952)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular rock songs in Pittsburgh 1967-1977
+  - top Polish American artists 1967-1977
+  - wedding songs popular in 1974 Pittsburgh
+  - hits from Pittsburgh radio stations 1970
+  - songs about steel industry or working class 1970s
+  - male favorite rock bands 1967-1977
+  - songs played at Pittsburgh high school graduations 1970
+  - popular songs during steel industry decline 1978
+    hist=1.00, bio=4, overall=4, P@k=0.07, MRR=0.17
+
+==================================================
+Processing P063: Anthony Russo (Male, b.1955)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.40, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular rock songs in Brooklyn 1970-1980
+  - top Italian American artists in New York 1970-1980
+  - wedding songs popular in Brooklyn 1978
+  - hit songs on New York radio 1973
+  - disco hits in New York 1975
+  - popular male artists in Brooklyn 1970-1980
+  - songs about loss and remembrance 1985
+  - youth mentorship themed songs 1990
+    hist=0.90, bio=3, overall=3, P@k=0.03, MRR=0.06
+
+==================================================
+Processing P071: James Wilson (Male, b.1942)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.60, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular R&B and soul hits in Birmingham 1957-1967
+  - top Motown songs 1961 during civil rights protests
+  - wedding songs popular among African Americans 1965
+  - hits from Birmingham radio stations 1958
+  - soul and gospel music popular in African American communities 1965
+  - top male artists in R&B 1960-1965
+  - songs about love and family 1965
+  - popular songs during civil rights movement 1961
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P190: Fatima Nasser (Female, b.1960)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Arab American songs 1975-1985 Dearborn Michigan
+  - top hits on Detroit radio stations 1975-1985
+  - wedding songs popular among Arab Americans 1981
+  - top pop songs for women 1975-1985
+  - songs played at cultural festivals in Dearborn 1985
+  - popular songs in Dearborn Michigan 1979
+  - top hits from Arab American artists 1975-1985
+  - songs about starting a family popular in 1981
+    hist=1.00, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+==================================================
+Processing P007: Yumi Tanaka (Female, b.1942)
+==================================================
+  Running Variant A (baseline)...
+    hist=1.00, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=1.00, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - popular Japanese American songs in San Francisco 1957-1967
+  - top hits on San Francisco radio 1959
+  - wedding songs popular in 1965 San Francisco
+  - top female artists in the US 1963
+  - popular songs in Japanese American communities 1960s
+  - hits played in San Francisco garment factories 1959
+  - top pop songs in San Francisco 1965
+  - songs popular among women in San Francisco 1960s
+    hist=1.00, bio=4, overall=4, P@k=0.04, MRR=0.07
+
+==================================================
+Processing P029: Alicia Martinez (Female, b.1956)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.60, bio=3, overall=3
+  Running Variant B (method=bm25, k=30)...
+    hist=0.80, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top Latin pop songs in Los Angeles 1971-1981
+  - popular Cuban American artists 1971-1981
+  - Los Angeles radio hits 1974
+  - wedding songs popular in 1980
+  - top female artists in the 1970s
+  - disco hits in Los Angeles 1975
+  - graduation songs 1974
+  - popular songs in Los Angeles during 1982
+    hist=0.90, bio=3, overall=3, P@k=0.04, MRR=0.04
+
+==================================================
+Processing P164: Lena Kim (Female, b.1956)
+==================================================
+  Running Variant A (baseline)...
+    hist=0.90, bio=4, overall=4
+  Running Variant B (method=bm25, k=30)...
+    hist=0.70, bio=4, overall=4, P@k=0.00, MRR=0.00
+  Running Variant C (method=dense, k=30)...
+Generated 8 queries:
+  - top pop hits in Los Angeles 1971-1981
+  - popular Korean American songs 1971-1981
+  - Los Angeles radio hits 1974
+  - top female artists 1971-1981
+  - songs popular among Korean American communities 1978
+  - hits from cultural festivals in Los Angeles 1982
+  - songs about motherhood 1985
+  - songs about economic hardship 1989
+    hist=0.90, bio=3, overall=3, P@k=0.00, MRR=0.00
+
+All test profiles done.
+Saved outputs/test_experiment_results.json
+Saved outputs/test_results_raw.csv
+Saved outputs/test_playlists.csv
+Created outputs/human_eval_test_set.csv
+
+============================================================
+ABLATION STUDY
+============================================================
+
+--- Ablation: removing region ---
+Generated 8 queries:
+  - popular Appalachian folk songs 1955-1965
+  - top country hits in the United States 1960
+  - popular wedding songs in the United States 1960
+  - regional radio hits in Kentucky 1964
+  - top female artists in the United States 1964
+  - popular songs about coal mining 1960-1970
+  - top pop hits in the United States 1964
+  - popular songs for women in the United States 1971
+  P087 Daisy McGowan: overall=4
+Generated 8 queries:
+  - popular Motown hits in the United States 1955-1965
+  - top R&B songs by African American artists 1960-1965
+  - wedding songs popular in the United States 1965
+  - civil rights movement anthems 1970-1975
+  - hits from African American artists in the United States 1960-1970
+  - songs popular among African American men 1955-1965
+  - top soul and R&B songs 1965
+  - regional radio hits in the United States 1958
+  P201 James Thompson: overall=4
+Generated 8 queries:
+  - top Southern rock songs 1968-1978
+  - popular female artists in the US 1971
+  - wedding songs popular in the South 1975
+  - hit songs on Southern US radio stations 1975
+  - top country songs 1978
+  - songs about motherhood 1978
+  - popular songs for women in the US 1973
+  - songs played at Southern diners 1971
+  P040 Linda Turner: overall=4
+Generated 8 queries:
+  - popular songs in the United States 1966-1976
+  - top Chinese American music influences 1966-1976
+  - hit songs played on Seattle radio stations 1972
+  - popular songs among women in the United States 1966-1976
+  - songs associated with high school graduation 1969
+  - music from Chinese cultural associations in the United States 1979
+  - songs popular in Chinatown communities 1969
+  - top hits from the year Linda opened her tea shop 1985
+  P186 Linda Chen: overall=4
+Generated 8 queries:
+  - top pop hits in the United States 1976-1986
+  - popular Indian American music in New York 1980-1985
+  - songs played on New York radio stations 1980-1985
+  - popular female artists in the United States 1980-1985
+  - songs about motherhood 1985
+  - hits from Indian American community in the 1980s
+  - songs popular among women in the United States 1980-1985
+  - top songs played in department stores 1982
+  P088 Indira Patel: overall=4
+Generated 8 queries:
+  - top rock songs in the United States 1975-1985
+  - popular pop hits in the United States 1978
+  - Korean American popular music 1975-1985
+  - top hits on US college radio stations 1978
+  - popular songs for male audiences in the United States 1983
+  - songs played at engineering college events in the United States 1978
+  - regional radio hits in the United States 1983
+  - top Billboard hits in the United States 1983
+  P205 Harold Kim: overall=4
+Generated 8 queries:
+  - popular Italian American songs in the United States 1965-1975
+  - top female artists in the United States 1965-1975
+  - wedding songs popular in the United States 1970
+  - hits played on New York radio stations 1965-1975
+  - top pop songs in the United States 1967
+  - songs about community and resilience 1989
+  - popular songs for PTA events in the United States 1978
+  - songs about starting a business in the United States 1984
+  P179 Isabella Vincenzo: overall=4
+Generated 8 queries:
+  - popular African American artists in the United States 1955-1965
+  - top Motown hits 1960-1965
+  - R&B songs popular in the US 1960
+  - wedding songs 1965 African American community
+  - songs about civil rights movement 1955-1975
+  - hits from the Montgomery Bus Boycott era 1955
+  - soul music popular among men 1960-1970
+  - songs played on US radio stations 1960-1965
+  P041 Robert Johnson: overall=4
+Generated 8 queries:
+  - popular Mexican American songs 1976-1986
+  - top rock hits in the United States 1976-1986
+  - popular songs on US radio 1980
+  - Mexican American artists popular in the 1980s
+  - songs played at weddings in the United States 1989
+  - hits from US radio stations 1977
+  - songs popular among male listeners in the 1980s
+  - top hits during Carlos Hernandez's Army service 1980-1985
+  P002 Carlos Hernandez: overall=4
+Generated 8 queries:
+  - popular Mexican American songs in the United States 1973-1983
+  - top wedding songs in the United States 1978
+  - hits from Mexican American artists 1973-1983
+  - popular songs on US radio stations 1976
+  - top female artists in the United States 1973-1983
+  - graduation songs popular in 1976
+  - regional hits in US suburbs 1978
+  - songs about motherhood popular in 1986
+  P072 Maria Gonzalez: overall=3
+Generated 8 queries:
+  - popular rock and roll hits in the United States 1957-1967
+  - top Irish American folk songs 1960-1965
+  - wedding songs popular in the United States 1965
+  - songs about working in steel mills 1960
+  - top male artists in the United States 1960-1965
+  - popular union songs in the United States 1970
+  - songs about job loss 1975
+  - Irish American artists popular 1960-1970
+  P151 James O'Connor: overall=4
+Generated 8 queries:
+  - top hits in the United States 1965-1975
+  - popular Portuguese American music 1965-1975
+  - wedding songs 1973 United States
+  - songs about motherhood 1975
+  - Portuguese cultural music events 1980
+  - female artists popular in the United States 1965-1975
+  - songs played on American radio stations 1968
+  - top pop and rock songs 1973
+  P115 Patricia Silva: overall=3
+Generated 8 queries:
+  - popular Motown hits in the United States 1953-1963
+  - top R&B songs by African American artists 1955
+  - wedding songs popular among African American women 1960
+  - regional hits in Atlanta 1967
+  - civil rights movement songs 1975
+  - top female artists in the United States 1960
+  - popular songs on African American radio stations 1963
+  - soul and R&B hits during the civil rights era 1960-1970
+  P057 Mary Johnson: overall=4
+Generated 8 queries:
+  - popular songs in the United States 1963-1973
+  - top Korean American artists 1963-1973
+  - wedding songs popular in 1969 United States
+  - hits from American radio stations 1965
+  - female artists popular in the United States 1963-1973
+  - songs about cultural heritage popular in the 1980s United States
+  - songs played at department stores in the 1960s United States
+  - songs popular among Korean American communities 1963-1973
+  P108 Kim Lee: overall=4
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs 1956
+  - Haitian American popular music 1953-1963
+  - songs about union organizing 1962
+  - hits from Detroit radio stations 1953-1963
+  - male favorite songs 1953-1963
+  - popular songs in auto industry communities 1956
+  - songs about job loss 1970
+  P208 Paul Doucet: overall=4
+Generated 8 queries:
+  - top Cuban American artists and songs 1977-1987
+  - popular songs on US radio 1977-1987
+  - hit songs in Miami 1980
+  - wedding songs popular in 1985
+  - popular male artists in the US 1980-1985
+  - top Latin music hits in the US 1980
+  - songs played at family restaurants in the US 1977
+  - hits from construction worker playlists 1980
+  P180 Jorge Martinez: overall=4
+Generated 8 queries:
+  - top pop hits in the United States 1978-1988
+  - popular songs among Vietnamese American communities 1980s
+  - 1987 wedding songs popular in the United States
+  - 1985 top hits in the United States
+  - songs about immigration and starting anew 1980s
+  - popular female artists in the United States 1980s
+  - songs played at Vietnamese cultural events 1990
+  - hits from local radio stations in the United States 1983-1985
+  P167 Angela Nguyen: overall=4
+Generated 8 queries:
+  - top pop hits in the United States 1977-1987
+  - popular Indian American songs 1980s
+  - wedding songs popular in the United States 1983
+  - songs played on US radio stations 1980-1985
+  - female pop artists popular in the United States 1980s
+  - songs associated with cultural festivals in Indian American communities 1987
+  - hits from US Billboard charts 1983
+  - songs about new beginnings 1980
+  P184 Anita Patel: overall=4
+Generated 8 queries:
+  - popular Mexican American artists in the United States 1963-1973
+  - top love songs from 1968 for wedding playlists
+  - hit songs on Chicago radio stations 1972
+  - popular female artists in the United States 1963-1973
+  - Mexican American cultural music hits 1965-1975
+  - songs about moving or new beginnings 1972
+  - top church community songs in Chicago 1975
+  - popular songs for new mothers 1977
+    generate_playlist attempt 1 failed: Expecting value: line 69 column 23 (char 2736), retrying...
+  P051 Helen Martinez: overall=4
+Generated 8 queries:
+  - popular rock and roll songs in the United States 1955-1965
+  - Italian American popular songs 1955-1965
+  - top hits on American radio 1964
+  - songs popular among male mechanics in the 1960s
+  - wedding songs popular in the United States 1970
+  - Italian American artists popular in the United States 1955-1965
+  - songs played on New York radio stations 1964
+  - top pop hits during 1958 when starting an apprenticeship
+  P144 Salvatore Ricci: overall=4
+Generated 8 queries:
+  - top Mexican American artists 1972-1982
+  - popular songs in the United States 1975
+  - hits from female artists 1972-1982
+  - popular wedding songs 1984
+  - Mexican American community hits 1978
+  - top songs played on US radio stations 1980
+  - popular songs for community events 1989
+  - hits by female artists in the US 1972-1982
+  P218 Sandra Lopez: overall=4
+Generated 8 queries:
+  - popular Italian-American songs in New York 1964-1974
+  - top rock and roll hits in the United States 1964-1974
+  - wedding songs popular in New York 1970
+  - hits from New York radio stations 1967
+  - top male artists in the United States 1964-1974
+  - songs popular among Italian-American communities in the 1970s
+  - songs played at high school graduations in New York 1967
+  - hits from American radio stations during 1974
+  P155 Salvatore Russo: overall=4
+Generated 8 queries:
+  - top pop songs in the United States 1977-1987
+  - popular Japanese American music influences in the 1980s
+  - hits from San Francisco radio stations 1982-1985
+  - wedding songs popular in 1985 United States
+  - female pop artists popular in the United States 1980-1985
+  - songs about starting a business 1987
+  - top songs played in Los Angeles 1987
+  - popular songs when working in a flower shop 1980
+  P130 Yuki Tanaka: overall=4
+Generated 8 queries:
+  - top Billboard hits in the United States 1978-1988
+  - popular Pakistani music in the United States 1980s
+  - wedding songs popular in the United States 1985
+  - Pakistani American community favorite songs 1980s
+  - songs about balancing work and family life 1988
+  - hits on American radio stations 1982
+  - songs played at community centers in the United States 1990
+  - popular male artists in the United States 1980s
+  P060 Ahmed Khan: overall=4
+Generated 8 queries:
+  - top Billboard hits in the United States 1975-1985
+  - popular Chinese American artists and songs 1975-1985
+  - songs played at weddings in the United States 1985
+  - hits from local radio stations in the United States 1977
+  - popular travel songs in the United States 1980
+  - songs about starting a business 1983
+  - popular male artists in the United States 1980-1985
+  - Chinese American community favorite songs 1975-1985
+  P056 Fen Wang: overall=4
+Generated 8 queries:
+  - top hits in the United States 1961-1971
+  - Vietnamese American popular songs 1963-1975
+  - wedding songs popular in the US 1970
+  - songs about immigration and new beginnings 1963
+  - popular female artists in the US 1965-1975
+  - songs played on US radio stations 1967
+  - Vietnamese community music events in the US 1975
+  - songs about family and motherhood 1972
+  P024 Anna Nguyen: overall=4
+Generated 8 queries:
+  - popular Puerto Rican American artists 1968-1978
+  - top Latin music hits in the United States 1968-1978
+  - popular songs played in US clubs 1970
+  - top hits in the United States 1975
+  - wedding songs popular in 1981
+  - songs popular among male Puerto Rican Americans 1968-1978
+  - hits from local radio stations in the United States 1970-1975
+  - songs featured in neighborhood music festivals 1985
+  P008 Santiago Garcia: overall=4
+Generated 8 queries:
+  - popular pop hits in the United States 1980-1990
+  - top Arab American artists and songs 1980-1990
+  - wedding songs popular in the United States 1986
+  - top female pop artists in the United States 1980-1990
+  - songs about motherhood popular in the United States 1990
+  - hits played on US radio stations 1983
+  - popular songs for working women in the United States 1980s
+  - top pop and rock songs for women in the United States 1980-1990
+  P009 Zara Ali: overall=4
+Generated 8 queries:
+  - popular Cuban American songs in Miami 1955-1965
+  - top hits on Miami radio stations 1957-1965
+  - wedding songs popular in 1965 Miami
+  - songs played in Little Havana cafes 1960
+  - popular female artists in the US 1960-1965
+  - top Latin music hits in the US 1958-1965
+  - songs about emigration popular in 1957
+  - songs from cultural festivals in Miami 1972
+  P109 Maria Rodriguez: overall=4
+Generated 8 queries:
+  - popular Mexican American songs in the United States 1966-1976
+  - top wedding songs in the United States 1970
+  - hit songs on US radio 1966 when Maria started working
+  - popular female artists in the United States 1966-1976
+  - top Latin music hits in the US 1970-1974
+  - songs about motherhood popular in the US 1974
+  - regional hits in the United States 1966-1976
+  - songs played at community events in the US 1983
+  P152 Maria Sanchez: overall=4
+Generated 8 queries:
+  - popular rock songs in the United States 1975-1985
+  - top pop hits in the United States 1978
+  - wedding songs popular in the United States 1980
+  - Polish American popular music 1975-1985
+  - top male artists in the United States 1983
+  - songs about overcoming hardship 1988
+  - hits played on American radio stations 1975-1985
+  - songs popular among mechanics in the United States 1980
+  P023 Thomas Zawadzki: overall=4
+Generated 8 queries:
+  - top pop hits in the United States 1972-1982
+  - popular Vietnamese American songs 1975
+  - top songs on US radio 1975
+  - popular songs for Vietnamese American communities 1980
+  - wedding songs popular in the United States 1987
+  - top pop songs by female artists 1975-1982
+  - popular church songs in the United States 1982
+  - hits by Vietnamese American artists 1972-1982
+  P140 Linda Nguyen: overall=4
+Generated 8 queries:
+  - popular songs in the United States 1960-1970
+  - top hits on American radio 1963
+  - Vietnam War era songs 1967
+  - wedding songs popular in 1972
+  - Chinese American popular music 1960s
+  - top male artists in the United States 1965-1970
+  - songs played at Chinatown community events 1974
+  - hits by male artists 1968
+  P217 Leon Wong: overall=4
+Generated 8 queries:
+  - popular African American artists 1951-1961
+  - top R&B songs in the United States 1955
+  - songs played during civil rights marches 1950s
+  - gospel music popular in African American churches 1960
+  - hits from African American radio stations 1955-1960
+  - popular male artists in the United States 1951-1961
+  - songs about working life in the 1950s
+  - regional hits in the United States 1950s
+  P174 Clarence Washington: overall=3
+Generated 8 queries:
+  - popular songs in Puerto Rican communities in the Bronx 1968
+  - top Latin hits in the United States 1960-1969
+  - wedding songs popular in 1968
+  - hits played on New York radio stations 1959-1969
+  - popular female artists in the 1960s United States
+  - top soul and R&B songs 1965-1975
+  - songs about family and children 1971
+  - songs played in local eateries 1974
+  P027 Evelyn Rodriguez: overall=4
+Generated 8 queries:
+  - top country songs in the United States 1979-1989
+  - popular rock hits in Appalachia 1980
+  - wedding songs popular in the United States 1984
+  - hits played on Appalachian radio stations 1984
+  - popular male artists in the United States 1985
+  - songs about truck driving 1988
+  - country and rock hits from the 1980s in the United States
+  - songs about working in coal mines 1980
+  P189 James White: overall=4
+Generated 8 queries:
+  - popular songs in the United States 1960-1970
+  - top Japanese American artists 1960-1970
+  - wedding songs popular in the United States 1968
+  - hits on US radio stations 1963-1970
+  - popular rock and roll songs among men 1965
+  - top songs during the summer of 1968 in the United States
+  - songs associated with carpentry and craftsmanship 1960-1970
+  - Japanese American community favorite songs 1960-1970
+  P036 Hiroshi Sato: overall=4
+Generated 10 queries:
+  - top rock songs in the United States 1967-1977
+  - popular Polish American music in the US 1967-1977
+  - hits from American radio stations 1970
+  - wedding songs popular in the US 1974
+  - songs about working in the steel industry 1970s
+  - songs about economic hardship 1978
+  - volunteer firefighter anthems 1981
+  - popular country songs in the US 1975
+  - classic rock hits 1970s
+  - songs about starting a business 1985
+  P058 John Petrovski: overall=4
+Generated 8 queries:
+  - top rock and pop songs in the United States 1970-1980
+  - popular Italian American artists and songs 1970-1980
+  - wedding songs popular in the United States 1978
+  - hit songs played on New York radio stations 1973
+  - songs about family and community support 1990
+  - popular male artists in the United States 1970-1980
+  - songs about loss and remembrance 1985
+  - top disco hits in the United States 1975
+  P063 Anthony Russo: overall=4
+Generated 8 queries:
+  - popular Motown hits in the United States 1957-1967
+  - top R&B songs by African American artists 1958
+  - civil rights movement protest songs 1961
+  - wedding songs popular among African American communities 1965
+  - soul and gospel music popular in African American churches 1972
+  - hits from African American male artists in the United States 1960-1965
+  - songs about factory work and labor in the 1960s
+  - top hits on US radio stations 1963-1967
+  P071 James Wilson: overall=4
+Generated 8 queries:
+  - popular songs in the United States 1975-1985 for Arab American women
+  - top Arab American cultural festival songs 1985
+  - wedding songs popular in the United States 1981
+  - radio hits in the United States 1979 when starting work
+  - songs popular among Arab American communities in the 1980s
+  - top hits in the United States 1989 for community volunteers
+  - graduation year hits for Arab American women 1978
+  - songs played at Arab American weddings in the early 1980s
+  P190 Fatima Nasser: overall=4
+Generated 8 queries:
+  - popular songs on US radio 1957-1967
+  - top Japanese American artists 1957-1967
+  - wedding songs popular in the US 1965
+  - top hits in the US 1959 when Yumi started working
+  - songs popular among women in the US 1960s
+  - Japanese American cultural hits 1960s
+  - songs played at US weddings 1965
+  - US radio hits when Yumi opened her shop 1970
+  P007 Yumi Tanaka: overall=3
+Generated 8 queries:
+  - top Cuban American artists and songs in the US 1971-1981
+  - popular female artists in the US 1974
+  - hit songs played at weddings in the US 1980
+  - top disco hits in the US 1975
+  - popular songs on US radio 1977
+  - Cuban American music influences in the US 1970s
+  - songs popular among women in the US 1978
+  - top songs on US charts during 1982
+  P029 Alicia Martinez: overall=4
+Generated 8 queries:
+  - top Billboard hits in the United States 1971-1981
+  - popular Korean American music 1971-1981
+  - songs played on US radio stations 1974
+  - hits from 1978 related to working life
+  - songs from 1982 popular in Korean communities in the US
+  - female artists popular in the US 1971-1981
+  - songs about motherhood from 1985
+  - popular songs during the US recession 1989
+  P164 Lena Kim: overall=4
+
+--- Ablation: removing life_events ---
+Generated 8 queries:
+  - popular songs in Charleston West Virginia 1955-1965
+  - top hits by female artists 1955-1965
+  - Appalachian music influences 1955-1965
+  - popular wedding songs 1960s
+  - top Billboard hits 1960-1965
+  - popular rock and roll songs 1955-1965
+  - country music hits in West Virginia 1955-1965
+  - influential pop songs for women 1960s
+  P087 Daisy McGowan: overall=4
+Generated 8 queries:
+  - popular R&B hits in Louisville 1955-1965
+  - top Motown songs 1960-1965
+  - African American popular music in Kentucky 1955-1965
+  - male favorite soul songs 1960-1965
+  - wedding songs popular in 1960s Louisville
+  - graduation year hits 1958-1960 Louisville
+  - top male vocalists in R&B 1960-1965
+  - regional radio hits in Louisville 1955-1965
+  P201 James Thompson: overall=4
+Generated 8 queries:
+  - top rock songs in Birmingham Alabama 1968-1978
+  - popular Southern rock hits 1970-1975
+  - female artists popular in the South 1970-1975
+  - country music hits in Alabama 1973-1978
+  - top pop songs in Birmingham Alabama 1975
+  - songs played on Birmingham radio stations 1970-1975
+  - popular wedding songs in the South 1970s
+  - hits by female artists 1973-1978
+  P040 Linda Turner: overall=4
+Generated 8 queries:
+  - popular songs in San Francisco 1966-1976
+  - top hits by Chinese American artists 1966-1976
+  - female artists popular in California 1966-1976
+  - San Francisco radio hits 1966-1976
+  - wedding songs popular in the 1970s
+  - top pop songs in the United States 1973
+  - iconic rock songs 1966-1976
+  - soul and R&B hits in California 1970s
+  P186 Linda Chen: overall=4
+Generated 8 queries:
+  - top pop hits in Jersey City 1976-1986
+  - popular Indian American artists 1976-1986
+  - female pop artists popular in New Jersey 1976-1986
+  - songs played at weddings in New Jersey 1980
+  - top Billboard hits 1984
+  - popular radio hits in Jersey City 1980
+  - Indian music influences in American pop 1976-1986
+  - songs popular among Indian American women 1976-1986
+  P088 Indira Patel: overall=4
+Generated 8 queries:
+  - top rock songs in Los Angeles 1975-1985
+  - popular pop hits in Los Angeles 1975-1985
+  - Korean American popular music in Los Angeles 1975-1985
+  - top male artists in Los Angeles 1975-1985
+  - popular wedding songs in Los Angeles 1980
+  - graduation year hits 1978 Los Angeles
+  - popular radio hits in Los Angeles 1980
+  - top 1980s hits among Korean Americans in Los Angeles
+  P205 Harold Kim: overall=3
+Generated 8 queries:
+  - top pop hits in Newark NJ 1965-1975
+  - popular Italian American songs 1965-1975
+  - female artists popular in Newark NJ 1965-1975
+  - wedding songs popular in Newark NJ 1970
+  - top rock songs in Newark NJ 1970
+  - Italian American community favorite songs 1965-1975
+  - popular radio hits in Newark NJ 1973
+  - songs popular among women in Newark NJ 1965-1975
+  P179 Isabella Vincenzo: overall=3
+Generated 8 queries:
+  - popular R&B songs in Birmingham 1955-1965
+  - top Motown hits 1960-1965
+  - African American male favorite songs 1955-1965
+  - Birmingham radio hits 1960
+  - soul music hits 1963-1965
+  - wedding songs popular in the 1960s Alabama
+  - graduation year hits 1958 Birmingham
+  - top male artists in R&B 1955-1965
+  P041 Robert Johnson: overall=4
+Generated 8 queries:
+  - popular songs in El Paso Texas 1976-1986
+  - top Mexican American artists 1976-1986
+  - hits on El Paso radio stations 1976-1986
+  - popular rock songs among men 1976-1986
+  - top Latin music hits 1976-1986
+  - wedding songs popular in El Paso 1980
+  - graduation year hits 1979
+  - popular male artists in the US 1976-1986
+  P002 Carlos Hernandez: overall=3
+Generated 8 queries:
+  - top Latin pop songs in Los Angeles 1973-1983
+  - popular Mexican American artists in California 1973-1983
+  - hit songs on Los Angeles radio stations 1973-1983
+  - top female artists in the US 1973-1983
+  - popular wedding songs in Los Angeles 1978-1983
+  - top rock and pop hits in Los Angeles 1973-1983
+  - popular songs among Mexican American women 1973-1983
+  - hit songs during graduation years 1976-1978 Los Angeles
+  P072 Maria Gonzalez: overall=3
+Generated 8 queries:
+  - top rock and roll hits in Pittsburgh 1957-1967
+  - popular Irish American folk songs 1957-1967
+  - male favorite pop songs 1960s Pittsburgh
+  - top Billboard hits 1960-1965
+  - popular songs on Pittsburgh radio stations 1962
+  - wedding songs popular in Pittsburgh 1960s
+  - Irish American community favorite songs 1960s
+  - top male artists in the US 1965
+  P151 James O'Connor: overall=4
+Generated 8 queries:
+  - top hits in Fall River Massachusetts 1965-1975
+  - popular Portuguese American songs 1965-1975
+  - female artists popular in the 1970s
+  - wedding songs popular in the early 1970s
+  - top pop songs 1965-1975
+  - songs played on Massachusetts radio stations 1965-1975
+  - popular soul and R&B hits 1973
+  - Portuguese American cultural music 1965-1975
+  P115 Patricia Silva: overall=3
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs by African American artists 1958
+  - female vocalists popular in Detroit 1960
+  - wedding songs popular in Detroit 1950s
+  - African American music hits 1960s Detroit
+  - songs played on Detroit radio stations 1955
+  - top female artists in R&B 1962
+  - Detroit local hits 1961
+  P057 Mary Johnson: overall=4
+Generated 8 queries:
+  - popular songs in Chicago 1963-1973
+  - top female artists 1963-1973
+  - Korean American music influences in the 1960s and 1970s
+  - hit songs on Chicago radio stations 1963-1973
+  - popular wedding songs in the 1960s
+  - top pop songs 1965-1975
+  - soul and R&B hits in Chicago 1963-1973
+  - songs by female artists popular in the 1970s
+  P108 Kim Lee: overall=4
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs in Detroit 1958
+  - Haitian American music influences in Detroit 1953-1963
+  - male favorite songs in Detroit 1955
+  - wedding songs popular in Detroit 1950s
+  - Detroit radio hits 1960
+  - top male artists in Detroit 1953-1963
+  - regional hits in Detroit 1953-1963
+  P208 Paul Doucet: overall=4
+Generated 8 queries:
+  - top Latin pop songs in Miami 1977-1987
+  - popular Cuban American artists 1977-1987
+  - Miami radio hits 1980
+  - top male artists in Miami 1980
+  - popular rock songs in Miami 1985
+  - Cuban American music hits 1980s
+  - Miami dance hits 1985
+  - popular male pop artists 1985
+  P180 Jorge Martinez: overall=4
+Generated 8 queries:
+  - top pop songs in Houston 1978-1988
+  - popular Vietnamese American music 1978-1988
+  - female pop artists hits 1980s
+  - Houston radio hits 1980s
+  - top wedding songs 1980s
+  - Vietnamese American community favorite songs 1980s
+  - popular female artists 1980s
+  - Houston local hits 1980s
+  P167 Angela Nguyen: overall=4
+Generated 8 queries:
+  - top pop songs in Chicago 1977-1987
+  - popular Indian American artists 1977-1987
+  - female pop artists popular in Chicago 1977-1987
+  - top Billboard hits 1980
+  - popular wedding songs in Chicago 1980s
+  - Indian American cultural music influences 1977-1987
+  - graduation year hits 1980
+  - songs popular among women in the 1980s
+  P184 Anita Patel: overall=4
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1963-1973
+  - top female artists 1968
+  - hit songs on San Antonio radio 1970
+  - popular wedding songs 1963-1973
+  - top soul and R&B songs 1971
+  - popular country songs in Texas 1965
+  - Mexican American cultural hits 1969
+  - top female empowerment songs 1973
+  P051 Helen Martinez: overall=3
+Generated 8 queries:
+  - popular rock and roll songs in Newark NJ 1955-1965
+  - Italian American music hits 1955-1965
+  - top male artists in Newark NJ 1960-1965
+  - popular doo-wop songs in New Jersey 1955-1965
+  - hits from The 4 Seasons in Newark NJ 1960-1965
+  - songs played at Italian American weddings in the 1960s
+  - regional radio hits in Newark NJ 1960-1965
+  - popular songs among Italian American men 1955-1965
+  P144 Salvatore Ricci: overall=4
+Generated 8 queries:
+  - top pop hits in Phoenix 1972-1982
+  - popular Mexican American artists 1972-1982
+  - top female artists in the US 1972-1982
+  - popular wedding songs in Phoenix 1972-1982
+  - regional radio hits in Phoenix 1972-1982
+  - top Latin music hits 1972-1982
+  - popular disco songs in the US 1972-1982
+  - top country songs in Arizona 1972-1982
+  P218 Sandra Lopez: overall=3
+Generated 8 queries:
+  - popular rock songs in Brooklyn 1964-1974
+  - top Italian American artists 1964-1974
+  - Brooklyn radio hits 1969
+  - classic pop songs for men 1964-1974
+  - wedding songs popular in New York 1970
+  - Italian American community favorite songs 1964-1974
+  - top Billboard hits 1969
+  - graduation year hits 1967
+  P155 Salvatore Russo: overall=3
+Generated 8 queries:
+  - top Billboard hits in Los Angeles 1977-1987
+  - popular Japanese American artists 1977-1987
+  - top female pop artists 1977-1987
+  - Los Angeles radio hits 1980-1985
+  - popular wedding songs in the 1980s
+  - Japanese pop songs popular in Los Angeles 1977-1987
+  - top rock songs 1984
+  - popular female empowerment songs 1970s-1980s
+  P130 Yuki Tanaka: overall=4
+Generated 8 queries:
+  - top rock songs in Houston 1978-1988
+  - popular pop hits in Houston 1980-1985
+  - Pakistani American music influences in the 1980s
+  - top male artists in the US 1980-1985
+  - wedding songs popular in the US 1980s
+  - Houston radio hits 1983
+  - top Billboard hits 1984
+  - popular songs among Pakistani Americans in the 1980s
+  P060 Ahmed Khan: overall=4
+Generated 8 queries:
+  - top rock songs in San Francisco 1975-1985
+  - popular Chinese American artists 1975-1985
+  - hit songs on San Francisco radio 1975-1985
+  - top pop songs for men 1975-1985
+  - Chinese American community music favorites 1975-1985
+  - wedding songs popular in San Francisco 1980
+  - graduation year hits 1978
+  - iconic male artists 1975-1985
+  P056 Fen Wang: overall=4
+Generated 8 queries:
+  - popular songs in San Jose 1961-1971
+  - Vietnamese American popular music 1961-1971
+  - top female artists in California 1961-1971
+  - San Jose radio hits 1961-1971
+  - popular wedding songs in the 1960s
+  - top pop songs 1965-1970
+  - California rock hits 1961-1971
+  - songs popular among women 1961-1971
+  P024 Anna Nguyen: overall=4
+Generated 8 queries:
+  - popular soul and R&B hits in Chicago 1968-1978
+  - top Puerto Rican American artists 1968-1978
+  - Chicago radio hits 1970-1975
+  - popular disco songs in Chicago 1975
+  - top male artists in the 1970s Chicago
+  - Latin music influences in Chicago 1968-1978
+  - wedding songs popular in Chicago 1970s
+  - graduation year hits 1971 in Chicago
+  P008 Santiago Garcia: overall=3
+Generated 8 queries:
+  - top pop hits in Dearborn Michigan 1980-1990
+  - popular Arab American music artists 1980-1990
+  - female pop artists popular in the 1980s
+  - top Billboard hits 1983-1985
+  - popular songs on Detroit radio stations 1980-1990
+  - Arab American cultural music influences in the 1980s
+  - top female vocalists 1980s
+  - popular wedding songs 1980-1990
+  P009 Zara Ali: overall=4
+Generated 8 queries:
+  - popular Cuban American songs in Miami 1955-1965
+  - top Billboard hits in the USA 1958-1965
+  - popular female artists in the 1960s
+  - Miami radio hits 1960-1965
+  - classic rock and roll hits 1955-1965
+  - top Motown songs 1960-1965
+  - popular Latin music in the USA 1955-1965
+  - top pop songs by female artists 1960-1965
+  P109 Maria Rodriguez: overall=4
+Generated 8 queries:
+  - top pop hits in San Antonio 1966-1976
+  - popular Mexican American artists 1966-1976
+  - top female artists in Texas 1966-1976
+  - popular wedding songs in San Antonio 1970
+  - top soul and R&B hits in Texas 1973
+  - popular country songs in Texas 1975
+  - top Latin music hits in San Antonio 1970-1975
+  - popular radio hits in San Antonio 1966-1976
+  P152 Maria Sanchez: overall=3
+Generated 8 queries:
+  - top rock songs in Chicago 1975-1985
+  - popular pop hits in the US 1975-1985
+  - Polish American music influences in Chicago 1975-1985
+  - male favorite rock bands 1975-1985
+  - songs played at weddings in Chicago 1980
+  - Chicago radio station hits 1975-1985
+  - popular male artists 1980-1985
+  - graduation year songs 1978
+  P023 Thomas Zawadzki: overall=3
+Generated 8 queries:
+  - top pop hits in Seattle 1972-1982
+  - popular rock songs in Seattle 1972-1982
+  - Vietnamese American popular music 1972-1982
+  - female artists popular in Seattle 1972-1982
+  - Seattle radio hits 1975
+  - disco hits in Seattle 1975
+  - soft rock hits 1980
+  - songs popular among Vietnamese American women 1972-1982
+  P140 Linda Nguyen: overall=3
+Generated 8 queries:
+  - popular rock and roll songs in San Francisco 1960-1970
+  - top pop hits in California 1963-1968
+  - famous Chinese American artists 1960-1970
+  - San Francisco radio hits 1965
+  - popular male artists in the 1960s
+  - top soul and R&B songs 1968
+  - wedding songs popular in the 1960s
+  - iconic songs from the Summer of Love 1967
+  P217 Leon Wong: overall=3
+Generated 8 queries:
+  - top R&B songs in Memphis 1951-1961
+  - popular African American artists in Memphis 1951-1961
+  - hit songs on Memphis radio stations 1951-1961
+  - best-selling soul and blues records 1951-1961
+  - popular male artists in the African American community 1951-1961
+  - classic rock and roll hits in Memphis 1951-1961
+  - iconic songs from African American artists 1951-1961
+  - popular wedding songs for African American couples in the 1950s
+  P174 Clarence Washington: overall=4
+Generated 8 queries:
+  - popular songs in New York 1959-1969
+  - top Puerto Rican American artists 1960s
+  - female artists popular in New York 1960-1969
+  - hits on New York radio stations 1965
+  - top Latin music hits in the US 1960s
+  - wedding songs popular in New York 1960s
+  - popular soul and R&B songs 1965-1969
+  - top songs by female artists 1960s New York
+  P027 Evelyn Rodriguez: overall=3
+Generated 8 queries:
+  - popular country songs in Knoxville 1979-1989
+  - top rock hits in Tennessee 1980-1985
+  - Appalachian folk music popular in the 1980s
+  - male favorite pop songs 1983-1988
+  - Knoxville radio top hits 1982-1987
+  - wedding songs popular in the 1980s
+  - graduation year hits 1982
+  - classic rock songs popular among men 1980-1990
+  P189 James White: overall=3
+Generated 8 queries:
+  - top pop hits in Los Angeles 1960-1970
+  - popular Japanese American songs 1960-1970
+  - Los Angeles radio hits 1963
+  - top rock songs by male artists 1965
+  - popular wedding songs 1960s
+  - Japanese American community favorite songs 1960-1970
+  - top Billboard hits 1968
+  - popular male artists in Los Angeles 1960-1970
+  P036 Hiroshi Sato: overall=4
+Generated 8 queries:
+  - popular rock songs Pittsburgh 1967-1977
+  - top Polish American artists 1970s
+  - hit songs on Pittsburgh radio 1973
+  - popular male artists 1967-1977
+  - wedding songs popular in 1970s Pittsburgh
+  - top country hits 1975
+  - popular pop songs 1973
+  - regional hits in Pennsylvania 1970s
+  P058 John Petrovski: overall=4
+Generated 8 queries:
+  - top rock and pop hits in Brooklyn 1970-1980
+  - popular Italian American artists in New York 1970s
+  - Brooklyn radio station hits 1973
+  - top male artists in New York 1975
+  - wedding songs popular in Brooklyn 1970s
+  - disco hits in New York 1975
+  - Italian American cultural music influences 1970s
+  - popular songs among men in Brooklyn 1975
+  P063 Anthony Russo: overall=3
+Generated 8 queries:
+  - popular R&B songs in Birmingham 1957-1967
+  - top Motown hits 1960-1965
+  - soul music popular among African American men 1960-1967
+  - regional hits in Alabama 1960-1965
+  - wedding songs popular in the 1960s
+  - African American artists popular in Birmingham 1960-1965
+  - top Billboard hits 1965
+  - songs played on Birmingham radio stations 1960-1967
+  P071 James Wilson: overall=4
+Generated 8 queries:
+  - top pop hits in Dearborn 1975-1985
+  - popular Arab American music 1975-1985
+  - female artists popular in Michigan 1975-1985
+  - top radio hits in Dearborn 1975-1985
+  - popular wedding songs in Michigan 1980
+  - top Billboard hits 1975-1985
+  - popular R&B songs in Michigan 1975-1985
+  - hits by female artists 1975-1985
+  P190 Fatima Nasser: overall=3
+Generated 8 queries:
+  - popular songs in San Francisco 1957-1967
+  - top Japanese American artists 1957-1967
+  - hit songs by female artists 1960-1965
+  - San Francisco radio hits 1960-1965
+  - popular wedding songs 1960s
+  - top pop songs in California 1963
+  - Japanese pop hits 1963
+  - female empowerment songs 1960s
+  P007 Yumi Tanaka: overall=4
+Generated 8 queries:
+  - top Latin pop songs in Los Angeles 1971-1981
+  - popular Cuban American artists 1971-1981
+  - female empowerment songs 1971-1981
+  - top disco hits in Los Angeles 1975
+  - popular wedding songs 1975
+  - Los Angeles radio hits 1973
+  - top female artists 1971-1981
+  - popular soul and R&B songs 1973
+  P029 Alicia Martinez: overall=4
+Generated 8 queries:
+  - top pop hits in Los Angeles 1971-1981
+  - popular Korean American artists 1971-1981
+  - female artists popular in Los Angeles 1971-1981
+  - top soul and R&B songs in Los Angeles 1971-1981
+  - popular disco hits in Los Angeles 1975
+  - songs played on Los Angeles radio stations 1973
+  - top rock hits in Los Angeles 1971-1981
+  - popular wedding songs in Los Angeles 1971-1981
+  P164 Lena Kim: overall=3
+
+--- Ablation: removing culture ---
+Generated 8 queries:
+  - popular radio hits in Charleston, West Virginia 1955-1965
+  - top American pop songs 1960
+  - country music hits in West Virginia 1964
+  - female vocalists popular in the early 1960s
+  - wedding songs popular in 1960 America
+  - songs about financial struggles 1971
+  - hits by female artists 1965
+  - songs about moving or relocation 1964
+  P087 Daisy McGowan: overall=4
+Generated 8 queries:
+  - popular songs in Louisville Kentucky 1955-1965
+  - top male artists in America 1960-1965
+  - wedding songs popular in 1965
+  - civil rights movement songs 1970s
+  - top R&B hits in America 1960-1965
+  - popular rock and roll songs 1958
+  - soul music hits 1972
+  - songs popular among American men 1960-1965
+  P201 James Thompson: overall=4
+Generated 8 queries:
+  - top rock and pop hits in Birmingham, Alabama 1968-1978
+  - popular songs played on Birmingham radio stations 1971
+  - wedding songs popular in Alabama 1975
+  - hits by female artists in the US 1973
+  - country music hits in the Southern US 1975
+  - songs about motherhood and family 1978
+  - top soul and R&B songs in the US 1973
+  - songs popular among women in the US 1975
+  P040 Linda Turner: overall=4
+Generated 8 queries:
+  - top rock and pop hits in San Francisco 1966-1976
+  - popular songs played on San Francisco radio stations 1969
+  - hits from female artists in the US 1970-1975
+  - songs popular in Seattle 1972
+  - top Chinese-American cultural songs 1979
+  - songs associated with tea culture and shops 1985
+  - popular songs among women in California 1966-1976
+  - top Billboard hits 1973
+  P186 Linda Chen: overall=4
+Generated 8 queries:
+  - top pop hits in New York 1976-1986
+  - popular songs for women in New Jersey 1976-1986
+  - 1980s New York radio hits
+  - songs popular among American women 1980-1985
+  - top 1985 songs for new mothers
+  - hits from New York department stores 1982
+  - community support songs 1989
+  - songs about career changes 1991
+  P088 Indira Patel: overall=4
+Generated 8 queries:
+  - top rock songs in Los Angeles 1975-1985
+  - popular pop hits in Los Angeles 1978
+  - top songs on Los Angeles radio stations 1978-1983
+  - popular male artists in Los Angeles 1975-1985
+  - hit songs during college years 1978-1982
+  - popular American songs 1983
+  - top hits when starting engineering college 1978
+  - popular songs for young men in Los Angeles 1980
+  P205 Harold Kim: overall=4
+Generated 8 queries:
+  - top Billboard hits in Newark NJ 1965-1975
+  - popular wedding songs 1970 Newark NJ
+  - female artists popular in Newark NJ 1965-1975
+  - American pop hits 1965-1975
+  - songs played on Newark NJ radio stations 1965-1975
+  - popular songs for working women 1967 Newark NJ
+  - hits from Newark NJ local bands 1965-1975
+  - songs about community support 1989
+  P179 Isabella Vincenzo: overall=4
+Generated 8 queries:
+  - popular R&B and soul hits in Birmingham 1955-1965
+  - top Motown songs 1960-1965
+  - wedding songs popular in Alabama 1965
+  - civil rights movement anthems 1960s
+  - regional radio hits in Birmingham 1960
+  - songs about bus driving 1960
+  - soul and R&B hits by male artists 1960-1965
+  - songs popular during Montgomery Bus Boycott 1955
+  P041 Robert Johnson: overall=4
+Generated 8 queries:
+  - popular rock songs in El Paso 1976-1986
+  - top country hits in Texas 1976
+  - popular songs on El Paso radio stations 1980
+  - hits from 1985 for truck drivers
+  - wedding songs popular in Texas 1989
+  - top male artists in the US 1976-1986
+  - popular army songs overseas 1980
+  - regional hits in El Paso 1977
+  P002 Carlos Hernandez: overall=4
+Generated 8 queries:
+  - top pop hits in Los Angeles 1973-1983
+  - popular rock songs in California 1976
+  - wedding songs popular in Los Angeles 1978
+  - top female artists in the US 1978
+  - hits from American radio stations 1982
+  - popular songs during business expansion in Los Angeles 1992
+  - songs popular among women in the US 1973-1983
+  - graduation year hits in Los Angeles 1976
+  P072 Maria Gonzalez: overall=3
+Generated 8 queries:
+  - popular rock and roll hits in Pittsburgh 1957-1967
+  - top American pop songs 1965
+  - wedding songs from the 1960s
+  - hits played on Pittsburgh radio stations 1960
+  - popular male artists in the 1960s America
+  - songs about working in steel mills 1960s
+  - top folk and country songs 1975
+  - songs about unions and labor 1970
+  P151 James O'Connor: overall=4
+Generated 8 queries:
+  - top pop hits in Fall River Massachusetts 1965-1975
+  - popular American songs 1968 nurse work
+  - wedding songs 1973 Massachusetts
+  - top hits 1975 birth of twins
+  - Portuguese cultural music Fall River 1980
+  - popular female artists 1965-1975
+  - top rock and roll songs 1965-1975
+  - songs popular among women 1970s Massachusetts
+  P115 Patricia Silva: overall=3
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs by female artists 1955
+  - wedding songs popular in Detroit 1960
+  - top soul and R&B hits in Detroit 1967
+  - civil rights movement songs 1975
+  - popular American female artists 1960s
+  - Detroit radio hits 1958
+  - songs about working women 1955
+  P057 Mary Johnson: overall=4
+Generated 8 queries:
+  - popular songs in Chicago 1963-1973
+  - top female artists in the 1960s Chicago
+  - wedding songs popular in 1969 Chicago
+  - American cultural hits 1965-1975
+  - top songs played on Chicago radio stations 1965
+  - popular songs among women in the 1960s
+  - hits from department store playlists 1965 Chicago
+  - songs about cultural preservation 1981
+  P108 Kim Lee: overall=4
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs in Detroit 1956
+  - songs about union organizing 1962
+  - popular male artists in Detroit 1958
+  - hits from Detroit radio stations 1960
+  - songs about the auto industry crisis 1970
+  - American pop hits 1955
+  - songs played at high school graduations 1956
+  P208 Paul Doucet: overall=4
+Generated 8 queries:
+  - top rock hits in Miami 1977-1987
+  - popular pop songs in Miami 1980
+  - wedding songs popular in 1985 Miami
+  - top hits by male artists in Miami 1984
+  - popular songs in Miami radio stations 1980
+  - hit songs from construction workers' playlists 1980
+  - American pop and rock hits 1985
+  - songs popular in Miami during summer 1985
+  P180 Jorge Martinez: overall=3
+Generated 8 queries:
+  - top pop hits in Houston 1978-1988
+  - popular songs among Vietnamese immigrants in the US 1980s
+  - 1987 wedding songs popular in Houston
+  - top female artists in the US 1980-1985
+  - popular radio hits in Houston 1983
+  - songs about immigration and new beginnings 1980s
+  - top songs played at Vietnamese cultural events in the US 1990
+  - popular love songs in the US 1987
+  P167 Angela Nguyen: overall=4
+Generated 8 queries:
+  - top pop hits in Chicago 1977-1987
+  - popular female artists in the US 1980-1985
+  - wedding songs popular in Chicago 1983
+  - hits from Indian cultural festivals in Chicago 1987
+  - top Billboard songs 1980
+  - popular songs played on Chicago radio stations 1983
+  - songs popular among women in the US 1980-1985
+  - hits from the year Anita Patel graduated high school 1980
+  P184 Anita Patel: overall=4
+Generated 8 queries:
+  - popular songs in San Antonio 1963-1973
+  - top wedding songs 1968
+  - hits on San Antonio radio stations 1965
+  - popular female artists 1963-1973
+  - top American pop songs 1972
+  - popular soul and R&B hits 1965-1975
+  - songs played at church events 1975
+  - top hits during first child birth year 1977
+  P051 Helen Martinez: overall=3
+Generated 8 queries:
+  - top rock and roll hits in Newark 1955-1965
+  - popular doo-wop songs in New Jersey 1955-1965
+  - Italian-American music hits 1958
+  - Billboard top songs 1964
+  - wedding songs popular in 1970
+  - songs played on New Jersey radio stations 1960-1965
+  - male favorite rock songs 1960-1965
+  - hits by The 4 Seasons in the early 1960s
+  P144 Salvatore Ricci: overall=4
+Generated 8 queries:
+  - top rock and pop hits in Phoenix 1972-1982
+  - popular songs on Phoenix radio stations 1975
+  - hit songs by female artists 1975
+  - wedding songs popular in 1984
+  - top pop and rock songs 1980
+  - songs popular among American women 1978
+  - community event music hits 1989
+  - songs by local Arizona artists 1972-1982
+  P218 Sandra Lopez: overall=4
+Generated 8 queries:
+  - popular rock songs in Brooklyn 1964-1974
+  - top American pop hits 1967
+  - wedding songs popular in New York 1970
+  - hits from New York radio stations 1969
+  - Italian-American popular songs 1964-1974
+  - male favorite rock bands 1960s
+  - songs played at high school graduations 1967
+  - songs about moving or new beginnings 1974
+  P155 Salvatore Russo: overall=4
+Generated 8 queries:
+  - top pop hits in Los Angeles 1977-1987
+  - popular rock songs in California 1980
+  - hit songs in San Francisco 1982
+  - wedding songs popular in 1985
+  - female artists popular in the 1980s in the US
+  - American pop and rock hits 1984
+  - songs about new beginnings 1987
+  - popular songs on Los Angeles radio 1980-1985
+  P130 Yuki Tanaka: overall=4
+Generated 8 queries:
+  - top pop hits in Houston 1978-1988
+  - popular rock songs in Houston 1980
+  - American pop songs 1982
+  - wedding songs popular in 1985
+  - hits on Houston radio stations 1983
+  - songs about family life challenges 1988
+  - community center music events in Houston 1990
+  - popular male artists in the US 1984
+  P060 Ahmed Khan: overall=4
+Generated 8 queries:
+  - popular rock songs in San Francisco 1975-1985
+  - top pop hits in America 1977
+  - songs about travel and adventure 1980
+  - popular wedding songs in America 1985
+  - hits from San Francisco radio stations 1983
+  - American pop hits 1983
+  - songs popular among American men 1980-1985
+  - top songs from San Francisco's Chinatown 1983
+  P056 Fen Wang: overall=4
+Generated 8 queries:
+  - popular songs in San Jose 1961-1971
+  - Vietnamese immigrant music in California 1963
+  - wedding songs popular in 1970 San Jose
+  - top female artists in the US 1965-1975
+  - Vietnamese community music in California 1975
+  - songs about family and support 1967
+  - popular American hits 1961-1971
+  - top songs by female artists 1973
+  P024 Anna Nguyen: overall=4
+Generated 8 queries:
+  - top rock songs in Chicago 1968-1978
+  - popular soul and R&B hits in Chicago 1970
+  - hit songs played in Chicago clubs 1970
+  - popular wedding songs in Chicago 1981
+  - top songs by male artists in Chicago 1975
+  - American rock bands popular in Chicago 1973
+  - songs popular among male music teachers 1975
+  - local Chicago radio hits 1975
+    generate_playlist attempt 1 failed: Expecting value: line 27 column 23 (char 1125), retrying...
+    generate_playlist attempt 2 failed: Expecting value: line 27 column 23 (char 1229), retrying...
+  P008 Santiago Garcia: overall=3
+Generated 8 queries:
+  - top pop hits in Michigan 1980-1990
+  - popular wedding songs 1986
+  - hits from female artists 1980-1990
+  - songs played on Michigan radio stations 1983
+  - popular American songs 1985
+  - top songs for working women 1983
+  - hits during first child birth year 1990
+  - popular songs for young mothers 1991
+  P009 Zara Ali: overall=4
+Generated 8 queries:
+  - popular songs in Miami 1955-1965
+  - top Latin hits in Miami 1960
+  - wedding songs popular in 1965
+  - songs played on Miami radio stations 1957-1965
+  - female artists popular in the 1960s
+  - American pop hits 1960-1965
+  - songs associated with cultural festivals in Miami 1972
+  - songs about emigration and new beginnings 1957
+  P109 Maria Rodriguez: overall=4
+Generated 8 queries:
+  - popular songs in San Antonio 1966-1976
+  - top wedding songs 1970 in Texas
+  - hits by female artists 1966-1976
+  - popular country songs in Texas 1974
+  - top soul and R&B hits 1973
+  - regional radio hits in San Antonio 1966-1976
+  - songs popular among women in the 1970s
+  - hits from Mexican-American artists 1966-1976
+  P152 Maria Sanchez: overall=4
+Generated 8 queries:
+  - top rock songs in Chicago 1975-1985
+  - popular wedding songs in 1980
+  - hit songs on Chicago radio stations 1978
+  - popular male artists in the US 1975-1985
+  - songs about overcoming hardship 1988
+  - top pop hits in America 1983
+  - songs popular among American men 1975-1985
+  - classic rock hits 1980
+  P023 Thomas Zawadzki: overall=3
+Generated 8 queries:
+  - top pop hits in Seattle 1972-1982
+  - popular rock songs in the US 1975
+  - Vietnamese-American music influences in Seattle 1975
+  - songs about new beginnings 1975
+  - top female artists in the US 1975-1982
+  - church community songs popular in the 1980s
+  - songs about family and children 1987
+  - hits on Seattle radio stations 1975-1982
+  P140 Linda Nguyen: overall=4
+Generated 8 queries:
+  - popular rock and roll songs in San Francisco 1960-1970
+  - top hits on San Francisco radio stations 1963
+  - Vietnam War era songs popular among American soldiers 1967
+  - wedding songs popular in California 1972
+  - soul and R&B hits in San Francisco 1970-1975
+  - songs popular in the Chinatown community San Francisco 1974
+  - male favorite songs in the US 1965-1970
+  - top pop hits in the US 1968
+  P217 Leon Wong: overall=4
+Generated 8 queries:
+  - popular R&B hits in Memphis 1951-1961
+  - top soul songs in the South 1955
+  - civil rights movement songs 1955
+  - gospel music popular in Memphis 1960
+  - hits from Memphis radio stations 1951-1961
+  - popular male artists in Memphis 1955-1961
+  - songs about working life 1951
+  - American hits during the civil rights era 1955
+  P174 Clarence Washington: overall=4
+Generated 8 queries:
+  - popular songs in New York 1959-1969
+  - top female artists in New York 1960s
+  - wedding songs popular in New York 1968
+  - hits from New York radio stations 1962
+  - American pop and rock hits 1965-1970
+  - songs about family and children 1971
+  - popular songs in the Bronx 1970s
+  - songs by Latin artists popular in New York 1960s
+  P027 Evelyn Rodriguez: overall=4
+Generated 8 queries:
+  - top country hits in Knoxville 1979-1989
+  - popular rock songs in Tennessee 1984
+  - wedding songs popular in 1984
+  - hits from 1980 related to working class themes
+  - songs about truck driving popular in 1988
+  - American rock ballads 1988
+  - country songs about family and hard work 1980
+  - popular male artists in Knoxville 1984
+  P189 James White: overall=4
+Generated 8 queries:
+  - popular rock songs in Los Angeles 1960-1970
+  - top Billboard hits in the USA 1963
+  - American folk music hits 1965
+  - wedding songs popular in California 1968
+  - top pop songs in Los Angeles 1971
+  - songs about carpentry or building 1960-1970
+  - popular male artists in the USA 1965-1975
+  - songs played on Los Angeles radio stations 1968
+  P036 Hiroshi Sato: overall=4
+Generated 8 queries:
+  - popular rock songs in Pittsburgh 1967-1977
+  - top hits on Pittsburgh radio stations 1970
+  - wedding songs popular in 1974 Pittsburgh
+  - American folk and country hits 1975
+  - songs about working class life 1970s
+  - popular male artists in Pittsburgh 1967-1977
+  - songs about economic hardship 1978
+  - classic rock songs popular among men 1970s
+  P058 John Petrovski: overall=4
+Generated 8 queries:
+  - popular rock songs in New York 1970-1980
+  - top disco hits in Brooklyn 1975
+  - wedding songs popular in New York 1978
+  - Italian-American favorite songs 1970s
+  - top male artists in New York 1973
+  - songs about loss and healing 1985
+  - hits from New York radio stations 1973
+  - songs about community and mentorship 1990
+  P063 Anthony Russo: overall=4
+Generated 8 queries:
+  - popular R&B hits in Birmingham 1957-1967
+  - top Motown songs 1960-1965
+  - civil rights movement protest songs 1961
+  - wedding songs popular in Alabama 1965
+  - soul music hits 1960-1967
+  - songs popular on Birmingham radio 1960-1965
+  - top male artists in the 1960s
+  - gospel and church music popular in Alabama 1972
+  P071 James Wilson: overall=4
+Generated 8 queries:
+  - top pop hits in Dearborn 1975-1985
+  - popular songs in Michigan 1981 wedding
+  - Arab American cultural festival music 1985
+  - top female artists in the US 1975-1985
+  - popular songs on Detroit radio 1979
+  - hits by Arab American artists 1980s
+  - songs about starting a family 1981
+  - songs played at community events 1985
+  P190 Fatima Nasser: overall=4
+Generated 8 queries:
+  - top Billboard hits in San Francisco 1957-1967
+  - popular American pop songs 1965 wedding
+  - San Francisco radio hits 1960s female artists
+  - American rock and roll songs 1959-1965
+  - 1960s Motown hits popular among women
+  - songs played at weddings in San Francisco 1965
+  - American cultural music hits 1960s
+  - top female vocalists in the US 1960-1965
+  P007 Yumi Tanaka: overall=4
+Generated 8 queries:
+  - top pop hits in Los Angeles 1971-1981
+  - popular female artists in California 1971-1981
+  - wedding songs popular in 1980
+  - Los Angeles radio hits 1974
+  - disco and funk hits 1975
+  - American pop and rock songs 1977
+  - songs about starting a business 1982
+  - popular songs for women in the 1970s
+  P029 Alicia Martinez: overall=4
+Generated 8 queries:
+  - popular songs in Los Angeles 1971-1981
+  - top American pop hits 1974 high school graduation
+  - popular Korean-American community songs 1982 cultural festival
+  - female artists popular in Los Angeles 1971-1981
+  - top Billboard hits 1978 Los Angeles
+  - songs about motherhood 1985
+  - songs popular during 1989 economic recession
+  - 1970s disco hits Los Angeles
+    generate_playlist attempt 1 failed: Expecting value: line 20 column 23 (char 799), retrying...
+  P164 Lena Kim: overall=3
+
+--- Ablation: removing gender ---
+Generated 8 queries:
+  - popular Appalachian folk songs 1955-1965
+  - top country hits in West Virginia 1955-1965
+  - Charleston West Virginia radio hits 1955-1965
+  - wedding songs popular in 1960
+  - coal mining songs popular in the 1960s
+  - female artists popular in Appalachia 1955-1965
+  - songs about financial hardship 1971
+  - songs about moving to Kentucky 1964
+  P087 Daisy McGowan: overall=4
+Generated 8 queries:
+  - popular R&B and soul hits in Louisville 1955-1965
+  - top African American artists 1955-1965
+  - wedding songs popular among African Americans 1965
+  - civil rights movement anthems 1972
+  - songs played on Louisville radio stations 1955-1965
+  - top Motown hits 1960-1965
+  - popular songs for African American men 1955-1965
+  - hits from African American community in Louisville 1960s
+  P201 James Thompson: overall=4
+Generated 8 queries:
+  - top Southern rock hits in Birmingham 1968-1978
+  - popular country songs in Alabama 1971
+  - wedding songs popular in the South 1975
+  - hits played on Birmingham radio stations 1975
+  - songs about motherhood 1978
+  - popular female artists in the South 1973
+  - songs about working life 1971
+  - top pop hits in Birmingham 1975
+  P040 Linda Turner: overall=4
+Generated 8 queries:
+  - popular songs in San Francisco 1966-1976
+  - top Chinese American artists 1966-1976
+  - hits played on San Francisco radio stations 1969
+  - popular songs in Seattle 1972
+  - Chinese cultural music popular in 1979
+  - top female artists 1966-1976
+  - songs popular among women in San Francisco 1966-1976
+  - hits from high school graduation year 1969
+  P186 Linda Chen: overall=4
+Generated 8 queries:
+  - top pop songs in New Jersey 1976-1986
+  - popular Indian American music in New York 1980s
+  - hits from New York radio stations 1980-1985
+  - songs played at weddings in New Jersey 1985
+  - popular female artists in the 1980s
+  - Indian American cultural music events in New York 1980s
+  - songs about motherhood popular in 1985
+  - top songs on New York radio during 1982
+  P088 Indira Patel: overall=4
+Generated 8 queries:
+  - top rock songs in Los Angeles 1975-1985
+  - popular Korean American music in Los Angeles 1975-1985
+  - hit songs from 1978 college radio stations in Los Angeles
+  - popular songs in Los Angeles during 1983
+  - top pop songs 1983 Los Angeles
+  - popular songs among Korean American men 1975-1985
+  - wedding songs popular in Los Angeles 1987
+  - hit songs on Los Angeles radio stations 1983
+  P205 Harold Kim: overall=3
+Generated 8 queries:
+  - popular Italian American songs in Newark NJ 1965-1975
+  - top hits on Newark NJ radio 1967
+  - wedding songs popular in 1970
+  - Italian American community favorite songs 1970
+  - top female artists in the US 1973
+  - popular songs for PTA events 1978
+  - regional hits in Newark NJ 1965-1975
+  - songs about resilience and rebuilding 1989
+  P179 Isabella Vincenzo: overall=4
+Generated 8 queries:
+  - popular R&B and soul hits in Birmingham 1955-1965
+  - top African American artists in Alabama 1960-1965
+  - wedding songs popular among African Americans in 1965
+  - songs related to civil rights movement 1955-1965
+  - hits from local Birmingham radio stations 1955-1965
+  - popular male artists among African Americans in the 1960s
+  - songs played during Montgomery Bus Boycott 1955
+  - soul and Motown hits popular in Alabama 1960-1965
+  P041 Robert Johnson: overall=4
+Generated 8 queries:
+  - top Mexican American hits in El Paso 1976-1986
+  - popular rock songs in Texas 1976-1986
+  - top country songs in El Paso 1976-1986
+  - popular songs for Mexican American weddings 1989
+  - hits from the year Carlos joined the Army 1980
+  - songs popular among men in the Army 1980
+  - regional radio hits in El Paso 1977
+  - top truck driving songs 1985
+  P002 Carlos Hernandez: overall=4
+Generated 8 queries:
+  - popular Mexican American hits in Los Angeles 1973-1983
+  - top Latin pop songs 1976
+  - wedding songs popular in California 1978
+  - regional rock hits in Los Angeles 1982
+  - top female artists in the US 1973-1983
+  - popular radio hits in Los Angeles 1976
+  - graduation year songs 1976
+  - Mexican American cultural hits 1973-1983
+  P072 Maria Gonzalez: overall=4
+Generated 8 queries:
+  - popular rock and roll songs in Pittsburgh 1957-1967
+  - top Irish American folk songs 1960
+  - wedding songs popular in Pittsburgh 1965
+  - top hits on Pittsburgh radio stations 1960-1965
+  - popular male artists in the 1960s Pittsburgh
+  - songs about working in steel mills 1960s
+  - Irish American music influences in Pittsburgh 1957-1967
+  - songs about union and labor movements 1970
+  P151 James O'Connor: overall=4
+Generated 8 queries:
+  - popular songs in Fall River Massachusetts 1965-1975
+  - top Portuguese American music 1965-1975
+  - wedding songs popular in 1973 Massachusetts
+  - hits played on Massachusetts radio stations 1968
+  - songs popular among women in the US 1973
+  - top hits from Portuguese cultural events 1980
+  - songs about motherhood 1975
+  - popular songs for nurses in 1968
+  P115 Patricia Silva: overall=4
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top African American artists in Detroit 1955
+  - wedding songs popular in 1960 Detroit
+  - R&B hits in Detroit during 1960
+  - soul music popular in Detroit 1967
+  - civil rights movement songs 1975
+  - top female artists in Motown 1960
+  - popular songs on Detroit radio 1958
+  P057 Mary Johnson: overall=4
+Generated 8 queries:
+  - popular songs in Chicago 1963-1973
+  - top Korean American artists 1963-1973
+  - wedding songs popular in 1969 Chicago
+  - top hits on Chicago radio 1965
+  - popular songs among women in Chicago 1963-1973
+  - songs about starting a family 1975
+  - cultural preservation music 1981
+  - community education program theme songs 1985
+  P108 Kim Lee: overall=4
+Generated 8 queries:
+  - popular Motown hits in Detroit 1953-1963
+  - top R&B songs 1956 Detroit
+  - Haitian American music influences in Detroit 1950s
+  - songs about union organizing 1962
+  - Detroit radio hits 1956
+  - popular songs for auto factory workers 1960s
+  - top male artists in Detroit 1953-1963
+  - wedding songs popular in Detroit 1960s
+  P208 Paul Doucet: overall=4
+Generated 8 queries:
+  - popular Latin hits in Miami 1977-1987
+  - top Cuban American artists 1977-1987
+  - wedding songs popular in Miami 1985
+  - top Billboard hits 1980 Miami
+  - songs played on Miami radio stations 1977-1987
+  - popular rock songs among men 1980s Miami
+  - graduation year hits 1980 Miami
+  - songs popular in Cuban American communities 1980s
+  P180 Jorge Martinez: overall=4
+Generated 8 queries:
+  - top pop songs in Houston 1978-1988
+  - popular Vietnamese American music 1980s
+  - Houston radio hits 1980s
+  - wedding songs popular in 1987
+  - Vietnamese cultural music events Houston 1990
+  - female pop artists popular in the 1980s
+  - songs about immigration and new beginnings 1980s
+  - top hits in Houston during 1985
+  P167 Angela Nguyen: overall=4
+Generated 8 queries:
+  - top pop hits in Chicago 1977-1987
+  - popular Indian American songs 1980s
+  - wedding songs popular in Chicago 1983
+  - top radio hits in Chicago 1980
+  - popular songs among Indian American communities 1980s
+  - graduation year hits 1980 Chicago
+  - popular female artists in Chicago 1980s
+  - songs played at cultural festivals in Chicago 1987
+  P184 Anita Patel: overall=4
+Generated 8 queries:
+  - popular Mexican American songs in San Antonio 1963-1973
+  - top hits on San Antonio radio stations 1965
+  - wedding songs popular in 1968 San Antonio
+  - Mexican American artists popular in Texas 1968
+  - top soul and R&B songs 1972 Chicago
+  - popular church songs in Chicago 1975
+  - songs about motherhood popular in 1977
+  - top female artists 1963-1973
+  P051 Helen Martinez: overall=4
+Generated 8 queries:
+  - popular Italian American songs Newark NJ 1955-1965
+  - top rock and roll hits Newark NJ 1958
+  - songs played at Italian American weddings 1970
+  - top hits on Newark radio stations 1964
+  - popular male artists Newark NJ 1960-1965
+  - Italian American community favorite songs 1955-1965
+  - songs associated with auto mechanics 1958
+  - hits from The 4 Seasons 1960-1965
+  P144 Salvatore Ricci: overall=4
+Generated 8 queries:
+  - popular Mexican American artists in Phoenix 1972-1982
+  - top hits on Phoenix radio stations 1975
+  - popular wedding songs 1984
+  - Mexican American music hits 1978
+  - top Billboard songs 1980
+  - popular songs among women in Phoenix 1975
+  - community event music in Phoenix 1989
+  - top Latin music hits 1984
+  P218 Sandra Lopez: overall=4
+Generated 8 queries:
+  - popular rock and roll hits in Brooklyn 1964-1974
+  - top Italian American artists in New York 1964-1974
+  - wedding songs popular in Queens 1970
+  - graduation year hits in Brooklyn 1967
+  - songs about opening a business in Long Island 1974
+  - popular male artists in Brooklyn 1964-1974
+  - regional radio hits in New York 1964-1974
+  - songs about divorce popular in Brooklyn 1981
+  P155 Salvatore Russo: overall=4
+Generated 8 queries:
+  - top pop hits in Los Angeles 1977-1987
+  - popular Japanese American artists 1977-1987
+  - wedding songs popular in San Francisco 1985
+  - songs played on Los Angeles radio stations 1980
+  - hits from San Francisco radio stations 1982
+  - popular songs among women in California 1980-1985
+  - Japanese American cultural music influences 1977-1987
+  - songs popular in flower shops Los Angeles 1980
+  P130 Yuki Tanaka: overall=3
+Generated 8 queries:
+  - top pop songs in Houston 1978-1988
+  - popular Pakistani American music 1980s
+  - 1985 wedding songs popular in Texas
+  - hits on Houston radio stations 1982
+  - songs about family and work-life balance 1988
+  - Pakistani American community favorite artists 1980s
+  - songs popular among men in the US 1983
+  - top Billboard hits 1980-1985
+  P060 Ahmed Khan: overall=4
+Generated 8 queries:
+  - top rock songs in San Francisco 1975-1985
+  - popular Chinese American music in San Francisco 1975-1985
+  - hit songs on San Francisco radio 1977
+  - songs popular in Asia during 1980 travels
+  - wedding songs popular in 1985
+  - top pop songs in San Francisco 1983
+  - popular songs among Chinese American community 1980-1985
+  - songs played in San Francisco cafes 1983
+  P056 Fen Wang: overall=3
+Generated 8 queries:
+  - popular songs in San Jose 1961-1971
+  - Vietnamese American music influences 1960s
+  - top hits in California 1963
+  - wedding songs popular in 1970
+  - Vietnamese community music San Jose 1975
+  - female artists popular in the 1960s
+  - songs about immigration experiences 1960s
+  - top soul and R&B hits 1967
+  P024 Anna Nguyen: overall=4
+Generated 8 queries:
+  - popular Puerto Rican American music in Chicago 1968-1978
+  - top Latin jazz songs 1970s Chicago
+  - popular songs played in Chicago clubs 1970
+  - hit songs from 1975 Chicago radio stations
+  - wedding songs popular in 1981 Chicago
+  - top soul and funk hits 1975
+  - popular male artists in Chicago 1968-1978
+  - songs from Chicago neighborhood music festivals 1985
+    generate_playlist attempt 1 failed: Expecting value: line 27 column 23 (char 1144), retrying...
+    generate_playlist attempt 2 failed: Expecting value: line 55 column 23 (char 2348), retrying...
+  P008 Santiago Garcia: overall=4
+Generated 8 queries:
+  - top pop hits in Dearborn 1980-1990
+  - popular Arab American music in Michigan 1980s
+  - wedding songs popular in 1986
+  - top hits on Michigan radio stations 1983
+  - popular songs for new parents 1990
+  - female favorite pop artists 1980-1990
+  - top rock songs in the US 1980-1990
+  - popular songs during first job experiences 1983
+  P009 Zara Ali: overall=4
+Generated 8 queries:
+  - popular Cuban American music in Miami 1955-1965
+  - top songs played on Miami radio stations 1957
+  - wedding songs popular in Miami 1965
+  - hits from Little Havana music scene 1960
+  - popular songs among Cuban American women 1955-1965
+  - top Billboard hits 1960-1965
+  - songs from cultural festivals in Miami 1972
+  - popular Latin music in Florida 1955-1965
+  P109 Maria Rodriguez: overall=4
+Generated 8 queries:
+  - popular Tejano music in San Antonio 1966-1976
+  - top Mexican American artists 1966-1976
+  - wedding songs popular in Texas 1970
+  - hits on San Antonio radio stations 1966-1976
+  - popular songs among Mexican American women 1966-1976
+  - top soul and R&B hits 1966-1976
+  - songs about starting a business 1978
+  - popular songs during first childbirth 1974
+  P152 Maria Sanchez: overall=4
+Generated 8 queries:
+  - popular rock songs in Chicago 1975-1985
+  - top Polish American artists 1975-1985
+  - wedding songs popular in Chicago 1980
+  - graduation year hits 1978 Chicago
+  - popular songs about overcoming hardship 1988
+  - top male artists in Chicago 1975-1985
+  - hits from Chicago radio stations 1975-1985
+  - songs popular among mechanics in the 1980s
+  P023 Thomas Zawadzki: overall=4
+Generated 8 queries:
+  - top pop and rock songs in Seattle 1972-1982
+  - Vietnamese American popular music 1972-1982
+  - Seattle radio hits 1975
+  - songs about new beginnings 1975
+  - popular songs in Seattle church communities 1982
+  - wedding songs popular in Seattle 1987
+  - songs about family and children 1987
+  - female artists popular in Seattle 1972-1982
+  P140 Linda Nguyen: overall=3
+Generated 8 queries:
+  - popular songs in San Francisco 1960-1970
+  - top Chinese American artists 1960-1970
+  - Vietnam War era songs 1967
+  - wedding songs popular in 1972
+  - hits from San Francisco radio stations 1963
+  - songs popular among Chinese American communities 1960-1970
+  - top male artists 1965-1970
+  - songs played at Chinatown community events 1974
+  P217 Leon Wong: overall=4
+Generated 8 queries:
+  - popular R&B hits in Memphis 1951-1961
+  - top African American artists 1955
+  - songs played during civil rights marches 1955
+  - gospel music popular in Memphis churches 1960
+  - soul and blues hits in Memphis 1958
+  - top songs on Memphis radio stations 1951-1961
+  - popular male artists in the African American community 1955
+  - wedding songs popular in the African American community 1960
+  P174 Clarence Washington: overall=4
+Generated 8 queries:
+  - popular Latin music in New York 1959-1969
+  - top Puerto Rican American artists 1960s
+  - New York radio hits 1962
+  - wedding songs popular in New York 1968
+  - top soul and R&B songs 1968
+  - popular songs for new parents 1971
+  - hits from New York local radio stations 1965
+  - popular female artists in New York 1960s
+  P027 Evelyn Rodriguez: overall=4
+Generated 8 queries:
+  - top country hits in Knoxville 1979-1989
+  - popular rock songs in Tennessee 1984
+  - wedding songs popular in 1984
+  - Appalachian folk music hits 1980s
+  - songs about truck driving popular in the 1980s
+  - popular songs on Knoxville radio 1980-1990
+  - hits by white male artists in the 1980s
+  - songs about working in coal mines 1980s
+  P189 James White: overall=4
+Generated 8 queries:
+  - popular songs in Los Angeles 1960-1970
+  - top Japanese American artists 1960-1970
+  - wedding songs popular in 1968 Los Angeles
+  - hits from Los Angeles radio stations 1963
+  - songs about carpentry or building 1960-1970
+  - Japanese pop hits in America 1960-1970
+  - songs popular among men in Los Angeles 1965
+  - top rock and roll hits 1968 Los Angeles
+  P036 Hiroshi Sato: overall=4
+Generated 8 queries:
+  - popular rock songs in Pittsburgh 1967-1977
+  - top Polish American folk songs 1967-1977
+  - wedding songs popular in Pittsburgh 1974
+  - hits on Pittsburgh radio stations 1970
+  - songs about steel industry 1978
+  - classic rock songs popular among men 1967-1977
+  - songs about firefighting 1981
+  - popular country songs 1975
+  P058 John Petrovski: overall=4
+Generated 8 queries:
+  - top rock and pop hits in Brooklyn 1970-1980
+  - popular Italian American music in New York 1970s
+  - wedding songs popular in New York 1978
+  - songs about family and work from 1973
+  - hits from New York radio stations 1975
+  - popular male artists in Brooklyn 1970-1980
+  - disco and dance hits in New York 1975
+  - songs about loss and remembrance 1985
+  P063 Anthony Russo: overall=3
+Generated 8 queries:
+  - popular R&B and soul hits in Birmingham 1957-1967
+  - top African American artists 1961 civil rights movement
+  - wedding songs popular among African Americans 1965
+  - Motown hits 1960-1965
+  - songs played on Birmingham radio stations 1958-1967
+  - gospel and soul music popular in African American churches 1972
+  - songs about love and family 1965
+  - protest and freedom songs 1961
+  P071 James Wilson: overall=4
+Generated 8 queries:
+  - popular Arab American songs in Dearborn 1975-1985
+  - top pop hits in Michigan 1978
+  - wedding songs popular among Arab Americans 1981
+  - hits from Detroit radio stations 1980
+  - songs played at cultural festivals in Dearborn 1985
+  - top female artists in the US 1980
+  - popular songs among women in Michigan 1982
+  - hits from the year Fatima started working 1979
+  P190 Fatima Nasser: overall=3
+Generated 8 queries:
+  - popular songs in San Francisco 1957-1967
+  - Japanese American music influences in California 1957-1967
+  - wedding songs popular in 1965 San Francisco
+  - top hits on San Francisco radio stations 1959
+  - popular female artists in the 1960s San Francisco
+  - songs about love and marriage from 1965
+  - Japanese pop songs that were popular in America 1960s
+  - songs about working life from the late 1950s
+  P007 Yumi Tanaka: overall=4
+Generated 8 queries:
+  - popular Cuban American music in Los Angeles 1971-1981
+  - top Latin hits in California 1974
+  - popular wedding songs in 1980 Los Angeles
+  - top disco hits in Los Angeles 1975
+  - popular female artists among Cuban Americans 1971-1981
+  - graduation year hits in Los Angeles 1974
+  - popular songs on Los Angeles radio 1977
+  - top pop and rock hits 1980 Los Angeles
+  P029 Alicia Martinez: overall=3
+Generated 8 queries:
+  - popular songs in Los Angeles 1971-1981
+  - top Korean American community songs 1971-1981
+  - hit songs on Los Angeles radio stations 1974
+  - popular songs for high school graduates 1974
+  - songs popular among Korean Americans in Los Angeles 1978
+  - top songs played at cultural festivals 1982
+  - popular songs for new mothers 1985
+  - songs about economic hardship 1989
+    generate_playlist attempt 1 failed: Expecting value: line 20 column 23 (char 755), retrying...
+  P164 Lena Kim: overall=4
+
+Ablation summary:
+               bio_precision_llm  cultural_approp_llm  overall_llm
+removed_field                                                     
+culture                    3.841                3.682        3.841
+gender                     3.841                3.841        3.841
+life_events                3.523                3.841        3.591
+region                     3.909                3.795        3.909
+
+Saved outputs/ablation_results.csv

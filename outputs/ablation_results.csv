@@ -1,0 +1,177 @@
+profile_id,name,gender,birth_year,cultural_background,removed_field,bio_precision_llm,cultural_approp_llm,overall_llm
+P087,Daisy McGowan,Female,1940,White American (Appalachian),region,4,4,4
+P201,James Thompson,Male,1940,African American,region,4,5,4
+P040,Linda Turner,Female,1953,White American (Southern),region,4,5,4
+P186,Linda Chen,Female,1951,Chinese American,region,4,3,4
+P088,Indira Patel,Female,1961,Indian American,region,4,3,4
+P205,Harold Kim,Male,1960,Korean American,region,4,3,4
+P179,Isabella Vincenzo,Female,1950,Italian American,region,4,5,4
+P041,Robert Johnson,Male,1940,African American,region,4,5,4
+P002,Carlos Hernandez,Male,1961,Mexican American,region,4,4,4
+P072,Maria Gonzalez,Female,1958,Mexican American,region,3,4,3
+P151,James O'Connor,Male,1942,Irish American,region,4,4,4
+P115,Patricia Silva,Female,1950,Portuguese American,region,3,3,3
+P057,Mary Johnson,Female,1938,African American,region,4,5,4
+P108,Kim Lee,Female,1948,Korean American,region,4,3,4
+P208,Paul Doucet,Male,1938,Haitian American,region,4,4,4
+P180,Jorge Martinez,Male,1962,Cuban American,region,4,5,4
+P167,Angela Nguyen,Female,1963,Vietnamese American,region,4,3,4
+P184,Anita Patel,Female,1962,Indian American,region,4,3,4
+P051,Helen Martinez,Female,1948,Mexican American,region,4,4,4
+P144,Salvatore Ricci,Male,1940,Italian American,region,4,5,4
+P218,Sandra Lopez,Female,1957,Mexican American,region,4,3,4
+P155,Salvatore Russo,Male,1949,Italian American,region,4,5,4
+P130,Yuki Tanaka,Female,1962,Japanese American,region,4,3,4
+P060,Ahmed Khan,Male,1963,Pakistani American,region,4,3,4
+P056,Fen Wang,Male,1960,Chinese American,region,4,4,4
+P024,Anna Nguyen,Female,1946,Vietnamese American,region,4,3,4
+P008,Santiago Garcia,Male,1953,Puerto Rican American,region,4,4,4
+P009,Zara Ali,Female,1965,Arab American,region,4,3,4
+P109,Maria Rodriguez,Female,1940,Cuban American,region,4,5,4
+P152,Maria Sanchez,Female,1951,Mexican American,region,4,4,4
+P023,Thomas Zawadzki,Male,1960,Polish American,region,4,3,4
+P140,Linda Nguyen,Female,1957,Vietnamese American,region,4,3,4
+P217,Leon Wong,Male,1945,Chinese American,region,4,3,4
+P174,Clarence Washington,Male,1936,African American,region,3,3,3
+P027,Evelyn Rodriguez,Female,1944,Puerto Rican American,region,4,4,4
+P189,James White,Male,1964,White American (Appalachian),region,4,4,4
+P036,Hiroshi Sato,Male,1945,Japanese American,region,4,4,4
+P058,John Petrovski,Male,1952,Polish American,region,4,3,4
+P063,Anthony Russo,Male,1955,Italian American,region,4,4,4
+P071,James Wilson,Male,1942,African American,region,4,5,4
+P190,Fatima Nasser,Female,1960,Arab American,region,4,3,4
+P007,Yumi Tanaka,Female,1942,Japanese American,region,3,4,3
+P029,Alicia Martinez,Female,1956,Cuban American,region,4,4,4
+P164,Lena Kim,Female,1956,Korean American,region,4,3,4
+P087,Daisy McGowan,Female,1940,White American (Appalachian),life_events,4,4,4
+P201,James Thompson,Male,1940,African American,life_events,3,5,4
+P040,Linda Turner,Female,1953,White American (Southern),life_events,4,5,4
+P186,Linda Chen,Female,1951,Chinese American,life_events,4,4,4
+P088,Indira Patel,Female,1961,Indian American,life_events,4,3,4
+P205,Harold Kim,Male,1960,Korean American,life_events,3,4,3
+P179,Isabella Vincenzo,Female,1950,Italian American,life_events,3,4,3
+P041,Robert Johnson,Male,1940,African American,life_events,4,5,4
+P002,Carlos Hernandez,Male,1961,Mexican American,life_events,3,4,3
+P072,Maria Gonzalez,Female,1958,Mexican American,life_events,3,4,3
+P151,James O'Connor,Male,1942,Irish American,life_events,4,4,4
+P115,Patricia Silva,Female,1950,Portuguese American,life_events,3,3,3
+P057,Mary Johnson,Female,1938,African American,life_events,4,5,4
+P108,Kim Lee,Female,1948,Korean American,life_events,4,3,4
+P208,Paul Doucet,Male,1938,Haitian American,life_events,4,5,4
+P180,Jorge Martinez,Male,1962,Cuban American,life_events,3,5,4
+P167,Angela Nguyen,Female,1963,Vietnamese American,life_events,4,3,4
+P184,Anita Patel,Female,1962,Indian American,life_events,4,3,4
+P051,Helen Martinez,Female,1948,Mexican American,life_events,3,4,3
+P144,Salvatore Ricci,Male,1940,Italian American,life_events,4,5,4
+P218,Sandra Lopez,Female,1957,Mexican American,life_events,3,4,3
+P155,Salvatore Russo,Male,1949,Italian American,life_events,3,4,3
+P130,Yuki Tanaka,Female,1962,Japanese American,life_events,4,3,4
+P060,Ahmed Khan,Male,1963,Pakistani American,life_events,4,3,4
+P056,Fen Wang,Male,1960,Chinese American,life_events,4,4,4
+P024,Anna Nguyen,Female,1946,Vietnamese American,life_events,4,3,4
+P008,Santiago Garcia,Male,1953,Puerto Rican American,life_events,3,3,3
+P009,Zara Ali,Female,1965,Arab American,life_events,4,3,4
+P109,Maria Rodriguez,Female,1940,Cuban American,life_events,4,4,4
+P152,Maria Sanchez,Female,1951,Mexican American,life_events,3,4,3
+P023,Thomas Zawadzki,Male,1960,Polish American,life_events,3,4,3
+P140,Linda Nguyen,Female,1957,Vietnamese American,life_events,3,2,3
+P217,Leon Wong,Male,1945,Chinese American,life_events,3,4,3
+P174,Clarence Washington,Male,1936,African American,life_events,3,5,4
+P027,Evelyn Rodriguez,Female,1944,Puerto Rican American,life_events,3,4,3
+P189,James White,Male,1964,White American (Appalachian),life_events,3,3,3
+P036,Hiroshi Sato,Male,1945,Japanese American,life_events,4,4,4
+P058,John Petrovski,Male,1952,Polish American,life_events,4,3,4
+P063,Anthony Russo,Male,1955,Italian American,life_events,3,4,3
+P071,James Wilson,Male,1942,African American,life_events,4,5,4
+P190,Fatima Nasser,Female,1960,Arab American,life_events,3,3,3
+P007,Yumi Tanaka,Female,1942,Japanese American,life_events,4,4,4
+P029,Alicia Martinez,Female,1956,Cuban American,life_events,4,4,4
+P164,Lena Kim,Female,1956,Korean American,life_events,3,3,3
+P087,Daisy McGowan,Female,1940,White American (Appalachian),culture,4,4,4
+P201,James Thompson,Male,1940,African American,culture,4,4,4
+P040,Linda Turner,Female,1953,White American (Southern),culture,4,5,4
+P186,Linda Chen,Female,1951,Chinese American,culture,4,4,4
+P088,Indira Patel,Female,1961,Indian American,culture,4,3,4
+P205,Harold Kim,Male,1960,Korean American,culture,4,3,4
+P179,Isabella Vincenzo,Female,1950,Italian American,culture,4,4,4
+P041,Robert Johnson,Male,1940,African American,culture,4,5,4
+P002,Carlos Hernandez,Male,1961,Mexican American,culture,4,4,4
+P072,Maria Gonzalez,Female,1958,Mexican American,culture,3,4,3
+P151,James O'Connor,Male,1942,Irish American,culture,4,4,4
+P115,Patricia Silva,Female,1950,Portuguese American,culture,3,2,3
+P057,Mary Johnson,Female,1938,African American,culture,4,5,4
+P108,Kim Lee,Female,1948,Korean American,culture,4,3,4
+P208,Paul Doucet,Male,1938,Haitian American,culture,4,5,4
+P180,Jorge Martinez,Male,1962,Cuban American,culture,3,4,3
+P167,Angela Nguyen,Female,1963,Vietnamese American,culture,4,3,4
+P184,Anita Patel,Female,1962,Indian American,culture,4,3,4
+P051,Helen Martinez,Female,1948,Mexican American,culture,3,3,3
+P144,Salvatore Ricci,Male,1940,Italian American,culture,4,5,4
+P218,Sandra Lopez,Female,1957,Mexican American,culture,4,3,4
+P155,Salvatore Russo,Male,1949,Italian American,culture,4,4,4
+P130,Yuki Tanaka,Female,1962,Japanese American,culture,4,3,4
+P060,Ahmed Khan,Male,1963,Pakistani American,culture,4,3,4
+P056,Fen Wang,Male,1960,Chinese American,culture,4,3,4
+P024,Anna Nguyen,Female,1946,Vietnamese American,culture,4,3,4
+P008,Santiago Garcia,Male,1953,Puerto Rican American,culture,3,2,3
+P009,Zara Ali,Female,1965,Arab American,culture,4,3,4
+P109,Maria Rodriguez,Female,1940,Cuban American,culture,4,4,4
+P152,Maria Sanchez,Female,1951,Mexican American,culture,4,3,4
+P023,Thomas Zawadzki,Male,1960,Polish American,culture,3,4,3
+P140,Linda Nguyen,Female,1957,Vietnamese American,culture,4,3,4
+P217,Leon Wong,Male,1945,Chinese American,culture,4,4,4
+P174,Clarence Washington,Male,1936,African American,culture,4,5,4
+P027,Evelyn Rodriguez,Female,1944,Puerto Rican American,culture,4,3,4
+P189,James White,Male,1964,White American (Appalachian),culture,4,4,4
+P036,Hiroshi Sato,Male,1945,Japanese American,culture,4,5,4
+P058,John Petrovski,Male,1952,Polish American,culture,4,4,4
+P063,Anthony Russo,Male,1955,Italian American,culture,4,4,4
+P071,James Wilson,Male,1942,African American,culture,4,5,4
+P190,Fatima Nasser,Female,1960,Arab American,culture,4,3,4
+P007,Yumi Tanaka,Female,1942,Japanese American,culture,4,4,4
+P029,Alicia Martinez,Female,1956,Cuban American,culture,4,3,4
+P164,Lena Kim,Female,1956,Korean American,culture,3,3,3
+P087,Daisy McGowan,Female,1940,White American (Appalachian),gender,4,4,4
+P201,James Thompson,Male,1940,African American,gender,4,5,4
+P040,Linda Turner,Female,1953,White American (Southern),gender,4,5,4
+P186,Linda Chen,Female,1951,Chinese American,gender,4,3,4
+P088,Indira Patel,Female,1961,Indian American,gender,4,3,4
+P205,Harold Kim,Male,1960,Korean American,gender,3,2,3
+P179,Isabella Vincenzo,Female,1950,Italian American,gender,4,4,4
+P041,Robert Johnson,Male,1940,African American,gender,4,5,4
+P002,Carlos Hernandez,Male,1961,Mexican American,gender,4,4,4
+P072,Maria Gonzalez,Female,1958,Mexican American,gender,4,5,4
+P151,James O'Connor,Male,1942,Irish American,gender,4,4,4
+P115,Patricia Silva,Female,1950,Portuguese American,gender,4,3,4
+P057,Mary Johnson,Female,1938,African American,gender,4,5,4
+P108,Kim Lee,Female,1948,Korean American,gender,4,3,4
+P208,Paul Doucet,Male,1938,Haitian American,gender,4,5,4
+P180,Jorge Martinez,Male,1962,Cuban American,gender,4,5,4
+P167,Angela Nguyen,Female,1963,Vietnamese American,gender,4,3,4
+P184,Anita Patel,Female,1962,Indian American,gender,4,3,4
+P051,Helen Martinez,Female,1948,Mexican American,gender,4,3,4
+P144,Salvatore Ricci,Male,1940,Italian American,gender,4,5,4
+P218,Sandra Lopez,Female,1957,Mexican American,gender,4,4,4
+P155,Salvatore Russo,Male,1949,Italian American,gender,4,4,4
+P130,Yuki Tanaka,Female,1962,Japanese American,gender,3,4,3
+P060,Ahmed Khan,Male,1963,Pakistani American,gender,4,3,4
+P056,Fen Wang,Male,1960,Chinese American,gender,3,4,3
+P024,Anna Nguyen,Female,1946,Vietnamese American,gender,4,3,4
+P008,Santiago Garcia,Male,1953,Puerto Rican American,gender,4,3,4
+P009,Zara Ali,Female,1965,Arab American,gender,4,3,4
+P109,Maria Rodriguez,Female,1940,Cuban American,gender,4,5,4
+P152,Maria Sanchez,Female,1951,Mexican American,gender,4,4,4
+P023,Thomas Zawadzki,Male,1960,Polish American,gender,4,4,4
+P140,Linda Nguyen,Female,1957,Vietnamese American,gender,3,2,3
+P217,Leon Wong,Male,1945,Chinese American,gender,4,4,4
+P174,Clarence Washington,Male,1936,African American,gender,4,5,4
+P027,Evelyn Rodriguez,Female,1944,Puerto Rican American,gender,4,4,4
+P189,James White,Male,1964,White American (Appalachian),gender,4,3,4
+P036,Hiroshi Sato,Male,1945,Japanese American,gender,4,4,4
+P058,John Petrovski,Male,1952,Polish American,gender,4,4,4
+P063,Anthony Russo,Male,1955,Italian American,gender,3,4,3
+P071,James Wilson,Male,1942,African American,gender,4,5,4
+P190,Fatima Nasser,Female,1960,Arab American,gender,3,3,3
+P007,Yumi Tanaka,Female,1942,Japanese American,gender,4,4,4
+P029,Alicia Martinez,Female,1956,Cuban American,gender,3,4,3
+P164,Lena Kim,Female,1956,Korean American,gender,4,3,4

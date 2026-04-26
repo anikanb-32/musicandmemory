@@ -1,0 +1,2482 @@
+{
+  "P1": {
+    "profile": {
+      "id": "P1",
+      "name": "James Wilson",
+      "birth_year": 1945,
+      "hometown": "Detroit, Michigan",
+      "cultural_background": "African American",
+      "life_events": [
+        {
+          "year": 1963,
+          "event": "Graduated from Cass Tech High School"
+        },
+        {
+          "year": 1965,
+          "event": "Started working at Ford factory"
+        },
+        {
+          "year": 1967,
+          "event": "Witnessed the Detroit riots"
+        },
+        {
+          "year": 1970,
+          "event": "Married Dorothy"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "My Girl",
+            "artist": "The Temptations",
+            "year": 1965,
+            "relevance": "As a Motown classic, this song is tied to James's hometown of Detroit and was released during his formative years."
+          },
+          {
+            "rank": 2,
+            "song": "Dancing in the Street",
+            "artist": "Martha and the Vandellas",
+            "year": 1964,
+            "relevance": "This song became an anthem during the civil rights movement, resonating with the events James witnessed in Detroit."
+          },
+          {
+            "rank": 3,
+            "song": "I Heard It Through the Grapevine",
+            "artist": "Marvin Gaye",
+            "year": 1968,
+            "relevance": "A soulful hit from another Detroit legend, reflecting the cultural and musical backdrop of James's young adulthood."
+          },
+          {
+            "rank": 4,
+            "song": "Ain't No Mountain High Enough",
+            "artist": "Marvin Gaye & Tammi Terrell",
+            "year": 1967,
+            "relevance": "This song's themes of love and perseverance may remind James of his early relationship with his wife Dorothy."
+          },
+          {
+            "rank": 5,
+            "song": "Reach Out I'll Be There",
+            "artist": "The Four Tops",
+            "year": 1966,
+            "relevance": "Another Motown hit that could evoke memories of James's community and support network in Detroit."
+          },
+          {
+            "rank": 6,
+            "song": "Stop! In the Name of Love",
+            "artist": "The Supremes",
+            "year": 1965,
+            "relevance": "A song that captures the spirit of the 1960s and the vibrant Motown scene in James's hometown."
+          },
+          {
+            "rank": 7,
+            "song": "Respect",
+            "artist": "Aretha Franklin",
+            "year": 1967,
+            "relevance": "An empowering anthem by another Detroit native, reflecting the social changes James experienced."
+          },
+          {
+            "rank": 8,
+            "song": "I Want You Back",
+            "artist": "The Jackson 5",
+            "year": 1969,
+            "relevance": "This upbeat track by a popular Motown group could bring back joyful memories from James's youth."
+          },
+          {
+            "rank": 9,
+            "song": "What Becomes of the Brokenhearted",
+            "artist": "Jimmy Ruffin",
+            "year": 1966,
+            "relevance": "A soulful ballad that might resonate with James's emotional experiences during his young adult years."
+          },
+          {
+            "rank": 10,
+            "song": "Ain't Too Proud to Beg",
+            "artist": "The Temptations",
+            "year": 1966,
+            "relevance": "Another classic from The Temptations, capturing the essence of the Motown sound that James grew up with."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "My Girl",
+            "prompt": "Do you remember any special moments in Detroit when this song was playing?"
+          },
+          {
+            "song": "Dancing in the Street",
+            "prompt": "This song was popular during the Detroit riots. What do you recall about that time?"
+          },
+          {
+            "song": "Ain't No Mountain High Enough",
+            "prompt": "Does this song remind you of any adventures with Dorothy when you were first married?"
+          }
+        ]
+      },
+      "time": 9.822550058364868
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Dancing In The Street",
+            "artist": "Martha & The Vandellas",
+            "year": 1964,
+            "relevance": "This song is a Motown classic from Detroit, where James is from, and reflects the vibrant music scene of his youth. It was released around the time of the Detroit riots, a significant life event for him."
+          },
+          {
+            "rank": 2,
+            "song": "Hot Fun In The Summertime",
+            "artist": "Sly & The Family Stone",
+            "year": 1969,
+            "relevance": "This song captures the essence of the late 1960s, a period when James was starting his family life. It reflects the joy and carefree spirit of summer, which might evoke pleasant memories."
+          },
+          {
+            "rank": 3,
+            "song": "Happy Together",
+            "artist": "The Turtles",
+            "year": 1967,
+            "relevance": "Released during the year of the Detroit riots, this song's theme of togetherness might resonate with James's experiences and his marriage to Dorothy in 1970."
+          },
+          {
+            "rank": 4,
+            "song": "Poor Side Of Town",
+            "artist": "Johnny Rivers",
+            "year": 1966,
+            "relevance": "This song was a hit during James's early working years at the Ford factory, possibly resonating with his experiences of striving for a better life."
+          },
+          {
+            "rank": 5,
+            "song": "Ruby Baby",
+            "artist": "Dion",
+            "year": 1963,
+            "relevance": "Released the year James graduated high school, this song might bring back memories of his teenage years and transition into adulthood."
+          },
+          {
+            "rank": 6,
+            "song": "I Get Around",
+            "artist": "The Beach Boys",
+            "year": 1964,
+            "relevance": "A popular song during James's early twenties, it might remind him of the carefree and adventurous spirit of his youth."
+          },
+          {
+            "rank": 7,
+            "song": "A Groovy Kind Of Love",
+            "artist": "The Mindbenders",
+            "year": 1966,
+            "relevance": "This romantic song was popular during James's courtship years, potentially evoking memories of his relationship with Dorothy."
+          },
+          {
+            "rank": 8,
+            "song": "Monday, Monday",
+            "artist": "The Mamas & The Papas",
+            "year": 1966,
+            "relevance": "A hit during James's early working years, this song might resonate with the routine of starting a new week at the Ford factory."
+          },
+          {
+            "rank": 9,
+            "song": "The Long And Winding Road/For You Blue",
+            "artist": "The Beatles",
+            "year": 1970,
+            "relevance": "Released the year James got married, this song could symbolize the journey of his life and relationship with Dorothy."
+          },
+          {
+            "rank": 10,
+            "song": "Yellow Submarine",
+            "artist": "The Beatles",
+            "year": 1966,
+            "relevance": "This whimsical song might evoke a sense of fun and nostalgia from James's younger days, providing a light-hearted memory."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Dancing In The Street",
+            "prompt": "Do you remember any special events or gatherings in Detroit where this song might have been played?"
+          },
+          {
+            "song": "Hot Fun In The Summertime",
+            "prompt": "What are some of your favorite summer memories from when you were younger?"
+          },
+          {
+            "song": "Happy Together",
+            "prompt": "Can you share a story about a happy moment with Dorothy around the time you got married?"
+          }
+        ]
+      },
+      "time": 12.667326927185059
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Soul Man",
+            "artist": "Sam & Dave",
+            "year": 1967,
+            "relevance": "This song was released during the Detroit riots, a significant event in James's life. The song's soulful style resonates with his cultural background and the vibrant music scene of Detroit."
+          },
+          {
+            "rank": 2,
+            "song": "Sweet Soul Music",
+            "artist": "Arthur Conley",
+            "year": 1967,
+            "relevance": "Released in the same year as the Detroit riots, this song celebrates soul music, which was a major influence in James's cultural and musical environment growing up in Detroit."
+          },
+          {
+            "rank": 3,
+            "song": "If You Wanna Be Happy",
+            "artist": "Jimmy Soul",
+            "year": 1963,
+            "relevance": "Released the same year James graduated high school, this upbeat song could remind him of his youthful optimism and the beginning of his adult life."
+          },
+          {
+            "rank": 4,
+            "song": "Shop Around",
+            "artist": "The Miracles (featuring Bill \"Smokey\" Robinson)",
+            "year": 1961,
+            "relevance": "As a classic Motown hit, this song connects to James's Detroit roots and the thriving Motown scene during his formative years."
+          },
+          {
+            "rank": 5,
+            "song": "Hit The Road Jack",
+            "artist": "Ray Charles and his Orchestra",
+            "year": 1961,
+            "relevance": "A popular song during his teenage years, it might evoke memories of James's high school days and the music that shaped his youth."
+          },
+          {
+            "rank": 6,
+            "song": "Little Bit O' Soul",
+            "artist": "The Music Explosion",
+            "year": 1967,
+            "relevance": "This song's release coincides with the Detroit riots, offering a reminder of the resilience and spirit of the community during challenging times."
+          },
+          {
+            "rank": 7,
+            "song": "Stoned Soul Picnic",
+            "artist": "The 5th Dimension",
+            "year": 1968,
+            "relevance": "This song embodies the soulful and uplifting spirit of the late 1960s, a period of significant social change that James experienced firsthand."
+          },
+          {
+            "rank": 8,
+            "song": "I'm Gonna Get Married",
+            "artist": "Lloyd Price",
+            "year": 1959,
+            "relevance": "This song connects to James's marriage to Dorothy in 1970, reflecting on themes of love and commitment."
+          },
+          {
+            "rank": 9,
+            "song": "The Wedding",
+            "artist": "June Valli",
+            "year": 1959,
+            "relevance": "A romantic song that ties into James's marriage, potentially evoking memories of his wedding day with Dorothy."
+          },
+          {
+            "rank": 10,
+            "song": "Soul Inspiration",
+            "artist": "Anita Baker",
+            "year": 1990,
+            "relevance": "Though released later, Anita Baker's soulful music connects to James's cultural background and the enduring legacy of soul music in his life."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Soul Man",
+            "prompt": "Do you remember where you were when you first heard 'Soul Man'? What was happening in Detroit at that time?"
+          },
+          {
+            "song": "If You Wanna Be Happy",
+            "prompt": "This song came out the year you graduated high school. What do you remember about your graduation day?"
+          },
+          {
+            "song": "The Wedding",
+            "prompt": "Listening to 'The Wedding' might remind you of your marriage to Dorothy. What do you remember most about your wedding day?"
+          }
+        ]
+      },
+      "time": 17.132709741592407,
+      "queries": [
+        "popular Motown hits in Detroit 1960-1970",
+        "top R&B songs in Detroit 1963",
+        "songs played during the Detroit riots 1967",
+        "wedding songs popular in 1970",
+        "hits from Cass Tech High School graduation year 1963",
+        "songs about working in factories in the 1960s",
+        "African American artists popular in Detroit 1965",
+        "soul music hits 1965-1970"
+      ]
+    }
+  },
+  "P2": {
+    "profile": {
+      "id": "P2",
+      "name": "Maria Santos",
+      "birth_year": 1950,
+      "hometown": "Los Angeles, California",
+      "cultural_background": "Latino/Mexican American",
+      "life_events": [
+        {
+          "year": 1967,
+          "event": "Participated in East LA walkouts"
+        },
+        {
+          "year": 1970,
+          "event": "Graduated from Cal State LA"
+        },
+        {
+          "year": 1972,
+          "event": "Married Roberto"
+        },
+        {
+          "year": 1975,
+          "event": "First child born"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "La Bamba",
+            "artist": "Ritchie Valens",
+            "year": 1958,
+            "relevance": "A classic Mexican folk song popularized by a Mexican American artist, connecting to Maria's cultural background."
+          },
+          {
+            "rank": 2,
+            "song": "Light My Fire",
+            "artist": "The Doors",
+            "year": 1967,
+            "relevance": "A hit song during the time of the East LA walkouts, reflecting the era's spirit of change and rebellion."
+          },
+          {
+            "rank": 3,
+            "song": "Oye C\u00f3mo Va",
+            "artist": "Santana",
+            "year": 1970,
+            "relevance": "A blend of Latin and rock influences, representing Maria's cultural heritage and the year she graduated."
+          },
+          {
+            "rank": 4,
+            "song": "California Dreamin'",
+            "artist": "The Mamas & the Papas",
+            "year": 1965,
+            "relevance": "A song about California, connecting to Maria's hometown and the 1960s Los Angeles vibe."
+          },
+          {
+            "rank": 5,
+            "song": "Respect",
+            "artist": "Aretha Franklin",
+            "year": 1967,
+            "relevance": "An anthem of empowerment during a time of social change, resonating with Maria's participation in activism."
+          },
+          {
+            "rank": 6,
+            "song": "Brown Eyed Girl",
+            "artist": "Van Morrison",
+            "year": 1967,
+            "relevance": "A popular song from Maria's young adult years, likely familiar and nostalgic."
+          },
+          {
+            "rank": 7,
+            "song": "I Want to Hold Your Hand",
+            "artist": "The Beatles",
+            "year": 1964,
+            "relevance": "A global hit from the Beatles, capturing the excitement of the 1960s music scene."
+          },
+          {
+            "rank": 8,
+            "song": "Unchained Melody",
+            "artist": "The Righteous Brothers",
+            "year": 1965,
+            "relevance": "A romantic classic that may evoke memories of Maria's early relationship with Roberto."
+          },
+          {
+            "rank": 9,
+            "song": "My Girl",
+            "artist": "The Temptations",
+            "year": 1965,
+            "relevance": "A timeless love song that could remind Maria of her courtship years."
+          },
+          {
+            "rank": 10,
+            "song": "Born to Be Wild",
+            "artist": "Steppenwolf",
+            "year": 1968,
+            "relevance": "An iconic song from the late 60s, symbolizing freedom and adventure."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "La Bamba",
+            "prompt": "Did you ever dance to this song at family gatherings or celebrations?"
+          },
+          {
+            "song": "Oye C\u00f3mo Va",
+            "prompt": "This song came out the year you graduated. What do you remember about that time?"
+          },
+          {
+            "song": "Respect",
+            "prompt": "You were involved in the East LA walkouts. How did music like this inspire you?"
+          }
+        ]
+      },
+      "time": 12.810006141662598
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Happy Together",
+            "artist": "The Turtles",
+            "year": 1967,
+            "relevance": "This song was released during Maria's participation in the East LA walkouts, a significant life event. It was a popular and uplifting song that might resonate with the optimism and camaraderie of that time."
+          },
+          {
+            "rank": 2,
+            "song": "Yellow Submarine",
+            "artist": "The Beatles",
+            "year": 1966,
+            "relevance": "The Beatles were globally influential during Maria's young adult years, and this song's whimsical nature might evoke positive memories from her youth."
+          },
+          {
+            "rank": 3,
+            "song": "A Groovy Kind Of Love",
+            "artist": "The Mindbenders",
+            "year": 1966,
+            "relevance": "This romantic song might remind Maria of her early relationship with Roberto, whom she married in 1972."
+          },
+          {
+            "rank": 4,
+            "song": "Hot Fun In The Summertime",
+            "artist": "Sly & The Family Stone",
+            "year": 1969,
+            "relevance": "Released during Maria's college years, this song captures the essence of summer and joy, possibly sparking memories of her time at Cal State LA."
+          },
+          {
+            "rank": 5,
+            "song": "American Pie (Parts I & II)",
+            "artist": "Don McLean",
+            "year": 1972,
+            "relevance": "This iconic song was released the same year Maria got married, potentially linking it to her wedding and the beginning of her family life."
+          },
+          {
+            "rank": 6,
+            "song": "The Long And Winding Road/For You Blue",
+            "artist": "The Beatles",
+            "year": 1970,
+            "relevance": "The reflective nature of this song might resonate with Maria's graduation from Cal State LA, marking the end of an era and the start of a new journey."
+          },
+          {
+            "rank": 7,
+            "song": "I Get Around",
+            "artist": "The Beach Boys",
+            "year": 1964,
+            "relevance": "As a song by a Californian band, it may evoke memories of Maria's teenage years in Los Angeles."
+          },
+          {
+            "rank": 8,
+            "song": "Signs",
+            "artist": "Five Man Electrical Band",
+            "year": 1971,
+            "relevance": "The song's themes of social change and questioning authority might resonate with Maria's involvement in the East LA walkouts."
+          },
+          {
+            "rank": 9,
+            "song": "One Less Bell To Answer",
+            "artist": "The 5th Dimension",
+            "year": 1970,
+            "relevance": "Released around the time of Maria's graduation, this song might evoke feelings of transition and change."
+          },
+          {
+            "rank": 10,
+            "song": "Crocodile Rock",
+            "artist": "Elton John",
+            "year": 1973,
+            "relevance": "This upbeat song was popular shortly after Maria's marriage, potentially reminding her of her early married life."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Happy Together",
+            "prompt": "Do you remember any special moments from the time around the East LA walkouts when this song was popular?"
+          },
+          {
+            "song": "American Pie (Parts I & II)",
+            "prompt": "This song came out the year you got married. What do you remember about your wedding day?"
+          },
+          {
+            "song": "Hot Fun In The Summertime",
+            "prompt": "What are some of your favorite summer memories from your college years?"
+          }
+        ]
+      },
+      "time": 14.509697675704956
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "La Bamba",
+            "artist": "Ritchie Valens",
+            "year": 1959,
+            "relevance": "This song is a classic Mexican folk tune that became a rock and roll hit, connecting Maria to her cultural roots and the vibrant Latino community in Los Angeles."
+          },
+          {
+            "rank": 2,
+            "song": "California Dreamin'",
+            "artist": "The Mamas & The Papas",
+            "year": 1966,
+            "relevance": "A song that captures the spirit of California in the 1960s, reminding Maria of her teenage years in Los Angeles during a time of cultural change."
+          },
+          {
+            "rank": 3,
+            "song": "Spanish Harlem",
+            "artist": "Aretha Franklin",
+            "year": 1971,
+            "relevance": "This song's soulful rendition by Aretha Franklin may resonate with Maria's cultural background and her experiences in the Latino community."
+          },
+          {
+            "rank": 4,
+            "song": "Wedding Bell Blues",
+            "artist": "The 5th Dimension",
+            "year": 1969,
+            "relevance": "Released around the time of Maria's marriage to Roberto, this song can evoke memories of her wedding and early married life."
+          },
+          {
+            "rank": 5,
+            "song": "MacArthur Park",
+            "artist": "Richard Harris",
+            "year": 1968,
+            "relevance": "A popular song during Maria's college years, potentially bringing back memories of her time at Cal State LA."
+          },
+          {
+            "rank": 6,
+            "song": "La Bamba",
+            "artist": "Los Lobos",
+            "year": 1987,
+            "relevance": "A modern rendition of a culturally significant song, connecting Maria to both her heritage and a later period in her life."
+          },
+          {
+            "rank": 7,
+            "song": "California Girls",
+            "artist": "The Beach Boys",
+            "year": 1965,
+            "relevance": "This upbeat song about California life may remind Maria of her teenage years and the sunny lifestyle of Los Angeles."
+          },
+          {
+            "rank": 8,
+            "song": "The Wedding",
+            "artist": "June Valli",
+            "year": 1959,
+            "relevance": "A song that can evoke the romantic and joyful memories of Maria's wedding to Roberto."
+          },
+          {
+            "rank": 9,
+            "song": "Out Of Limits",
+            "artist": "The Marketts",
+            "year": 1964,
+            "relevance": "An instrumental surf rock hit that captures the essence of 1960s California, aligning with Maria's teenage years."
+          },
+          {
+            "rank": 10,
+            "song": "MacArthur Park",
+            "artist": "Donna Summer",
+            "year": 1979,
+            "relevance": "A disco version of a familiar song, linking Maria to the late 1970s and her life as a young mother."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "La Bamba",
+            "prompt": "Do you remember dancing to 'La Bamba'? It\u2019s such a lively tune!"
+          },
+          {
+            "song": "California Dreamin'",
+            "prompt": "This song talks about California. What do you remember about living in Los Angeles during the 60s?"
+          },
+          {
+            "song": "Wedding Bell Blues",
+            "prompt": "This song came out around the time you got married. What was your wedding day like?"
+          }
+        ]
+      },
+      "time": 16.33425211906433,
+      "queries": [
+        "popular Chicano rock songs in Los Angeles 1965-1975",
+        "top Latin hits in California 1967",
+        "songs associated with the East LA walkouts 1967",
+        "graduation year hits in Los Angeles 1970",
+        "wedding songs popular in Mexican American communities 1972",
+        "top Billboard hits in Los Angeles 1972",
+        "songs celebrating the birth of a child in Latino culture 1975",
+        "classic Mexican American artists from Los Angeles 1965-1975"
+      ]
+    }
+  },
+  "P3": {
+    "profile": {
+      "id": "P3",
+      "name": "Soo-Jin Park",
+      "birth_year": 1955,
+      "hometown": "San Francisco, California",
+      "cultural_background": "Korean American",
+      "life_events": [
+        {
+          "year": 1973,
+          "event": "Immigrated to San Francisco from Seoul"
+        },
+        {
+          "year": 1975,
+          "event": "Graduated from Lowell High School"
+        },
+        {
+          "year": 1978,
+          "event": "Married Young-Ho at a Korean church"
+        },
+        {
+          "year": 1980,
+          "event": "Opened a small grocery store"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Yesterday",
+            "artist": "The Beatles",
+            "year": 1965,
+            "relevance": "A globally popular song during Soo-Jin's teenage years, likely heard during her time in Korea and after moving to the U.S."
+          },
+          {
+            "rank": 2,
+            "song": "My Girl",
+            "artist": "The Temptations",
+            "year": 1965,
+            "relevance": "A classic Motown hit that would have been popular on American radio during Soo-Jin's early years in San Francisco."
+          },
+          {
+            "rank": 3,
+            "song": "Top of the World",
+            "artist": "The Carpenters",
+            "year": 1972,
+            "relevance": "A feel-good song that was popular when Soo-Jin was adapting to life in America, possibly resonating with her sense of optimism."
+          },
+          {
+            "rank": 4,
+            "song": "Bridge Over Troubled Water",
+            "artist": "Simon & Garfunkel",
+            "year": 1970,
+            "relevance": "A comforting and widely loved song during Soo-Jin's early adult years, providing emotional support."
+          },
+          {
+            "rank": 5,
+            "song": "Dancing Queen",
+            "artist": "ABBA",
+            "year": 1976,
+            "relevance": "A global hit that would have been played at social gatherings, possibly reminding Soo-Jin of joyful moments."
+          },
+          {
+            "rank": 6,
+            "song": "Hotel California",
+            "artist": "Eagles",
+            "year": 1977,
+            "relevance": "A song that captures the California experience during Soo-Jin's time in San Francisco."
+          },
+          {
+            "rank": 7,
+            "song": "Imagine",
+            "artist": "John Lennon",
+            "year": 1971,
+            "relevance": "A song with universal themes of peace and hope, aligning with Soo-Jin's new life in America."
+          },
+          {
+            "rank": 8,
+            "song": "American Pie",
+            "artist": "Don McLean",
+            "year": 1971,
+            "relevance": "A nostalgic song reflecting on American culture, relevant to Soo-Jin's cultural integration."
+          },
+          {
+            "rank": 9,
+            "song": "I Will Survive",
+            "artist": "Gloria Gaynor",
+            "year": 1978,
+            "relevance": "An empowering anthem released the year of Soo-Jin's marriage, symbolizing resilience."
+          },
+          {
+            "rank": 10,
+            "song": "Let It Be",
+            "artist": "The Beatles",
+            "year": 1970,
+            "relevance": "A soothing song offering reassurance during times of change, like Soo-Jin's immigration."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Yesterday",
+            "prompt": "Do you remember any favorite songs from your teenage years in Korea?"
+          },
+          {
+            "song": "Top of the World",
+            "prompt": "What was it like when you first moved to San Francisco? Did you have a favorite place to listen to music?"
+          },
+          {
+            "song": "I Will Survive",
+            "prompt": "This song came out the year you got married. What do you remember about your wedding day?"
+          }
+        ]
+      },
+      "time": 8.448320865631104
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "American Pie (Parts I & II)",
+            "artist": "Don McLean",
+            "year": 1972,
+            "relevance": "This song was a major hit during Soo-Jin's late teenage years, providing a cultural touchstone that may evoke memories of her early years in America."
+          },
+          {
+            "rank": 2,
+            "song": "Dancing Queen",
+            "artist": "ABBA",
+            "year": 1977,
+            "relevance": "Released during Soo-Jin's twenties, this upbeat and popular song might remind her of joyful moments and social gatherings in San Francisco."
+          },
+          {
+            "rank": 3,
+            "song": "Delta Dawn",
+            "artist": "Helen Reddy",
+            "year": 1973,
+            "relevance": "This song's release coincides with Soo-Jin's early years in America, possibly connecting her to the time she graduated from high school."
+          },
+          {
+            "rank": 4,
+            "song": "Get Down Tonight",
+            "artist": "KC And The Sunshine Band",
+            "year": 1975,
+            "relevance": "This disco hit was popular around the time Soo-Jin got married, potentially bringing back memories of celebrations and dancing."
+          },
+          {
+            "rank": 5,
+            "song": "Bad Blood",
+            "artist": "Neil Sedaka",
+            "year": 1975,
+            "relevance": "A chart-topping song during the mid-70s, it may resonate with Soo-Jin's experiences as a newlywed and young business owner."
+          },
+          {
+            "rank": 6,
+            "song": "It's Still Rock And Roll To Me",
+            "artist": "Billy Joel",
+            "year": 1980,
+            "relevance": "Released the same year Soo-Jin opened her grocery store, this song might connect to her entrepreneurial spirit and new beginnings."
+          },
+          {
+            "rank": 7,
+            "song": "Night Fever",
+            "artist": "Bee Gees",
+            "year": 1978,
+            "relevance": "A disco classic from the late 70s, it could evoke memories of social events and the vibrant cultural scene in San Francisco."
+          },
+          {
+            "rank": 8,
+            "song": "You Should Be Dancing",
+            "artist": "Bee Gees",
+            "year": 1976,
+            "relevance": "This energetic track may remind Soo-Jin of the lively atmosphere of the 70s and her life as a young adult in a bustling city."
+          },
+          {
+            "rank": 9,
+            "song": "Some Kind Of Wonderful",
+            "artist": "Grand Funk",
+            "year": 1975,
+            "relevance": "Popular during her mid-20s, this song might bring back personal memories of happiness and contentment."
+          },
+          {
+            "rank": 10,
+            "song": "MacArthur Park",
+            "artist": "Donna Summer",
+            "year": 1979,
+            "relevance": "A hit from the late 70s, this song could resonate with Soo-Jin's experiences of cultural integration and personal growth."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "American Pie (Parts I & II)",
+            "prompt": "Do you remember hearing this song when you first moved to San Francisco? What was that time like for you?"
+          },
+          {
+            "song": "Dancing Queen",
+            "prompt": "Did you ever dance to this song at parties or gatherings? What do you remember about those times?"
+          },
+          {
+            "song": "It's Still Rock And Roll To Me",
+            "prompt": "This song came out the year you opened your grocery store. What do you recall about starting your business?"
+          }
+        ]
+      },
+      "time": 10.116441011428833
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "San Francisco (Be Sure To Wear Flowers In Your Hair)",
+            "artist": "Scott McKenzie",
+            "year": 1967,
+            "relevance": "This song is iconic for San Francisco, where Soo-Jin has lived since immigrating, and it may evoke memories of her early years in the city."
+          },
+          {
+            "rank": 2,
+            "song": "California Dreamin'",
+            "artist": "The Mamas & The Papas",
+            "year": 1966,
+            "relevance": "A classic song about California, it connects to Soo-Jin's life in San Francisco and may remind her of her aspirations and experiences after moving to the US."
+          },
+          {
+            "rank": 3,
+            "song": "Dancing Queen",
+            "artist": "ABBA",
+            "year": 1977,
+            "relevance": "Released during Soo-Jin's reminiscence bump, this upbeat song could evoke memories of social events and celebrations during her youth."
+          },
+          {
+            "rank": 4,
+            "song": "Boogie Nights",
+            "artist": "Heatwave",
+            "year": 1978,
+            "relevance": "This song was popular around the time Soo-Jin got married and opened her grocery store, potentially bringing back memories of those joyful milestones."
+          },
+          {
+            "rank": 5,
+            "song": "Night Fever",
+            "artist": "Bee Gees",
+            "year": 1978,
+            "relevance": "As a hit song from the late 70s, it may remind Soo-Jin of the vibrant cultural scene in San Francisco during her early years of marriage."
+          },
+          {
+            "rank": 6,
+            "song": "Let It Be",
+            "artist": "The Beatles",
+            "year": 1970,
+            "relevance": "A timeless song that could provide comfort and peace, possibly resonating with Soo-Jin's experiences of adapting to a new life in America."
+          },
+          {
+            "rank": 7,
+            "song": "December, 1963 (Oh, What a Night)",
+            "artist": "The 4 Seasons",
+            "year": 1976,
+            "relevance": "This nostalgic song might evoke memories of special nights and events during Soo-Jin's young adulthood."
+          },
+          {
+            "rank": 8,
+            "song": "(Just Like) Starting Over",
+            "artist": "John Lennon",
+            "year": 1981,
+            "relevance": "Released shortly after Soo-Jin opened her grocery store, this song may reflect her feelings of embarking on new beginnings."
+          },
+          {
+            "rank": 9,
+            "song": "Boogie Fever",
+            "artist": "The Sylvers",
+            "year": 1976,
+            "relevance": "A lively song from Soo-Jin's reminiscence bump, it could bring back memories of dancing and social gatherings."
+          },
+          {
+            "rank": 10,
+            "song": "Signs",
+            "artist": "Five Man Electrical Band",
+            "year": 1971,
+            "relevance": "This song might resonate with Soo-Jin's experiences and the social changes during the early years of her life in America."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "San Francisco (Be Sure To Wear Flowers In Your Hair)",
+            "prompt": "Do you remember what it was like when you first arrived in San Francisco?"
+          },
+          {
+            "song": "Dancing Queen",
+            "prompt": "Did you enjoy dancing or going to parties when you were younger?"
+          },
+          {
+            "song": "(Just Like) Starting Over",
+            "prompt": "What was it like opening your grocery store? How did it feel to start something new?"
+          }
+        ]
+      },
+      "time": 16.285459995269775,
+      "queries": [
+        "popular songs in San Francisco 1970-1980",
+        "Korean pop songs popular in Seoul 1970-1973",
+        "top hits on San Francisco radio 1973",
+        "graduation songs from 1975",
+        "wedding songs popular in Korean American communities 1978",
+        "top Billboard hits 1978",
+        "songs about starting a business 1980",
+        "popular Korean American artists 1970-1980"
+      ]
+    }
+  },
+  "P4": {
+    "profile": {
+      "id": "P4",
+      "name": "Gloria Reyes",
+      "birth_year": 1948,
+      "hometown": "Chicago, Illinois",
+      "cultural_background": "Filipino American",
+      "life_events": [
+        {
+          "year": 1965,
+          "event": "Moved to Chicago from Manila"
+        },
+        {
+          "year": 1968,
+          "event": "Became a nurse at Cook County Hospital"
+        },
+        {
+          "year": 1971,
+          "event": "Married Eduardo"
+        },
+        {
+          "year": 1976,
+          "event": "Became a US citizen"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Yesterday",
+            "artist": "The Beatles",
+            "year": 1965,
+            "relevance": "A popular song during the year Gloria moved to Chicago, which might evoke memories of her transition to a new life in the US."
+          },
+          {
+            "rank": 2,
+            "song": "My Girl",
+            "artist": "The Temptations",
+            "year": 1965,
+            "relevance": "A classic hit from the mid-60s that was very popular in America, possibly heard frequently in Chicago."
+          },
+          {
+            "rank": 3,
+            "song": "Stop! In the Name of Love",
+            "artist": "The Supremes",
+            "year": 1965,
+            "relevance": "A Motown hit that was part of the vibrant music scene during Gloria's early years in Chicago."
+          },
+          {
+            "rank": 4,
+            "song": "I Got You (I Feel Good)",
+            "artist": "James Brown",
+            "year": 1965,
+            "relevance": "An energetic song that was popular in the mid-60s, likely played on the radio during her nursing days."
+          },
+          {
+            "rank": 5,
+            "song": "A Hard Day's Night",
+            "artist": "The Beatles",
+            "year": 1964,
+            "relevance": "Reflects the British Invasion era, which was a significant cultural phenomenon during her young adulthood."
+          },
+          {
+            "rank": 6,
+            "song": "Dahil Sa Iyo",
+            "artist": "Pilar Manalo Danao",
+            "year": 1964,
+            "relevance": "A popular Filipino song that may remind Gloria of her cultural roots and family in Manila."
+          },
+          {
+            "rank": 7,
+            "song": "Unchained Melody",
+            "artist": "The Righteous Brothers",
+            "year": 1965,
+            "relevance": "A timeless love song that could resonate with her memories of meeting Eduardo."
+          },
+          {
+            "rank": 8,
+            "song": "The Sound of Silence",
+            "artist": "Simon & Garfunkel",
+            "year": 1966,
+            "relevance": "A reflective song that was part of the folk music movement, popular during her early years in the US."
+          },
+          {
+            "rank": 9,
+            "song": "Aquarius/Let the Sunshine In",
+            "artist": "The 5th Dimension",
+            "year": 1969,
+            "relevance": "Captures the spirit of the late 60s, a time of cultural change during her young adult years."
+          },
+          {
+            "rank": 10,
+            "song": "Sittin' On The Dock of the Bay",
+            "artist": "Otis Redding",
+            "year": 1968,
+            "relevance": "A soulful classic that might remind her of her early days working as a nurse in Chicago."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Yesterday",
+            "prompt": "Do you remember what it was like when you first moved to Chicago?"
+          },
+          {
+            "song": "Dahil Sa Iyo",
+            "prompt": "Does this song remind you of any family gatherings or special occasions in Manila?"
+          },
+          {
+            "song": "Unchained Melody",
+            "prompt": "What was it like when you and Eduardo first met? Do you have a favorite memory together?"
+          }
+        ]
+      },
+      "time": 9.592649936676025
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "The Long And Winding Road/For You Blue",
+            "artist": "The Beatles",
+            "year": 1970,
+            "relevance": "This song was released during a significant time in Gloria's life when she was establishing her career and family in Chicago. The Beatles were globally popular, and their music would likely resonate with her memories of that era."
+          },
+          {
+            "rank": 2,
+            "song": "December, 1963 (Oh, What a Night)",
+            "artist": "The 4 Seasons",
+            "year": 1976,
+            "relevance": "Released the same year Gloria became a US citizen, this upbeat song might evoke positive memories of achievement and celebration."
+          },
+          {
+            "rank": 3,
+            "song": "Sing",
+            "artist": "Carpenters",
+            "year": 1973,
+            "relevance": "The Carpenters' music is soothing and was popular during the early 1970s when Gloria was settling into her new life in the US, possibly providing comfort and familiarity."
+          },
+          {
+            "rank": 4,
+            "song": "American Pie (Parts I & II)",
+            "artist": "Don McLean",
+            "year": 1972,
+            "relevance": "A nostalgic song from the early 1970s that might remind Gloria of her early years in America and her cultural adaptation journey."
+          },
+          {
+            "rank": 5,
+            "song": "The Night They Drove Old Dixie Down",
+            "artist": "Joan Baez",
+            "year": 1971,
+            "relevance": "Released the same year Gloria got married, this song could be tied to memories of her wedding and early married life."
+          },
+          {
+            "rank": 6,
+            "song": "Hot Fun In The Summertime",
+            "artist": "Sly & The Family Stone",
+            "year": 1969,
+            "relevance": "This song captures the essence of summer in the late 60s, a time when Gloria was adapting to life in Chicago and enjoying her youth."
+          },
+          {
+            "rank": 7,
+            "song": "I Know A Place",
+            "artist": "Petula Clark",
+            "year": 1965,
+            "relevance": "Released the same year Gloria moved to Chicago, this song might evoke memories of her transition and exploration of a new city."
+          },
+          {
+            "rank": 8,
+            "song": "I Get Around",
+            "artist": "The Beach Boys",
+            "year": 1964,
+            "relevance": "A popular song during the time Gloria was likely experiencing American culture for the first time, connecting her to the vibrant music scene of the 60s."
+          },
+          {
+            "rank": 9,
+            "song": "Touch Me",
+            "artist": "The Doors",
+            "year": 1969,
+            "relevance": "This song was part of the cultural backdrop during Gloria's early years in the US, representing the dynamic and changing music landscape."
+          },
+          {
+            "rank": 10,
+            "song": "1-2-3",
+            "artist": "Len Barry",
+            "year": 1965,
+            "relevance": "Released in the year Gloria moved to the US, this song might evoke memories of her first experiences and adjustments in a new country."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "The Long And Winding Road/For You Blue",
+            "prompt": "Do you remember listening to The Beatles when you were working at the hospital? What were some of your favorite songs?"
+          },
+          {
+            "song": "December, 1963 (Oh, What a Night)",
+            "prompt": "This song came out the year you became a US citizen. How did you celebrate that achievement?"
+          },
+          {
+            "song": "I Know A Place",
+            "prompt": "When you first moved to Chicago, what places did you enjoy exploring in the city?"
+          }
+        ]
+      },
+      "time": 11.968156337738037
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Saturday In The Park",
+            "artist": "Chicago",
+            "year": 1972,
+            "relevance": "This song is by the band Chicago, which shares the name of Gloria's hometown, creating a strong geographical connection. Released during her reminiscence bump, it may evoke memories of her early years in Chicago."
+          },
+          {
+            "rank": 2,
+            "song": "The Night Chicago Died",
+            "artist": "Paper Lace",
+            "year": 1974,
+            "relevance": "Although released slightly outside her reminiscence bump, this song's title references Chicago, potentially triggering memories of her life there."
+          },
+          {
+            "rank": 3,
+            "song": "Just You 'n' Me",
+            "artist": "Chicago",
+            "year": 1973,
+            "relevance": "Another song by Chicago, released during her reminiscence bump, likely to resonate with her experiences and emotions from that era."
+          },
+          {
+            "rank": 4,
+            "song": "Baby, What A Big Surprise",
+            "artist": "Chicago",
+            "year": 1977,
+            "relevance": "Released shortly after her reminiscence bump, this song by Chicago may bring back memories of her early years of marriage with Eduardo."
+          },
+          {
+            "rank": 5,
+            "song": "Rose Garden",
+            "artist": "Lynn Anderson",
+            "year": 1971,
+            "relevance": "This song was popular around the time Gloria got married, potentially linking to the joy and optimism of that period."
+          },
+          {
+            "rank": 6,
+            "song": "Wedding Bell Blues",
+            "artist": "The 5th Dimension",
+            "year": 1969,
+            "relevance": "Released around the time of her marriage, this song may evoke memories of her wedding and early married life."
+          },
+          {
+            "rank": 7,
+            "song": "The Wedding",
+            "artist": "June Valli",
+            "year": 1960,
+            "relevance": "Though older, the theme of this song could resonate with her memories of getting married to Eduardo."
+          },
+          {
+            "rank": 8,
+            "song": "Dominique",
+            "artist": "The Singing Nun (Soeur Sourire)",
+            "year": 1964,
+            "relevance": "This song was popular just before she moved to Chicago, possibly reminding her of her life in Manila."
+          },
+          {
+            "rank": 9,
+            "song": "Living In America",
+            "artist": "James Brown",
+            "year": 1986,
+            "relevance": "Although outside her reminiscence bump, this song celebrates American life and may connect with her experience of becoming a US citizen."
+          },
+          {
+            "rank": 10,
+            "song": "You're The Inspiration",
+            "artist": "Chicago",
+            "year": 1985,
+            "relevance": "A later song by Chicago, it may still resonate emotionally, especially given her connection to the city."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Saturday In The Park",
+            "prompt": "Do you remember any special days spent in Chicago parks? What did you enjoy doing there?"
+          },
+          {
+            "song": "Rose Garden",
+            "prompt": "What was your wedding day like? Did you have a favorite flower or song from that time?"
+          },
+          {
+            "song": "Dominique",
+            "prompt": "What do you remember about your life in Manila before moving to Chicago?"
+          }
+        ]
+      },
+      "time": 17.0552499294281,
+      "queries": [
+        "popular songs in Chicago 1963-1973",
+        "Filipino American music hits 1963-1973",
+        "top songs in Manila before 1965",
+        "wedding songs popular in Chicago 1971",
+        "hits on Chicago radio stations 1968",
+        "songs about becoming a US citizen 1976",
+        "nurse-themed songs 1968",
+        "Filipino artists popular in the US 1963-1973"
+      ]
+    }
+  },
+  "P5": {
+    "profile": {
+      "id": "P5",
+      "name": "Robert Johnson",
+      "birth_year": 1940,
+      "hometown": "Memphis, Tennessee",
+      "cultural_background": "African American",
+      "life_events": [
+        {
+          "year": 1958,
+          "event": "Graduated from Booker T. Washington High School"
+        },
+        {
+          "year": 1960,
+          "event": "Participated in Memphis sit-ins"
+        },
+        {
+          "year": 1963,
+          "event": "Married Louise"
+        },
+        {
+          "year": 1968,
+          "event": "Witnessed MLK assassination in Memphis"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Sitting on the Dock of the Bay",
+            "artist": "Otis Redding",
+            "year": 1968,
+            "relevance": "This song was released shortly before the assassination of MLK, a pivotal moment in Robert's life, and reflects the soul music of Memphis."
+          },
+          {
+            "rank": 2,
+            "song": "Respect",
+            "artist": "Aretha Franklin",
+            "year": 1967,
+            "relevance": "A powerful anthem of the Civil Rights Movement, which Robert was actively involved in during the Memphis sit-ins."
+          },
+          {
+            "rank": 3,
+            "song": "I Got You (I Feel Good)",
+            "artist": "James Brown",
+            "year": 1965,
+            "relevance": "James Brown's music was influential in the African American community and reflects the energy of the era."
+          },
+          {
+            "rank": 4,
+            "song": "Stand By Me",
+            "artist": "Ben E. King",
+            "year": 1961,
+            "relevance": "A timeless classic that may remind Robert of his early years of marriage with Louise."
+          },
+          {
+            "rank": 5,
+            "song": "Chain of Fools",
+            "artist": "Aretha Franklin",
+            "year": 1967,
+            "relevance": "Another hit by Aretha Franklin, capturing the essence of soul music during Robert's reminiscence bump."
+          },
+          {
+            "rank": 6,
+            "song": "Try a Little Tenderness",
+            "artist": "Otis Redding",
+            "year": 1966,
+            "relevance": "A soulful ballad from a Memphis artist, connecting Robert to his hometown's rich musical heritage."
+          },
+          {
+            "rank": 7,
+            "song": "My Girl",
+            "artist": "The Temptations",
+            "year": 1965,
+            "relevance": "A Motown classic that could evoke memories of young love and his relationship with Louise."
+          },
+          {
+            "rank": 8,
+            "song": "A Change Is Gonna Come",
+            "artist": "Sam Cooke",
+            "year": 1964,
+            "relevance": "An anthem of hope and change during the Civil Rights Movement, which Robert was a part of."
+          },
+          {
+            "rank": 9,
+            "song": "Soul Man",
+            "artist": "Sam & Dave",
+            "year": 1967,
+            "relevance": "A song that embodies the spirit and resilience of the African American community during the 1960s."
+          },
+          {
+            "rank": 10,
+            "song": "In the Midnight Hour",
+            "artist": "Wilson Pickett",
+            "year": 1965,
+            "relevance": "A classic soul hit that captures the vibrant music scene of the 1960s."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Sitting on the Dock of the Bay",
+            "prompt": "Do you remember where you were when you first heard this song? What memories does it bring back?"
+          },
+          {
+            "song": "Respect",
+            "prompt": "This song was a big part of the Civil Rights Movement. Can you tell me about your experiences during that time?"
+          },
+          {
+            "song": "Stand By Me",
+            "prompt": "Does this song remind you of any special moments with Louise?"
+          }
+        ]
+      },
+      "time": 10.353290796279907
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Moody River",
+            "artist": "Pat Boone",
+            "year": 1961,
+            "relevance": "This song was a number one hit during Robert's reminiscence bump and might evoke memories from his early adulthood in Memphis."
+          },
+          {
+            "rank": 2,
+            "song": "I Get Around",
+            "artist": "The Beach Boys",
+            "year": 1964,
+            "relevance": "This upbeat song was popular during Robert's mid-20s and could remind him of the vibrant cultural changes of the 1960s."
+          },
+          {
+            "rank": 3,
+            "song": "Happy Together",
+            "artist": "The Turtles",
+            "year": 1967,
+            "relevance": "Released the year before the MLK assassination, this song could evoke memories of a hopeful time before a significant life event."
+          },
+          {
+            "rank": 4,
+            "song": "A Teenager In Love",
+            "artist": "Dion & The Belmonts",
+            "year": 1959,
+            "relevance": "This song might remind Robert of his teenage years and early romance, possibly connecting to his marriage to Louise in 1963."
+          },
+          {
+            "rank": 5,
+            "song": "Remember When",
+            "artist": "The Platters",
+            "year": 1959,
+            "relevance": "The Platters were popular in the late 50s, and this song could resonate with Robert's cultural background and memories from Memphis."
+          },
+          {
+            "rank": 6,
+            "song": "Five O'Clock World",
+            "artist": "The Vogues",
+            "year": 1966,
+            "relevance": "This song reflects the working world during Robert's adulthood, possibly connecting to his experiences in the 1960s."
+          },
+          {
+            "rank": 7,
+            "song": "Poor Side Of Town",
+            "artist": "Johnny Rivers",
+            "year": 1966,
+            "relevance": "This song may resonate with Robert's experiences and memories of socioeconomic challenges in Memphis."
+          },
+          {
+            "rank": 8,
+            "song": "Chantilly Lace",
+            "artist": "Big Bopper",
+            "year": 1958,
+            "relevance": "A fun and lively song from Robert's teenage years, potentially evoking joyful memories from high school."
+          },
+          {
+            "rank": 9,
+            "song": "Red River Rock",
+            "artist": "Johnny And The Hurricanes",
+            "year": 1959,
+            "relevance": "An instrumental hit that might bring back memories of dances and social gatherings during Robert's youth."
+          },
+          {
+            "rank": 10,
+            "song": "Sweet Little Rock And Roller",
+            "artist": "Chuck Berry",
+            "year": 1958,
+            "relevance": "Chuck Berry's music was influential in the 50s and 60s and might connect with Robert's cultural background."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Moody River",
+            "prompt": "Do you remember where you were when you first heard this song?"
+          },
+          {
+            "song": "A Teenager In Love",
+            "prompt": "Did this song remind you of anyone special from your teenage years?"
+          },
+          {
+            "song": "Happy Together",
+            "prompt": "What were some of your happiest memories from the 1960s?"
+          }
+        ]
+      },
+      "time": 9.196681022644043
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Soul Man",
+            "artist": "Sam & Dave",
+            "year": 1967,
+            "relevance": "This song is a classic soul hit from the late 1960s, aligning with Robert's cultural background and the civil rights era, which was a significant part of his life."
+          },
+          {
+            "rank": 2,
+            "song": "In The Ghetto",
+            "artist": "Elvis Presley",
+            "year": 1969,
+            "relevance": "This song reflects on social issues prevalent in Memphis during Robert's lifetime, especially relevant given his experience witnessing MLK's assassination."
+          },
+          {
+            "rank": 3,
+            "song": "Memphis",
+            "artist": "Johnny Rivers",
+            "year": 1964,
+            "relevance": "The song's title and theme are directly connected to Robert's hometown, potentially evoking memories of his early life in Memphis."
+          },
+          {
+            "rank": 4,
+            "song": "Ruby Baby",
+            "artist": "Dion",
+            "year": 1963,
+            "relevance": "Released in the year Robert got married, this song might remind him of his early years with his wife, Louise."
+          },
+          {
+            "rank": 5,
+            "song": "The Wedding",
+            "artist": "June Valli",
+            "year": 1960,
+            "relevance": "This song's theme of weddings could bring back memories of Robert's marriage to Louise."
+          },
+          {
+            "rank": 6,
+            "song": "Good Luck Charm",
+            "artist": "Elvis Presley",
+            "year": 1962,
+            "relevance": "A popular song during Robert's young adult years, it could evoke fond memories from his early married life."
+          },
+          {
+            "rank": 7,
+            "song": "Crying In The Chapel",
+            "artist": "Elvis Presley With The Jordanaires",
+            "year": 1965,
+            "relevance": "This song's spiritual theme may resonate with Robert's experiences and memories of community gatherings."
+          },
+          {
+            "rank": 8,
+            "song": "Where Were You (On Our Wedding Day)?",
+            "artist": "Lloyd Price",
+            "year": 1959,
+            "relevance": "The song's theme directly relates to weddings, relevant to Robert's marriage in 1963."
+          },
+          {
+            "rank": 9,
+            "song": "Little Bit O' Soul",
+            "artist": "The Music Explosion",
+            "year": 1967,
+            "relevance": "A soul song from the late 60s, it aligns with Robert's cultural background and could evoke memories of the era."
+          },
+          {
+            "rank": 10,
+            "song": "Try Me",
+            "artist": "James Brown And The Famous Flames",
+            "year": 1959,
+            "relevance": "An early soul hit that might remind Robert of his teenage years and the music he enjoyed during that time."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Soul Man",
+            "prompt": "Do you remember any events or gatherings during the civil rights movement when this song was popular?"
+          },
+          {
+            "song": "The Wedding",
+            "prompt": "What do you remember about your wedding day with Louise? Did you have a special song?"
+          },
+          {
+            "song": "Memphis",
+            "prompt": "What are some of your favorite memories from living in Memphis?"
+          }
+        ]
+      },
+      "time": 16.598746299743652,
+      "queries": [
+        "popular R&B songs in Memphis 1955-1965",
+        "top blues hits in Memphis 1958",
+        "songs played during Memphis sit-ins 1960",
+        "wedding songs popular in Memphis 1963",
+        "soul music hits in the African American community 1960-1965",
+        "songs associated with the civil rights movement in Memphis 1960-1968",
+        "top hits on Memphis radio stations 1958",
+        "popular African American artists in Memphis 1963"
+      ]
+    }
+  },
+  "P6": {
+    "profile": {
+      "id": "P6",
+      "name": "Carmen Delgado",
+      "birth_year": 1958,
+      "hometown": "New York City, New York",
+      "cultural_background": "Latino/Puerto Rican American",
+      "life_events": [
+        {
+          "year": 1975,
+          "event": "Graduated from Julia de Burgos High School in El Barrio"
+        },
+        {
+          "year": 1976,
+          "event": "Started working in the garment district"
+        },
+        {
+          "year": 1980,
+          "event": "Married Luis at St. Cecilia's Church"
+        },
+        {
+          "year": 1983,
+          "event": "First child born"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Oye Como Va",
+            "artist": "Santana",
+            "year": 1970,
+            "relevance": "This song blends Latin rhythms with rock, reflecting Carmen's cultural background and the vibrant New York music scene of her youth."
+          },
+          {
+            "rank": 2,
+            "song": "El Cantante",
+            "artist": "H\u00e9ctor Lavoe",
+            "year": 1978,
+            "relevance": "A classic salsa hit that would resonate with Carmen's Puerto Rican heritage, popular during her early adulthood."
+          },
+          {
+            "rank": 3,
+            "song": "I Will Survive",
+            "artist": "Gloria Gaynor",
+            "year": 1978,
+            "relevance": "An empowering anthem from the disco era, reflecting the resilience and spirit of the time."
+          },
+          {
+            "rank": 4,
+            "song": "Pedro Navaja",
+            "artist": "Rub\u00e9n Blades",
+            "year": 1978,
+            "relevance": "A storytelling salsa song that captures the essence of urban life, familiar to Carmen's New York City experience."
+          },
+          {
+            "rank": 5,
+            "song": "La Murga",
+            "artist": "Willie Col\u00f3n & H\u00e9ctor Lavoe",
+            "year": 1972,
+            "relevance": "A festive salsa tune that was a staple at gatherings and celebrations in Latino communities."
+          },
+          {
+            "rank": 6,
+            "song": "Stayin' Alive",
+            "artist": "Bee Gees",
+            "year": 1977,
+            "relevance": "A disco classic that was part of the soundtrack of the late 70s, a time when Carmen was in her 20s."
+          },
+          {
+            "rank": 7,
+            "song": "B\u00e9same Mucho",
+            "artist": "Consuelo Vel\u00e1zquez",
+            "year": 1940,
+            "relevance": "A timeless Latin ballad that may have been played in her household growing up."
+          },
+          {
+            "rank": 8,
+            "song": "Ain't No Mountain High Enough",
+            "artist": "Marvin Gaye & Tammi Terrell",
+            "year": 1967,
+            "relevance": "A Motown hit that was widely popular and played during her teenage years."
+          },
+          {
+            "rank": 9,
+            "song": "Hotel California",
+            "artist": "Eagles",
+            "year": 1977,
+            "relevance": "A rock classic that was part of the cultural landscape during Carmen's young adulthood."
+          },
+          {
+            "rank": 10,
+            "song": "Mi Gente",
+            "artist": "H\u00e9ctor Lavoe",
+            "year": 1975,
+            "relevance": "An anthem celebrating Puerto Rican identity and community, likely resonating with Carmen's cultural pride."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Oye Como Va",
+            "prompt": "Do you remember dancing to this song at parties or gatherings in New York?"
+          },
+          {
+            "song": "El Cantante",
+            "prompt": "What memories come to mind when you hear this song? Did you have a favorite place to listen to music in El Barrio?"
+          },
+          {
+            "song": "I Will Survive",
+            "prompt": "This song is about resilience. Can you think of a time when you felt particularly strong or proud?"
+          }
+        ]
+      },
+      "time": 10.193294048309326
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "December, 1963 (Oh, What a Night)",
+            "artist": "The 4 Seasons",
+            "year": 1976,
+            "relevance": "This song was popular during Carmen's early adult years when she started working in the garment district, a significant life change."
+          },
+          {
+            "rank": 2,
+            "song": "Dancing Queen",
+            "artist": "ABBA",
+            "year": 1977,
+            "relevance": "A major hit during Carmen's young adulthood, likely played at social gatherings and events she attended."
+          },
+          {
+            "rank": 3,
+            "song": "Last Dance",
+            "artist": "Donna Summer",
+            "year": 1978,
+            "relevance": "A popular disco song during Carmen's early 20s, possibly reminding her of nights out dancing."
+          },
+          {
+            "rank": 4,
+            "song": "It's Still Rock And Roll To Me",
+            "artist": "Billy Joel",
+            "year": 1980,
+            "relevance": "Released the same year Carmen got married, this song may evoke memories of her wedding and early married life."
+          },
+          {
+            "rank": 5,
+            "song": "Good Times",
+            "artist": "Chic",
+            "year": 1979,
+            "relevance": "A disco classic from Carmen's young adulthood, potentially linked to joyful memories of socializing."
+          },
+          {
+            "rank": 6,
+            "song": "Three Times A Lady",
+            "artist": "Commodores",
+            "year": 1978,
+            "relevance": "A romantic ballad that might remind Carmen of her relationship with her husband, Luis."
+          },
+          {
+            "rank": 7,
+            "song": "Bad Blood",
+            "artist": "Neil Sedaka",
+            "year": 1975,
+            "relevance": "Released around the time Carmen graduated high school, marking a transitional period in her life."
+          },
+          {
+            "rank": 8,
+            "song": "American Pie (Parts I & II)",
+            "artist": "Don McLean",
+            "year": 1972,
+            "relevance": "A nostalgic song from Carmen's teenage years, likely familiar and comforting."
+          },
+          {
+            "rank": 9,
+            "song": "Black & White",
+            "artist": "Three Dog Night",
+            "year": 1972,
+            "relevance": "A song from Carmen's late teens that might evoke memories of her cultural and social environment."
+          },
+          {
+            "rank": 10,
+            "song": "Sing",
+            "artist": "Carpenters",
+            "year": 1973,
+            "relevance": "A simple, uplifting song from her youth, possibly linked to positive memories from high school."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "December, 1963 (Oh, What a Night)",
+            "prompt": "Do you remember any special nights out when this song was playing?"
+          },
+          {
+            "song": "Dancing Queen",
+            "prompt": "Did you enjoy dancing to this song at parties or events?"
+          },
+          {
+            "song": "It's Still Rock And Roll To Me",
+            "prompt": "This song came out the year you got married. What do you remember about your wedding day?"
+          }
+        ]
+      },
+      "time": 10.26612114906311
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Spanish Harlem",
+            "artist": "Aretha Franklin",
+            "year": 1971,
+            "relevance": "This song is relevant because it connects to Carmen's cultural background and her life in New York City, specifically the neighborhood of Spanish Harlem."
+          },
+          {
+            "rank": 2,
+            "song": "A Fifth Of Beethoven",
+            "artist": "Walter Murphy & The Big Apple Band",
+            "year": 1976,
+            "relevance": "Released in the year Carmen started working in the garment district, this song captures the disco era of New York City, which she might have experienced."
+          },
+          {
+            "rank": 3,
+            "song": "Celebration",
+            "artist": "Kool & The Gang",
+            "year": 1981,
+            "relevance": "This upbeat song is linked to the time shortly after Carmen's marriage and the birth of her first child, a period of joy and celebration."
+          },
+          {
+            "rank": 4,
+            "song": "Philadelphia Freedom",
+            "artist": "The Elton John Band",
+            "year": 1975,
+            "relevance": "Released in the year Carmen graduated high school, it may evoke memories of her transition into adulthood."
+          },
+          {
+            "rank": 5,
+            "song": "Hot Child In The City",
+            "artist": "Nick Gilder",
+            "year": 1979,
+            "relevance": "Reflects the vibrant and dynamic atmosphere of New York City during Carmen's young adulthood."
+          },
+          {
+            "rank": 6,
+            "song": "Uptown Girl",
+            "artist": "Billy Joel",
+            "year": 1983,
+            "relevance": "Released the same year her first child was born, this song can evoke memories of early motherhood and life in New York."
+          },
+          {
+            "rank": 7,
+            "song": "Wedding Bell Blues",
+            "artist": "The 5th Dimension",
+            "year": 1969,
+            "relevance": "This song can remind Carmen of her wedding day and the excitement of her marriage to Luis."
+          },
+          {
+            "rank": 8,
+            "song": "Where Were You (On Our Wedding Day)?",
+            "artist": "Lloyd Price",
+            "year": 1959,
+            "relevance": "This song is thematically linked to weddings and can bring back fond memories of Carmen's own wedding."
+          },
+          {
+            "rank": 9,
+            "song": "Rock Your Baby",
+            "artist": "George McCrae",
+            "year": 1974,
+            "relevance": "This song's release coincides with the period just before Carmen's marriage, offering a nostalgic look back at her youth."
+          },
+          {
+            "rank": 10,
+            "song": "Manhattan Spiritual",
+            "artist": "Reg Owen & His Orchestra",
+            "year": 1958,
+            "relevance": "As a song from Carmen's early years in New York, it can evoke memories of her childhood and cultural roots."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Spanish Harlem",
+            "prompt": "Carmen, do you remember any special places or events in Spanish Harlem that you enjoyed?"
+          },
+          {
+            "song": "Celebration",
+            "prompt": "This song is all about celebrating. What are some of your favorite family celebrations?"
+          },
+          {
+            "song": "Wedding Bell Blues",
+            "prompt": "Can you tell me about your wedding day with Luis? What special memories do you have?"
+          }
+        ]
+      },
+      "time": 13.023803949356079,
+      "queries": [
+        "popular Latin music in New York City 1973-1983",
+        "top Puerto Rican artists 1973-1983",
+        "hit songs from New York City radio stations 1975",
+        "wedding songs popular in New York City 1980",
+        "songs played at Puerto Rican community events 1973-1983",
+        "graduation songs popular in 1975",
+        "songs about working in New York City's garment district 1976",
+        "popular songs in New York City when first child was born 1983"
+      ]
+    }
+  },
+  "P7": {
+    "profile": {
+      "id": "P7",
+      "name": "David Kim",
+      "birth_year": 1962,
+      "hometown": "Los Angeles, California",
+      "cultural_background": "Korean American",
+      "life_events": [
+        {
+          "year": 1980,
+          "event": "Graduated from Fairfax High School"
+        },
+        {
+          "year": 1984,
+          "event": "Graduated from UCLA"
+        },
+        {
+          "year": 1986,
+          "event": "Married Eunice in Koreatown"
+        },
+        {
+          "year": 1992,
+          "event": "Store damaged in the LA riots"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Hotel California",
+            "artist": "Eagles",
+            "year": 1976,
+            "relevance": "A classic rock song popular in Los Angeles during David's teenage years, evoking memories of his high school days."
+          },
+          {
+            "rank": 2,
+            "song": "Dancing Queen",
+            "artist": "ABBA",
+            "year": 1976,
+            "relevance": "A global hit during David's college years, often played at parties and social gatherings."
+          },
+          {
+            "rank": 3,
+            "song": "Bohemian Rhapsody",
+            "artist": "Queen",
+            "year": 1975,
+            "relevance": "An iconic song that was part of the cultural fabric of the 1970s, likely familiar from radio and social events."
+          },
+          {
+            "rank": 4,
+            "song": "Imagine",
+            "artist": "John Lennon",
+            "year": 1971,
+            "relevance": "A powerful song with a message of peace, relevant during a time of social change in Los Angeles."
+          },
+          {
+            "rank": 5,
+            "song": "Stayin' Alive",
+            "artist": "Bee Gees",
+            "year": 1977,
+            "relevance": "A disco anthem that captures the vibrant nightlife of Los Angeles in the late 1970s."
+          },
+          {
+            "rank": 6,
+            "song": "Superstition",
+            "artist": "Stevie Wonder",
+            "year": 1972,
+            "relevance": "A funk and soul classic from an influential artist with strong ties to the LA music scene."
+          },
+          {
+            "rank": 7,
+            "song": "I Will Survive",
+            "artist": "Gloria Gaynor",
+            "year": 1978,
+            "relevance": "An empowering anthem that might resonate with David's resilience after the 1992 LA riots."
+          },
+          {
+            "rank": 8,
+            "song": "American Pie",
+            "artist": "Don McLean",
+            "year": 1971,
+            "relevance": "A storytelling song that was a staple of American music culture during David's youth."
+          },
+          {
+            "rank": 9,
+            "song": "Bridge Over Troubled Water",
+            "artist": "Simon & Garfunkel",
+            "year": 1970,
+            "relevance": "A comforting and uplifting song that might evoke memories of family and community support."
+          },
+          {
+            "rank": 10,
+            "song": "Gangnam Style",
+            "artist": "PSY",
+            "year": 2012,
+            "relevance": "A modern Korean pop hit that connects to David's cultural heritage and might encourage light-hearted interaction."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Hotel California",
+            "prompt": "Do you remember any road trips or special places in Los Angeles that this song brings to mind?"
+          },
+          {
+            "song": "Imagine",
+            "prompt": "What dreams or hopes did you have during your college years at UCLA?"
+          },
+          {
+            "song": "Gangnam Style",
+            "prompt": "Have you ever visited Korea or participated in any Korean cultural events in Los Angeles?"
+          }
+        ]
+      },
+      "time": 7.3202619552612305
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Dancing Queen",
+            "artist": "ABBA",
+            "year": 1977,
+            "relevance": "Released during David's high school years, this song was a major hit and likely played at school dances and social events, creating strong nostalgic connections."
+          },
+          {
+            "rank": 2,
+            "song": "Night Fever",
+            "artist": "Bee Gees",
+            "year": 1978,
+            "relevance": "This song was part of the disco era, popular during David's college years, and may remind him of social gatherings and college parties at UCLA."
+          },
+          {
+            "rank": 3,
+            "song": "American Pie (Parts I & II)",
+            "artist": "Don McLean",
+            "year": 1972,
+            "relevance": "A classic song from David's teenage years, likely familiar and potentially connected to early memories of growing up in Los Angeles."
+          },
+          {
+            "rank": 4,
+            "song": "Disco Lady",
+            "artist": "Johnnie Taylor",
+            "year": 1976,
+            "relevance": "A number one hit during David's late high school years, reflecting the popular music culture of the time."
+          },
+          {
+            "rank": 5,
+            "song": "Dim All The Lights",
+            "artist": "Donna Summer",
+            "year": 1979,
+            "relevance": "Released around the time of David's college graduation, this song connects to the vibrant disco scene prevalent in Los Angeles."
+          },
+          {
+            "rank": 6,
+            "song": "Boogie Fever",
+            "artist": "The Sylvers",
+            "year": 1976,
+            "relevance": "A fun and upbeat song that captures the disco vibe of the mid-70s, likely resonating with David's youthful energy during his late teens."
+          },
+          {
+            "rank": 7,
+            "song": "Grease",
+            "artist": "Frankie Valli",
+            "year": 1978,
+            "relevance": "The song is associated with the popular movie 'Grease,' which was a cultural phenomenon during David's college years."
+          },
+          {
+            "rank": 8,
+            "song": "Last Dance",
+            "artist": "Donna Summer",
+            "year": 1978,
+            "relevance": "A quintessential disco track that might evoke memories of David's social life in Los Angeles during the late 70s."
+          },
+          {
+            "rank": 9,
+            "song": "Bad Girls",
+            "artist": "Donna Summer",
+            "year": 1979,
+            "relevance": "Another hit from the disco queen, reflecting the vibrant nightlife and music scene that David may have experienced in his early 20s."
+          },
+          {
+            "rank": 10,
+            "song": "All Those Years Ago",
+            "artist": "George Harrison",
+            "year": 1981,
+            "relevance": "Released shortly after David's marriage, this song might connect to his early married life and the memories of starting a family."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Dancing Queen",
+            "prompt": "Do you remember any school dances or parties where this song was played?"
+          },
+          {
+            "song": "Night Fever",
+            "prompt": "Did you have any favorite places to go dancing when you were in college?"
+          },
+          {
+            "song": "American Pie (Parts I & II)",
+            "prompt": "What memories come to mind when you hear this classic song?"
+          }
+        ]
+      },
+      "time": 10.302469253540039
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Emotional Rescue",
+            "artist": "The Rolling Stones",
+            "year": 1980,
+            "relevance": "This song was released during David's reminiscence bump period and was popular when he graduated high school, making it a potential trigger for positive memories from that time."
+          },
+          {
+            "rank": 2,
+            "song": "California Girls",
+            "artist": "The Beach Boys",
+            "year": 1965,
+            "relevance": "As a classic song about California, it connects to David's hometown of Los Angeles and may evoke memories of his youth and life in California."
+          },
+          {
+            "rank": 3,
+            "song": "La Bamba",
+            "artist": "Los Lobos",
+            "year": 1987,
+            "relevance": "This song was a major hit in the late 1980s and could remind David of his early married life and cultural experiences in Los Angeles."
+          },
+          {
+            "rank": 4,
+            "song": "L.A. Woman",
+            "artist": "Billy Idol",
+            "year": 1990,
+            "relevance": "This song references Los Angeles directly, connecting to David's geographic roots and possibly evoking memories of the city."
+          },
+          {
+            "rank": 5,
+            "song": "The Ballad Of Jayne",
+            "artist": "L.A. Guns",
+            "year": 1990,
+            "relevance": "Released during a significant period in David's life, it may resonate with his experiences in Los Angeles during the early 1990s."
+          },
+          {
+            "rank": 6,
+            "song": "Graduation's Here",
+            "artist": "The Fleetwoods",
+            "year": 1959,
+            "relevance": "While not from his reminiscence bump, the theme of graduation may remind David of his own high school and college graduations."
+          },
+          {
+            "rank": 7,
+            "song": "I Will Survive",
+            "artist": "SaFire",
+            "year": 1990,
+            "relevance": "This song's message of resilience might resonate with David's experience of his store being damaged during the LA riots."
+          },
+          {
+            "rank": 8,
+            "song": "We're All In the Same Gang",
+            "artist": "The West Coast Rap All-Stars",
+            "year": 1990,
+            "relevance": "This song addresses social issues relevant to Los Angeles in the 1990s, potentially connecting to David's experiences during the LA riots."
+          },
+          {
+            "rank": 9,
+            "song": "Only The Strong Survive",
+            "artist": "Jerry Butler",
+            "year": 1969,
+            "relevance": "The theme of survival and resilience may resonate with David's personal experiences and challenges."
+          },
+          {
+            "rank": 10,
+            "song": "MacArthur Park",
+            "artist": "Richard Harris",
+            "year": 1968,
+            "relevance": "This song is a classic from the era just before David's reminiscence bump, and its dramatic style might evoke strong emotional responses."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Emotional Rescue",
+            "prompt": "Do you remember any special moments from your high school days when this song was popular?"
+          },
+          {
+            "song": "California Girls",
+            "prompt": "What are some of your fondest memories of living in Los Angeles?"
+          },
+          {
+            "song": "La Bamba",
+            "prompt": "Did you and Eunice have any favorite places to visit in Los Angeles during the late 1980s?"
+          }
+        ]
+      },
+      "time": 13.780943155288696,
+      "queries": [
+        "top Billboard hits in Los Angeles 1977-1987",
+        "popular Korean pop songs 1977-1987",
+        "songs played at weddings in Koreatown 1986",
+        "graduation songs from 1980 Los Angeles",
+        "UCLA campus music hits 1984",
+        "Korean American community favorite artists 1977-1987",
+        "songs about resilience popular in Los Angeles 1992",
+        "radio hits on KROQ Los Angeles 1977-1987"
+      ]
+    }
+  },
+  "P8": {
+    "profile": {
+      "id": "P8",
+      "name": "Rosa Aquino",
+      "birth_year": 1952,
+      "hometown": "Houston, Texas",
+      "cultural_background": "Filipino American",
+      "life_events": [
+        {
+          "year": 1970,
+          "event": "Moved to Houston from Cebu"
+        },
+        {
+          "year": 1972,
+          "event": "Started nursing at MD Anderson"
+        },
+        {
+          "year": 1974,
+          "event": "Married Carlos"
+        },
+        {
+          "year": 1978,
+          "event": "Bought first home in Alief neighborhood"
+        }
+      ]
+    },
+    "variant_a": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "Close to You",
+            "artist": "The Carpenters",
+            "year": 1970,
+            "relevance": "This song was released the same year Rosa moved to Houston, marking a significant life transition."
+          },
+          {
+            "rank": 2,
+            "song": "Yesterday",
+            "artist": "The Beatles",
+            "year": 1965,
+            "relevance": "The Beatles were globally influential during Rosa's teenage years, and this song's themes of nostalgia may resonate with her."
+          },
+          {
+            "rank": 3,
+            "song": "My Girl",
+            "artist": "The Temptations",
+            "year": 1965,
+            "relevance": "A popular song from Rosa's late teenage years, likely heard frequently during her social outings."
+          },
+          {
+            "rank": 4,
+            "song": "Araw-Araw, Gabi-Gabi",
+            "artist": "Didith Reyes",
+            "year": 1975,
+            "relevance": "A Filipino classic that might connect Rosa to her cultural roots and memories of her homeland."
+          },
+          {
+            "rank": 5,
+            "song": "Raindrops Keep Fallin' on My Head",
+            "artist": "B.J. Thomas",
+            "year": 1969,
+            "relevance": "A hit song during her early twenties, likely associated with her early days in Houston."
+          },
+          {
+            "rank": 6,
+            "song": "Superstar",
+            "artist": "The Carpenters",
+            "year": 1971,
+            "relevance": "The Carpenters were very popular during Rosa's early adulthood, and their music might evoke memories of her early career."
+          },
+          {
+            "rank": 7,
+            "song": "I Will Survive",
+            "artist": "Gloria Gaynor",
+            "year": 1978,
+            "relevance": "Released the same year Rosa bought her first home, symbolizing resilience and new beginnings."
+          },
+          {
+            "rank": 8,
+            "song": "Dahil Sa Iyo",
+            "artist": "Pilita Corrales",
+            "year": 1964,
+            "relevance": "A beloved Filipino song that could remind Rosa of her heritage and family gatherings."
+          },
+          {
+            "rank": 9,
+            "song": "Ain't No Mountain High Enough",
+            "artist": "Marvin Gaye & Tammi Terrell",
+            "year": 1967,
+            "relevance": "An uplifting song from Rosa's late teens, often played at social events and gatherings."
+          },
+          {
+            "rank": 10,
+            "song": "Bridge Over Troubled Water",
+            "artist": "Simon & Garfunkel",
+            "year": 1970,
+            "relevance": "A comforting song from the year Rosa moved to Houston, reflecting themes of support and friendship."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "Close to You",
+            "prompt": "Do you remember hearing this song when you first moved to Houston? What was that time like for you?"
+          },
+          {
+            "song": "Araw-Araw, Gabi-Gabi",
+            "prompt": "This song is a classic in the Philippines. Does it remind you of any special memories from Cebu?"
+          },
+          {
+            "song": "I Will Survive",
+            "prompt": "This song came out the year you bought your first home. What do you remember about that exciting time?"
+          }
+        ]
+      },
+      "time": 6.9737231731414795
+    },
+    "variant_b": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "American Pie (Parts I & II)",
+            "artist": "Don McLean",
+            "year": 1972,
+            "relevance": "This song was a major hit during Rosa's early years in Houston, coinciding with her starting her nursing career at MD Anderson. It could evoke memories of her early professional life."
+          },
+          {
+            "rank": 2,
+            "song": "The Long And Winding Road/For You Blue",
+            "artist": "The Beatles",
+            "year": 1970,
+            "relevance": "Released the same year Rosa moved to Houston, this song might remind her of the transition and new beginnings in a new city."
+          },
+          {
+            "rank": 3,
+            "song": "Respect",
+            "artist": "Aretha Franklin",
+            "year": 1967,
+            "relevance": "A powerful anthem that was popular during Rosa's formative years, potentially resonating with her as a strong, independent woman starting her career."
+          },
+          {
+            "rank": 4,
+            "song": "Happy Together",
+            "artist": "The Turtles",
+            "year": 1967,
+            "relevance": "A feel-good song that might remind Rosa of her youthful optimism and the early days of her relationship with Carlos."
+          },
+          {
+            "rank": 5,
+            "song": "Come Together/Something",
+            "artist": "The Beatles",
+            "year": 1969,
+            "relevance": "This iconic song was released during a time of significant cultural change, aligning with Rosa's own life changes as she settled into Houston."
+          },
+          {
+            "rank": 6,
+            "song": "The Night They Drove Old Dixie Down",
+            "artist": "Joan Baez",
+            "year": 1971,
+            "relevance": "A song from the year before Rosa started her nursing career, possibly evoking memories of the anticipation and excitement of starting a new chapter."
+          },
+          {
+            "rank": 7,
+            "song": "Hot Fun In The Summertime",
+            "artist": "Sly & The Family Stone",
+            "year": 1969,
+            "relevance": "This song captures the essence of summer and joy, potentially reminding Rosa of fun times in Houston's warm climate."
+          },
+          {
+            "rank": 8,
+            "song": "At Seventeen",
+            "artist": "Janis Ian",
+            "year": 1975,
+            "relevance": "Released shortly after Rosa's marriage, this song might evoke personal reflections and emotions from that period in her life."
+          },
+          {
+            "rank": 9,
+            "song": "Penny Lane",
+            "artist": "The Beatles",
+            "year": 1967,
+            "relevance": "A classic Beatles song from Rosa's youth, potentially bringing back memories of her teenage years before moving to the US."
+          },
+          {
+            "rank": 10,
+            "song": "Hey Paula",
+            "artist": "Paul and Paula",
+            "year": 1963,
+            "relevance": "A romantic song that might remind Rosa of her courtship days with Carlos, adding a touch of nostalgia."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "American Pie (Parts I & II)",
+            "prompt": "Do you remember any special moments from your early days working as a nurse when this song was popular?"
+          },
+          {
+            "song": "Happy Together",
+            "prompt": "Does this song remind you of any happy moments with Carlos when you first got married?"
+          },
+          {
+            "song": "Respect",
+            "prompt": "How did you feel about starting your career as a nurse? Did you feel empowered like this song suggests?"
+          }
+        ]
+      },
+      "time": 10.003646850585938
+    },
+    "variant_c": {
+      "result": {
+        "playlist": [
+          {
+            "rank": 1,
+            "song": "We've Only Just Begun",
+            "artist": "Carpenters",
+            "year": 1970,
+            "relevance": "This song was released the same year Rosa started her nursing career, symbolizing new beginnings and aspirations."
+          },
+          {
+            "rank": 2,
+            "song": "Rose Garden",
+            "artist": "Lynn Anderson",
+            "year": 1971,
+            "relevance": "Released close to the time Rosa was settling into her new life in Houston, this song's themes of perseverance and hope resonate with her journey."
+          },
+          {
+            "rank": 3,
+            "song": "Take Me Home, Country Roads",
+            "artist": "John Denver",
+            "year": 1971,
+            "relevance": "The song's themes of home and belonging may evoke memories of Rosa's move to Houston and her connection to her new home."
+          },
+          {
+            "rank": 4,
+            "song": "Galveston",
+            "artist": "Glen Campbell",
+            "year": 1969,
+            "relevance": "This song references a city in Texas, connecting to Rosa's geographic region and possibly evoking memories of local travels."
+          },
+          {
+            "rank": 5,
+            "song": "Wedding Bell Blues",
+            "artist": "The 5th Dimension",
+            "year": 1969,
+            "relevance": "Released just before Rosa's marriage, this song could evoke memories of her wedding and early married life."
+          },
+          {
+            "rank": 6,
+            "song": "Handy Man",
+            "artist": "James Taylor",
+            "year": 1977,
+            "relevance": "This song was popular around the time Rosa bought her first home, potentially bringing back memories of settling into her neighborhood."
+          },
+          {
+            "rank": 7,
+            "song": "New Kid In Town",
+            "artist": "Eagles",
+            "year": 1977,
+            "relevance": "Released during the time Rosa was establishing her life in Houston, this song may resonate with feelings of being new and adapting to change."
+          },
+          {
+            "rank": 8,
+            "song": "The Hawaiian Wedding Song (Ke Kali Nei Au)",
+            "artist": "Andy Williams",
+            "year": 1959,
+            "relevance": "A classic wedding song that might remind Rosa of her own wedding and cultural celebrations."
+          },
+          {
+            "rank": 9,
+            "song": "The Wedding",
+            "artist": "June Valli",
+            "year": 1960,
+            "relevance": "This song may evoke memories of Rosa's wedding and the emotions surrounding that significant life event."
+          },
+          {
+            "rank": 10,
+            "song": "Going Home",
+            "artist": "Kenny G",
+            "year": 1990,
+            "relevance": "Though released later, its soothing melody and themes of returning home might provide comfort and a sense of peace."
+          }
+        ],
+        "caregiver_cards": [
+          {
+            "song": "We've Only Just Begun",
+            "prompt": "Do you remember starting your career in nursing? What was it like working at MD Anderson?"
+          },
+          {
+            "song": "Take Me Home, Country Roads",
+            "prompt": "What do you remember about your first home in Houston? Did you have a favorite spot in the house?"
+          },
+          {
+            "song": "Wedding Bell Blues",
+            "prompt": "Can you tell me about your wedding day with Carlos? What was your favorite moment?"
+          }
+        ]
+      },
+      "time": 12.852662086486816,
+      "queries": [
+        "popular songs in Houston 1967-1977",
+        "top Filipino American artists 1967-1977",
+        "wedding songs popular in 1974",
+        "hits on Houston radio stations 1970-1975",
+        "songs about moving or new beginnings 1970",
+        "top hits in the Philippines 1967-1970",
+        "songs popular in nursing communities 1972",
+        "songs about home ownership 1978"
+      ]
+    }
+  }
+}
