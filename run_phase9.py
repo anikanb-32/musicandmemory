@@ -19,11 +19,14 @@ from configs.prompts import GENERATION_PROMPT, BASELINE_PROMPT
 
 os.makedirs("outputs", exist_ok=True)
 
+# Set False to skip ablation and save ~$2.50 (keeps total Phase 9 cost ~$2.15)
+RUN_ABLATION = True
+
 # --- Load system ---
 print("Loading retrieval system...")
 faiss_index, df, bm25 = load_retrieval_system(
     "data/index/songs.index",
-    "data/processed/knowledge_base.csv",
+    "data/index/knowledge_base.csv",
     "data/index/bm25.pkl"
 )
 print(f"Loaded {faiss_index.ntotal} vectors, {len(df)} songs")
@@ -195,54 +198,56 @@ print("Saved outputs/test_playlists.csv")
 # --- Human eval sheet ---
 create_human_eval_sheet(results_all, "outputs/human_eval_test_set.csv", set_name="test")
 
-# --- Ablation study on Variant C ---
-print("\n" + "="*60)
-print("ABLATION STUDY")
-print("="*60)
+if not RUN_ABLATION:
+    print("\nAblation skipped (RUN_ABLATION=False in run_phase9.py). ~$2.50 saved.")
+else:
+    print("\n" + "="*60)
+    print("ABLATION STUDY")
+    print("="*60)
 
-def run_ablation(profile, remove_field, method, total_k):
-    ablated = profile.copy()
-    if remove_field == "region":
-        ablated["hometown"] = "United States"
-    elif remove_field == "life_events":
-        ablated["life_events"] = []
-    elif remove_field == "culture":
-        ablated["cultural_background"] = "American"
-    elif remove_field == "gender":
-        ablated.pop("gender", None)
-    retrieved, _ = profile_to_context(
-        ablated, faiss_index, bm25, df,
-        method=method, k_per_query=max(total_k // 5, 5), total_k=total_k
-    )
-    from src.generation import generate_playlist
-    return generate_playlist(ablated, retrieved, GENERATION_PROMPT)
+    def run_ablation(profile, remove_field, method, total_k):
+        ablated = profile.copy()
+        if remove_field == "region":
+            ablated["hometown"] = "United States"
+        elif remove_field == "life_events":
+            ablated["life_events"] = []
+        elif remove_field == "culture":
+            ablated["cultural_background"] = "American"
+        elif remove_field == "gender":
+            ablated.pop("gender", None)
+        from src.generation import generate_playlist
+        retrieved, _ = profile_to_context(
+            ablated, faiss_index, bm25, df,
+            method=method, k_per_query=max(total_k // 5, 5), total_k=total_k
+        )
+        return generate_playlist(ablated, retrieved, GENERATION_PROMPT)
 
-cfg_c = best_configs["variant_c"]
-ablation_results = []
+    cfg_c = best_configs["variant_c"]
+    ablation_results = []
 
-for field in ["region", "life_events", "culture", "gender"]:
-    print(f"\n--- Ablation: removing {field} ---")
-    for profile in test_profiles:
-        try:
-            result = run_ablation(profile, field, method=cfg_c["method"], total_k=cfg_c["k"])
-            judge  = llm_judge(profile, result["playlist"])
-            ablation_results.append({
-                "profile_id": profile["id"], "name": profile["name"],
-                "gender": profile["gender"], "birth_year": profile["birth_year"],
-                "cultural_background": profile["cultural_background"],
-                "removed_field": field,
-                "bio_precision_llm": judge["biographical_precision"],
-                "cultural_approp_llm": judge["cultural_appropriateness"],
-                "overall_llm": judge["overall_quality"],
-            })
-            print(f"  {profile['id']} {profile['name']}: overall={judge['overall_quality']}")
-        except Exception as e:
-            print(f"  {profile['id']}: SKIPPED — {e}")
+    for field in ["region", "life_events", "culture", "gender"]:
+        print(f"\n--- Ablation: removing {field} ---")
+        for profile in test_profiles:
+            try:
+                result = run_ablation(profile, field, method=cfg_c["method"], total_k=cfg_c["k"])
+                judge  = llm_judge(profile, result["playlist"])
+                ablation_results.append({
+                    "profile_id": profile["id"], "name": profile["name"],
+                    "gender": profile["gender"], "birth_year": profile["birth_year"],
+                    "cultural_background": profile["cultural_background"],
+                    "removed_field": field,
+                    "bio_precision_llm": judge["biographical_precision"],
+                    "cultural_approp_llm": judge["cultural_appropriateness"],
+                    "overall_llm": judge["overall_quality"],
+                })
+                print(f"  {profile['id']} {profile['name']}: overall={judge['overall_quality']}")
+            except Exception as e:
+                print(f"  {profile['id']}: SKIPPED — {e}")
 
-ablation_df = pd.DataFrame(ablation_results)
-ablation_df.to_csv("outputs/ablation_results.csv", index=False)
-print("\nAblation summary:")
-print(ablation_df.groupby("removed_field")[
-    ["bio_precision_llm", "cultural_approp_llm", "overall_llm"]
-].mean().round(3))
-print("\nSaved outputs/ablation_results.csv")
+    ablation_df = pd.DataFrame(ablation_results)
+    ablation_df.to_csv("outputs/ablation_results.csv", index=False)
+    print("\nAblation summary:")
+    print(ablation_df.groupby("removed_field")[
+        ["bio_precision_llm", "cultural_approp_llm", "overall_llm"]
+    ].mean().round(3))
+    print("\nSaved outputs/ablation_results.csv")
