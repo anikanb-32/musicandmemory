@@ -1,0 +1,88 @@
+============================================================
+PHASE 10: FINAL RESULTS SUMMARY
+============================================================
+
+--- Overall: Variant A vs B vs C ---
+         hist_plausibility  bio_precision_llm  cultural_approp_llm  overall_llm  precision_at_k  recall    mrr
+variant                                                                                                       
+A                    0.727              3.750                4.136        3.841             NaN     NaN    NaN
+B                    0.845              3.682                3.250        3.682           0.000   0.000  0.000
+C                    0.864              3.659                3.682        3.659           0.019   0.028  0.048
+
+--- By Gender ---
+                hist_plausibility  overall_llm
+variant gender                                
+A       Female              0.750        3.792
+        Male                0.700        3.900
+B       Female              0.875        3.708
+        Male                0.810        3.650
+C       Female              0.875        3.625
+        Male                0.850        3.700
+
+--- By Birth Decade ---
+                hist_plausibility  overall_llm
+variant decade                                
+A       1930                0.667        4.000
+        1940                0.667        3.800
+        1950                0.754        3.769
+        1960                0.785        3.923
+B       1930                0.300        4.000
+        1940                0.873        3.933
+        1950                0.862        3.538
+        1960                0.923        3.462
+C       1930                0.467        4.000
+        1940                0.927        3.800
+        1950                0.862        3.385
+        1960                0.885        3.692
+
+--- By Cultural Background (top 10) ---
+                                      hist_plausibility  overall_llm
+variant cultural_background                                         
+A       African American                          0.580        4.000
+        Arab American                             1.000        4.000
+        Chinese American                          0.933        3.667
+        Cuban American                            0.500        3.667
+        Italian American                          0.825        4.000
+        Japanese American                         0.867        4.000
+        Korean American                           0.967        4.000
+        Mexican American                          0.420        3.800
+        Vietnamese American                       1.000        4.000
+        White American (Appalachian)              0.500        4.000
+B       African American                          0.520        3.800
+        Arab American                             0.900        3.500
+        Chinese American                          1.000        3.667
+        Cuban American                            0.800        4.000
+        Italian American                          0.750        3.750
+        Japanese American                         0.967        3.667
+        Korean American                           0.833        3.667
+        Mexican American                          0.920        3.600
+        Vietnamese American                       0.933        4.000
+        White American (Appalachian)              0.900        3.500
+C       African American                          0.700        4.000
+        Arab American                             1.000        3.500
+        Chinese American                          0.833        3.667
+        Cuban American                            0.900        3.333
+        Italian American                          0.875        3.750
+        Japanese American                         0.867        4.000
+        Korean American                           0.867        3.333
+        Mexican American                          0.780        3.600
+        Vietnamese American                       0.933        3.667
+        White American (Appalachian)              0.950        3.500
+
+--- Ablation Study (Variant C, removing one field at a time) ---
+               bio_precision_llm  cultural_approp_llm  overall_llm
+removed_field                                                     
+culture                    3.841                3.682        3.841
+gender                     3.841                3.841        3.841
+life_events                3.523                3.841        3.591
+region                     3.909                3.795        3.909
+
+Variant C (full, no ablation): {'bio_precision_llm': 3.659, 'cultural_approp_llm': 3.682, 'overall_llm': 3.659}
+
+--- Files saved ---
+  outputs/summary_overall.csv
+  outputs/summary_by_gender.csv
+  outputs/summary_by_decade.csv
+  outputs/summary_by_culture.csv
+
+Done.

@@ -1,0 +1,4 @@
+variant,hist_plausibility,bio_precision_llm,cultural_approp_llm,overall_llm,precision_at_k,recall,mrr
+A,0.727,3.75,4.136,3.841,,,
+B,0.845,3.682,3.25,3.682,0.0,0.0,0.0
+C,0.864,3.659,3.682,3.659,0.019,0.028,0.048

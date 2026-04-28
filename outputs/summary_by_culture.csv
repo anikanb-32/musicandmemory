@@ -1,0 +1,31 @@
+variant,cultural_background,hist_plausibility,overall_llm
+A,African American,0.58,4.0
+A,Arab American,1.0,4.0
+A,Chinese American,0.933,3.667
+A,Cuban American,0.5,3.667
+A,Italian American,0.825,4.0
+A,Japanese American,0.867,4.0
+A,Korean American,0.967,4.0
+A,Mexican American,0.42,3.8
+A,Vietnamese American,1.0,4.0
+A,White American (Appalachian),0.5,4.0
+B,African American,0.52,3.8
+B,Arab American,0.9,3.5
+B,Chinese American,1.0,3.667
+B,Cuban American,0.8,4.0
+B,Italian American,0.75,3.75
+B,Japanese American,0.967,3.667
+B,Korean American,0.833,3.667
+B,Mexican American,0.92,3.6
+B,Vietnamese American,0.933,4.0
+B,White American (Appalachian),0.9,3.5
+C,African American,0.7,4.0
+C,Arab American,1.0,3.5
+C,Chinese American,0.833,3.667
+C,Cuban American,0.9,3.333
+C,Italian American,0.875,3.75
+C,Japanese American,0.867,4.0
+C,Korean American,0.867,3.333
+C,Mexican American,0.78,3.6
+C,Vietnamese American,0.933,3.667
+C,White American (Appalachian),0.95,3.5

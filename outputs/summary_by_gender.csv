@@ -1,0 +1,7 @@
+variant,gender,hist_plausibility,overall_llm
+A,Female,0.75,3.792
+A,Male,0.7,3.9
+B,Female,0.875,3.708
+B,Male,0.81,3.65
+C,Female,0.875,3.625
+C,Male,0.85,3.7
