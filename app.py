@@ -34,7 +34,7 @@ print("Ready. Open interface.html in your browser.\n")
 
 @app.route("/")
 def index():
-    return send_file("interface.html")
+    return send_file("index.html")
 
 @app.route("/styles.css")
 def styles():
