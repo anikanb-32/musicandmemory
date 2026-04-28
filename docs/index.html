@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music & Memory</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── VIEW: API KEY SETUP ── -->
+  <div id="view-setup" class="view active">
+    <div class="page-header">
+      <h1 class="site-title">Music and Memory</h1>
+      <p class="site-subtitle">Therapeutic playlist generation for dementia care</p>
+    </div>
+    <div class="form-card">
+      <div class="form-card-header">
+        <h2 class="form-title">Set up</h2>
+        <p class="form-desc">Paste your OpenAI API key to get started.<br>It stays in your browser — never sent anywhere else.</p>
+      </div>
+      <div class="field">
+        <label for="setup-key">OpenAI API Key</label>
+        <input type="password" id="setup-key" placeholder="sk-proj-..." autocomplete="off" />
+      </div>
+      <p class="error-msg" id="setup-error" hidden></p>
+      <button class="btn-generate" id="setup-btn">Continue</button>
+      <p class="setup-footnote">
+        Your key is stored only in your browser's localStorage and sent directly to
+        <code>api.openai.com</code>. You can remove it at any time from the form screen.
+      </p>
+    </div>
+  </div>
+
+  <!-- ── VIEW: FORM ── -->
+  <div id="view-form" class="view">
+    <div class="page-header">
+      <h1 class="site-title">Music and Memory</h1>
+      <p class="site-subtitle">Therapeutic playlist generation for dementia care</p>
+    </div>
+
+    <div class="form-card">
+      <div class="form-card-header">
+        <h2 class="form-title">Patient Profile</h2>
+        <p class="form-desc">Input biographical profile to<br>generate personalized playlist</p>
+      </div>
+
+      <div class="field">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Margaret Sullivan" />
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="gender">Sex</label>
+          <select id="gender">
+            <option value="">Select</option>
+            <option>Female</option>
+            <option>Male</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="birth_year">Birth Year</label>
+          <input type="number" id="birth_year" placeholder="1945" min="1920" max="1975" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="hometown">Hometown</label>
+        <input type="text" id="hometown" placeholder="Chicago, Illinois" />
+      </div>
+
+      <div class="field">
+        <label for="cultural_background">Cultural Background</label>
+        <select id="cultural_background">
+          <option value="">Select</option>
+          <option>African American</option>
+          <option>Mexican American</option>
+          <option>Puerto Rican American</option>
+          <option>Cuban American</option>
+          <option>Dominican American</option>
+          <option>Haitian American</option>
+          <option>Korean American</option>
+          <option>Chinese American</option>
+          <option>Filipino American</option>
+          <option>Vietnamese American</option>
+          <option>Japanese American</option>
+          <option>Cambodian American</option>
+          <option>Italian American</option>
+          <option>Polish American</option>
+          <option>Greek American</option>
+          <option>Irish American</option>
+          <option>Portuguese American</option>
+          <option>Hungarian American</option>
+          <option>Indian American</option>
+          <option>Pakistani American</option>
+          <option>White American (Appalachian)</option>
+          <option>White American (Midwestern)</option>
+          <option>White American (Southern)</option>
+          <option>Native American</option>
+          <option>Arab American</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Significant Life Events</label>
+        <div id="life-events-list"></div>
+        <button class="btn-add" id="add-event">Add +</button>
+      </div>
+
+      <p class="error-msg" id="error-msg" hidden></p>
+
+      <button class="btn-generate" id="generate-btn">Generate Playlist</button>
+      <button class="btn-back-to-playlist" id="back-to-playlist-btn" hidden>← Back to Playlist</button>
+
+      <div class="api-key-footer">
+        <span class="api-key-status" id="api-key-status"></span>
+        <button class="btn-change-key" id="change-key-btn">Change API Key</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── VIEW: LOADING ── -->
+  <div id="view-loading" class="view">
+    <div class="page-header">
+      <h1 class="site-title">Music and Memory</h1>
+      <p class="site-subtitle">Therapeutic playlist generation for dementia care</p>
+    </div>
+    <div class="loading-body">
+      <div class="notes-row">
+        <span class="note n1">♫</span>
+        <span class="note n2">♫</span>
+        <span class="note n3">♫</span>
+      </div>
+      <p class="loading-phrase"><span id="phrase-text"></span></p>
+    </div>
+  </div>
+
+  <!-- ── VIEW: RESULTS ── -->
+  <div id="view-results" class="view">
+    <div class="results-topbar">
+      <button class="btn-back" id="back-btn">← Back</button>
+      <div class="results-topbar-center">
+        <span class="site-title-sm">Music and Memory</span>
+      </div>
+      <div style="width:60px"></div>
+    </div>
+
+    <div class="results-wrap">
+      <div class="profile-summary" id="profile-summary"></div>
+
+      <div class="results-body">
+        <div class="results-col">
+          <div class="section-label-row">
+            <p class="section-label">Playlist</p>
+            <p class="playlist-meta"></p>
+          </div>
+          <div id="playlist-cards"></div>
+        </div>
+        <div class="results-col">
+          <p class="section-label">Caregiver Conversation Prompts</p>
+          <div id="caregiver-cards"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
