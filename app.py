@@ -44,6 +44,10 @@ def styles():
 def script():
     return send_file("script.js", mimetype="application/javascript")
 
+@app.route("/conch.png")
+def conch():
+    return send_file("conch.png", mimetype="image/png")
+
 
 @app.route("/generate", methods=["POST"])
 def generate():
